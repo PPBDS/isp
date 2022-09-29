@@ -1,11 +1,26 @@
 ---
-title: "bootcamp"
+title: "Kane's Data Science Course"
 ---
 
-This is a Quarto website.
+```{r setup, include=FALSE}
+library(gapminder)
+library(tidyverse)
+library(gganimate)
+library(htmltools)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
+knitr::opts_chunk$set(echo = FALSE)
 ```
+
+[Sign up for our e-mail list](https://davidkane.substack.com/embed) to receive updates going forward.
+
+**Kane's (Free) Data Science Course** is offered occasionally, always running four weeks. The next session starts on **Monday, October 10, 2022**. The workload is 10 hours per week: 3 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for this session. **There is no charge.**
+
+```{r animation, cache = TRUE}
+read_rds("images/animation.rds")
+```
+
+Check out the [final projects](https://bootcamp.davidkane.info/projects.html) created by prior students.
+
+There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). The course is designed for absolute beginners. No programming or statistics experience is required.
+
+[Sign up for our e-mail list](https://davidkane.substack.com/embed) to receive updates.

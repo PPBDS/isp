@@ -1,0 +1,112 @@
+---
+title: "Schedule"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
+
+Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
+
+Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *rds* format. If you want to save a copy for your own records, use *html*. 
+
+# Week 1: Visualization
+
+Looking at the data is the first step in data science.
+
+## Monday October 10
+
+* Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
+
+## Wednesday October 12
+
+* Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
+
+* Complete two Visualization tutorials: Basic Plots and Tidyverse.
+
+* Complete the RStudio and Code tutorial.
+
+## Thursday October 13
+
+* Complete two Visualization tutorials: Advanced Plotting and Case Studies.
+
+* Complete R Studio and Github tutorial.
+
+Reminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
+
+# Week 2: Wrangling
+
+Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy. To help generate ideas for the final projects, we will also take a close look at US census data.
+
+## Monday October 17
+
+* Complete Terminal tutorial.
+
+* Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). 
+
+* Complete two Wrangling tutorials: Overview and Plots.
+
+## Wednesday October 19
+
+* Complete Wrangling - More Plots tutorial.
+
+* Complete Census Data I tutorials.
+
+## Thursday October 20
+
+* Complete Census Data II tutorials.
+
+
+# Week 3: Data
+
+Now that we know how to clean and organize messy data, we need to learn how to get some data.
+
+## Monday October 24
+
+* Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
+
+* Complete Quarto Websites tutorial.
+
+* Complete Getting Help tutorial.
+
+
+## Wednesday October 26
+
+* Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
+
+* Complete Data - Files.
+
+* Complete Data - API tutorial.
+
+* Determine the data source you will use for your final project. Don't come to class without one!
+
+
+## Thursday October 27
+
+* Complete Data - Webscraping tutorial.
+
+
+# Week 4: Projects
+
+The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
+
+
+## Monday October 31
+
+* You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
+
+* Complete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.
+
+## Wednesday November 2
+
+* Practice presentations and feedback. You must have your presentation ready to go! 
+
+## Thursday November 3
+
+* Final project presentations. You must invite someone.
+
+
+
+

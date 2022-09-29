@@ -2,18 +2,30 @@ project:
   type: website
 
 website:
-  title: "bootcamp"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-
+  title: "Kane's Free Data Science Course"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Testimonials"
+      href: testimonials.html
+    - text: "Staff"
+      href: staff.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Final Projects"
+      href: projects.html
+    - text: "Demo Day"
+      href: demo_day.html
+    - text: "Philosophy"
+      href: philosophy.html
+exclude:
+  - internal
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
 
-editor: visual
+
 
