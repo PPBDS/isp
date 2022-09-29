@@ -3,29 +3,30 @@ project:
 
 website:
   title: "Kane's Free Data Science Course"
-navbar:
-  right:
-    - text: "Home"
-      href: index.html
-    - text: "Testimonials"
-      href: testimonials.html
-    - text: "Staff"
-      href: staff.html
-    - text: "Schedule"
-      href: schedule.html
-    - text: "Final Projects"
-      href: projects.html
-    - text: "Demo Day"
-      href: demo_day.html
-    - text: "Philosophy"
-      href: philosophy.html
-exclude:
-  - internal
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Testimonials"
+        href: testimonials.qmd
+      - text: "Staff"
+        href: staff.qmd
+      - text: "Schedule"
+        href: schedule.qmd
+      - text: "Final Projects"
+        href: projects.qmd
+      - text: "Demo Day"
+        href: demo_day.qmd
+      - text: "Philosophy"
+        href: philosophy.qmd
+  exclude:
+    - internal
+    
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
 
 
 

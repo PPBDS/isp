@@ -19,6 +19,7 @@ ul.task-list{list-style: none;}
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -34,11 +35,11 @@ ul.task-list{list-style: none;}
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 20,
   "language": {
     "search-no-results-text": "No results",
@@ -57,45 +58,52 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Kane’s Free Data Science Course</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./testimonials.html">Testimonials</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./staff.html">Staff</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./schedule.html" aria-current="page">Schedule</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html">Final Projects</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./demo_day.html">Demo Day</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./philosophy.html">Philosophy</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#week-1-visualization" id="toc-week-1-visualization" class="nav-link active" data-scroll-target="#week-1-visualization">Week 1: Visualization</a>
-  <ul class="collapse">
-  <li><a href="#monday-october-10" id="toc-monday-october-10" class="nav-link" data-scroll-target="#monday-october-10">Monday October 10</a></li>
-  <li><a href="#wednesday-october-12" id="toc-wednesday-october-12" class="nav-link" data-scroll-target="#wednesday-october-12">Wednesday October 12</a></li>
-  <li><a href="#thursday-october-13" id="toc-thursday-october-13" class="nav-link" data-scroll-target="#thursday-october-13">Thursday October 13</a></li>
-  </ul></li>
-  <li><a href="#week-2-wrangling" id="toc-week-2-wrangling" class="nav-link" data-scroll-target="#week-2-wrangling">Week 2: Wrangling</a>
-  <ul class="collapse">
-  <li><a href="#monday-october-17" id="toc-monday-october-17" class="nav-link" data-scroll-target="#monday-october-17">Monday October 17</a></li>
-  <li><a href="#wednesday-october-19" id="toc-wednesday-october-19" class="nav-link" data-scroll-target="#wednesday-october-19">Wednesday October 19</a></li>
-  <li><a href="#thursday-october-20" id="toc-thursday-october-20" class="nav-link" data-scroll-target="#thursday-october-20">Thursday October 20</a></li>
-  </ul></li>
-  <li><a href="#week-3-data" id="toc-week-3-data" class="nav-link" data-scroll-target="#week-3-data">Week 3: Data</a>
-  <ul class="collapse">
-  <li><a href="#monday-october-24" id="toc-monday-october-24" class="nav-link" data-scroll-target="#monday-october-24">Monday October 24</a></li>
-  <li><a href="#wednesday-october-26" id="toc-wednesday-october-26" class="nav-link" data-scroll-target="#wednesday-october-26">Wednesday October 26</a></li>
-  <li><a href="#thursday-october-27" id="toc-thursday-october-27" class="nav-link" data-scroll-target="#thursday-october-27">Thursday October 27</a></li>
-  </ul></li>
-  <li><a href="#week-4-projects" id="toc-week-4-projects" class="nav-link" data-scroll-target="#week-4-projects">Week 4: Projects</a>
-  <ul class="collapse">
-  <li><a href="#monday-october-31" id="toc-monday-october-31" class="nav-link" data-scroll-target="#monday-october-31">Monday October 31</a></li>
-  <li><a href="#wednesday-november-2" id="toc-wednesday-november-2" class="nav-link" data-scroll-target="#wednesday-november-2">Wednesday November 2</a></li>
-  <li><a href="#thursday-november-3" id="toc-thursday-november-3" class="nav-link" data-scroll-target="#thursday-november-3">Thursday November 3</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 

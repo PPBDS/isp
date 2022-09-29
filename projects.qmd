@@ -10,169 +10,166 @@ A total of 80 students have completed the Course. Congratulations! Here are thei
 
 ## August 2022
 
-[Miriam Heiss](https://github.com/miriamheiss): [Classical vs Contemporary Music](https://www.miriamheiss.com/final-project/). Taylor Swift's average Song length is almost 3 minutes more than J. S. Bach's, disproving the point  'Classical Music is too long'.  
+[Miriam Heiss](https://github.com/miriamheiss): [Classical vs Contemporary Music](https://www.miriamheiss.com/final-project/). Taylor Swift's average Song length is almost 3 minutes more than J. S. Bach's, disproving the point 'Classical Music is too long'.
 
-[Maxwell Lu](https://github.com/chemax7): [Heart Disease: Risk Factors and Demographics](https://chemax7.github.io/Heart-Disease/). I found that men contract heart disease significantly more than women, American Indians/Alaskan Natives make up more percentage of those with heart disease than any other race.  
+[Maxwell Lu](https://github.com/chemax7): [Heart Disease: Risk Factors and Demographics](https://chemax7.github.io/Heart-Disease/). I found that men contract heart disease significantly more than women, American Indians/Alaskan Natives make up more percentage of those with heart disease than any other race.
 
-[Krish Saluja](https://github.com/krishsal9801/): [Variables that Accurately Predict the Likelihood of a Stroke](https://krishsal9801.github.io/Final-Data-Science-Project/). Heart disease and hypertension are the most effective factors that help to accurately predict whether or not a person will suffer from a stroke.  
+[Krish Saluja](https://github.com/krishsal9801/): [Variables that Accurately Predict the Likelihood of a Stroke](https://krishsal9801.github.io/Final-Data-Science-Project/). Heart disease and hypertension are the most effective factors that help to accurately predict whether or not a person will suffer from a stroke.
 
-[Sam Yeh](https://github.com/syeh5413): [Comparing Cryptopunk Data With Cryptopunk Attributes](https://github.com/syeh5413/punk-final-project). The price of Cryptopunks vary based on many attributes, but collectors buy Cryptopunks that have favorable attributes, such as lighter skin color.  
+[Sam Yeh](https://github.com/syeh5413): [Comparing Cryptopunk Data With Cryptopunk Attributes](https://github.com/syeh5413/punk-final-project). The price of Cryptopunks vary based on many attributes, but collectors buy Cryptopunks that have favorable attributes, such as lighter skin color.
 
-[Elif Kuyuk](https://github.com/ekuyuk): [Factors that affect a Student's Academic Performance](https://ekuyuk.github.io/Student-Performance/). A higher range of scores were noted for students taking a standard lunch; female students were observed to have higher writing and reading scores.  
+[Elif Kuyuk](https://github.com/ekuyuk): [Factors that affect a Student's Academic Performance](https://ekuyuk.github.io/Student-Performance/). A higher range of scores were noted for students taking a standard lunch; female students were observed to have higher writing and reading scores.
 
-[Krish Badri](https://github.com/krishbadri/): [Growth of Small vs Large Market-Cap Stocks](https://krishbadri.github.io/Growth-of-Small-vs-Large-Market-Cap-Stocks/). The average small market cap stock in the S&P 500 is growing at a rate much faster than the average growth of high market cap stocks at the top of the S&P 500 Weighting List.  
+[Krish Badri](https://github.com/krishbadri/): [Growth of Small vs Large Market-Cap Stocks](https://krishbadri.github.io/Growth-of-Small-vs-Large-Market-Cap-Stocks/). The average small market cap stock in the S&P 500 is growing at a rate much faster than the average growth of high market cap stocks at the top of the S&P 500 Weighting List.
 
-[Rachel Heiss](https://github.com/rachelheiss): [These Prices are Defying Gravity: Broadway Trends 1985 - 2022](https://rachelheiss.github.io/broadway_project/). Today's Broadway tickets cost much more than they did in the 80s, but more people are going to shows.  
+[Rachel Heiss](https://github.com/rachelheiss): [These Prices are Defying Gravity: Broadway Trends 1985 - 2022](https://rachelheiss.github.io/broadway_project/). Today's Broadway tickets cost much more than they did in the 80s, but more people are going to shows.
 
-[Dorothy Tang](https://github.com/Dorotho): [How the COVID-19 Pandemic Changed Emotions](https://dorotho.github.io/Final_project_2/). A survey measured people’s feelings, on 7 different emotions, during the COVID-19 pandemic in the U.S.
+[Dorothy Tang](https://github.com/Dorotho): [How the COVID-19 Pandemic Changed Emotions](https://dorotho.github.io/Final_project_2/). A survey measured people's feelings, on 7 different emotions, during the COVID-19 pandemic in the U.S.
 
-[Varun Khedkar](https://github.com/varnkxband44): [Intelligence Quotient and Potential Indicators of Success](https://github.com/varnkxband44/cbIQpiS). Intelligence Quotient does not directly correspond with may be defined as success, however does hold a clear indirect impact on the key precursors to success.  
+[Varun Khedkar](https://github.com/varnkxband44): [Intelligence Quotient and Potential Indicators of Success](https://github.com/varnkxband44/cbIQpiS). Intelligence Quotient does not directly correspond with may be defined as success, however does hold a clear indirect impact on the key precursors to success.
 
-[Jihan Bhuiyan](https://github.com/PC8923): [An Analysis of Monkeypox Demographics](https://pc8923.github.io/final-project/). While it may appear that monkeypox only impacts gay and bisexual men, this doesn't correspond with previous monkeypox outbreaks and is likely due to restrictions on testing set by governments.  
+[Jihan Bhuiyan](https://github.com/PC8923): [An Analysis of Monkeypox Demographics](https://pc8923.github.io/final-project/). While it may appear that monkeypox only impacts gay and bisexual men, this doesn't correspond with previous monkeypox outbreaks and is likely due to restrictions on testing set by governments.
 
-[Mann Talati](https://github.com/manntalati): [NCAA Women's Volleyball Statistics](https://manntalati.github.io/NCAA_Womens_Volleyball_2012-2019/). While several teams are able to attack the ball through their attack attempts there is a very low chance of the team achieving the kill due to a block or a dig leaving the ratio of a kill to attack attempt close to 1:4 or 25% chance of achieving a kill.  
+[Mann Talati](https://github.com/manntalati): [NCAA Women's Volleyball Statistics](https://manntalati.github.io/NCAA_Womens_Volleyball_2012-2019/). While several teams are able to attack the ball through their attack attempts there is a very low chance of the team achieving the kill due to a block or a dig leaving the ratio of a kill to attack attempt close to 1:4 or 25% chance of achieving a kill.
 
-[Selim Coskunuzer](https://github.com/SelimC06): [Observing NFL players Average Salary by Category over the years 2014-2020](https://selimc06.github.io/Final-Project/). NFL players salary data over a few years to see if it has differed  
-
-
+[Selim Coskunuzer](https://github.com/SelimC06): [Observing NFL players Average Salary by Category over the years 2014-2020](https://selimc06.github.io/Final-Project/). NFL players salary data over a few years to see if it has differed
 
 ## June 2022
 
-[Varun Dommeti](https://github.com/d-varun): [Prevalent Emotions in Mainstream Music, by Decade](https://d-varun.github.io/final-bootcamp-project/). Exploration of emotions in the billboard top 100, sorted by decade.  
+[Varun Dommeti](https://github.com/d-varun): [Prevalent Emotions in Mainstream Music, by Decade](https://d-varun.github.io/final-bootcamp-project/). Exploration of emotions in the billboard top 100, sorted by decade.
 
-[Soham Gunturu](https://github.com/SohamGunturu): [Mortality rate of babies under different variables](https://github.com/SohamGunturu/final-project). Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.  
+[Soham Gunturu](https://github.com/SohamGunturu): [Mortality rate of babies under different variables](https://github.com/SohamGunturu/final-project). Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.
 
-[Suvan Dommeti](https://github.com/SuvanD0): [Presence of Polarzing Words in Australian Media](https://suvand0.github.io/Polarizing-words-in-media-over-time/). Does Australian media excessively use the word "riot" over "protest" to convey a biased message?  
+[Suvan Dommeti](https://github.com/SuvanD0): [Presence of Polarzing Words in Australian Media](https://suvand0.github.io/Polarizing-words-in-media-over-time/). Does Australian media excessively use the word "riot" over "protest" to convey a biased message?
 
-[Jackson Roe](https://github.com/jacksonrroe): [March Madness: How to Pick a Perfect Bracket](https://jacksonrroe.github.io/march_madness_analysis/). Analysis of the trends in every March Madness bracket since the 1985 expansion to 64 teams.  
+[Jackson Roe](https://github.com/jacksonrroe): [March Madness: How to Pick a Perfect Bracket](https://jacksonrroe.github.io/march_madness_analysis/). Analysis of the trends in every March Madness bracket since the 1985 expansion to 64 teams.
 
-[Farhan Sadeek](https://github.com/FarhanSadeek21): [Analysis of World Population](https://farhansadeek21.github.io/population_analysis/). Life Index is proportional to the Per Capita GDP of a country.  
+[Farhan Sadeek](https://github.com/FarhanSadeek21): [Analysis of World Population](https://farhansadeek21.github.io/population_analysis/). Life Index is proportional to the Per Capita GDP of a country.
 
-[Allison Bubar](https://github.com/allisonbubar): [Newton North High School Basketball Evaluation](https://github.com/allisonbubar/distill-tutorial/blob/main/README.md). The NNHS basketball teams success was determined by FG% and defensive success. 
+[Allison Bubar](https://github.com/allisonbubar): [Newton North High School Basketball Evaluation](https://github.com/allisonbubar/distill-tutorial/blob/main/README.md). The NNHS basketball teams success was determined by FG% and defensive success.
 
-[Alex Kuai](https://github.com/AlexKuaiR): [Microchip Market](https://alexkuair.github.io/Microchip-Market/). Dramatic increase in microchip market demand in the Asia Pacific region  
+[Alex Kuai](https://github.com/AlexKuaiR): [Microchip Market](https://alexkuair.github.io/Microchip-Market/). Dramatic increase in microchip market demand in the Asia Pacific region
 
-[Ethan Hu](https://github.com/ethanhu89): [Breakdown of the S&P 500](https://ethanhu89.github.io/Final-Project/). Shows the basic trends that are seen in the top 500 public companies in the US.  
+[Ethan Hu](https://github.com/ethanhu89): [Breakdown of the S&P 500](https://ethanhu89.github.io/Final-Project/). Shows the basic trends that are seen in the top 500 public companies in the US.
 
-[Nathan Rothschild](https://github.com/NathanRothschild): [Comparison of Three 33 y/o Professional Tennis Players' Effectiveness](https://nathanrothschild.github.io/tenniswebsite/). Professional players of the same age, career length, and similar career success had vastly different effectiveness trajectories during their career.  
+[Nathan Rothschild](https://github.com/NathanRothschild): [Comparison of Three 33 y/o Professional Tennis Players' Effectiveness](https://nathanrothschild.github.io/tenniswebsite/). Professional players of the same age, career length, and similar career success had vastly different effectiveness trajectories during their career.
 
-[Shivangi Nadkar](https://github.com/ShivangiNadkar): [COVID deaths by race and education level](https://shivanginadkar.github.io/COVID_deaths_project/). Graphs that display COVID-19 deaths and are faceted by race and education level.  
+[Shivangi Nadkar](https://github.com/ShivangiNadkar): [COVID deaths by race and education level](https://shivanginadkar.github.io/COVID_deaths_project/). Graphs that display COVID-19 deaths and are faceted by race and education level.
 
-[Henry Sippel](https://github.com/sipphen): [Fish Stocking Data in Lake Michigan by Species](https://sipphen.github.io/fish-stocking/). Movement of fish stocking in Lake Michigan.  
+[Henry Sippel](https://github.com/sipphen): [Fish Stocking Data in Lake Michigan by Species](https://sipphen.github.io/fish-stocking/). Movement of fish stocking in Lake Michigan.
 
-[Pooja Kawatkar](https://github.com/pkawatkar): [Analysis of Superbowl Statistics](https://pkawatkar.github.io/football_statistics/). In 1990, the San Francisco 49ers defeated the Denver Broncos by 45 points, the greatest point difference in Superbowl history  
+[Pooja Kawatkar](https://github.com/pkawatkar): [Analysis of Superbowl Statistics](https://pkawatkar.github.io/football_statistics/). In 1990, the San Francisco 49ers defeated the Denver Broncos by 45 points, the greatest point difference in Superbowl history
 
-[Samruddhi Naik](https://github.com/samnaik10): [Wages by Gender and Occupation](https://samnaik10.github.io/wages-by-gender/). The biggest wage gap is in the financial industry where men earn around $45,000 more than women do.  
+[Samruddhi Naik](https://github.com/samnaik10): [Wages by Gender and Occupation](https://samnaik10.github.io/wages-by-gender/). The biggest wage gap is in the financial industry where men earn around \$45,000 more than women do.
 
-[Awais Choudhary](https://github.com/awaischoudhary): [Traffic Violations](https://awaischoudhary.github.io/Traffic-Violations/). What a driver should avoid on the road; an examination of traffic infraction records.  
+[Awais Choudhary](https://github.com/awaischoudhary): [Traffic Violations](https://awaischoudhary.github.io/Traffic-Violations/). What a driver should avoid on the road; an examination of traffic infraction records.
 
-[Sai Gottemukkula](https://github.com/SaiGottemukkula): [An Exploration of COVID-19](https://saigottemukkula.github.io/FinalProject/). Graphs that look at some under-explored information of the pandemic.  
+[Sai Gottemukkula](https://github.com/SaiGottemukkula): [An Exploration of COVID-19](https://saigottemukkula.github.io/FinalProject/). Graphs that look at some under-explored information of the pandemic.
 
-[Akhilesh Sangaraju](https://github.com/AkhileshSangaraju): [Cars - CO2 Emissions and Efficiency](https://akhileshsangaraju.github.io/CO2-Emissions-and-Effciency-of-Cars/). When buying an electric car, you can be confident that you are making the eco-friendly decision, and that it will statisfy all of your needs.  
+[Akhilesh Sangaraju](https://github.com/AkhileshSangaraju): [Cars - CO2 Emissions and Efficiency](https://akhileshsangaraju.github.io/CO2-Emissions-and-Effciency-of-Cars/). When buying an electric car, you can be confident that you are making the eco-friendly decision, and that it will statisfy all of your needs.
 
-[Amisha Jain](https://github.com/amishaj08): [Karate Statistics Around the World](https://amishaj08.github.io/new_final/). These graphs analyze how various countries are impacted by Martial Arts.  
+[Amisha Jain](https://github.com/amishaj08): [Karate Statistics Around the World](https://amishaj08.github.io/new_final/). These graphs analyze how various countries are impacted by Martial Arts.
 
-[Nathan Nambiar](https://github.com/nathannambiar): [Progression of Agent Pick Rates in Valorant](https://nathannambiar.github.io/final-project/). The change in agent pick rates throughout Valorant history.  
+[Nathan Nambiar](https://github.com/nathannambiar): [Progression of Agent Pick Rates in Valorant](https://nathannambiar.github.io/final-project/). The change in agent pick rates throughout Valorant history.
 
-[Hannah Adams](https://github.com/hannah-adams): [Per capita CO2 emissions](https://hannah-adams.github.io/kanes-camp-final-project/). Shows trends in per capita CO2 emissions by country, which could inform equitable environmental policy.  
+[Hannah Adams](https://github.com/hannah-adams): [Per capita CO2 emissions](https://hannah-adams.github.io/kanes-camp-final-project/). Shows trends in per capita CO2 emissions by country, which could inform equitable environmental policy.
 
-[Katie Zhong](https://github.com/katie-zhong): [Factors of Success in WEBTOON Originals](https://katie-zhong.github.io/webtoon-originals-analysis/). Viewer ratings and subscriber counts prove that Romance and Fantasy Originals are the most popular.  
+[Katie Zhong](https://github.com/katie-zhong): [Factors of Success in WEBTOON Originals](https://katie-zhong.github.io/webtoon-originals-analysis/). Viewer ratings and subscriber counts prove that Romance and Fantasy Originals are the most popular.
 
-[Noel Jung](https://github.com/NoelJung): [Temperature and Vector Borne Diseases](https://github.com/NoelJung/Temperature-and-Vector-Diseases). Do changes in temperature affect the number of cases of West Nile and Lyme disease?  
+[Noel Jung](https://github.com/NoelJung): [Temperature and Vector Borne Diseases](https://github.com/NoelJung/Temperature-and-Vector-Diseases). Do changes in temperature affect the number of cases of West Nile and Lyme disease?
 
-[Lucas Cao](https://github.com/ExceedEvergreen/): [Number of Billionaires over Years](https://rpubs.com/Exceed_Lucas/billionaire). The number of billionaires has been increasing rapidly every year since 2000. 
+[Lucas Cao](https://github.com/ExceedEvergreen/): [Number of Billionaires over Years](https://rpubs.com/Exceed_Lucas/billionaire). The number of billionaires has been increasing rapidly every year since 2000.
 
-[Andrew Zhuo](https://github.com/Stackfish5): [Chess Openings](https://github.com/Stackfish5/Final-Project). Analyzing the most commonly used chess openings by 5 top chess Grandmasters.  
+[Andrew Zhuo](https://github.com/Stackfish5): [Chess Openings](https://github.com/Stackfish5/Final-Project). Analyzing the most commonly used chess openings by 5 top chess Grandmasters.
 
-[Austin Zhuang](https://github.com/austzhua): [Adult Mental Health in the USA](https://github.com/austzhua/final-project). The project analyzes of how financial factors affect access to mental health  
+[Austin Zhuang](https://github.com/austzhua): [Adult Mental Health in the USA](https://github.com/austzhua/final-project). The project analyzes of how financial factors affect access to mental health
 
-[Suvan Chatakondu](https://github.com/suvancha9866): [Movies 2021 Analysis](https://suvancha9866.github.io/movies_2021_project_2/). The factors that made movies in 2021 successful and special.  
+[Suvan Chatakondu](https://github.com/suvancha9866): [Movies 2021 Analysis](https://suvancha9866.github.io/movies_2021_project_2/). The factors that made movies in 2021 successful and special.
 
 ## June 2021
 
-[Sophia Zhu](http://github.com/zhusophia): [BREAKING NEWS: FBI Says They Found 'Man Child' In The Woods!](https://zhusophia.github.io/testingdolalrsign/) An analysis of the length and wording of 2018 fake news articles titles. 
+[Sophia Zhu](http://github.com/zhusophia): [BREAKING NEWS: FBI Says They Found 'Man Child' In The Woods!](https://zhusophia.github.io/testingdolalrsign/) An analysis of the length and wording of 2018 fake news articles titles.
 
-[Nuo Wen Lei](https://github.com/NuoWenLei): [PAC Influence on US Politics](https://nuowenlei.github.io/pac-influence/). Trend of foreign donations seems to parallel party representation in US congress.  
+[Nuo Wen Lei](https://github.com/NuoWenLei): [PAC Influence on US Politics](https://nuowenlei.github.io/pac-influence/). Trend of foreign donations seems to parallel party representation in US congress.
 
-[Kevin Xu](https://github.com/K3vX21): [ATP Tour Analysis Over Time](https://k3vx21.github.io/atp-analysis/). The game of tennis on the ATP Tour has shifted tactically and demographically since its conception.  
+[Kevin Xu](https://github.com/K3vX21): [ATP Tour Analysis Over Time](https://k3vx21.github.io/atp-analysis/). The game of tennis on the ATP Tour has shifted tactically and demographically since its conception.
 
-[Stefan Arroyo-Cottier](https://github.com/StefanA-C/): [The Time Hass Come](https://stefana-c.github.io/final_project_website/). Avocado consumption and prices in the United States over time. 
+[Stefan Arroyo-Cottier](https://github.com/StefanA-C/): [The Time Hass Come](https://stefana-c.github.io/final_project_website/). Avocado consumption and prices in the United States over time.
 
-[Osaretin Lawani](https://github.com/oplawani56): [An Analysis of the Causes Singapore's Aging Population](https://oplawani56.github.io/Singapore-Project/). This is an investigation of the relationship between Singapore's aging population and the nation-state's declining birth rates  
+[Osaretin Lawani](https://github.com/oplawani56): [An Analysis of the Causes Singapore's Aging Population](https://oplawani56.github.io/Singapore-Project/). This is an investigation of the relationship between Singapore's aging population and the nation-state's declining birth rates
 
-[Dhruv Syngol](https://github.com/dsy5): [World Happiness Report Data Analysis and Visualizations](https://dsy5.github.io/World-Happiness-Data-Analysis-and-Visualizations/). Data from the World Happiness Report over the years reveals interesting trends in a variety of factors, from GDP per Capita to the Freedom to Make Life Choices.  
+[Dhruv Syngol](https://github.com/dsy5): [World Happiness Report Data Analysis and Visualizations](https://dsy5.github.io/World-Happiness-Data-Analysis-and-Visualizations/). Data from the World Happiness Report over the years reveals interesting trends in a variety of factors, from GDP per Capita to the Freedom to Make Life Choices.
 
-[Abhay Paidipalli](https://github.com/abhay1105): [The Evolution of Basketball](https://abhay1105.github.io/The-Evolution-of-Basketball/). An analysis of some of the most noticeable trends in the history of basketball.  
+[Abhay Paidipalli](https://github.com/abhay1105): [The Evolution of Basketball](https://abhay1105.github.io/The-Evolution-of-Basketball/). An analysis of some of the most noticeable trends in the history of basketball.
 
-[Marco Tchernychev](https://github.com/Marco-Tchernychev): [20/21 EPL Data Visualizations](https://marco-tchernychev.github.io/EPL_20_21_Final/). This project examines the correlation between age and goals, as well as nationality and passing.  
+[Marco Tchernychev](https://github.com/Marco-Tchernychev): [20/21 EPL Data Visualizations](https://marco-tchernychev.github.io/EPL_20_21_Final/). This project examines the correlation between age and goals, as well as nationality and passing.
 
-[Max Xu](https://github.com/maxzixiaoxu): [Covid 19 Around the World](https://maxzixiaoxu.github.io/Covid_project/). Examining Covid 19 cases and trends among the continents.  
+[Max Xu](https://github.com/maxzixiaoxu): [Covid 19 Around the World](https://maxzixiaoxu.github.io/Covid_project/). Examining Covid 19 cases and trends among the continents.
 
-[Ajay Malik](https://github.com/AM-lmn): [High School Performance and Future Salary, by College](https://am-lmn.github.io/high-school-salaries/). The more students of a university who were at the top of their high school class, the more salary these students will make. 
+[Ajay Malik](https://github.com/AM-lmn): [High School Performance and Future Salary, by College](https://am-lmn.github.io/high-school-salaries/). The more students of a university who were at the top of their high school class, the more salary these students will make.
 
-[Shreeram Patkar](https://github.com/s-patkar): [Covid-19 Socio-Economic Causal Analysis](https://spatkar.shinyapps.io/Covid-Shiny/). Comparing different socio-economic metrics to Covid death and infection rates  
+[Shreeram Patkar](https://github.com/s-patkar): [Covid-19 Socio-Economic Causal Analysis](https://spatkar.shinyapps.io/Covid-Shiny/). Comparing different socio-economic metrics to Covid death and infection rates
 
-[Z Schwab](https://github.com/z-schwab): [GDP and Wealth Distribution: Not a Uniform Picture](https://github.com/z-schwab/final-project-gdp-inequality). GDP is an inaccurate indicator of quality of life because it doesn't factor in income inequality.  
+[Z Schwab](https://github.com/z-schwab): [GDP and Wealth Distribution: Not a Uniform Picture](https://github.com/z-schwab/final-project-gdp-inequality). GDP is an inaccurate indicator of quality of life because it doesn't factor in income inequality.
 
 [Andre Arroyo-Cottier](https://github.com/andreread): [Covid Cases and Vaccination Rates in the US](https://andreread.github.io/Final_R_Website/). Graphs that show the effectiveness of vaccinations in the USA.
 
 [Daniel Chen](https://github.com/Danielc1218): [Population and Crime rate in the US](https://danielc1218.github.io/Data_Camp_Final_Project/). Population and crime rate have no correlation in the US.
 
-[Tejas Mundhe](https://github.com/TejasMundhe): [United States Covid-19 Death Toll by State](https://tejasmundhe.github.io/Covid_Deaths-Website/). Are more populated states impacted by the Covid-19 pandemic more than less populated ones?  
+[Tejas Mundhe](https://github.com/TejasMundhe): [United States Covid-19 Death Toll by State](https://tejasmundhe.github.io/Covid_Deaths-Website/). Are more populated states impacted by the Covid-19 pandemic more than less populated ones?
 
-[Matthew Ru](https://github.com/matthewru): [An Analysis of Pro Tennis Players](https://matthewru.github.io/data-camp-final-project/). An arrangement of graphs to show the relationship between height, weight, birth month, and country of origin in the tennis pro-scene.  
+[Matthew Ru](https://github.com/matthewru): [An Analysis of Pro Tennis Players](https://matthewru.github.io/data-camp-final-project/). An arrangement of graphs to show the relationship between height, weight, birth month, and country of origin in the tennis pro-scene.
 
-[Ronit Anandani](https://github.com/anandani4136): [COVID-19 and its Impact on Sectors of the Stock Market](https://anandani4136.github.io/Stock-Market-Analysis/). Visualizing the effect of COVID-19 pandemic on different stock market sectors.  
+[Ronit Anandani](https://github.com/anandani4136): [COVID-19 and its Impact on Sectors of the Stock Market](https://anandani4136.github.io/Stock-Market-Analysis/). Visualizing the effect of COVID-19 pandemic on different stock market sectors.
 
-[Frank Li](https://github.com/lifrank1): [Chance of Automation Replacement of Various Occupations](https://lifrank1.github.io/JobRiskFromAutomation/). Exploring the likelihood of a variety of occupations being replaced by machine labor.  
+[Frank Li](https://github.com/lifrank1): [Chance of Automation Replacement of Various Occupations](https://lifrank1.github.io/JobRiskFromAutomation/). Exploring the likelihood of a variety of occupations being replaced by machine labor.
 
-[Zuhair Usmani](https://github.com/zuhair-school): [Movie Genres and if Producers are using the same genres](https://zuhair-school.github.io/movie-project/). Gathering movie genres and analyzing if producers are using the same genres.  
+[Zuhair Usmani](https://github.com/zuhair-school): [Movie Genres and if Producers are using the same genres](https://zuhair-school.github.io/movie-project/). Gathering movie genres and analyzing if producers are using the same genres.
 
-[Bryan Li](https://github.com/libryan261): [Covid-19 Effect on Student Mental Health and Behavorial Change](https://github.com/libryan261/Actual-Final-Project). Analyzing the effects of the pandemic on the mental and physical health of students and adults.  
+[Bryan Li](https://github.com/libryan261): [Covid-19 Effect on Student Mental Health and Behavorial Change](https://github.com/libryan261/Actual-Final-Project). Analyzing the effects of the pandemic on the mental and physical health of students and adults.
 
-[Mahima Malhotra](https://github.com/mmal1524): [Diabetes Prevalence by State](https://mmal1524.github.io/DSB_final/). A comparison of the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates.  
+[Mahima Malhotra](https://github.com/mmal1524): [Diabetes Prevalence by State](https://mmal1524.github.io/DSB_final/). A comparison of the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates.
 
-[Yuhan Wu](https://github.com/UhanWu): [Housing Fluctuation Using Case-Shiller Index](https://uhanwu.github.io/HousingPrep/). The two key factors that influenced the housing price are income and housing supply; population matters little.  
+[Yuhan Wu](https://github.com/UhanWu): [Housing Fluctuation Using Case-Shiller Index](https://uhanwu.github.io/HousingPrep/). The two key factors that influenced the housing price are income and housing supply; population matters little.
 
-[Nabiha Rabbani](https://github.com/nabihar): [Sci-Fi and Techno Orientalism](https://nabihar.github.io/FinalProjectWebsite/). Measuring interest in science fiction movies over time and comparing that interest to economic success in East Asian countries.  
+[Nabiha Rabbani](https://github.com/nabihar): [Sci-Fi and Techno Orientalism](https://nabihar.github.io/FinalProjectWebsite/). Measuring interest in science fiction movies over time and comparing that interest to economic success in East Asian countries.
 
-[Emmanuel Buabeng](https://github.com/EmmanB1): [Average Salary Per Department in Chicago](https://emmanb1.github.io/RFinalProject/). An analysis of spending across government departments in the city of Chicago.  
+[Emmanuel Buabeng](https://github.com/EmmanB1): [Average Salary Per Department in Chicago](https://emmanb1.github.io/RFinalProject/). An analysis of spending across government departments in the city of Chicago.
 
-[Fahim Ahmed](https://github.com/fahimahmed0x): [Investment Analysis of Exchange Traded Funds (ETF)](https://fahimahmed0x.github.io/funds/). What types of ETFs would have made you the most returns if you invested in them last year?  
+[Fahim Ahmed](https://github.com/fahimahmed0x): [Investment Analysis of Exchange Traded Funds (ETF)](https://fahimahmed0x.github.io/funds/). What types of ETFs would have made you the most returns if you invested in them last year?
 
 [Isaac Frank](https://github.com/isaac-w18): [Anxiety and the Need for Research](https://anxiety-research.netlify.app/anixety_data.html). Examining the correlation between pharmaceutical spending and anxiety.
 
-[Anmay Gupta](thttps://github.com/AnmayG): [Effect of Various Factors on 3D Print Strength](https://anmayg.github.io/3D_Print/). 3D prints can be strengthened by changing a variety of factors.  
+[Anmay Gupta](thttps://github.com/AnmayG): [Effect of Various Factors on 3D Print Strength](https://anmayg.github.io/3D_Print/). 3D prints can be strengthened by changing a variety of factors.
 
-[Srihith Garlapati](https://github.com/srihithg): [Goverment Department Earnings by Region](https://srihithg.github.io/finalProject/). This is an investigation of the highest earning departments on average per each state in each region in the US.  
+[Srihith Garlapati](https://github.com/srihithg): [Goverment Department Earnings by Region](https://srihithg.github.io/finalProject/). This is an investigation of the highest earning departments on average per each state in each region in the US.
 
-[Tom Pan](https://github.com/TomPn): [COVID-19 Cases/Vaccinations Analysis](https://tompn.github.io/Cases-Vaccinations-Analysis/). Analyzing cases and vaccination progress in China, Canada, United States, and United Kingdom.  
+[Tom Pan](https://github.com/TomPn): [COVID-19 Cases/Vaccinations Analysis](https://tompn.github.io/Cases-Vaccinations-Analysis/). Analyzing cases and vaccination progress in China, Canada, United States, and United Kingdom.
 
-[George Pentchev](https://github.com/1pentchevgeo/): [Course Enrollment in Secondary Schools](https://1pentchevgeo.github.io/final-project/). Ranking secondary school courses by enrollment and examining the growth of the most popular courses.  
+[George Pentchev](https://github.com/1pentchevgeo/): [Course Enrollment in Secondary Schools](https://1pentchevgeo.github.io/final-project/). Ranking secondary school courses by enrollment and examining the growth of the most popular courses.
 
-[Gabriel You](https://github.com/GabeYou): [Sinoalice Power vs Cost Analysis](https://gabeyou.github.io/Sinoalice-Final-Project/). Looking at Sinoalice Weapons and comparing weapon total power to cost to see the correlation between them.  
+[Gabriel You](https://github.com/GabeYou): [Sinoalice Power vs Cost Analysis](https://gabeyou.github.io/Sinoalice-Final-Project/). Looking at Sinoalice Weapons and comparing weapon total power to cost to see the correlation between them.
 
-[Joseph Jeiwan Kim](https://github.com/josephwanjei): [Change In Sea Level](https://josephwanjei.github.io/SeaLevelRise/). An examination of climate changes impact on the global sea level.  
+[Joseph Jeiwan Kim](https://github.com/josephwanjei): [Change In Sea Level](https://josephwanjei.github.io/SeaLevelRise/). An examination of climate changes impact on the global sea level.
 
-[Varun Mittal](https://github.com/Varun121322): [Impact of Covid On Home Court Advantage in the NFL and NBA](https://varun121322.github.io/Home-Field-Advantage-Across-Sports/). Examining how much home court/field advantage was affected by Covid-19 by measuring the amount of times that home team won and other stats.  
+[Varun Mittal](https://github.com/Varun121322): [Impact of Covid On Home Court Advantage in the NFL and NBA](https://varun121322.github.io/Home-Field-Advantage-Across-Sports/). Examining how much home court/field advantage was affected by Covid-19 by measuring the amount of times that home team won and other stats.
 
-[Shyam Sai Bethina](https://github.com/Shyamsaibethina): [Motor Vehicle deaths by Age and Year](https://shyamsaibethina.github.io/Alchohol-Related-Mothor-Deaths/). Is the message "Don't drink and Drive" still prevalent in older people?  
+[Shyam Sai Bethina](https://github.com/Shyamsaibethina): [Motor Vehicle deaths by Age and Year](https://shyamsaibethina.github.io/Alchohol-Related-Mothor-Deaths/). Is the message "Don't drink and Drive" still prevalent in older people?
 
-[Oliver Altindag](https://github.com/OliverAltindag): [Liverpool Football Clubs Best Eleven](https://oliveraltindag.github.io/Liverpool-FC-Best-11/). This is an inquiry into the statistics of Liverpool FC and the best possible Eleven the club could field in future games.  
+[Oliver Altindag](https://github.com/OliverAltindag): [Liverpool Football Clubs Best Eleven](https://oliveraltindag.github.io/Liverpool-FC-Best-11/). This is an inquiry into the statistics of Liverpool FC and the best possible Eleven the club could field in future games.
 
-[Daniel Wang](https://github.com/DanWang725): [Effects of Covid-19 on Student's Educational Stress](https://danwang725.github.io/EducationStress/). Examination of the stress levels experienced by students before and during Covid-19.  
+[Daniel Wang](https://github.com/DanWang725): [Effects of Covid-19 on Student's Educational Stress](https://danwang725.github.io/EducationStress/). Examination of the stress levels experienced by students before and during Covid-19.
 
-[Arghayan Jeiyasarangkan](https://github.com/JArghayan): [How The Overall Gold Difference Changes Throughout Professional League of Legends Games](https://jarghayan.github.io/Final-Project/). Examining the relationship between gold difference and game duration in professional League of Legends matches. 
+[Arghayan Jeiyasarangkan](https://github.com/JArghayan): [How The Overall Gold Difference Changes Throughout Professional League of Legends Games](https://jarghayan.github.io/Final-Project/). Examining the relationship between gold difference and game duration in professional League of Legends matches.
 
-[Kyle Sabo](https://github.com/sabokyle12): [How Speed Affects Offensive Ability in Baseball](https://sabokyle12.github.io/baseball-project/). Determining the extent that speed enables players to get more hits.  
+[Kyle Sabo](https://github.com/sabokyle12): [How Speed Affects Offensive Ability in Baseball](https://sabokyle12.github.io/baseball-project/). Determining the extent that speed enables players to get more hits.
 
-[Felix Cai](https://github.com/FelixCai525): [Relationship Between GDP per Capita and Percentage of Population with a Confirmed Case of COVID-19](https://felixcai525.github.io/FP/). Exploring the relationship between GDP per capita and percentage of population with a confirmed case of COVID-19.  
+[Felix Cai](https://github.com/FelixCai525): [Relationship Between GDP per Capita and Percentage of Population with a Confirmed Case of COVID-19](https://felixcai525.github.io/FP/). Exploring the relationship between GDP per capita and percentage of population with a confirmed case of COVID-19.
 
-[Shreya Sree Morishetty](https://github.com/shreyamori): [Undergraduate Engineering Enrollment by Demographics](https://shreyamori.github.io/Actual-Final-Project/). Exploring if the demographics have changed through the years as enrollment in engineering programs have risen  
+[Shreya Sree Morishetty](https://github.com/shreyamori): [Undergraduate Engineering Enrollment by Demographics](https://shreyamori.github.io/Actual-Final-Project/). Exploring if the demographics have changed through the years as enrollment in engineering programs have risen
 
-[Arjun Velayutham](https://github.com/ArjunVelayutham): [Earnings vs Inflation](https://github.com/ArjunVelayutham/Johnson-Johnson-Earnings). Have the increase in a companies earnings outpaced the inflation margin.  
+[Arjun Velayutham](https://github.com/ArjunVelayutham): [Earnings vs Inflation](https://github.com/ArjunVelayutham/Johnson-Johnson-Earnings). Have the increase in a companies earnings outpaced the inflation margin.
 
-[Stephanie Saab](https://github.com/stephaniesaab): [These Boots are made for Shopping](https://stephaniesaab.github.io/Shoe_shopping/). A comparison of men and women's shoe shopping tendencies shows that women spend more money while men are fond of a sale.  
+[Stephanie Saab](https://github.com/stephaniesaab): [These Boots are made for Shopping](https://stephaniesaab.github.io/Shoe_shopping/). A comparison of men and women's shoe shopping tendencies shows that women spend more money while men are fond of a sale.
 
-[Heather Li](https://github.com/heatherli12): [An Overview of Toronto Shelter Data in 2020](https://heatherli12.github.io/toronto-shelter-data/). Mapping the occupancy percentage of Toronto shelters during 2020. 
-
+[Heather Li](https://github.com/heatherli12): [An Overview of Toronto Shelter Data in 2020](https://heatherli12.github.io/toronto-shelter-data/). Mapping the occupancy percentage of Toronto shelters during 2020.
