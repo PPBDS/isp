@@ -1,0 +1,45 @@
+---
+title: "Height and Weight in the US"
+author: "David Kane"
+date: "2022-07-28"
+output: html_document
+---
+
+<!-- Code for Day 3. We allow them to make any plot they want. Does not have to be this one. (Indeed, overlapping densities would probably be better.) Anything "interesting" which looks at US heights and weights. End the class by putting the image up on Rpubs and cleaning it up, by, for example, removing everything from the YALM except the "output: html_document". They should have learned about code chunk options (but probably not enough). Highlight the need for code comments and figure labels. -->
+
+<!-- Need a better listing of possible plots, more closely connected to what was actually taught in the tutorials. -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(primer.data)
+```
+
+```{r, warning=FALSE}
+# You should almost never use the message/warning/error equal FALSE code chunk
+# option. It is very dangerous! It hides things which should not be hidden.
+# Instead, you should figure out what is causing the messeage/warning/error and
+# then fix it. If that is not possible, then you should explain the issue in a
+# comment.
+
+nhanes |> 
+  filter(age >= 18) |> 
+  select(weight, height) |> 
+  ggplot(mapping = aes(x = height,
+                       y = weight)) +
+    
+    # Not sure of alpha is useful here. Does it really make the plot better?
+    # Maybe I should also split into separate plots for men and women.
+  
+    geom_point(alpha = 0.1) +
+    labs(title = "Height and Weight of US Adults",
+         subtitle = "Taller people weigh more, but there are many outliers on the heavy side.",
+         x = "Height (cm)",
+         y = "Weight (kg)",
+         caption = "Data collected from the National Health and Nutrition Examination Survey") 
+```
+
+
+
+

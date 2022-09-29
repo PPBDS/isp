@@ -1,0 +1,182 @@
+# This is a collection of Preceptor's Notes for use before class. 
+# Also included are notes to TFs. And notes for me? 
+# This is a text document because the contents need to be copy/pasted into Discord.
+
+
+## Week 1
+
+### Day 1
+
+#### Preceptor's Notes
+
+No four week course does a better job of increasing your odds of getting the future you want.
+
+Video on --- unless there is something going on in your life which prevents it. In which case, discuss with a TF.
+
+Class always begins by looking at the Preceptor's Notes for the day, available here, in Discord.
+
+0) After today, we start on time, often by going to breakout rooms immediately. Let's go now! Introduce yourself to your fellow students. TFs will try and swing by.
+
+1) Links to consider today:
+
+Bootcamp: https://bootcamp.davidkane.info/
+Schedule: https://bootcamp.davidkane.info/schedule.html
+Primer: https://ppbds.github.io/primer/
+Final projects: https://bootcamp.davidkane.info/projects.html
+
+2) Second trip to breakout rooms. Introduce yourselves again but, this time, write down the names of the students in your room and how they found out about the course. I will randomly call on some students to report this info when I bring the class back together.
+
+3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class.
+
+4) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers.
+
+5) Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it.
+
+6) Start the Getting Started tutorial together. Note how your work is automatically saved. Finish in the breakout rooms. One person shares a screen and does not talk. Second person reads the text out loud and tells the first person what to type. Switch roles for each succeeding question.
+
+7) If we have time, let's go back to breakout rooms and start working on first tutorial: Visualization -- basic plots. 
+
+
+#### TF Notes
+
+Identify a final project or two which you like and which you think are well done. It is OK if one of the projects is yours. Indeed, you should probably clean up your own final project just in case students want to look at it!
+
+I will assign breakout rooms in the order in which you are appear in the staff listing: https://bootcamp.davidkane.info/staff.html. You might be responsible for anywhere from 1 to 5 rooms, but they will always be continuous and in staff order. So, if you are the second person listed, and I assigned 3 rooms per TF, then you would get rooms 4, 5 and 6.
+
+You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each tim. Tella another student to do the "driving," to tell the first student what to click on. This might seem weird since we are mostly looking at final projects form past years, but we want them to get into practice. So, have the driver say, "Click on the About tab," for example. 
+
+Key goal for today is to help them decide if they should take the course. Please help them! Tell them about the interactive nature of class. Warn them about video always on and cold-calling. Tell them about the tutorials. Show them the final projects.
+
+### Day 2
+
+#### Preceptor's Notes
+
+0) If possible, please change your Discord display name to be your real name. We are a community!
+
+1) Big thanks to all the students (including kool04, miriamheiss, Obese Melon, qwerty325 among others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+
+2) It is always a good idea to remove and then reinstall the primer.tutorials before you start a new one. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+
+remove.packages("primer.tutorials")
+remotes::install_github("PPBDS/primer.tutorials")
+
+3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares.
+
+4) Thanks for all the great comments/questions and bug reports on the tutorials. Much appreciated! We will fix these.
+
+5) Start thinking about the topic for your final project. What are you interested in? Is there data about it?
+
+6) Philosophy page provides background on our pedagogical approach.
+
+7) In the first class, we just worked from the Console. Today, we go "one level up" and work from an R project. Tomorrow, we go one more level up and start with Github.
+
+#### TF Notes
+
+Goal for today and tomorrow is to start with nothing and then finish with a nice looking plot published on R pubs. Today, we start with a new project. Tomorrow, we start with a Github repo.
+
+
+
+
+### Day 3
+
+1) New experiment with breakout rooms. You will be assigned to the same room for the rest of the course, with the same TF to help you. Hope this works! If you have any complaints, email me. Depending on drops/adds, we may have to adjust these assignments next week. Let's meet your posse!
+
+2) Apologies to the many students who are caught up. This is the last time that we will slow down the class in order to take care of students who have not done the work. Let's go to breakout rooms and ensure that everyone has a free www.github.com account. 
+
+3) R Weekly is a great way to keep up on all the things happening in the world of R: https://rweekly.org/. I subscribe to their weekly email.
+
+4) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data.
+
+5) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
+
+6) Goal today is to publish an interesting graphic relating height and weight in the US.
+
+
+
+
+
+## Week 2
+
+Most of the material we need for this week is in the week_2.Rmd file.
+
+### Day 1
+
+Let's explore the issue of "social capital" this week. Check out this New York Times article: https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html. From today!
+
+Quarto will be the successor to R Markdown. See https://quarto.org/docs/faq/rmarkdown.html. If Quarto had come out a month ago, we would be using it for everything in this course. Since Quarto came out last week, I am not sure what to do . . . Note that you need to update RStudio in order to use Quarto.
+
+"nvm im dumb" First, nothing is ever dumb. Second, whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+
+Big thanks to everyone helping in Discord, including Varun Dommeti, varun khedkar, Jihan Bhuiyan, and Selim215. Apologies for missing people! Thanks to those (including miriamheiss and others) pointing our typos and errors in the tutorials.
+
+Whenever starting a new tutorial, please:
+
+remove.packages("primer.tutorials")
+install_github("rstudio/learnr")
+
+### Day 2
+
+"nvm im dumb" First, nothing is ever dumb. Second, whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+
+Big thanks to everyone helping in Discord, including Varun Dommeti, varun khedkar, Jihan Bhuiyan, and Selim215. Apologies for missing people! Thanks to those (including miriamheiss and others) pointing our typos and errors in the tutorials.
+
+Let's learn how to delete a repo. Keep your Github account clean.
+
+Let's learn how to fork a repo: https://github.com/davidkane9/class-2022-08-02
+
+Explore the 'economic connectedness" variable, which is defined as two times the share of high-SES friends among low-SES individuals, averaged over all low-SES individuals in the county.
+
+
+### Day 3
+
+
+Have you found data for your final project? Lots of great stuff in the census! It is impossible to do a bad final project when using census data and making a map. Find a variable which interests you! Often, we start with the data rather than with the project idea.
+
+Be nice to our TF. They want to help you! 
+
+Using the data we have, let's look at the relationship between the total population of a state and the average ec of counties in that state. 
+
+If you have not completed (and submitted) the Distill Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html
+
+
+
+## Week 3
+
+Some goals for this week:
+
+1) Create a Distill website on Day 1. (Of course, next time this will be a Quarto website.) The sooner they are making something which looks like their final projects, the better. Key command:
+
+create_website(dir = ".",
+               title = "Economic Connectedness",
+               gh_pages = TRUE)
+               
+Note that a student who forgets gh_pages = TRUE will make a website which still builds but which does not have a docs/ directory and which, therefore, won't work easily with Github Pages.
+
+Just getting a site built and then using Github pages so that they appeared on the web took the full hour.
+
+
+2) Organize the distill website better. First, there should be a get/clean data script which is only run by hand and which writes out a data file. 
+
+### Day 1
+
+
+
+### Day 2
+
+
+
+
+### Day 3
+
+## Week 4
+
+### Day 1
+
+
+
+### Day 2
+
+
+
+
+### Day 3

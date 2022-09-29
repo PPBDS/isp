@@ -1,0 +1,30 @@
+## Priorities
+
+Make a checklist for the start of the session.
+
+
+
+## Other
+
+
+* We want the sign-up-for-the-email to be more prominent. We have the raw html which, I think, we need to include. It is in sign_up.html. But when I follow the instructions here:
+
+https://bookdown.org/yihui/rmarkdown-cookbook/include-html.html
+
+It does not work. There is space for an image/thing, but the rectangle is empty.
+
+Is whimsical a useful tool for teaching the class itself?
+
+## Marketing
+
+Rweekly.
+
+#rstats
+
+# TFs
+tejasnm07@gmail.com
+jacksonrroe@gmail.com
+
+
+
+
