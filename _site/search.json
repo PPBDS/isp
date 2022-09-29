@@ -1,10 +1,52 @@
 [
   {
+    "objectID": "philosophy.html",
+    "href": "philosophy.html",
+    "title": "Philosophy",
+    "section": "",
+    "text": "This section outlines the overall philosophy of the course and some implementation details. You are unlikely to find it interesting! I include it here for two reasons. First, I believe in transparency. I am happy for students to “see behind the curtain,” to understand the reasoning behind my pedagogical choices. Second, I want to provide teaching staff with links which they may find interesting.\nFirst, the syllabus for my Harvard class includes a “Course Philosophy” section which applies just as much to this class. Indeed, my goal here is to cover the exact same material as I would in the first four weeks of that course. Highlights:\n\nThe central metaphor for this class is Ulysses and the Sirens. You are Ulysses. Ithaca is the future you want. The Sirens are the many distractions of the modern world. I am the rope. No course at Harvard does more to increase students’ chances of getting the future they want.\n\n\n\n\n\n\n\nNo Lectures: The worst method for transmitting information from my head to yours is for me to lecture you. There are no lectures. We work on problems together during class. You learn soccer with the ball at your feet. You learn about data with your hands on the keyboard.\n\n\nProfessionalism: We use professional tools. Your workflow will be very similar to the workflow involved in paid employment. Your problem sets and final project will be public, the better to impress others with your abilities. High quality work will be shared with your classmates.\n\nSecond, “Kill The Math and Let the Introductory Course Be Born” is an article (pdf) which explains why the course includes no (meaningful) mathematics. Abstract:\n\nOur introductory classes in statistics and data science use too much mathematics. The key causal effect which our students want our classes to have is to improve their future performance and opportunities. The more professional their computing skills (in the context of data analysis), the greater their likely success. Introductory courses should feature almost no mathematical/statistical formulas beyond simple algebra.\n\nAny introductory course which, for example, does not teach Git/Github is doing its students a disservice.\nThird, the heart of the course are the tutorials which students complete on their own. This essay about how to write tutorials provides some background details. Highlights:\n\nImagine the shallowest possible learning curve. Almost every student should be able to answer almost every Exercise, albeit perhaps with the help of the Hint. There are no hard questions. In fact, there really aren’t questions at all. Instead, there are instructions: Do this. Do that. Next do this other thing.\n\n\nAssume that you are giving the student a private lesson. You ask them a question. They give you an answer. What would you say next to them? What do you want to teach them, given that context?\n\n\nThere are 1,000,000 bits of R knowledge which we might provide to students: tips, tricks, cool packages, fun websites, et cetera. We don’t have time to mention all of them. The art of teaching is to, first, decide which 10,000 of the bits are most important to mention and, second, figure out the best time to mention them. Tutorials are a key location for doing that mentioning. Which bits do we mention and where do we mention them?\n\n\nWe are building a “pit of success.” Generally, students don’t do the assigned reading, at least in a large class. But, they will complete required work. They will do the tutorials. Our promise: If you complete the tutorials, you will become a data scientist. There is simply no way not to.\n\nFourth, I will (try to) ensure that students are always engaged in class, always doing data science. Part of that is the “no lectures” philosophy. Zoom also makes some group-work easy. The rhythm of class centers around solving a specific problem. I say a few words and then open the breakout rooms, each of which includes four students. One student shares her screen, a different student each time we go to breakout rooms. Another student is the “guide,” the person who tells the screen-sharer what to type. The other two students should be coding along as well. Course staff is moving from room to room, ensuring that the sharing and guiding students are different each time. Course staff will also often, when first entering a room, ask a different student to share his screen. After a few minutes of working as a small group, I will bring the whole class back together. I then ask a random student to tell me what their group came up with. Recall:\n\nCold Calling: I call on students during class. This keeps every student involved, makes for a more lively discussion and helps to prepare students for the real world, in which you can’t hide in the back row. Want to be left alone? Don’t take this course.\n\nI share my screen with the class, typing what the randomly-selected student tells me to type, providing commentary on the approach and, perhaps, suggesting a different answer. My goal is to ensure that all the student groups are “caught up,” so that when I send them back into the breakout rooms, they can all start from, more or less, the same place."
+  },
+  {
+    "objectID": "demo_day.html",
+    "href": "demo_day.html",
+    "title": "Procedures for Demo Day",
+    "section": "",
+    "text": "The only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nBasic idea is that all students are in two groups: A and B. A presents first. Each breakout room includes two students, an A and a B. (We will post the assignments.)\nAt the start, we are all in the main room. I offer introductions. I open the breakout rooms. You move yourself to your assigned room. (Guests will also go to the room featuring the student they want to listen to.) Chat politely. I will then issue a Breakout Room message saying to start. The A student presents her work for 4 minutes. The B student asks a lot of questions. So do the guests. These questions often involve your code. You can answer them by showing the actual R code in your Github repo.\nAfter three and a half minutes, I send a Message saying: 30 seconds left. At four minutes, I Message “Switch Rooms!”\nPlease switch rooms when I ask you to!\nStudent A stays in the room. Student B moves one room up. From room 6 to room 7, for example. (If you are the B student in the highest room, you move to room 1.) Then, Student A presents again.\nAfter 40 minutes of this, the A students will have presented 7 or 8 times. Good stuff! I bring back everyone to the main room. Say a few words. And then we do the whole thing again, but with the B students presenting and staying put in the rooms. And now the A students move from room to room.\nAfter the B students present, I close the breakout rooms, thereby bringing everyone back together. I offer thanks and congratulations. The course is now complete."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Final Projects",
+    "section": "",
+    "text": "A total of 80 students have completed the Course. Congratulations! Here are their Final Projects."
+  },
+  {
+    "objectID": "projects.html#august-2022",
+    "href": "projects.html#august-2022",
+    "title": "Final Projects",
+    "section": "August 2022",
+    "text": "August 2022\nMiriam Heiss: Classical vs Contemporary Music. Taylor Swift’s average Song length is almost 3 minutes more than J. S. Bach’s, disproving the point ‘Classical Music is too long’.\nMaxwell Lu: Heart Disease: Risk Factors and Demographics. I found that men contract heart disease significantly more than women, American Indians/Alaskan Natives make up more percentage of those with heart disease than any other race.\nKrish Saluja: Variables that Accurately Predict the Likelihood of a Stroke. Heart disease and hypertension are the most effective factors that help to accurately predict whether or not a person will suffer from a stroke.\nSam Yeh: Comparing Cryptopunk Data With Cryptopunk Attributes. The price of Cryptopunks vary based on many attributes, but collectors buy Cryptopunks that have favorable attributes, such as lighter skin color.\nElif Kuyuk: Factors that affect a Student’s Academic Performance. A higher range of scores were noted for students taking a standard lunch; female students were observed to have higher writing and reading scores.\nKrish Badri: Growth of Small vs Large Market-Cap Stocks. The average small market cap stock in the S&P 500 is growing at a rate much faster than the average growth of high market cap stocks at the top of the S&P 500 Weighting List.\nRachel Heiss: These Prices are Defying Gravity: Broadway Trends 1985 - 2022. Today’s Broadway tickets cost much more than they did in the 80s, but more people are going to shows.\nDorothy Tang: How the COVID-19 Pandemic Changed Emotions. A survey measured people’s feelings, on 7 different emotions, during the COVID-19 pandemic in the U.S.\nVarun Khedkar: Intelligence Quotient and Potential Indicators of Success. Intelligence Quotient does not directly correspond with may be defined as success, however does hold a clear indirect impact on the key precursors to success.\nJihan Bhuiyan: An Analysis of Monkeypox Demographics. While it may appear that monkeypox only impacts gay and bisexual men, this doesn’t correspond with previous monkeypox outbreaks and is likely due to restrictions on testing set by governments.\nMann Talati: NCAA Women’s Volleyball Statistics. While several teams are able to attack the ball through their attack attempts there is a very low chance of the team achieving the kill due to a block or a dig leaving the ratio of a kill to attack attempt close to 1:4 or 25% chance of achieving a kill.\nSelim Coskunuzer: Observing NFL players Average Salary by Category over the years 2014-2020. NFL players salary data over a few years to see if it has differed"
+  },
+  {
+    "objectID": "projects.html#june-2022",
+    "href": "projects.html#june-2022",
+    "title": "Final Projects",
+    "section": "June 2022",
+    "text": "June 2022\nVarun Dommeti: Prevalent Emotions in Mainstream Music, by Decade. Exploration of emotions in the billboard top 100, sorted by decade.\nSoham Gunturu: Mortality rate of babies under different variables. Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.\nSuvan Dommeti: Presence of Polarzing Words in Australian Media. Does Australian media excessively use the word “riot” over “protest” to convey a biased message?\nJackson Roe: March Madness: How to Pick a Perfect Bracket. Analysis of the trends in every March Madness bracket since the 1985 expansion to 64 teams.\nFarhan Sadeek: Analysis of World Population. Life Index is proportional to the Per Capita GDP of a country.\nAllison Bubar: Newton North High School Basketball Evaluation. The NNHS basketball teams success was determined by FG% and defensive success.\nAlex Kuai: Microchip Market. Dramatic increase in microchip market demand in the Asia Pacific region\nEthan Hu: Breakdown of the S&P 500. Shows the basic trends that are seen in the top 500 public companies in the US.\nNathan Rothschild: Comparison of Three 33 y/o Professional Tennis Players’ Effectiveness. Professional players of the same age, career length, and similar career success had vastly different effectiveness trajectories during their career.\nShivangi Nadkar: COVID deaths by race and education level. Graphs that display COVID-19 deaths and are faceted by race and education level.\nHenry Sippel: Fish Stocking Data in Lake Michigan by Species. Movement of fish stocking in Lake Michigan.\nPooja Kawatkar: Analysis of Superbowl Statistics. In 1990, the San Francisco 49ers defeated the Denver Broncos by 45 points, the greatest point difference in Superbowl history\nSamruddhi Naik: Wages by Gender and Occupation. The biggest wage gap is in the financial industry where men earn around $45,000 more than women do.\nAwais Choudhary: Traffic Violations. What a driver should avoid on the road; an examination of traffic infraction records.\nSai Gottemukkula: An Exploration of COVID-19. Graphs that look at some under-explored information of the pandemic.\nAkhilesh Sangaraju: Cars - CO2 Emissions and Efficiency. When buying an electric car, you can be confident that you are making the eco-friendly decision, and that it will statisfy all of your needs.\nAmisha Jain: Karate Statistics Around the World. These graphs analyze how various countries are impacted by Martial Arts.\nNathan Nambiar: Progression of Agent Pick Rates in Valorant. The change in agent pick rates throughout Valorant history.\nHannah Adams: Per capita CO2 emissions. Shows trends in per capita CO2 emissions by country, which could inform equitable environmental policy.\nKatie Zhong: Factors of Success in WEBTOON Originals. Viewer ratings and subscriber counts prove that Romance and Fantasy Originals are the most popular.\nNoel Jung: Temperature and Vector Borne Diseases. Do changes in temperature affect the number of cases of West Nile and Lyme disease?\nLucas Cao: Number of Billionaires over Years. The number of billionaires has been increasing rapidly every year since 2000.\nAndrew Zhuo: Chess Openings. Analyzing the most commonly used chess openings by 5 top chess Grandmasters.\nAustin Zhuang: Adult Mental Health in the USA. The project analyzes of how financial factors affect access to mental health\nSuvan Chatakondu: Movies 2021 Analysis. The factors that made movies in 2021 successful and special."
+  },
+  {
+    "objectID": "projects.html#june-2021",
+    "href": "projects.html#june-2021",
+    "title": "Final Projects",
+    "section": "June 2021",
+    "text": "June 2021\nSophia Zhu: BREAKING NEWS: FBI Says They Found ‘Man Child’ In The Woods! An analysis of the length and wording of 2018 fake news articles titles.\nNuo Wen Lei: PAC Influence on US Politics. Trend of foreign donations seems to parallel party representation in US congress.\nKevin Xu: ATP Tour Analysis Over Time. The game of tennis on the ATP Tour has shifted tactically and demographically since its conception.\nStefan Arroyo-Cottier: The Time Hass Come. Avocado consumption and prices in the United States over time.\nOsaretin Lawani: An Analysis of the Causes Singapore’s Aging Population. This is an investigation of the relationship between Singapore’s aging population and the nation-state’s declining birth rates\nDhruv Syngol: World Happiness Report Data Analysis and Visualizations. Data from the World Happiness Report over the years reveals interesting trends in a variety of factors, from GDP per Capita to the Freedom to Make Life Choices.\nAbhay Paidipalli: The Evolution of Basketball. An analysis of some of the most noticeable trends in the history of basketball.\nMarco Tchernychev: 20/21 EPL Data Visualizations. This project examines the correlation between age and goals, as well as nationality and passing.\nMax Xu: Covid 19 Around the World. Examining Covid 19 cases and trends among the continents.\nAjay Malik: High School Performance and Future Salary, by College. The more students of a university who were at the top of their high school class, the more salary these students will make.\nShreeram Patkar: Covid-19 Socio-Economic Causal Analysis. Comparing different socio-economic metrics to Covid death and infection rates\nZ Schwab: GDP and Wealth Distribution: Not a Uniform Picture. GDP is an inaccurate indicator of quality of life because it doesn’t factor in income inequality.\nAndre Arroyo-Cottier: Covid Cases and Vaccination Rates in the US. Graphs that show the effectiveness of vaccinations in the USA.\nDaniel Chen: Population and Crime rate in the US. Population and crime rate have no correlation in the US.\nTejas Mundhe: United States Covid-19 Death Toll by State. Are more populated states impacted by the Covid-19 pandemic more than less populated ones?\nMatthew Ru: An Analysis of Pro Tennis Players. An arrangement of graphs to show the relationship between height, weight, birth month, and country of origin in the tennis pro-scene.\nRonit Anandani: COVID-19 and its Impact on Sectors of the Stock Market. Visualizing the effect of COVID-19 pandemic on different stock market sectors.\nFrank Li: Chance of Automation Replacement of Various Occupations. Exploring the likelihood of a variety of occupations being replaced by machine labor.\nZuhair Usmani: Movie Genres and if Producers are using the same genres. Gathering movie genres and analyzing if producers are using the same genres.\nBryan Li: Covid-19 Effect on Student Mental Health and Behavorial Change. Analyzing the effects of the pandemic on the mental and physical health of students and adults.\nMahima Malhotra: Diabetes Prevalence by State. A comparison of the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates.\nYuhan Wu: Housing Fluctuation Using Case-Shiller Index. The two key factors that influenced the housing price are income and housing supply; population matters little.\nNabiha Rabbani: Sci-Fi and Techno Orientalism. Measuring interest in science fiction movies over time and comparing that interest to economic success in East Asian countries.\nEmmanuel Buabeng: Average Salary Per Department in Chicago. An analysis of spending across government departments in the city of Chicago.\nFahim Ahmed: Investment Analysis of Exchange Traded Funds (ETF). What types of ETFs would have made you the most returns if you invested in them last year?\nIsaac Frank: Anxiety and the Need for Research. Examining the correlation between pharmaceutical spending and anxiety.\nAnmay Gupta: Effect of Various Factors on 3D Print Strength. 3D prints can be strengthened by changing a variety of factors.\nSrihith Garlapati: Goverment Department Earnings by Region. This is an investigation of the highest earning departments on average per each state in each region in the US.\nTom Pan: COVID-19 Cases/Vaccinations Analysis. Analyzing cases and vaccination progress in China, Canada, United States, and United Kingdom.\nGeorge Pentchev: Course Enrollment in Secondary Schools. Ranking secondary school courses by enrollment and examining the growth of the most popular courses.\nGabriel You: Sinoalice Power vs Cost Analysis. Looking at Sinoalice Weapons and comparing weapon total power to cost to see the correlation between them.\nJoseph Jeiwan Kim: Change In Sea Level. An examination of climate changes impact on the global sea level.\nVarun Mittal: Impact of Covid On Home Court Advantage in the NFL and NBA. Examining how much home court/field advantage was affected by Covid-19 by measuring the amount of times that home team won and other stats.\nShyam Sai Bethina: Motor Vehicle deaths by Age and Year. Is the message “Don’t drink and Drive” still prevalent in older people?\nOliver Altindag: Liverpool Football Clubs Best Eleven. This is an inquiry into the statistics of Liverpool FC and the best possible Eleven the club could field in future games.\nDaniel Wang: Effects of Covid-19 on Student’s Educational Stress. Examination of the stress levels experienced by students before and during Covid-19.\nArghayan Jeiyasarangkan: How The Overall Gold Difference Changes Throughout Professional League of Legends Games. Examining the relationship between gold difference and game duration in professional League of Legends matches.\nKyle Sabo: How Speed Affects Offensive Ability in Baseball. Determining the extent that speed enables players to get more hits.\nFelix Cai: Relationship Between GDP per Capita and Percentage of Population with a Confirmed Case of COVID-19. Exploring the relationship between GDP per capita and percentage of population with a confirmed case of COVID-19.\nShreya Sree Morishetty: Undergraduate Engineering Enrollment by Demographics. Exploring if the demographics have changed through the years as enrollment in engineering programs have risen\nArjun Velayutham: Earnings vs Inflation. Have the increase in a companies earnings outpaced the inflation margin.\nStephanie Saab: These Boots are made for Shopping. A comparison of men and women’s shoe shopping tendencies shows that women spend more money while men are fond of a sale.\nHeather Li: An Overview of Toronto Shelter Data in 2020. Mapping the occupancy percentage of Toronto shelters during 2020."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "bootcamp",
+    "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Kane’s (Free) Data Science Course is offered occasionally, always running four weeks. The next session starts on Monday, October 10, 2022. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for this session. There is no charge.\n\n\nWarning: The `negative_parens` argument of `dollar()` is deprecated as of scales 1.2.0.\nPlease use the `style_negative` argument instead.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. The course is designed for absolute beginners. No programming or statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "about.html",
@@ -12,5 +54,159 @@
     "title": "About",
     "section": "",
     "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "staff.html#david-kane",
+    "href": "staff.html#david-kane",
+    "title": "Staff",
+    "section": "David Kane",
+    "text": "David Kane\n\n\n\n\n\nDavid Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
+  },
+  {
+    "objectID": "staff.html#miriam-heiss",
+    "href": "staff.html#miriam-heiss",
+    "title": "Staff",
+    "section": "Miriam Heiss",
+    "text": "Miriam Heiss\n\n\n\n\n\nMiriam Heiss is a 8th grader (homeschooled), organist of 5 years, and amateur Data Scientist."
+  },
+  {
+    "objectID": "staff.html#tejas-mundhe",
+    "href": "staff.html#tejas-mundhe",
+    "title": "Staff",
+    "section": "Tejas Mundhe",
+    "text": "Tejas Mundhe\n\n\n\n\n\n\nTejas Mundhe is an incoming Sophomore at Walnut Hills High School with a passion for Data Science."
+  },
+  {
+    "objectID": "staff.html#stephanie-saab",
+    "href": "staff.html#stephanie-saab",
+    "title": "Staff",
+    "section": "Stephanie Saab",
+    "text": "Stephanie Saab\n\n\n\n\n\nStephanie Saab is a second year student at the University of Toronto."
+  },
+  {
+    "objectID": "staff.html#yuhan-wu",
+    "href": "staff.html#yuhan-wu",
+    "title": "Staff",
+    "section": "Yuhan Wu",
+    "text": "Yuhan Wu\n\n\n\n\n\nYuhan Wu is an incoming junior at Newton North High School who is interested in Data Science and Applied Mathematics."
+  },
+  {
+    "objectID": "staff.html#arghayan-jeiyasarangkan",
+    "href": "staff.html#arghayan-jeiyasarangkan",
+    "title": "Staff",
+    "section": "Arghayan Jeiyasarangkan",
+    "text": "Arghayan Jeiyasarangkan\n\n\n\n\n\nArghayan Jeiyasarangkan is an upcoming sophomore at the University Of Ottawa studying biomedical science in French Immersion."
+  },
+  {
+    "objectID": "staff.html#felix-cai",
+    "href": "staff.html#felix-cai",
+    "title": "Staff",
+    "section": "Felix Cai",
+    "text": "Felix Cai\n\n\n\n\n\nFelix Cai is an upcoming second year Medical Sciences student at Western University."
+  },
+  {
+    "objectID": "staff.html#jackson-roe",
+    "href": "staff.html#jackson-roe",
+    "title": "Staff",
+    "section": "Jackson Roe",
+    "text": "Jackson Roe\n\n\n\n\n\nJackson Roe is a rising senior at Dublin Coffman High School."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nTwo key resources: Preceptor’s Primer for Bayesian Data Science and its associated tutorials. Assignments associated with a specific lecture must be completed before that lecture.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in rds format. If you want to save a copy for your own records, use html."
+  },
+  {
+    "objectID": "schedule.html#monday-october-10",
+    "href": "schedule.html#monday-october-10",
+    "title": "Schedule",
+    "section": "Monday October 10",
+    "text": "Monday October 10\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial together in class."
+  },
+  {
+    "objectID": "schedule.html#wednesday-october-12",
+    "href": "schedule.html#wednesday-october-12",
+    "title": "Schedule",
+    "section": "Wednesday October 12",
+    "text": "Wednesday October 12\n\nRead Chapter 1 Visualization.\nComplete two Visualization tutorials: Basic Plots and Tidyverse.\nComplete the RStudio and Code tutorial."
+  },
+  {
+    "objectID": "schedule.html#thursday-october-13",
+    "href": "schedule.html#thursday-october-13",
+    "title": "Schedule",
+    "section": "Thursday October 13",
+    "text": "Thursday October 13\n\nComplete two Visualization tutorials: Advanced Plotting and Case Studies.\nComplete R Studio and Github tutorial.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+  },
+  {
+    "objectID": "schedule.html#monday-october-17",
+    "href": "schedule.html#monday-october-17",
+    "title": "Schedule",
+    "section": "Monday October 17",
+    "text": "Monday October 17\n\nComplete Terminal tutorial.\nRead Chapter 2 Wrangling Data.\nComplete two Wrangling tutorials: Overview and Plots."
+  },
+  {
+    "objectID": "schedule.html#wednesday-october-19",
+    "href": "schedule.html#wednesday-october-19",
+    "title": "Schedule",
+    "section": "Wednesday October 19",
+    "text": "Wednesday October 19\n\nComplete Wrangling - More Plots tutorial.\nComplete Census Data I tutorials."
+  },
+  {
+    "objectID": "schedule.html#thursday-october-20",
+    "href": "schedule.html#thursday-october-20",
+    "title": "Schedule",
+    "section": "Thursday October 20",
+    "text": "Thursday October 20\n\nComplete Census Data II tutorials."
+  },
+  {
+    "objectID": "schedule.html#monday-october-24",
+    "href": "schedule.html#monday-october-24",
+    "title": "Schedule",
+    "section": "Monday October 24",
+    "text": "Monday October 24\n\nRead Chapter 3 Data.\nComplete Quarto Websites tutorial.\nComplete Getting Help tutorial."
+  },
+  {
+    "objectID": "schedule.html#wednesday-october-26",
+    "href": "schedule.html#wednesday-october-26",
+    "title": "Schedule",
+    "section": "Wednesday October 26",
+    "text": "Wednesday October 26\n\nRead the Style Guide.\nComplete Data - Files.\nComplete Data - API tutorial.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+  },
+  {
+    "objectID": "schedule.html#thursday-october-27",
+    "href": "schedule.html#thursday-october-27",
+    "title": "Schedule",
+    "section": "Thursday October 27",
+    "text": "Thursday October 27\n\nComplete Data - Webscraping tutorial."
+  },
+  {
+    "objectID": "schedule.html#monday-october-31",
+    "href": "schedule.html#monday-october-31",
+    "title": "Schedule",
+    "section": "Monday October 31",
+    "text": "Monday October 31\n\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction.\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment."
+  },
+  {
+    "objectID": "schedule.html#wednesday-november-2",
+    "href": "schedule.html#wednesday-november-2",
+    "title": "Schedule",
+    "section": "Wednesday November 2",
+    "text": "Wednesday November 2\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+  },
+  {
+    "objectID": "schedule.html#thursday-november-3",
+    "href": "schedule.html#thursday-november-3",
+    "title": "Schedule",
+    "section": "Thursday November 3",
+    "text": "Thursday November 3\n\nFinal project presentations. You must invite someone."
+  },
+  {
+    "objectID": "testimonials.html",
+    "href": "testimonials.html",
+    "title": "Testimonials",
+    "section": "",
+    "text": "The data science course was an invaluable experience that provided me with the building blocks to pursue future data science investigations and analyses. The course was well-structured and taught me the fundamentals of not only producing stunning visualizations in R, but most importantly how to think like a data scientist and manage your code effectively. If you are someone interested in dipping their toes in an emerging field of data science, this course will guide you well! — Dhruv Syngol, Junior, Metea Valley High School\nThe learning environment was exceptional and encouraged me to navigate the basic challenges of RStudio with other students! It’s extremely effective for beginner individuals like me to gain this exposure! - Joyce Li, Senior, White Oaks Secondary School\nThe final project allowed me to draw from real world data about mental health disorders and learn how to make conclusions, moving me to be captivated by the data science field. —– Isaac Frank, Senior, Dublin Coffman High School\nThis course was really helpful! I learned a lot about data science and how to code in R. My favorite part were the breakout rooms since it allowed for students to share ideas and solve problems together. — Gabriel You (dengxuanjia@gmail.com), Senior, White Oaks Secondary School\nThe course tutorials were very informative and included an abundance of practice to ensure the material was understood. — Daniel Chen (danielc20051218@gmail.com), Junior, Naperville North High School\nThe course was an interesting way to learn the basics of data science, with the Final Projects being a great way to show what we grasped. — Oliver Raif Altindag (oliveraltindag@icloud.com), Freshman, Newton North High School\nGreat course overall. Introduces data science really well to people who may not have much knowledge about the field by showing important subjects such as data manipulation and visualization. Although some of the course content was slightly repetitive, it was still extremely effective in teaching students both basic and complex topics through the use of peer collaboration and the projects created at the end of the course. Definitely recommend it to anyone who wants an introduction to the language R and data science. — Abhay Paidipalli (abhay.paidipalli@gmail.com), Junior, James B. Conant High School\nBeing able to take part of a Harvard course, first of all, is such a valuable experience as you’re able to get a feel of the methodology that these elite institutions use. David Kane’s Data Science Boot camp was one of the most influential camps I’ve ever attended. Before this summer, I’ve never learned or touched a single piece of code and had no interest in programming, but after taking this course, it’s really made me fascinated in computer science, even going as far as planning to minor in cs. Working with Preceptor during the camp and under an apprenticeship really helped me gain valuable experience as well as sharpening skills in coding, critical thinking, and discipline. Also, it’s completely free. There’s so much to gain from this experience and nothing to lose. This camp is definitely one of the best offered to High school students and not one that you should pass on. — Bryan Li (libryan261@gmail.com/ 614-316-1061), Senior, Dublin Coffman High School\nThis course was valuable in helping me manage my time during school. Although I did not have any previous experience in R and Rstudio I had to learn to balance my school work and extracurriculars while meeting the demands of the course. — Joseph Jeiwan Kim (josephjwkim04@gmail.com), Senior, White Oaks High School\nThis course does a fantastic job of not only putting you in the shoes of a student, learning the underlying coding and statistics, but also putting you in the shoes of a worker, doing real Data Science as a real Data Scientist. — George, senior, White Oaks Secondary School"
   }
 ]
