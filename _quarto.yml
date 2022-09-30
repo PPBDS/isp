@@ -19,8 +19,8 @@ website:
         href: demo_day.qmd
       - text: "Philosophy"
         href: philosophy.qmd
-  exclude:
-    - internal
+exclude:
+  - internal
     
 format:
   html:

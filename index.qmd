@@ -2,7 +2,10 @@
 title: "Kane's Data Science Course"
 ---
 
-```{r setup, include=FALSE}
+```{r}
+#| label: setup
+#| include: false
+
 library(gapminder)
 library(tidyverse)
 library(gganimate)
@@ -15,7 +18,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Kane's (Free) Data Science Course** is offered occasionally, always running four weeks. The next session starts on **Monday, October 10, 2022**. The workload is 10 hours per week: 3 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for this session. **There is no charge.**
 
-```{r animation, cache = TRUE}
+```{r}
+#| cache: true
+#| label: animation
+#| warning: false
+
+# A warning appears, hence the false flag. See the make_animation.R script for
+# discussion.
+
 read_rds("images/animation.rds")
 ```
 

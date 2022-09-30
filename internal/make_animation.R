@@ -27,4 +27,4 @@ gap_anim <- gapminder %>%
 
 gap_anim
 
-write_rds(gap_anim, file = "animation.rds")
+write_rds(gap_anim, file = "images/animation.rds")
