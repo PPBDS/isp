@@ -14,27 +14,6 @@
     "text": "The only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nBasic idea is that all students are in two groups: A and B. A presents first. Each breakout room includes two students, an A and a B. (We will post the assignments.)\nAt the start, we are all in the main room. I offer introductions. I open the breakout rooms. You move yourself to your assigned room. (Guests will also go to the room featuring the student they want to listen to.) Chat politely. I will then issue a Breakout Room message saying to start. The A student presents her work for 4 minutes. The B student asks a lot of questions. So do the guests. These questions often involve your code. You can answer them by showing the actual R code in your Github repo.\nAfter three and a half minutes, I send a Message saying: 30 seconds left. At four minutes, I Message “Switch Rooms!”\nPlease switch rooms when I ask you to!\nStudent A stays in the room. Student B moves one room up. From room 6 to room 7, for example. (If you are the B student in the highest room, you move to room 1.) Then, Student A presents again.\nAfter 40 minutes of this, the A students will have presented 7 or 8 times. Good stuff! I bring back everyone to the main room. Say a few words. And then we do the whole thing again, but with the B students presenting and staying put in the rooms. And now the A students move from room to room.\nAfter the B students present, I close the breakout rooms, thereby bringing everyone back together. I offer thanks and congratulations. The course is now complete."
   },
   {
-    "objectID": "internal/week_2.html",
-    "href": "internal/week_2.html",
-    "title": "Social Capital",
-    "section": "",
-    "text": "Before next time:\nThis document is a guide for TFs to the work we will be doing this week. We will be working on social capital. Read this New York Times article: https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html. Note that we have html and pdf copies of the article available. Fun to be working with real data!"
-  },
-  {
-    "objectID": "internal/week_2.html#day-1",
-    "href": "internal/week_2.html#day-1",
-    "title": "Social Capital",
-    "section": "Day 1",
-    "text": "Day 1\nThe entire first day is devoted to just getting the ec.rds file into the new project. Show them the key terminal commands for accomplishing this. It will be hard! But they need to practice these commands. If they have trouble, you can allow them to just “hack it” by dragging/dropping the ec.rds file in the project folder.\nDownload the ec.rds file from Discord and place it in our project. Update .gitignore. Discuss how we might include it in .gitignore if it were more than 100 mb. Large data sets are tricky!\n\n\n\nExplore this data. glimpse(), view(), summary(), print(), slice_sample(). After we will read in data in the second code chunk and then work with it in the third. Note the naming of the code chunks.\nMajor learning goal is the interaction between the Rmd and the Console. This is very confusing to students, especially students who have not done the Rstudio and Code tutorial.\nNote that this is a very limited set of data from the original project. See social_capital.R for discussion. Key annoyance is that the replication data they share does not contain a measure of income! So, we can’t easily replicate the plots. Very annoying.\nFor next time, we need to add income to this data set so that we can replicate the main plot in the NYT article. But, today, it is really hard to get to making the plot.\nIf you can get to this stage, with everything checked in and pushed in one hour, then that is a win."
-  },
-  {
-    "objectID": "internal/week_2.html#day-2",
-    "href": "internal/week_2.html#day-2",
-    "title": "Social Capital",
-    "section": "Day 2",
-    "text": "Day 2\nI will clean up the repo which I created from the first day, and then rename it with today’s date. Then, this class commences with everyone at least having the data and being ready to go. Start class with everyone forking this new repo.\nExplore this data. glimpse(), view(), summary(), print(), slice_sample(). Are there missing value problems? Any patterns in them? What do the numbers mean?\nFYI: The baseline definition of economic connectedness is two times the share of high-SES friends among low-SES individuals, averaged over all low-SES individuals in the county.\nAlso, answer some questions like: what counties have the highest and lowest populations? What about the highest and lowest ec_county?\nIs there a relationship between population and ec_county? Maybe take logs.\n\n\n\n\n\nOn Day 3, we open up the repo we were working on at the end of Day 2. Show how we can find that old project in the pull down menu, how we can either open it (and replace the current project) or open it as a new RStudio instance. Then, show how to find the .Rproj file and double-click on that.\nLet’s now add a state variable. Tough to do! Getting the regular expression exactly correct is tricky! Note that we are just removing everything up to the first comma, and then the space which follows. I think that this gets everything correct but perhaps not.\n\n\n\nDiscuss replacing x with x.\n\n\n\n\n\nAnd that is enough for the week."
-  },
-  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Final Projects",
