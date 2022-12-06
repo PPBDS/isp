@@ -4,14 +4,14 @@
     "href": "philosophy.html",
     "title": "Philosophy",
     "section": "",
-    "text": "This section outlines the overall philosophy of the course and some implementation details. You are unlikely to find it interesting! I include it here for two reasons. First, I believe in transparency. I am happy for students to “see behind the curtain,” to understand the reasoning behind my pedagogical choices. Second, I want to provide teaching staff with links which they may find interesting.\nFirst, the syllabus for my Harvard class includes a “Course Philosophy” section which applies just as much to this class. Indeed, my goal here is to cover the exact same material as I would in the first four weeks of that course. Highlights:\n\nThe central metaphor for this class is Ulysses and the Sirens. You are Ulysses. Ithaca is the future you want. The Sirens are the many distractions of the modern world. I am the rope. No course at Harvard does more to increase students’ chances of getting the future they want.\n\n\n\n\n\n\n\nNo Lectures: The worst method for transmitting information from my head to yours is for me to lecture you. There are no lectures. We work on problems together during class. You learn soccer with the ball at your feet. You learn about data with your hands on the keyboard.\n\n\nProfessionalism: We use professional tools. Your workflow will be very similar to the workflow involved in paid employment. Your problem sets and final project will be public, the better to impress others with your abilities. High quality work will be shared with your classmates.\n\nSecond, “Kill The Math and Let the Introductory Course Be Born” is an article (pdf) which explains why the course includes no (meaningful) mathematics. Abstract:\n\nOur introductory classes in statistics and data science use too much mathematics. The key causal effect which our students want our classes to have is to improve their future performance and opportunities. The more professional their computing skills (in the context of data analysis), the greater their likely success. Introductory courses should feature almost no mathematical/statistical formulas beyond simple algebra.\n\nAny introductory course which, for example, does not teach Git/Github is doing its students a disservice.\nThird, the heart of the course are the tutorials which students complete on their own. This essay about how to write tutorials provides some background details. Highlights:\n\nImagine the shallowest possible learning curve. Almost every student should be able to answer almost every Exercise, albeit perhaps with the help of the Hint. There are no hard questions. In fact, there really aren’t questions at all. Instead, there are instructions: Do this. Do that. Next do this other thing.\n\n\nAssume that you are giving the student a private lesson. You ask them a question. They give you an answer. What would you say next to them? What do you want to teach them, given that context?\n\n\nThere are 1,000,000 bits of R knowledge which we might provide to students: tips, tricks, cool packages, fun websites, et cetera. We don’t have time to mention all of them. The art of teaching is to, first, decide which 10,000 of the bits are most important to mention and, second, figure out the best time to mention them. Tutorials are a key location for doing that mentioning. Which bits do we mention and where do we mention them?\n\n\nWe are building a “pit of success.” Generally, students don’t do the assigned reading, at least in a large class. But, they will complete required work. They will do the tutorials. Our promise: If you complete the tutorials, you will become a data scientist. There is simply no way not to.\n\nFourth, I will (try to) ensure that students are always engaged in class, always doing data science. Part of that is the “no lectures” philosophy. Zoom also makes some group-work easy. The rhythm of class centers around solving a specific problem. I say a few words and then open the breakout rooms, each of which includes four students. One student shares her screen, a different student each time we go to breakout rooms. Another student is the “guide,” the person who tells the screen-sharer what to type. The other two students should be coding along as well. Course staff is moving from room to room, ensuring that the sharing and guiding students are different each time. Course staff will also often, when first entering a room, ask a different student to share his screen. After a few minutes of working as a small group, I will bring the whole class back together. I then ask a random student to tell me what their group came up with. Recall:\n\nCold Calling: I call on students during class. This keeps every student involved, makes for a more lively discussion and helps to prepare students for the real world, in which you can’t hide in the back row. Want to be left alone? Don’t take this course.\n\nI share my screen with the class, typing what the randomly-selected student tells me to type, providing commentary on the approach and, perhaps, suggesting a different answer. My goal is to ensure that all the student groups are “caught up,” so that when I send them back into the breakout rooms, they can all start from, more or less, the same place."
+    "text": "Details\nThis section outlines the overall philosophy of the course and some implementation details. You are unlikely to find it interesting! I include it here for two reasons. First, I believe in transparency. I am happy for students to “see behind the curtain,” to understand the reasoning behind my pedagogical choices. Second, I want to provide teaching staff with links which they may find interesting.\nFirst, the syllabus for my Harvard class includes a “Course Philosophy” section which applies just as much to this class. Indeed, my goal here is to cover the exact same material as I would in the first four weeks of that course. Highlights:\n\nThe central metaphor for this class is Ulysses and the Sirens. You are Ulysses. Ithaca is the future you want. The Sirens are the many distractions of the modern world. I am the rope. No course at Harvard does more to increase students’ chances of getting the future they want.\n\n\n\n\n\n\n\nNo Lectures: The worst method for transmitting information from my head to yours is for me to lecture you. There are no lectures. We work on problems together during class. You learn soccer with the ball at your feet. You learn about data with your hands on the keyboard.\n\n\nProfessionalism: We use professional tools. Your workflow will be very similar to the workflow involved in paid employment. Your problem sets and final project will be public, the better to impress others with your abilities. High quality work will be shared with your classmates.\n\nSecond, “Kill The Math and Let the Introductory Course Be Born” is an article (pdf) which explains why the course includes no (meaningful) mathematics. Abstract:\n\nOur introductory classes in statistics and data science use too much mathematics. The key causal effect which our students want our classes to have is to improve their future performance and opportunities. The more professional their computing skills (in the context of data analysis), the greater their likely success. Introductory courses should feature almost no mathematical/statistical formulas beyond simple algebra.\n\nAny introductory course which, for example, does not teach Git/Github is doing its students a disservice.\nThird, the heart of the course are the tutorials which students complete on their own. This essay about how to write tutorials provides some background details. Highlights:\n\nImagine the shallowest possible learning curve. Almost every student should be able to answer almost every Exercise, albeit perhaps with the help of the Hint. There are no hard questions. In fact, there really aren’t questions at all. Instead, there are instructions: Do this. Do that. Next do this other thing.\n\n\nAssume that you are giving the student a private lesson. You ask them a question. They give you an answer. What would you say next to them? What do you want to teach them, given that context?\n\n\nThere are 1,000,000 bits of R knowledge which we might provide to students: tips, tricks, cool packages, fun websites, et cetera. We don’t have time to mention all of them. The art of teaching is to, first, decide which 10,000 of the bits are most important to mention and, second, figure out the best time to mention them. Tutorials are a key location for doing that mentioning. Which bits do we mention and where do we mention them?\n\n\nWe are building a “pit of success.” Generally, students don’t do the assigned reading, at least in a large class. But, they will complete required work. They will do the tutorials. Our promise: If you complete the tutorials, you will become a data scientist. There is simply no way not to.\n\nFourth, I will (try to) ensure that students are always engaged in class, always doing data science. Part of that is the “no lectures” philosophy. Zoom also makes some group-work easy. The rhythm of class centers around solving a specific problem. I say a few words and then open the breakout rooms, each of which includes four students. One student shares her screen, a different student each time we go to breakout rooms. Another student is the “guide,” the person who tells the screen-sharer what to type. The other two students should be coding along as well. Course staff is moving from room to room, ensuring that the sharing and guiding students are different each time. Course staff will also often, when first entering a room, ask a different student to share his screen. After a few minutes of working as a small group, I will bring the whole class back together. I then ask a random student to tell me what their group came up with. Recall:\n\nCold Calling: I call on students during class. This keeps every student involved, makes for a more lively discussion and helps to prepare students for the real world, in which you can’t hide in the back row. Want to be left alone? Don’t take this course.\n\nI share my screen with the class, typing what the randomly-selected student tells me to type, providing commentary on the approach and, perhaps, suggesting a different answer. My goal is to ensure that all the student groups are “caught up,” so that when I send them back into the breakout rooms, they can all start from, more or less, the same place."
   },
   {
     "objectID": "demo_day.html",
     "href": "demo_day.html",
     "title": "Procedures for Demo Day",
     "section": "",
-    "text": "The only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nBasic idea is that all students are in two groups: A and B. A presents first. Each breakout room includes two students, an A and a B. (We will post the assignments.)\nAt the start, we are all in the main room. I offer introductions. I open the breakout rooms. You move yourself to your assigned room. (Guests will also go to the room featuring the student they want to listen to.) Chat politely. I will then issue a Breakout Room message saying to start. The A student presents her work for 4 minutes. The B student asks a lot of questions. So do the guests. These questions often involve your code. You can answer them by showing the actual R code in your Github repo.\nAfter three and a half minutes, I send a Message saying: 30 seconds left. At four minutes, I Message “Switch Rooms!”\nPlease switch rooms when I ask you to!\nStudent A stays in the room. Student B moves one room up. From room 6 to room 7, for example. (If you are the B student in the highest room, you move to room 1.) Then, Student A presents again.\nAfter 40 minutes of this, the A students will have presented 7 or 8 times. Good stuff! I bring back everyone to the main room. Say a few words. And then we do the whole thing again, but with the B students presenting and staying put in the rooms. And now the A students move from room to room.\nAfter the B students present, I close the breakout rooms, thereby bringing everyone back together. I offer thanks and congratulations. The course is now complete."
+    "text": "These are the procedures we follow on “Demo Day” — the last class of the course — during which students present their final projects to an audience of their peers and guests. Demo Day is public. All are welcome.\nThe only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nBasic idea is that all students are in two groups: A and B. A presents first. Each breakout room includes two students, an A and a B. (We will post the assignments.)\nAt the start, we are all in the main room. I offer introductions. I open the breakout rooms. You move yourself to your assigned room. (Guests will also go to the room featuring the student they want to listen to.) Chat politely. I will then issue a Breakout Room message saying to start. The A student presents her work for 4 minutes. The B student asks a lot of questions. So do the guests. These questions often involve your code. You can answer them by showing the actual R code in your Github repo.\nAfter three and a half minutes, I send a Message saying: 30 seconds left. At four minutes, I Message “Switch Rooms!”\nPlease switch rooms when I ask you to!\nStudent A stays in the room. Student B moves one room up. From room 6 to room 7, for example. (If you are the B student in the highest room, you move to room 1.) Then, Student A presents again.\nAfter 40 minutes of this, the A students will have presented 7 or 8 times. Good stuff! I bring back everyone to the main room. Say a few words. And then we do the whole thing again, but with the B students presenting and staying put in the rooms. And now the A students move from room to room.\nAfter the B students present, I close the breakout rooms, thereby bringing everyone back together. I offer thanks and congratulations. The course is now complete."
   },
   {
     "objectID": "projects.html",
@@ -46,14 +46,14 @@
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Kane’s (Free) Data Science Course is offered occasionally, always running four weeks. The next session is starts on Monday, January 23, 2023. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for the next session, subject to enrollment. There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. The course is designed for absolute beginners. No programming or statistics experience is required.\nSign up for our e-mail list to receive updates."
+    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, always running four weeks. The next session is starts on Monday, January 23, 2023. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for the next session, subject to enrollment. There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. The course is designed for absolute beginners. No programming or statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
     "objectID": "staff.html",
@@ -91,94 +91,94 @@
     "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nTwo key resources: Preceptor’s Primer for Bayesian Data Science and its associated tutorials. Assignments associated with a specific lecture must be completed before that lecture.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in rds format. If you want to save a copy for your own records, use html."
   },
   {
-    "objectID": "schedule.html#monday-october-10",
-    "href": "schedule.html#monday-october-10",
+    "objectID": "schedule.html#monday-january-23",
+    "href": "schedule.html#monday-january-23",
     "title": "Schedule",
-    "section": "Monday October 10",
-    "text": "Monday October 10\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial together in class."
+    "section": "Monday January 23",
+    "text": "Monday January 23\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial together in class."
   },
   {
-    "objectID": "schedule.html#wednesday-october-12",
-    "href": "schedule.html#wednesday-october-12",
+    "objectID": "schedule.html#wednesday-january-25",
+    "href": "schedule.html#wednesday-january-25",
     "title": "Schedule",
-    "section": "Wednesday October 12",
-    "text": "Wednesday October 12\n\nRead Chapter 1 Visualization.\nComplete two Visualization tutorials: Basic Plots and Tidyverse.\nComplete the RStudio and Code tutorial."
+    "section": "Wednesday January 25",
+    "text": "Wednesday January 25\n\nRead Chapter 1 Visualization.\nComplete two Visualization tutorials: Basic Plots and Tidyverse.\nComplete the RStudio and Code tutorial."
   },
   {
-    "objectID": "schedule.html#thursday-october-13",
-    "href": "schedule.html#thursday-october-13",
+    "objectID": "schedule.html#thursday-january-26",
+    "href": "schedule.html#thursday-january-26",
     "title": "Schedule",
-    "section": "Thursday October 13",
-    "text": "Thursday October 13\n\nComplete two Visualization tutorials: Advanced Plotting and Case Studies.\nComplete R Studio and Github tutorial.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "section": "Thursday January 26",
+    "text": "Thursday January 26\n\nComplete two Visualization tutorials: Advanced Plotting and Case Studies.\nComplete R Studio and Github tutorial.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
-    "objectID": "schedule.html#monday-october-17",
-    "href": "schedule.html#monday-october-17",
+    "objectID": "schedule.html#monday-january-30",
+    "href": "schedule.html#monday-january-30",
     "title": "Schedule",
-    "section": "Monday October 17",
-    "text": "Monday October 17\n\nComplete Terminal tutorial.\nRead Chapter 2 Wrangling Data.\nComplete two Wrangling tutorials: Overview and Plots."
+    "section": "Monday January 30",
+    "text": "Monday January 30\n\nComplete Terminal tutorial.\nRead Chapter 2 Wrangling Data.\nComplete two Wrangling tutorials: Overview and Plots."
   },
   {
-    "objectID": "schedule.html#wednesday-october-19",
-    "href": "schedule.html#wednesday-october-19",
+    "objectID": "schedule.html#wednesday-february-1",
+    "href": "schedule.html#wednesday-february-1",
     "title": "Schedule",
-    "section": "Wednesday October 19",
-    "text": "Wednesday October 19\n\nComplete Wrangling - More Plots tutorial.\nComplete Census Data I tutorials."
+    "section": "Wednesday February 1",
+    "text": "Wednesday February 1\n\nComplete Wrangling - More Plots tutorial.\nComplete Census Data I tutorials."
   },
   {
-    "objectID": "schedule.html#thursday-october-20",
-    "href": "schedule.html#thursday-october-20",
+    "objectID": "schedule.html#thursday-february-2",
+    "href": "schedule.html#thursday-february-2",
     "title": "Schedule",
-    "section": "Thursday October 20",
-    "text": "Thursday October 20\n\nComplete Census Data II tutorials."
+    "section": "Thursday February 2",
+    "text": "Thursday February 2\n\nComplete Census Data II tutorials."
   },
   {
-    "objectID": "schedule.html#monday-october-24",
-    "href": "schedule.html#monday-october-24",
+    "objectID": "schedule.html#monday-february-6",
+    "href": "schedule.html#monday-february-6",
     "title": "Schedule",
-    "section": "Monday October 24",
-    "text": "Monday October 24\n\nRead Chapter 3 Data.\nComplete Quarto Websites tutorial.\nComplete Getting Help tutorial."
+    "section": "Monday February 6",
+    "text": "Monday February 6\n\nRead Chapter 3 Data.\nComplete Quarto Websites tutorial.\nComplete Getting Help tutorial."
   },
   {
-    "objectID": "schedule.html#wednesday-october-26",
-    "href": "schedule.html#wednesday-october-26",
+    "objectID": "schedule.html#wednesday-february-8",
+    "href": "schedule.html#wednesday-february-8",
     "title": "Schedule",
-    "section": "Wednesday October 26",
-    "text": "Wednesday October 26\n\nRead the Style Guide.\nComplete Data - Files.\nComplete Data - API tutorial.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+    "section": "Wednesday February 8",
+    "text": "Wednesday February 8\n\nRead the Style Guide.\nComplete Data - Files.\nComplete Data - API tutorial.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
   },
   {
-    "objectID": "schedule.html#thursday-october-27",
-    "href": "schedule.html#thursday-october-27",
+    "objectID": "schedule.html#thursday-february-9",
+    "href": "schedule.html#thursday-february-9",
     "title": "Schedule",
-    "section": "Thursday October 27",
-    "text": "Thursday October 27\n\nComplete Data - Webscraping tutorial."
+    "section": "Thursday February 9",
+    "text": "Thursday February 9\n\nComplete Data - Webscraping tutorial."
   },
   {
-    "objectID": "schedule.html#monday-october-31",
-    "href": "schedule.html#monday-october-31",
+    "objectID": "schedule.html#monday-february-13",
+    "href": "schedule.html#monday-february-13",
     "title": "Schedule",
-    "section": "Monday October 31",
-    "text": "Monday October 31\n\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction.\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment."
+    "section": "Monday February 13",
+    "text": "Monday February 13\n\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction.\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment."
   },
   {
-    "objectID": "schedule.html#wednesday-november-2",
-    "href": "schedule.html#wednesday-november-2",
+    "objectID": "schedule.html#wednesday-february-15",
+    "href": "schedule.html#wednesday-february-15",
     "title": "Schedule",
-    "section": "Wednesday November 2",
-    "text": "Wednesday November 2\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+    "section": "Wednesday February 15",
+    "text": "Wednesday February 15\n\nPractice presentations and feedback. You must have your presentation ready to go!"
   },
   {
-    "objectID": "schedule.html#thursday-november-3",
-    "href": "schedule.html#thursday-november-3",
+    "objectID": "schedule.html#thursday-february-16",
+    "href": "schedule.html#thursday-february-16",
     "title": "Schedule",
-    "section": "Thursday November 3",
-    "text": "Thursday November 3\n\nFinal project presentations. You must invite someone."
+    "section": "Thursday February 16",
+    "text": "Thursday February 16\n\nFinal project presentations. You must invite someone."
   },
   {
     "objectID": "testimonials.html",
     "href": "testimonials.html",
     "title": "Testimonials",
     "section": "",
-    "text": "The data science course was an invaluable experience that provided me with the building blocks to pursue future data science investigations and analyses. The course was well-structured and taught me the fundamentals of not only producing stunning visualizations in R, but most importantly how to think like a data scientist and manage your code effectively. If you are someone interested in dipping their toes in an emerging field of data science, this course will guide you well! — Dhruv Syngol, Junior, Metea Valley High School\nThe learning environment was exceptional and encouraged me to navigate the basic challenges of RStudio with other students! It’s extremely effective for beginner individuals like me to gain this exposure! - Joyce Li, Senior, White Oaks Secondary School\nThe final project allowed me to draw from real world data about mental health disorders and learn how to make conclusions, moving me to be captivated by the data science field. —– Isaac Frank, Senior, Dublin Coffman High School\nThis course was really helpful! I learned a lot about data science and how to code in R. My favorite part were the breakout rooms since it allowed for students to share ideas and solve problems together. — Gabriel You (dengxuanjia@gmail.com), Senior, White Oaks Secondary School\nThe course tutorials were very informative and included an abundance of practice to ensure the material was understood. — Daniel Chen (danielc20051218@gmail.com), Junior, Naperville North High School\nThe course was an interesting way to learn the basics of data science, with the Final Projects being a great way to show what we grasped. — Oliver Raif Altindag (oliveraltindag@icloud.com), Freshman, Newton North High School\nGreat course overall. Introduces data science really well to people who may not have much knowledge about the field by showing important subjects such as data manipulation and visualization. Although some of the course content was slightly repetitive, it was still extremely effective in teaching students both basic and complex topics through the use of peer collaboration and the projects created at the end of the course. Definitely recommend it to anyone who wants an introduction to the language R and data science. — Abhay Paidipalli (abhay.paidipalli@gmail.com), Junior, James B. Conant High School\nBeing able to take part of a Harvard course, first of all, is such a valuable experience as you’re able to get a feel of the methodology that these elite institutions use. David Kane’s Data Science Boot camp was one of the most influential camps I’ve ever attended. Before this summer, I’ve never learned or touched a single piece of code and had no interest in programming, but after taking this course, it’s really made me fascinated in computer science, even going as far as planning to minor in cs. Working with Preceptor during the camp and under an apprenticeship really helped me gain valuable experience as well as sharpening skills in coding, critical thinking, and discipline. Also, it’s completely free. There’s so much to gain from this experience and nothing to lose. This camp is definitely one of the best offered to High school students and not one that you should pass on. — Bryan Li (libryan261@gmail.com/ 614-316-1061), Senior, Dublin Coffman High School\nThis course was valuable in helping me manage my time during school. Although I did not have any previous experience in R and Rstudio I had to learn to balance my school work and extracurriculars while meeting the demands of the course. — Joseph Jeiwan Kim (josephjwkim04@gmail.com), Senior, White Oaks High School\nThis course does a fantastic job of not only putting you in the shoes of a student, learning the underlying coding and statistics, but also putting you in the shoes of a worker, doing real Data Science as a real Data Scientist. — George, senior, White Oaks Secondary School"
+    "text": "This course is an excellent introduction to data science for students of any level, with a detailed textbook you can easily follow-along with! — Stephanie, Senior, White Oaks Secondary School\nThe data science course was an invaluable experience that provided me with the building blocks to pursue future data science investigations and analyses. The course was well-structured and taught me the fundamentals of not only producing stunning visualizations in R, but most importantly how to think like a data scientist and manage your code effectively. If you are someone interested in dipping their toes in an emerging field of data science, this course will guide you well! — Dhruv Syngol, Junior, Metea Valley High School\nThe learning environment was exceptional and encouraged me to navigate the basic challenges of RStudio with other students! It’s extremely effective for beginner individuals like me to gain this exposure! - Joyce Li, Senior, White Oaks Secondary School\nThe final project allowed me to draw from real world data about mental health disorders and learn how to make conclusions, moving me to be captivated by the data science field. —– Isaac Frank, Senior, Dublin Coffman High School\nThis course was really helpful! I learned a lot about data science and how to code in R. My favorite part were the breakout rooms since it allowed for students to share ideas and solve problems together. — Gabriel You (dengxuanjia@gmail.com), Senior, White Oaks Secondary School\nThe course tutorials were very informative and included an abundance of practice to ensure the material was understood. — Daniel Chen (danielc20051218@gmail.com), Junior, Naperville North High School\nThe course was an interesting way to learn the basics of data science, with the Final Projects being a great way to show what we grasped. — Oliver Raif Altindag (oliveraltindag@icloud.com), Freshman, Newton North High School\nGreat course overall. Introduces data science really well to people who may not have much knowledge about the field by showing important subjects such as data manipulation and visualization. Although some of the course content was slightly repetitive, it was still extremely effective in teaching students both basic and complex topics through the use of peer collaboration and the projects created at the end of the course. Definitely recommend it to anyone who wants an introduction to the language R and data science. — Abhay Paidipalli (abhay.paidipalli@gmail.com), Junior, James B. Conant High School\nBeing able to take part of a Harvard course, first of all, is such a valuable experience as you’re able to get a feel of the methodology that these elite institutions use. David Kane’s Data Science Boot camp was one of the most influential camps I’ve ever attended. Before this summer, I’ve never learned or touched a single piece of code and had no interest in programming, but after taking this course, it’s really made me fascinated in computer science, even going as far as planning to minor in cs. Working with Preceptor during the camp and under an apprenticeship really helped me gain valuable experience as well as sharpening skills in coding, critical thinking, and discipline. Also, it’s completely free. There’s so much to gain from this experience and nothing to lose. This camp is definitely one of the best offered to High school students and not one that you should pass on. — Bryan Li (libryan261@gmail.com/ 614-316-1061), Senior, Dublin Coffman High School\nThis course was valuable in helping me manage my time during school. Although I did not have any previous experience in R and Rstudio I had to learn to balance my school work and extracurriculars while meeting the demands of the course. — Joseph Jeiwan Kim (josephjwkim04@gmail.com), Senior, White Oaks High School\nThis course does a fantastic job of not only putting you in the shoes of a student, learning the underlying coding and statistics, but also putting you in the shoes of a worker, doing real Data Science as a real Data Scientist. — George, senior, White Oaks Secondary School"
   }
 ]

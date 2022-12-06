@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.36">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -64,34 +69,43 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kane’s Free Data Science Course</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">Home</a>
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./testimonials.html">Testimonials</a>
+    <a class="nav-link" href="./testimonials.html">
+ <span class="menu-text">Testimonials</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./staff.html">Staff</a>
+    <a class="nav-link" href="./staff.html">
+ <span class="menu-text">Staff</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./schedule.html" aria-current="page">Schedule</a>
+    <a class="nav-link active" href="./schedule.html" aria-current="page">
+ <span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html">Final Projects</a>
+    <a class="nav-link" href="./projects.html">
+ <span class="menu-text">Final Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./demo_day.html">Demo Day</a>
+    <a class="nav-link" href="./demo_day.html">
+ <span class="menu-text">Demo Day</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./philosophy.html">Philosophy</a>
+    <a class="nav-link" href="./philosophy.html">
+ <span class="menu-text">Philosophy</span></a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -117,6 +131,7 @@ ul.task-list{list-style: none;}
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -129,22 +144,22 @@ ul.task-list{list-style: none;}
 <section id="week-1-visualization" class="level1">
 <h1>Week 1: Visualization</h1>
 <p>Looking at the data is the first step in data science.</p>
-<section id="monday-october-10" class="level2">
-<h2 class="anchored" data-anchor-id="monday-october-10">Monday October 10</h2>
+<section id="monday-january-23" class="level2">
+<h2 class="anchored" data-anchor-id="monday-january-23">Monday January 23</h2>
 <ul>
 <li>Read <a href="https://ppbds.github.io/primer/getting-started.html">Getting Started</a> and follow all the associated instructions. We will do the Getting Started tutorial together in class.</li>
 </ul>
 </section>
-<section id="wednesday-october-12" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-october-12">Wednesday October 12</h2>
+<section id="wednesday-january-25" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-january-25">Wednesday January 25</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/visualization.html">Chapter 1 Visualization</a>.</p></li>
 <li><p>Complete two Visualization tutorials: Basic Plots and Tidyverse.</p></li>
 <li><p>Complete the RStudio and Code tutorial.</p></li>
 </ul>
 </section>
-<section id="thursday-october-13" class="level2">
-<h2 class="anchored" data-anchor-id="thursday-october-13">Thursday October 13</h2>
+<section id="thursday-january-26" class="level2">
+<h2 class="anchored" data-anchor-id="thursday-january-26">Thursday January 26</h2>
 <ul>
 <li><p>Complete two Visualization tutorials: Advanced Plotting and Case Studies.</p></li>
 <li><p>Complete R Studio and Github tutorial.</p></li>
@@ -155,23 +170,23 @@ ul.task-list{list-style: none;}
 <section id="week-2-wrangling" class="level1">
 <h1>Week 2: Wrangling</h1>
 <p>Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy. To help generate ideas for the final projects, we will also take a close look at US census data.</p>
-<section id="monday-october-17" class="level2">
-<h2 class="anchored" data-anchor-id="monday-october-17">Monday October 17</h2>
+<section id="monday-january-30" class="level2">
+<h2 class="anchored" data-anchor-id="monday-january-30">Monday January 30</h2>
 <ul>
 <li><p>Complete Terminal tutorial.</p></li>
 <li><p>Read <a href="https://ppbds.github.io/primer/wrangling.html">Chapter 2 Wrangling Data</a>.</p></li>
 <li><p>Complete two Wrangling tutorials: Overview and Plots.</p></li>
 </ul>
 </section>
-<section id="wednesday-october-19" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-october-19">Wednesday October 19</h2>
+<section id="wednesday-february-1" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-february-1">Wednesday February 1</h2>
 <ul>
 <li><p>Complete Wrangling - More Plots tutorial.</p></li>
 <li><p>Complete Census Data I tutorials.</p></li>
 </ul>
 </section>
-<section id="thursday-october-20" class="level2">
-<h2 class="anchored" data-anchor-id="thursday-october-20">Thursday October 20</h2>
+<section id="thursday-february-2" class="level2">
+<h2 class="anchored" data-anchor-id="thursday-february-2">Thursday February 2</h2>
 <ul>
 <li>Complete Census Data II tutorials.</li>
 </ul>
@@ -180,16 +195,16 @@ ul.task-list{list-style: none;}
 <section id="week-3-data" class="level1">
 <h1>Week 3: Data</h1>
 <p>Now that we know how to clean and organize messy data, we need to learn how to get some data.</p>
-<section id="monday-october-24" class="level2">
-<h2 class="anchored" data-anchor-id="monday-october-24">Monday October 24</h2>
+<section id="monday-february-6" class="level2">
+<h2 class="anchored" data-anchor-id="monday-february-6">Monday February 6</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/data.html">Chapter 3 Data</a>.</p></li>
 <li><p>Complete Quarto Websites tutorial.</p></li>
 <li><p>Complete Getting Help tutorial.</p></li>
 </ul>
 </section>
-<section id="wednesday-october-26" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-october-26">Wednesday October 26</h2>
+<section id="wednesday-february-8" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-february-8">Wednesday February 8</h2>
 <ul>
 <li><p>Read the <a href="https://ppbds.github.io/primer/tools.html#style-guide">Style Guide</a>.</p></li>
 <li><p>Complete Data - Files.</p></li>
@@ -197,8 +212,8 @@ ul.task-list{list-style: none;}
 <li><p>Determine the data source you will use for your final project. Don’t come to class without one!</p></li>
 </ul>
 </section>
-<section id="thursday-october-27" class="level2">
-<h2 class="anchored" data-anchor-id="thursday-october-27">Thursday October 27</h2>
+<section id="thursday-february-9" class="level2">
+<h2 class="anchored" data-anchor-id="thursday-february-9">Thursday February 9</h2>
 <ul>
 <li>Complete Data - Webscraping tutorial.</li>
 </ul>
@@ -207,21 +222,21 @@ ul.task-list{list-style: none;}
 <section id="week-4-projects" class="level1">
 <h1>Week 4: Projects</h1>
 <p>The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.</p>
-<section id="monday-october-31" class="level2">
-<h2 class="anchored" data-anchor-id="monday-october-31">Monday October 31</h2>
+<section id="monday-february-13" class="level2">
+<h2 class="anchored" data-anchor-id="monday-february-13">Monday February 13</h2>
 <ul>
 <li><p>You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction.</p></li>
 <li><p>Complete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.</p></li>
 </ul>
 </section>
-<section id="wednesday-november-2" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-november-2">Wednesday November 2</h2>
+<section id="wednesday-february-15" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-february-15">Wednesday February 15</h2>
 <ul>
 <li>Practice presentations and feedback. You must have your presentation ready to go!</li>
 </ul>
 </section>
-<section id="thursday-november-3" class="level2">
-<h2 class="anchored" data-anchor-id="thursday-november-3">Thursday November 3</h2>
+<section id="thursday-february-16" class="level2">
+<h2 class="anchored" data-anchor-id="thursday-february-16">Thursday February 16</h2>
 <ul>
 <li>Final project presentations. You must invite someone.</li>
 </ul>
@@ -272,7 +287,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -300,31 +332,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
