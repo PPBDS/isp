@@ -24,15 +24,17 @@ Looking at the data is the first step in data science.
 
 * Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
 
-* Complete two Visualization tutorials: Basic Plots and Tidyverse.
+* Complete Visualization tutorial: Basic Plots.
 
 * Complete the RStudio and Code tutorial.
 
+* Complete Visualization tutorial: Tidyverse.
+
 ## Thursday January 26
 
-* Complete two Visualization tutorials: Advanced Plotting and Case Studies.
-
 * Complete R Studio and Github tutorial.
+
+* Complete two Visualization tutorials: Advanced Plotting and Case Studies.
 
 Reminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
