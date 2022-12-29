@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Sign up for our e-mail list](https://davidkane.substack.com/embed) to receive updates going forward.
 
-**Kane's (Free) Data Science Course** is offered occasionally, always running four weeks. The next session is starts on Monday, January 23, 2023. The workload is 10 hours per week: 3 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for the next session, subject to enrollment. **There is no charge.**
+**Kane's (Free) Data Science Course** is offered occasionally, always running four weeks. The next session starts on **Monday, January 23, 2023**. The workload is 10 hours per week: 3 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! Although the course is normally restricted to high school students, all ages are welcome for the next session, subject to enrollment. **There is no charge.**
 
 ```{r}
 #| cache: true
