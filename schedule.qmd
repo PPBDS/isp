@@ -54,11 +54,13 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Complete Wrangling - More Plots tutorial.
 
-* Complete Census Data I tutorials.
+* Complete Census Data I tutorial.
 
 ## Thursday February 2
 
-* Complete Census Data II tutorials.
+* Complete Census Data II tutorial.
+
+* Complete API Key tutorial.
 
 
 # Week 3: Data
