@@ -37,9 +37,9 @@ Felix Cai is a second year Medical Sciences student at Western University.
 
 <!-- There is something weird, I think, about this photo. It always shows up when I build it locally. But, once pushed to the web, it is fine. -->
 
-```{r tejas, out.width ="50%"}
-knitr::include_graphics("images/tejas.jpeg")
-```
+<!-- ```{r tejas, out.width ="50%"} -->
+<!-- knitr::include_graphics("images/tejas.jpeg") -->
+<!-- ``` -->
 
 <!-- [Tejas Mundhe](https://github.com/TejasMundhe) is a Sophomore at Walnut Hills High School with a passion for Data Science. -->
 
