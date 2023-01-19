@@ -18,11 +18,11 @@ Looking at the data is the first step in data science.
 
 ## Monday January 23
 
-* Read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
+* Read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
 
 ## Wednesday January 25
 
-* Read [Chapter 1 Visualization](https://ppbds.github.io/primer/visualization.html). 
+* Read [Chapter 1 Visualization](https://ppbds.github.io/primer/01-visualization.html). 
 
 * Complete Visualization tutorial: Basic Plots.
 
@@ -46,7 +46,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Complete Terminal tutorial.
 
-* Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/wrangling.html). 
+* Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/02-wrangling.html). 
 
 * Complete two Wrangling tutorials: Overview and Plots.
 
@@ -69,7 +69,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Monday February 6
 
-* Read [Chapter 3 Data](https://ppbds.github.io/primer/data.html). 
+* Read [Chapter 3 Data](https://ppbds.github.io/primer/03-data.html). 
 
 * Complete Quarto Websites tutorial.
 
@@ -78,7 +78,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Wednesday February 8
 
-* Read the [Style Guide](https://ppbds.github.io/primer/tools.html#style-guide). 
+* Read the [Style Guide](https://rpubs.com/dkane/style-guide). 
 
 * Complete Data - Files.
 
