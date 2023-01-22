@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
-Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
+Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/all.primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
 
 Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *rds* format. If you want to save a copy for your own records, use *html*. 
 

@@ -27,7 +27,7 @@ knitr::include_graphics("images/miriam.jpg")
 ## Felix Cai
 
 ```{r cai, out.width ="50%"}
-knitr::include_graphics("images/cai.png")
+knitr::include_graphics("images/cai.jpg")
 ```
 
 Felix Cai is a second year Medical Sciences student at Western University.
