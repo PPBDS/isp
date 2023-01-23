@@ -3,10 +3,10 @@
 
 library(tidyverse)
 
-x <- read_csv("internal/social_capital_data/social_capital_county.csv") |> 
+x <- read_csv("_internal/social_capital_data/social_capital_county.csv") |> 
   select(county, county_name, pop2018, ec_county)
 
-write_rds(x, file = "internal/ec.rds")
+write_rds(x, file = "_internal/ec.rds")
 
 
 # ec_county seems like the key explanatory variable. Baseline definition of
@@ -16,7 +16,7 @@ write_rds(x, file = "internal/ec.rds")
 # What is the relevant income variable? Seems like it is not in the main data
 # set. Argg!
 
-income <- read_csv("internal/county_outcomes.csv")
+income <- read_csv("_internal/county_outcomes.csv")
 
 y <- income |> 
   select(state, county, kir_pooled_pooled_mean, kfr_pooled_pooled_mean)
