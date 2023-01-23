@@ -9,6 +9,8 @@
 
 #### Preceptor's Notes
 
+Call me "Preceptor."
+
 No four week course does a better job of increasing your odds of getting the future you want.
 
 Video on --- unless there is something going on in your life which prevents it. In which case, discuss with a TF.
@@ -34,7 +36,7 @@ Final projects: https://bootcamp.davidkane.info/projects.html
 
 6) Start the Getting Started tutorial together. Note how your work is automatically saved. Finish in the breakout rooms. One person shares a screen and does not talk. Second person reads the text out loud and tells the first person what to type. Switch roles for each succeeding question.
 
-7) If we have time, let's go back to breakout rooms and start working on first tutorial: Visualization -- basic plots. 
+7) If we have time, let's go back to breakout rooms and start working on first tutorial: Visualization -- Overview. 
 
 
 #### TF Notes
@@ -46,6 +48,8 @@ I will assign breakout rooms in the order in which you are appear in the staff l
 You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. This might seem weird since we are mostly looking at final projects form past years, but we want them to get into practice. So, have the driver say, "Click on the About tab," for example. 
 
 Key goal for today is to help them decide if they should take the course. Please help them! Tell them about the interactive nature of class. Warn them about video always on and cold-calling. Tell them about the tutorials. Show them the final projects.
+
+Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. 
 
 #### Lecture Notes
 

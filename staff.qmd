@@ -18,7 +18,7 @@ knitr::include_graphics("images/david_kane.png")
 
 ## Miriam Heiss
 
-```{r miriam, out.width = "50%"}
+```{r, out.width = "50%"}
 knitr::include_graphics("images/miriam.jpg")
 ```
 
@@ -26,12 +26,19 @@ knitr::include_graphics("images/miriam.jpg")
 
 ## Felix Cai
 
-```{r cai, out.width ="50%"}
+```{r, out.width ="50%"}
 knitr::include_graphics("images/cai.jpg")
 ```
 
 Felix Cai is a second year Medical Sciences student at Western University.
 
+## Alex Kuai
+
+```{r, out.width ="50%"}
+knitr::include_graphics("images/kuai.jpg")
+```
+
+Alex Kuai is freshman at Newton North High School.
 
 <!-- ## Tejas Mundhe -->
 
