@@ -41,6 +41,8 @@ Final projects: https://bootcamp.davidkane.info/projects.html
 
 #### TF Notes
 
+Make sure, in this class and future ones, that I (or someone else) turn you into a co-host so that you can move from room to room.
+
 Identify a final project or two which you like and which you think are well done. It is OK if one of the projects is yours. Indeed, you should probably clean up your own final project just in case students want to look at it!
 
 I will assign breakout rooms in the order in which you are appear in the staff listing: https://bootcamp.davidkane.info/staff.html. You might be responsible for anywhere from 1 to 5 rooms, but they will always be continuous and in staff order. So, if you are the second person listed, and I assigned 3 rooms per TF, then you would get rooms 4, 5 and 6.
@@ -55,21 +57,26 @@ For the first class or two, I will make sure that the number of breakout rooms c
 
 #### Lecture Notes
 
-Go through name/email on tutorial together. Then send them to breakout rooms to do exercises 1 - 5, and then stop there. Talk about final projects. Do 6 with them together. 
+Go through name/email on tutorial together. Then send them to breakout rooms to do exercises 1 - 5, and then stop there. Talk about final projects. Do 6 with them together. Have about 5 people in each room because there will be more than 1 person who has not done the installation. 
 
 
 ### Day 2
 
 #### Preceptor's Notes
 
-0) If possible, please change your Discord display name to be your real name. We are a community!
+Call me "Preceptor."
 
-1) Big thanks to all the students (including XXXX among others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+0) If possible, please change your Discord display name to be your real name. We are a community! Also, please do not pollute the Discord with too much chit-chat with your buddies.
 
-2) It is always a good idea to remove and then reinstall the primer.tutorials before you start a new one. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+1) Big thanks to all the students (including legend, Ayush Jain, Larry Seltzer, BoatBoy420 among others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
-remove.packages("primer.tutorials")
-remotes::install_github("PPBDS/primer.tutorials")
+2) It is always a good idea to reinstall the all.primer.tutorials package before you start a new one. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+
+remotes::install_github("PPBDS/all.primer.tutorials")
+
+If you have problems, it is sometimes necessary to remove the package first:
+
+remove.packages("all.primer.tutorials")
 
 3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares.
 
@@ -81,11 +88,15 @@ remotes::install_github("PPBDS/primer.tutorials")
 
 7) In the first class, we just worked from the Console. Today, we go "one level up" and work from an R project. Tomorrow, we go one more level up and start with Github.
 
-8) We will be assigning permanent breakout rooms. If there is a student in whose room you would like to be, email Miriam at memerheiss@gmail.com.
+8) We will be assigning permanent breakout rooms. If there is a student in whose room you would like to be (or a TF you would like to work with), email Miriam at memerheiss@gmail.com before midnight tonight.
 
 #### TF Notes
 
 Goal for today and tomorrow is to start with nothing and then finish with a nice looking plot published on Quarto pub. Today, we start with a new project. Tomorrow, we start with a Github repo.
+
+If there are specific students you want to work with, let Miriam know.
+
+Going forward, I will not have dedicated rooms assigned. Instead, I will try to visit all the rooms. I expect that we will have 9 rooms total: 1-3 Miriam, 4-6 Felix and 7-9 Alex.
 
 
 
