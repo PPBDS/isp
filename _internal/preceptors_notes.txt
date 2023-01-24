@@ -51,6 +51,8 @@ Key goal for today is to help them decide if they should take the course. Please
 
 Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. 
 
+For the first class or two, I will make sure that the number of breakout rooms created is a multiple of the number of staff. (This year that number is 4.) You are responsible for the set of rooms in the order in which your photos appear on the same page. So, for example, if there are 20 rooms and 4 staff, I would get rooms 1-5, the second person listed would get rooms 6-10 and so on.
+
 #### Lecture Notes
 
 Go through name/email on tutorial together. Then send them to breakout rooms to do exercises 1 - 5, and then stop there. Talk about final projects. Do 6 with them together. 
