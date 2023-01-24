@@ -24,17 +24,17 @@ Looking at the data is the first step in data science.
 
 * Read [Chapter 1 Visualization](https://ppbds.github.io/primer/01-visualization.html). 
 
-* Complete Visualization tutorial: Basic Plots.
+* Complete Visualization: Overview tutorial.
 
 * Complete the RStudio and Code tutorial.
 
-* Complete Visualization tutorial: Tidyverse.
+* Complete Visualization: Basic Plots tutorial.
 
 ## Thursday January 26
 
 * Complete R Studio and Github tutorial.
 
-* Complete two Visualization tutorials: Advanced Plotting and Case Studies.
+* Complete three Visualization tutorials: Tidyverse, Advanced Plotting, and Case Studies.
 
 Reminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
@@ -48,11 +48,11 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Read [Chapter 2 Wrangling Data](https://ppbds.github.io/primer/02-wrangling.html). 
 
-* Complete two Wrangling tutorials: Overview and Plots.
+* Complete Wrangling: Overview and Wrangling: Plots tutorials.
 
 ## Wednesday February 1
 
-* Complete Wrangling - More Plots tutorial.
+* Complete Wrangling: More Plots tutorial.
 
 * Complete Census Data I tutorial.
 
