@@ -1,0 +1,23 @@
+---
+title: "Week 1"
+author: "David Kane"
+---
+
+
+Start by making an R project. Note how it, by default, is placed in my projects folder. Note that all this only makes sense if you have done the RStudio and Code tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
+
+With an empty project, create a Quarto document.
+
+
+```{r}
+#| output: false
+#| echo: false
+library(tidyverse)
+
+x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
+```
+
+```{r}
+summary(x)
+```
+
