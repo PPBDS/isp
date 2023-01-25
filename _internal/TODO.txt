@@ -1,5 +1,18 @@
 ## Priorities
 
+### Center the course around the social capital data and New York Times article.
+
+* Add the relevant data for replicating the plots in the Times article to the primer.data package.
+
+* Change Day 1 lecture to highlight the article, and show the Quarto website which replicates the key results, and even expands on them.
+
+* Change Day 2 and Day 3 lectures to use the data from there. 
+
+* Change the Visualization chapter to use the data.
+
+* Change the initial tutorials to use the data.
+
+
 
 
 ## Other

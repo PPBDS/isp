@@ -1,0 +1,27 @@
+---
+title: "Day 3"
+author: "David Kane"
+---
+
+
+
+
+
+Start with a Github repo, named class-yyyy-mm-dd. Connect it to RStudio.  
+
+Below is the final version of this plot. But we will build this more slowly over two classes. After the first class, we will have something published, but it will be ugly and filled with garbage. We will clean it up (and maybe modify it) in the second class. Then the week is over!
+
+
+
+```{r}
+#| output: false
+#| echo: false
+library(tidyverse)
+
+x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
+```
+
+```{r}
+summary(x)
+```
+

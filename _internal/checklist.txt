@@ -1,5 +1,8 @@
 # This is a checklist of items to complete before starting the bootcamp.
 
+* Reach out to potential TFs, including:
+
+Krish Badri <kpb.2006@gmail.com>
 
 * Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention
 
@@ -12,6 +15,8 @@
 * Set up empty project for first class so your set up looks like student set up.
 
 * Be careful about forks. If you have students fork from repo class-2022-08-01, you can not then change the name of this tutorial to class-2022-08-02 and then have them fork from it again. The reason is that these are the same repo, but with a name change, and you can't fork twice from the same repo.
+
+* Don't forget to make TFs co-hosts on the first day so that they can move from room to room.
 
 # Notes for Day 1
 

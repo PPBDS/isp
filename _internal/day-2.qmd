@@ -1,0 +1,91 @@
+---
+title: "Day 2"
+author: "David Kane"
+---
+
+## Session 1
+
+Start by making an R project. Note how it, by default, is placed in my projects folder. Note that all this only makes sense if you have done the RStudio and Code tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
+
+With an empty project, create a Quarto document. Accept the default with all the junk. Render it. (Give it a name.) Look at the result. Click Visual and Source buttons. Look in the files directory. Delete all the junk in the document. Render again. Send everyone to breakout rooms to do the same.
+
+## Session 2
+
+Bring them back. Now add some basic information to the new empty document. Add a code chunk with 2 + 2. Render it. Talk about how you see the code and the output. This is the magic of Quarto: you can mix text and code together. Add an in-line calculation of the same addition. Add a code chunk which loads the tidyverse. Render again.
+
+
+```{r}
+2 + 2
+```
+
+The sum of two and two is: `r 2 + 2`.
+
+```{r}
+library(tidyverse)
+```
+
+Send them to the breakout rooms to replicate these.
+
+## Session 3
+
+Bring them back. Delete the 2 + 2 block and the inline. Explain that we want to not echo the code and also not see the output when loading the tidyverse. Discuss code chunk options and the hash-pipe. Provide them with the code to load up the data.
+
+Add a code chunk which runs a summary.
+
+Render document. It works! But then summary(x) does not work in the console. Whoa! Review the distinction between what happens in the document and what happens in the environment. Execute the data loading code. Now summary(x) works! Restart R. Note how x disappears from the environment. Rendering the document still works! But summary(x) does not.
+
+You can never restart R (not RStudio) too often.
+
+Before sending them back to the rooms, encourage groups to both explore the data and to make some plots. 
+
+
+
+```{r}
+#| output: false
+#| echo: false
+library(tidyverse)
+
+x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
+```
+
+```{r}
+summary(x)
+```
+
+## Session 4
+
+Do we have lots of time? If so, do Session 5 and discuss. If not (or after Session 5), publish to Rpubs.
+
+
+## Session 5
+
+Everyone has some data and can look at it. Do we have time for much more? Maybe send them back to answer some other questions. What is the 3rd largest (by population) county in the US? Which county has the best economic connectedness?
+
+```{r}
+x |> 
+  arrange(desc(pop2018))
+```
+
+```{r}
+x |> 
+  arrange(ec_county)
+```
+
+Any guesses as to the makeup of those counties?
+
+If time allows, perhaps make a plot like this:
+
+
+```{r}
+x |> 
+  drop_na() |> 
+  ggplot(aes(x = pop2018)) +
+    geom_histogram(bins = 100) +
+    scale_x_log10(labels = scales::comma_format()) +
+    labs(title = "US County Populations in 2018",
+         subtitle = "Populations are highly skewed",
+         x = "Population",
+         y = "Number of Counties",
+         caption = "Opportunity Insights")
+```
+
