@@ -5,13 +5,57 @@ author: "David Kane"
 
 
 
+## Session 1
+
+Don't forget to do things in the class organization repo, not your personal one.
+
+Start with a Github repo, named class-yyyy-mm-dd. Make sure it is public. Add a README. Connect it to RStudio.  
+
+Send to rooms to create. If you succeeded while I was demonstrating, that is OK! Now help your classmates.
+
+If you have not done the RStudio and Github homework, then this will be really hard. And it is not fair to your classmates! Either catch up this weekend or don't come back on Monday.
+
+## Session 2
+
+Explore files pane. Turn off Show Hidden files.
+
+Check out the Git pane.
+
+Take a look at the .gitignore file.
+
+Add the .Rproj file to the .gitignore. Save it. Note how that cleans up the Git pane. 
+
+Check in your change to the .gitignore. Add a message.
+
+Edit the README. Save it. Check the Git pane. Add the README. Check it in.
+
+Check the website. Where is your change? You need to push it.
+
+Your computer is now fully backed up on the cloud. 
+
+To the rooms to make sure everyone can do this. Extra time? Talk about final projects.
+
+## Session 3
+
+Start a Quarto document. Same steps as last time. Render to confirm that everything works. Remove the junk. Render.
+
+Check the Git pane. Changes! All *_files to the .gitignore. Add the qmd and the html. Commit and push. See the new files on the web.
+
+Add code chunk with library(tidyverse) and the download data code.
+
+Add appropriate options. (Mention execute: echo: false?)
+
+Back to rooms. Make sure everyone has done this. Start thinking about a plot.
 
 
-Start with a Github repo, named class-yyyy-mm-dd. Connect it to RStudio.  
+## Session 4
 
-Below is the final version of this plot. But we will build this more slowly over two classes. After the first class, we will have something published, but it will be ugly and filled with garbage. We will clean it up (and maybe modify it) in the second class. Then the week is over!
+We want to make a plot. What hints to provide?
 
 
+## Session 5
+
+Lead them to create a plot like this
 
 ```{r}
 #| output: false
@@ -22,6 +66,20 @@ x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
 ```
 
 ```{r}
-summary(x)
+#| echo: false
+x |> 
+  drop_na() |> 
+  ggplot(aes(x = pop2018)) +
+    geom_histogram(bins = 100) +
+    scale_x_log10(labels = scales::comma_format()) +
+    labs(title = "US County Populations in 2018",
+         subtitle = "Populations are highly skewed",
+         x = "Population",
+         y = "Number of Counties",
+         caption = "Opportunity Insights")
 ```
+
+## Session 6
+
+Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
 

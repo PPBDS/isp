@@ -92,7 +92,7 @@ Any guesses as to the makeup of those counties?
 
 ## Session 6
 
-Publish our plots. Copy the link to the class-work Discord channel.
+Publish our plots. Point out the rsconnect file. Copy the link to the class-work Discord channel.
 
 
 

@@ -117,7 +117,14 @@ I will move from room to room. Let me know when I arrive if there is anything yo
 
 5) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
 
-6) Goal today is to publish an interesting graphic relating economic connectedness across US counties.
+6) Submit your answers for each tutorial assigment separately, one per email. And don't forget that the Subject line of the email should like:
+
+David Kane; RStudio and Github
+
+That is, we want your full name, and the full name of the tutorial, separated by a semi-colon.
+
+
+7) Goal today is to publish an interesting graphic relating economic connectedness across US counties.
 
 
 
