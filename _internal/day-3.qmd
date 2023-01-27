@@ -45,18 +45,6 @@ Add code chunk with library(tidyverse) and the download data code.
 
 Add appropriate options. (Mention execute: echo: false?)
 
-Back to rooms. Make sure everyone has done this. Start thinking about a plot.
-
-
-## Session 4
-
-We want to make a plot. What hints to provide?
-
-
-## Session 5
-
-Lead them to create a plot like this
-
 ```{r}
 #| output: false
 #| echo: false
@@ -64,6 +52,20 @@ library(tidyverse)
 
 x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
 ```
+
+Back to rooms. Make sure everyone has done this. Start thinking about a plot.
+
+
+## Session 4
+
+We want to make a plot of county populations. What hints to provide? Suggest a histogram. x variable is pop2018. What are good titles/labels? Deal with the warning about bins. Distribution looks ugly. What can we do? What did we do in Chapter 1?
+
+
+## Session 5
+
+Lead them to create a plot like this
+
+
 
 ```{r}
 #| echo: false
@@ -82,4 +84,7 @@ x |>
 ## Session 6
 
 Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
+
+Now we are ready to do data science!
+
 
