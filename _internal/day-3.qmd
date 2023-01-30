@@ -3,6 +3,11 @@ title: "Day 3"
 author: "David Kane"
 ---
 
+## Notes for next year
+
+This session failed because there was no way to get everything done in just one hour. First thing to fix is to make the graphic much, much easier. There is not enough time to deal with thing like drop_na(), log scales or axis labelling formatting.
+
+Even with that fix, there is still a lot going on here. Maybe try to do some of this on Day 2? Maybe go faster in the first 3 sessions? I guess that the best approach is to just assume that students have done the RStudio and Github tutorial. If that assumption is made, then we can go much faster. And, with luck, even if not all students have done that, there will be at least one student in each group who has.
 
 
 ## Session 1

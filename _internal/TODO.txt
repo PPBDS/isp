@@ -1,5 +1,16 @@
 ## Priorities
 
+### Consider this college data:
+
+https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html
+https://www.nytimes.com/interactive/projects/college-mobility/williams-college
+
+https://opportunityinsights.org/paper/mobilityreportcards/
+
+Data: https://opportunityinsights.org/data/?geographic_level=0&topic=0&paper_id=536#resource-listing
+Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by College
+
+
 ### Center the course around the social capital data and New York Times article.
 
 * Add the relevant data for replicating the plots in the Times article to the primer.data package.
@@ -16,6 +27,8 @@
 
 
 ## Other
+
+* Figure out way to create an email list for just the class itsel, will change for each session of the class. Maybe temporary substacks? 
 
 
 * We want the sign-up-for-the-email to be more prominent. We have the raw html which, I think, we need to include. It is in sign_up.html. But when I follow the instructions here:
