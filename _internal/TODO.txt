@@ -28,6 +28,8 @@ Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by C
 
 ## Other
 
+* The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.
+
 * Figure out way to create an email list for just the class itsel, will change for each session of the class. Maybe temporary substacks? 
 
 

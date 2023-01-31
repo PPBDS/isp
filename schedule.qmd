@@ -99,9 +99,10 @@ The last week will consist of projects that the students will make. Do you love 
 
 ## Monday February 13
 
+* Complete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.
+
 * You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
 
-* Complete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.
 
 ## Wednesday February 15
 
