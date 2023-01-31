@@ -8,6 +8,8 @@ author: "David Kane"
 
 Change ec.rds so that it has the necessary income data so that we can replicate the plots from the NYT article.
 
+There is not nearly enough time to do all this. Last time, we only got through the reading in of the data. We had no time to even start plotting. And that is OK! I don't mind spending a whole day messing around with terminal issues. The command line is that important! And doing so on the day that the Terminal tutorial was due helps to re-iterate the importance of doing the tutorials on time.
+
 ## Overview
 
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 

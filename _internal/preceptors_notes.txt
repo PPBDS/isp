@@ -156,9 +156,10 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 ### Day 2
 
-"nvm im dumb" First, nothing is ever dumb. Second, whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+1) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.)
 
-Big thanks to everyone helping in Discord, including Varun Dommeti, varun khedkar, Jihan Bhuiyan, and Selim215. Apologies for missing people! Thanks to those (including miriamheiss and others) pointing our typos and errors in the tutorials.
+2) Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+
 
 Let's learn how to delete a repo. Keep your Github account clean.
 
