@@ -12,6 +12,8 @@ There is not nearly enough time to do all this. Last time, we only got through t
 
 ## Overview
 
+Key question to answer this week: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 
 
 For today, we are getting more comfortable with the Terminal and with file locations on our machines. A key problem is that many/most students will not have done the Terminal tutorial before class today, even though they were supposed to. We should use this fact as an occasion to shame students into staying up-to-date with the work. Slacking is not fair to their classmates!

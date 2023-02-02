@@ -1,0 +1,114 @@
+---
+title: "Day 6"
+---
+
+
+## Overview
+
+Should we be using str_replace()?
+
+Hope to finally answer the question with which we began the week:
+
+Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+
+Need to start with a Github repo which includes the key code from last time:
+
+```{r}
+#| label: set up
+#| echo: false
+#| output: false
+
+library(tidyverse)
+x <- read_rds("ec.rds")
+```
+
+
+```{r}
+#| label: clean data
+
+x |> 
+  drop_na() |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) 
+```
+
+
+## Session 1
+
+Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.
+
+Discuss the traditional approach of group_by() and the cool new approach of .by.
+
+```{r}
+x |> 
+  drop_na() |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  group_by(state) |> 
+  summarise(pop_state = sum(pop2018),
+            avg_ec = mean(ec_county))
+```
+
+
+```{r}
+x |> 
+  drop_na() |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  summarise(pop_state = sum(pop2018),
+            avg_ec = mean(ec_county),
+            .by = state)
+```
+
+The second approach is prefered. I am editing the Primer and the tutorials to go this way. Check the version of dplyr. Update if necessary.
+
+Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.
+
+Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
+
+## Session 2
+
+
+
+
+## Session 3
+
+
+
+
+## Session 4
+
+
+
+## Session 5
+
+We did not really get to this. 
+
+
+
+## Session 5
+
+Make this plot. 
+
+```{r}
+x |> 
+  drop_na() |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  summarise(pop_state = sum(pop2018),
+            avg_ec = mean(ec_county),
+            .by = state) |> 
+  ggplot(aes(x = pop_state, y = avg_ec)) +
+    geom_point() +
+    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
+    scale_x_log10(breaks = c(1000000, 10000000),
+                  labels = scales::dollar_format()) +
+    labs(y = "Average County Economic Connectedness",
+         x = "State Population",
+         title = "Economic Connectedness and Population in US States",
+         subtitle = "Biggger states have counties with lower average economic connectedness.")
+```
+
+
+## Session 6
+
+Publish the plot to Rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
+
+
+

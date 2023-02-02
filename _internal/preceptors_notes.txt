@@ -156,6 +156,8 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 ### Day 2
 
+-1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+
 0) Sign up for https://chat.openai.com/ now.
 
 1) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.) Following the instructions in Getting Started. 
@@ -181,6 +183,7 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 ### Day 3
 
+1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
 Have you found data for your final project? Lots of great stuff in the census! It is impossible to do a bad final project when using census data and making a map. Find a variable which interests you! Often, we start with the data rather than with the project idea.
 
