@@ -4,7 +4,16 @@ author: "David Kane"
 ---
 
 
-## For Next Time
+## For Next Year
+
+Ensure that the key code tricks are explained in both the Primer and the Wrangling: Overview tutorial.
+
+  drop_na() |> 
+  mutate(state = str_remove(county_name, ".*, ")) 
+  
+Or perhaps using str_replace() is better.
+  
+Change the variable names to be better. For example, `county_name` should be `location` since it is not the name of the county.  
 
 
 ## Overview
@@ -16,7 +25,11 @@ Goal is to start wrangling with the `ec.rds` data. Need to highlight that the ma
 
 Show how to delete a repo. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
 
-Show how to fork a repo from the class organization and then connect that repo (in your Github account) to a new R project on your computer. Note that it has the code and data we finished working with last class. Get this working for everyone in your group. Explore the data.
+Show how to fork a repo from the class organization. Send the breakout rooms so that students get started quickly on this work.
+
+## Session 2
+
+Connect the forked repo (in your Github account) to a new R project on your computer. Note that it has the code and data we finished working with last class. Get this working for everyone in your group. Explore the data.
 
 https://github.com/bootcamp-2023-01/class-2023-02-01-fork
 
@@ -29,15 +42,19 @@ library(tidyverse)
 x <- read_rds("ec.rds")
 ```
 
-
-## Session 2
-
-Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!
-
-Brief trip to break out rooms.
+They may not explore the data that well, which is OK.
 
 
 ## Session 3
+
+Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!
+
+Find something interesting, strange, funny, broken, whatever and then post your discovery in the #class-work Discord channel. Hope that they, for example, find the missing data problem. Find extreme values of population and economic connectedness.
+
+Trip to break out rooms.
+
+
+## Session 4
 
 Recall our question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
@@ -53,7 +70,12 @@ x |>
   mutate(state = str_remove(county_name, ".*, ")) 
 ```
 
-## Session 4
+
+
+
+## Session 5
+
+We did not really get to this. 
 
 Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.
 
