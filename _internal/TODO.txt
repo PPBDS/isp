@@ -1,5 +1,7 @@
 ## Priorities
 
+Get rid of group_by! See https://dplyr.tidyverse.org/reference/dplyr_by.html#supported-verbs
+
 ### Consider this college data:
 
 https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html
@@ -27,6 +29,18 @@ Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by C
 
 
 ## Other
+
+* Consider redoing the first week so that we don't race to get something posted to Rpubs on Day 2. Instead, aim to have a nice graphic posted on Day 3. As part of this change, we might spend all of Day 2 working in an R script. That would make things much easier, and would allow us to nail down the distinction between a text file and the Console. We would also get good at command-return as well as sourcing a whole file, much as is done in the RStudio and Code tutorial. We would still start with a new R project on Day 2, but nothing from Quarto until Day 3. The script from Day 2 might not be perfect, but it would have a plot with the key components. We would provide the script as a starting point for Day 3. Might make a promise on Day 1 that we will publish to the web a plot like this (and show the example) by the end of the week. 
+
+* Think about changing Day 1 to use Posit Cloud. FYI: tutorials (of all sorts) do not work if you install remotes and then the package. However, if you:
+
+install.packages("remotes")
+remotes::install_github("PPBDS/all.primer.tutorials")
+
+After restarting, the initial attempt to run a tutorial will fail. The tutorial will build, but you will get a "Connection refused"" message. Just hit the Home button and try the tutorial a second time.
+
+Or maybe this works now! Or maybe you need to build it once, then restart and try it again. Annoying!
+
 
 * The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.
 

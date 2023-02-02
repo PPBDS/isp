@@ -156,17 +156,28 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 ### Day 2
 
-1) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.)
+0) Sign up for https://chat.openai.com/ now.
+
+1) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.) Following the instructions in Getting Started. 
 
 2) Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
 
+3) Always reinstall the tutorials before starting a new tutorial. It certain weird situations, it may be necessary to explicitly remove and then reinstall:
 
-Let's learn how to delete a repo. Keep your Github account clean.
+remove.packages("all.primer.tutorials")
+install_github("PPBDS/all.primer.tutorials")
 
-Let's learn how to fork a repo: https://github.com/davidkane9/class-2022-08-02
+4) Let's learn how to delete a repo. Keep your Github account clean.
 
-Explore the 'economic connectedness" variable, which is defined as two times the share of high-SES friends among low-SES individuals, averaged over all low-SES individuals in the county.
+5) Let's learn how to fork a repo: 
 
+https://github.com/bootcamp-2023-01/class-2023-02-01-fork
+
+Connect this to a new RStudio project. Data science work often begins with a fork like this. Is there a relationship between the total population in a state and the average economic connectedness of counties in the state?
+
+6) Should we mess around with ChatGPT? https://chat.openai.com/
+
+7) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. (Hat-tip to Ava!)
 
 ### Day 3
 
@@ -177,7 +188,7 @@ Be nice to our TF. They want to help you!
 
 Using the data we have, let's look at the relationship between the total population of a state and the average ec of counties in that state. 
 
-If you have not completed (and submitted) the Distill Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html
+If you have not completed (and submitted) the Quarto Websites Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html
 
 
 
