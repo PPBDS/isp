@@ -2,12 +2,17 @@
 title: "Day 6"
 ---
 
+## Next time
+
+There was not nearly enough time to do all of this. Just calculating the state-level numbers took a bunch of time. Almost no students could do it right away. Does this indicate that the tutorials are not teaching these skills?
+
+Split up state-level calculatiins
+
+Should we be using str_replace() or str_remove()?
 
 ## Overview
 
-Should we be using str_replace()?
-
-Hope to finally answer the question with which we began the week:
+Answer the question with which we began the week:
 
 Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
@@ -25,65 +30,68 @@ x <- read_rds("ec.rds")
 
 ```{r}
 #| label: clean data
+#| echo: false
 
 x |> 
   drop_na() |> 
   mutate(state = str_replace(county_name, ".*, ", "")) 
 ```
 
-
 ## Session 1
 
-Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.
+Fork the repo (in which the author is listed as "Your Name") and connect to a new R project. Change the author, render, commit file changes with git, push to Github. Have them do this in the rooms. 
 
-Discuss the traditional approach of group_by() and the cool new approach of .by.
+## Session 2
 
-```{r}
-x |> 
-  drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  group_by(state) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county))
-```
+Tell them to calculate the average county_ec for each state. 
+
+Perhaps provide a link to the Tidyverse -> summarise() section of the Visualization chapter which shows exactly how to do this. Even with this hint, doing so is hard!
+
+Send them to rooms to do this for themselves. Bring them back.
 
 
 ```{r}
 x |> 
   drop_na() |> 
   mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county),
+  summarise(avg_ec = mean(ec_county),
             .by = state)
 ```
 
-The second approach is prefered. I am editing the Primer and the tutorials to go this way. Check the version of dplyr. Update if necessary.
 
 Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.
 
 Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
 
-## Session 2
-
-
-
-
 ## Session 3
 
+Add total state population to the calculation of state-level statistics. Send them to rooms to do this for themselves. Bring them back.
 
+
+```{r}
+x |> 
+  drop_na() |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  summarise(avg_ec = mean(ec_county),
+            pop_state = sum(pop2018),
+            .by = state)
+```
+
+Show more interactive work, how you can add a new line to a pipe, hit command-return, check out the result, and keep working. For example, adding an arrange() step to this pipe to sort by population.
 
 
 ## Session 4
 
+Show them the plot in #class-work. Have them start with just a simple scatter plot. And then add a fitted line. Look at the warning message. How can we make that go away?
 
-
-## Session 5
-
-We did not really get to this. 
-
-
+Don't tell them the answers! Help them to Google things.
 
 ## Session 5
+
+Not sure how long things will take. The purpose of this next section is to discuss why we might want a log axis and then how to make it. Once we make it, we want to think about the labels arguments. Again, don't just give them the answer. Show them how to google things like "How to format axis labels with numbers using ggplot?"
+
+
+## Session 6
 
 Make this plot. 
 
@@ -91,24 +99,23 @@ Make this plot.
 x |> 
   drop_na() |> 
   mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county),
+  summarise(avg_ec = mean(ec_county),
+            pop_state = sum(pop2018),
             .by = state) |> 
   ggplot(aes(x = pop_state, y = avg_ec)) +
     geom_point() +
     geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-    scale_x_log10(breaks = c(1000000, 10000000),
-                  labels = scales::dollar_format()) +
+    scale_x_log10(labels = scales::comma_format()) +
     labs(y = "Average County Economic Connectedness",
          x = "State Population",
-         title = "Economic Connectedness and Population in US States",
-         subtitle = "Biggger states have counties with lower average economic connectedness.")
+         title = "Population and Economic Connectedness in US States",
+         subtitle = "Biggger states have counties with lower average economic connectedness.",
+         caption = "Data: Opportunity Insights") 
 ```
 
 
-## Session 6
+## Session 7
 
 Publish the plot to Rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
-
 
 

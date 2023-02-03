@@ -183,15 +183,15 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 ### Day 3
 
+0) Fork this repo and connect it to a new R project on your computer:
+
+https://github.com/bootcamp-2023-01/class-2023-02-02
+
 1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
-Have you found data for your final project? Lots of great stuff in the census! It is impossible to do a bad final project when using census data and making a map. Find a variable which interests you! Often, we start with the data rather than with the project idea.
+2) Have you found data for your final project? Lots of great stuff in the census! It is impossible to do a bad final project when using census data and making a map. Find a variable which interests you! Often, we start with the data rather than with the project idea.
 
-Be nice to our TF. They want to help you! 
-
-Using the data we have, let's look at the relationship between the total population of a state and the average ec of counties in that state. 
-
-If you have not completed (and submitted) the Quarto Websites Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html
+3)  If you have not completed (and submitted) the Quarto Websites Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html.
 
 
 
