@@ -6,9 +6,9 @@ title: "Day 6"
 
 There was not nearly enough time to do all of this. Just calculating the state-level numbers took a bunch of time. Almost no students could do it right away. Does this indicate that the tutorials are not teaching these skills?
 
-Split up state-level calculatiins
+Should we be using str_replace() or str_remove()? Need to make sure the Primer (and the tutorials) cover these tricks. Also, stuff like scale_x_log10(labels = scales::comma_format()).
 
-Should we be using str_replace() or str_remove()?
+
 
 ## Overview
 
