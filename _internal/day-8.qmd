@@ -1,28 +1,24 @@
 ---
-title: "Day 7"
+title: "Day 8"
 ---
 
-Most of this week is devoted to building an example final project from scratch. Ideally, we cover everything we want them to do, everything which is mentioned in the Final Project tutorial. This ensures that they are ready to spend this week-end making their project.
+Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to a script and saved objects.
 
-## Scene 1: Make Website
+## Scene 1: Make/Publish Website
 
 Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
 
 * `File -> New Project... -> New Directory -> Quarto Website`
 
-* Name the 'example-project`. `Create Project`
-
-Send them to the rooms to make sure everyone can do this. If they can, talk about final project ideas. Anyone doing census data? Highly recommended.
-
-## Scene 2: Publish Website
+* Name the 'project-2`. `Create Project`
 
 * Take a tour of some of the files in the File pane. Note that there is nothing about Git/Github because we have delayed that part. Note that 
 
 * Edit the `title` in `_quarto.yml` to be something like "Cool Project Name". 
 
-* Edit the title in `about.qmd` to "About Me" and add a sentence about me.
+* Clean junk from `about.qmd` and then add a link to the bootcamp.
 
-* `quarto publish` the project. Note the need to hit return twice. You might need to sign up if you haven't completed the Quarto Websites tutorial.
+* `quarto publish` the project. Note the need to hit return twice. 
 
 * Take a look at your cool website!
 
@@ -30,25 +26,17 @@ Send to rooms.
 
 ## Scene 3: Git/Github
 
-* Time to save our work in case our computer blows up.
-
-* Load the usethis library. Lots of cool stuff! Check out the Happy Git with R book.
-
-* Look at files. No git stuff.
+Time to save our work in case our computer blows up.
 
 * Run: `usethis::use_git()`. Answer No to the first question and Yes to the second.
 
 * Check out all the new files! Try `git log`. Still, haven't done anything with Github yet.
 
-* Edit the .gitignore to ensure that only files you want to push to the web are pushed. Of course, this isn't quite correct, since the initial versions are pushed.
+* Edit the `.gitignore` to add `*Rproj`. Commit all files. Note how you can't push yet. No Github!
 
 * Run: `usethis::use_github()`. Does this change anything in our directory? Not sure! Don't see any files changed. Run `git log` to check.
 
-* Could do all these working with git from the Terminal, but it is much harder.
-
-* Change the about.qmd page. Render. Commit and push. But that does not change the website!
-
-* `quarto publish` again.
+* Push all files.
 
 ## Scene 4: Add Map
 
