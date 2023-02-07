@@ -4,7 +4,7 @@ title: "Day 7"
 
 Most of this week is devoted to building an example final project from scratch. Ideally, we cover everything we want them to do, everything which is mentioned in the Final Project tutorial. This ensures that they are ready to spend this week-end making their project.
 
-## Scene 1
+## Scene 1: Make Website
 
 Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
 
@@ -16,7 +16,7 @@ Follow the same steps as in the Quarto Websites tutorial to build a new website 
 
 Send them to the rooms to make sure everyone can do this. If they can, talk about final project ideas. Anyone doing census data? Highly recommended.
 
-## Scene 2
+## Scene 2: Publish Website
 
 * Take a tour of some of the files in the File pane. Note that there is nothing about Git/Github because we have delayed that part. Note that 
 
@@ -30,7 +30,7 @@ Send them to the rooms to make sure everyone can do this. If they can, talk abou
 
 Send to rooms.
 
-## Scene 3
+## Scene 3: Git/Github
 
 * Time to save our work in case our computer blows up.
 
@@ -38,7 +38,7 @@ Send to rooms.
 
 * Look at files. No git stuff.
 
-* Run: `usethis::use_git(message = "Initial commit")`
+* Run: `usethis::use_git()`. Answer No to the first question and Yes to the second.
 
 * Check out all the new files! Try `git log`. Still, haven't done anything with Github yet.
 
@@ -52,7 +52,7 @@ Send to rooms.
 
 * `quarto publish` again.
 
-## Scene 4
+## Scene 4: Add Map
 
 * Edit the `index.qmd`. Discuss why it is named "index." Copy the first example from this section:
 
@@ -62,7 +62,11 @@ Should work out of the box. Render. `quarto publish`. Now we are cooking with ga
 
 * Go to your rooms and choose a different state. What pops up? What aspects should you clean up, like messages and code echos?
 
-## Scene 5
+## Scene 5: Clean Map
+
+* Show how to clean up the appearence of the website with, for example, `echo: false` and `message: false`.
+
+* Publish final version. Place link to website into #class-work.
 
 
 
