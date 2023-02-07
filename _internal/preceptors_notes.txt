@@ -197,26 +197,34 @@ https://github.com/bootcamp-2023-01/class-2023-02-02
 
 ## Week 3
 
-Some goals for this week:
+Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. 
 
-1) Create a Quarto website on Day 1. The sooner they are making something which looks like their final projects, the better. Key command:
-
-
-               
-Note that a student who forgets gh_pages = TRUE will make a website which still builds but which does not have a docs/ directory and which, therefore, won't work easily with Github Pages.
-
-Just getting a site built and then using Github pages so that they appeared on the web took the full hour.
-
-
-2) Organize the distill website better. First, there should be a get/clean data script which is only run by hand and which writes out a data file. 
+Maybe we can also write a script that downloads some data?
 
 ### Day 1
 
+0) Goal this week is to build a nice looking (mini) final project which uses census data in interesting ways. Today, we just want to get the project up and running.
+
+1) Many thanks to @Zayan for pointing out a key error in the Quarto Websites tutorial. Much appreciated --- as are all the reports about typos, confusions and so on. I have fixed the key error. So, please
+
+remotes::install_github("PPBDS/all.primer.tutorials")
+
+before you start the tutorial. Of course, you should do this before each tutorial.
+
+2) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
+
+3) Let's make a nice map, following along with Kyle Walker's excellent book:
+
+https://walker-data.com/census-r/mapping-census-data-with-r.html
+
+4) Discuss your ideas for projects. Look at what students have done in prior sessions: https://bootcamp.davidkane.info/projects.html
+
+5) Review schedule for this week: https://bootcamp.davidkane.info/schedule.html
 
 
 ### Day 2
 
-
+1) Lots of great stuff at the Quarto website: https://quarto.org/
 
 
 ### Day 3
