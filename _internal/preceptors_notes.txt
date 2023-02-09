@@ -224,7 +224,16 @@ https://walker-data.com/census-r/mapping-census-data-with-r.html
 
 ### Day 2
 
-1) Lots of great stuff at the Quarto website: https://quarto.org/
+0) I decided that the method of starting a new website which we used on Monday (and practiced in the tutorial) is not as clean as it should be. So, I present a better method today. You are, of course, free to use any approach you like. Only change is to check the git bix when creating the project.
+
+1) Thanks for all the suggestions and typo reports (DermotFinn, Justin Yee and others). Much appreciated!
+
+2) There are lots of CRAN packages which specialize in different types of data. Google is your friend! Examples:
+
+https://cran.r-project.org/web/packages/worldfootballR/index.html
+https://cran.r-project.org/web/packages/oce/index.html
+
+3) Lots of cool stuff at CRAN Task Views: https://cran.r-project.org/web/views/ 
 
 
 ### Day 3
