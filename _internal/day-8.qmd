@@ -2,7 +2,7 @@
 title: "Day 8"
 ---
 
-Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to a script and the use of saved objects.
+Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to one or more scripts as well as the use of saved objects.
 
 ## Scene 1: Make/Publish Website
 
@@ -44,8 +44,7 @@ Time to save our work in case our computer blows up.
 
 https://walker-data.com/census-r/mapping-census-data-with-r.html#dot-density-maps
 
-Note that you need to download the data in an earlier example.
-
+Note that you need to download the data in an earlier example. Need race and dots and tracts, then make the map.
 
 Should work out of the box. Render. `quarto publish`. Now we are cooking with gas!
 
@@ -61,7 +60,11 @@ Should work out of the box. Render. `quarto publish`. Now we are cooking with ga
 
 ## Scene 5: Separate out image creation
 
+* Do the same thing with the plotting code which you did with the downloading data code. 
 
+* `write_rds()` the plot.
+
+* Change the index.qmd code so it just uses `knitr::include_graphics()` to bring in the graphic.
 
 ## Scene 6: Clean Map
 
