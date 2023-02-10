@@ -238,6 +238,26 @@ https://cran.r-project.org/web/packages/oce/index.html
 
 ### Day 3
 
+
+
+
+
+0) You must have a rough draft ready for Monday. Make sure to finish the "Final Project" tutorial. If you don't complete that, don't bother coming to class. 
+
+1) But note that you can always change your project after Monday!
+
+2) Last class, I used the `rds` approach for storing plots. Much better is the `png` approach, as in the tutorial, and as I will demonstrate today.
+
+3) Don't know what to do with your final project? Having trouble finding data? You can always do a Census project as a back up. But it must be different from the one we have done in class!
+
+4) Good job with all the questions on Discord! With final project questions, make sure to include your Github and to ensure that all your code is pushed. That way, people trying to help you can just fork your repo and then run your code. No one wants to copy/paste your code, much less download your data, from a Discord thread.
+
+5) Ask questions in public Discord. Don't DM me (except for personal issues). Why? I want other people to check out your approach? Maybe there is something for them to learn! I also want them to try to answer questions. That is how you really learn.
+
+
+
+
+
 ## Week 4
 
 ### Day 1

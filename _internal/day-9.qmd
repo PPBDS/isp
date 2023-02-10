@@ -1,0 +1,85 @@
+---
+title: "Day 9"
+---
+
+We have built an example final project twice. Let's do it a third time! 
+
+Today's main goal is to ensure that students know, really know, that they need a rough draft of the final project for Monday. Indeed, it is impossible to complete the last tutorial --- Final Project --- without having a rough draft. It can still be very rough! But, it must exist. It must have some data. And it must have a graphic on the main page.
+
+Let's use Dallas data from:
+
+https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-mapping-with-leaflet
+
+
+
+## Scene 1: Make/Publish/Github Website
+
+Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
+
+* `File -> New Project... -> New Directory -> Quarto Website`
+
+* Name the 'final-project`. `Create Project`. Make sure only git box is checked.
+
+* `quarto publish` the project. Note the need to hit return several times. 
+
+* Take a look at your cool website!
+
+* IMPORTANT! Check out the `_publish.yml`. Discuss why you should not commit this file.
+
+* Edit the `.gitignore` to add `*Rproj` and `_publish.yml`. Commit all files. Note how you can't push yet. No Github!
+
+* Run: `usethis::use_github()`. Note that this fails if you have not committed at least one file in the previous step.
+
+* Push all files.
+
+Go to rooms and do the same.
+
+## Scene 2: Change Github/Website Names
+
+* Do not use "final project" as the name of your project, either the Github repo or the website url. That is bush league. What are you? A third grader?
+
+* Since you have pushed all your code, you can delete the project on your computer. Nothing is lost.
+
+* Since everything is backed up on Github, you can delete your website. Try it!
+
+* Change the name of the repo to anything other than final project. Connect to a new R project on your computer.
+
+## Scene 2: Add Map
+
+* Edit the `index.qmd`. Discuss why it is named "index." Copy the Dallas leaflet example:
+
+https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-mapping-with-leaflet
+
+* Should work out of the box. Render. `quarto publish`. Now we are cooking with gas!
+
+* But maybe you don't like the new url. You can always change the slug! Do so. The name of the Guthub repo and the url slug do not need to match. But they should both be professional.
+
+* Go to your rooms and choose a different state/county. What pops up? What aspects should you clean up, like messages and code echos?
+
+## Scene 3: Separate out data download and graphic creation
+
+* Don't want to download the data each time you render the home page. What a waste! Instead, move the data download to an R script and do it once. 
+
+* Script must be self-containted. Must including libraries. Must save out the final tibble as an rds object.
+
+* Edit the index.qmd to read in that rds file. No downloads every time.
+
+* Do the same thing with the plotting code which you did with the downloading data code. 
+
+* `ggsave()` the plot.
+
+* Change the `index.qmd` code so it just uses `knitr::include_graphics()` to bring in the graphic.
+
+* Perhaps make data and images directories and place the two created files in them. Of course, you then need to change the path for any code which references those files.
+
+## Scene 4: Clean Map
+
+* Show how to clean up the appearance of the website with, for example, `echo: false` and `message: false`.
+
+* Publish final version. Place link to website into #class-work.
+
+
+
+
+
+

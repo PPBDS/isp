@@ -2,7 +2,15 @@
 title: "Day 8"
 ---
 
-Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to one or more scripts as well as the use of saved objects.
+Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to data-download and make-plots scripts as well as the use of saved objects.
+
+We used the Hennepin County dot plot example from:
+
+https://walker-data.com/census-r/mapping-census-data-with-r.html#dot-density-maps
+
+Note that the data download code appears above this link.
+
+
 
 ## Scene 1: Make/Publish Website
 
@@ -52,9 +60,11 @@ Should work out of the box. Render. `quarto publish`. Now we are cooking with ga
 
 * Do the same thing with the plotting code which you did with the downloading data code. 
 
-* `write_rds()` the plot.
+* `ggsave()` the plot.
 
-* Change the index.qmd code so it just uses `knitr::include_graphics()` to bring in the graphic.
+* Change the `index.qmd` code so it just uses `knitr::include_graphics()` to bring in the graphic.
+
+* Perhaps make data and images directories and place the two created files in them. Of course, you then need to change the path for any code which references those files.
 
 ## Scene 6: Clean Map
 
