@@ -10,8 +10,6 @@ Let's use Dallas data from:
 
 https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-mapping-with-leaflet
 
-
-
 ## Scene 1: Make/Publish/Github Website
 
 Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
