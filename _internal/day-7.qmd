@@ -2,6 +2,8 @@
 title: "Day 7"
 ---
 
+DK: Fix _publish.yml and use of checked git box.
+
 Most of this week is devoted to building an example final project from scratch. Ideally, we cover everything we want them to do, everything which is mentioned in the Final Project tutorial. This ensures that they are ready to spend this week-end making their project.
 
 ## Scene 1: Make Website

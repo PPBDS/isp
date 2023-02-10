@@ -3,6 +3,17 @@
 # This is a text document because the contents need to be copy/pasted into Discord.
 
 
+## Before Next Time
+
+Ensure that tricks used in class are covered in the tutorials and Primer. 
+
+Key items including adding the ec.rds data to primer.data so we can play with that data from the start on week 1. 
+
+Then, making sure the tricks used, like str_replace(county, "*., ", ""), are explained ahead of time. This is really only two tricks, str_replace() function and the regular expression for "everything up to the first comma, and the space which follows it."
+
+
+
+
 ## Week 1
 
 ### Day 1
@@ -132,9 +143,11 @@ That is, we want your full name, and the full name of the tutorial, separated by
 
 ## Week 2
 
-Most of the material we need for this week is in the week_2.Rmd file.
 
-### Day 1
+See the daily scripts for more details. Key things this week are getting comfortable with rendering qmd, using Git/Github and then publishing the page to the web.
+
+
+### Day 4
 
 1) Big thanks to those (including tlonz, Namyuktha, Larry Seltzer and others) pointing our typos and errors in the tutorials, and to those helping out their classmates. Much appreciated.
 
@@ -154,7 +167,7 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 
 
-### Day 2
+### Day 5
 
 -1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
@@ -181,7 +194,7 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 7) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. (Hat-tip to Ava!)
 
-### Day 3
+### Day 6
 
 0) Fork this repo and connect it to a new R project on your computer:
 
@@ -197,11 +210,13 @@ https://github.com/bootcamp-2023-01/class-2023-02-02
 
 ## Week 3
 
-Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. 
+Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 8 and 9, going faster each time and leaving more time for discussion and playing around with the resulting website. 
 
-Maybe we can also write a script that downloads some data?
+Whole thing worked very well last time. It is really good to make them comfortable making websites. It is really good to show them how to split out component parts in scripts like download-data.R and make-plots.R.
 
-### Day 1
+
+
+### Day 7
 
 0) Goal this week is to build a nice looking (mini) final project which uses census data in interesting ways. Today, we just want to get the project up and running.
 
@@ -222,7 +237,7 @@ https://walker-data.com/census-r/mapping-census-data-with-r.html
 5) Review schedule for this week: https://bootcamp.davidkane.info/schedule.html
 
 
-### Day 2
+### Day 8
 
 0) I decided that the method of starting a new website which we used on Monday (and practiced in the tutorial) is not as clean as it should be. So, I present a better method today. You are, of course, free to use any approach you like. Only change is to check the git bix when creating the project.
 
@@ -236,7 +251,7 @@ https://cran.r-project.org/web/packages/oce/index.html
 3) Lots of cool stuff at CRAN Task Views: https://cran.r-project.org/web/views/ 
 
 
-### Day 3
+### Day 9
 
 0) You must have a rough draft ready for Monday. Make sure to finish the "Final Project" tutorial. If you don't complete that, don't bother coming to class. 
 

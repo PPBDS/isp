@@ -2,6 +2,10 @@
 title: "Day 9"
 ---
 
+
+DK: Some notes. Today went well. We had time to do most things, although I forgot to have people add their site to the #class-notes. Was useful to have copied out all the necessary code and placed it in #class-notes, so that students could just copy/paste it. 
+
+
 We have built an example final project twice. Let's do it a third time! 
 
 Today's main goal is to ensure that students know, really know, that they need a rough draft of the final project for Monday. Indeed, it is impossible to complete the last tutorial --- Final Project --- without having a rough draft. It can still be very rough! But, it must exist. It must have some data. And it must have a graphic on the main page.
@@ -36,13 +40,13 @@ Go to rooms and do the same.
 
 * Do not use "final project" as the name of your project, either the Github repo or the website url. That is bush league. What are you? A third grader?
 
-* Since you have pushed all your code, you can delete the project on your computer. Nothing is lost.
+* Since you have pushed all your code, you can delete the project on your computer. Nothing is lost, except for the two files that you did not push. But the `.Rproj` file is automatically generated when you make a new project. And `_publish.yml` comes back automatically when you publish again.
 
 * Since everything is backed up on Github, you can delete your website. Try it!
 
 * Change the name of the repo to anything other than final project. Connect to a new R project on your computer.
 
-## Scene 2: Add Map
+## Scene 3: Add Map
 
 * Edit the `index.qmd`. Discuss why it is named "index." Copy the Dallas leaflet example:
 
@@ -54,7 +58,7 @@ https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-map
 
 * Go to your rooms and choose a different state/county. What pops up? What aspects should you clean up, like messages and code echos?
 
-## Scene 3: Separate out data download and graphic creation
+## Scene 4: Separate out data download and graphic creation
 
 * Don't want to download the data each time you render the home page. What a waste! Instead, move the data download to an R script and do it once. 
 
@@ -70,7 +74,7 @@ https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-map
 
 * Perhaps make data and images directories and place the two created files in them. Of course, you then need to change the path for any code which references those files.
 
-## Scene 4: Clean Map
+## Scene 5: Clean Map
 
 * Show how to clean up the appearance of the website with, for example, `echo: false` and `message: false`.
 
