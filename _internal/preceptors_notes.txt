@@ -194,6 +194,9 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 7) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. (Hat-tip to Ava!)
 
+Class Github: 
+Class website: 
+
 ### Day 6
 
 0) Fork this repo and connect it to a new R project on your computer:
@@ -206,7 +209,8 @@ https://github.com/bootcamp-2023-01/class-2023-02-02
 
 3)  If you have not completed (and submitted) the Quarto Websites Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html.
 
-
+Class Github: 
+Class website: 
 
 ## Week 3
 
@@ -236,6 +240,8 @@ https://walker-data.com/census-r/mapping-census-data-with-r.html
 
 5) Review schedule for this week: https://bootcamp.davidkane.info/schedule.html
 
+Class Github: 
+Class website: 
 
 ### Day 8
 
@@ -250,6 +256,8 @@ https://cran.r-project.org/web/packages/oce/index.html
 
 3) Lots of cool stuff at CRAN Task Views: https://cran.r-project.org/web/views/ 
 
+Class Github: 
+Class website: 
 
 ### Day 9
 
@@ -269,18 +277,99 @@ Class Github:
 Class website: 
 
 
-
-
-
 ## Week 4
 
+This week is all about making Demo Day a success.
+
+
 ### Day 1
+
+-1) All my/TF comments today will seem more critical than we intend them to be. Sorry! We love your projects and all the hard work you have done. Our comments are mean to be constructive, but they will mostly be things you should change . . .
+
+0) I strongly recommend Quarto Pub, not Github Pages, which you might have been directed to, if you did not update the all.primer.tutorials package, as instructed. (And we also had two typos. Sorry!) No worries if so! This is easy fix now.
+
+1) You must invite at least one friend or family member to Demo Day. Be sure to cc Preceptor and your TF. Relevant emails: dave.kane@gmail.com, memerheiss@gmail.com, felixj.cai@gmail.com, and alexk201512@gmail.com. 
+
+Below is a draft email. Modify as you like. We will send this email during class tonight.
+
+---
+Please come watch me present my final project for Kane’s Data Science Course at 8:00 PM EST on Thursday, February, 16. Links: 
+
+Zoom: shorturl.at/fjlT0
+Background: bootcamp.davidkane.info/demo_day.html
+
+I don't know whether I will be presenting at 8:00 or 8:30, but I can update you about that on Thursday.
+
+No worries if you can't make it!
+---
+
+2) Goal today is to take a look at everyone's draft project. We will do practice presentations on Wednesday and then public presentations on Thursday. The definition of successfully completing the course is to present your final project.
+
+3) Only five students have turned in their Final Project tutorials. Demo Day will be quick!
+
+https://docs.google.com/spreadsheets/d/1WojOexL5DNau54fdbwGSwkZuFX2KuOskQEA38IUP7eM
+
+4) Make sure to read and follow the Style Guide: https://rpubs.com/dkane/style-guide
+
+5) Make sure you have as many lines of comments as you have lines of code. There is no better way to distinguish between student and professional code than by looking at the comments.
+
+### TF Notes
+
+Goal is to help students have a succesful final project. We do this by both helping them directly but also be highlighting cool stuff in other students' projects. After all, if student A is making interesting use of animation, there is still time for student B to add animation to his final project. 
+
+The culture of data science is one that encourages inspiration from other data scientists!
+
+Make sure to point out errors in following the Style Guide. Tell students to read it!
+
+Tell students to write comments. In fact, spend 10 minutes during your breakout room having all students add comments. And then walk through those comments, giving feedback.
+
+Discuss students' 4 sentence summaries. Focus on the takeaway point. What is the one sentence which they hope viewers will take away from their project.
+
+Review the submissions to the spreadsheet. Several are not following the instructions. Ensure that they do. Reminder: dave.kane@gmail.com, memerheiss@gmail.com, felixj.cai@gmail.com, and alexk201512@gmail.com.
 
 
 
 ### Day 2
 
+1) Please fill out the final project spreadsheet:
+
+https://docs.google.com/spreadsheets/d/1WojOexL5DNau54fdbwGSwkZuFX2KuOskQEA38IUP7eM
+
+If you have already filled it out, please check that your information is correct. Please follow the instructions at the top!
+
+2) Want to thank me or the TFs? Run this code:
+
+Sys.Date() + runif(n = 1, min = 365*5, max = 365*10)
+
+This is a random day sometime in the range of 5 to 10 years from now. Add a note in your calendar for that date to send us a thank you email, letting us know what you are up to, with data science or anything else. Good teachers love to hear from their former students!
+
+3) Read about the Demo Day procedures:
+
+https://bootcamp.davidkane.info/demo_day.html
+
+With bigger classes, we would practice this today, but perhaps that is not necessary. We will be done by 9:00 PM. If you would like to go in the first batch, please email me.
+
+4) Keep working on your projects. Ask questions! Let's help Zayan with his question:
+
+https://community.rstudio.com/t/i-am-trying-to-make-this-geom-bar-plot-into-a-geom-line-graph-but-i-do-not-know-how-to-use-summarize-and-n/
+
+Note how a knowledgeable stranger is trying to help him for free! Complete the Getting Help tutorial for advice.
+
+5) In breakout rooms, take turns starting your presentations. Say your four sentences. Say them again. Make them fluent. No uhs and ahs. Memorize the sentences, but don't say them like a machine.
+
+6) Look at each other's code. Do you have enough comments? Do you follow the Style Guide? Look at each other's repos. Are the organized? Can we fork them and reproduce your results, as we did with Ava's on Monday?
 
 
+### Day 3: Demo Day!
 
-### Day 3
+1) Share the room assignments with your guests. (Note that last minute changes.)
+
+https://docs.google.com/spreadsheets/d/1c_QJHWnJHcFH2jlgLEbyAgjKhfQBgji7WOeOTy_1qe8
+
+#### TFs
+
+Make sure that you travel in reverse room numerical order. (I prefer that you move in the opposite order to the students so that you are with different students each time.) That is, if you start in room 3, then you move to room 2 next, and so on.
+
+It is your job to ensure that each presentation is interactive. It is boring for everyone involved if the presenting students just talks and talks. No one is listening! And they know it! Instead, it is up to you to ensure that everyone (and you) ask lots of questions. The presenter should never talk for more than 30 seconds straight.
+
+Allow 
