@@ -22,7 +22,7 @@ A total of 87 students have completed the Course. Congratulations! Here are thei
 
 [Anish Bellamkonda](https://splashyzues5197.quarto.pub/indias-temperature-changes-and-effects/): [Analysis of India's weather](https://splashyzues5197.quarto.pub/indias-temperature-changes-and-effects/). Climate change is a complex and urgent global issue that requires collective action to mitigate its impacts and prevent further damage to the planet's ecosystems and human societies.  
 
-[Zayan Farooq](https://github.com/Zfarooq08): [How Do Position and Age Correlate With Soccer Injuries?](https://zfarooq-08.quarto.pub/final-project/about.html). Position and age in the Premier League tend tend to effect how many players get injured  
+[Zayan Farooq](https://github.com/Zfarooq08): [How Do Position and Age Correlate With Soccer Injuries?](https://zfarooq-08.quarto.pub/final-project/about.html) Position and age in the Premier League tend tend to effect how many players get injured  
 
 ## August 2022
 
