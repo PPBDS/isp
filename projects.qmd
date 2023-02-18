@@ -14,7 +14,7 @@ A total of 87 students have completed the Course. Congratulations! Here are thei
 
 [Dermot Curtin](https://github.com/fionncurtin): [The Indo-European Similarities Project](https://dfionncurtin.quarto.pub/language-project/). European branches are generally similar to each other and dissimilar to Asian branches, even though they are not always more closely related.  
 
-[Yash Dhore](https://github.com/yash-dhore): [Analysis of Advanced Placement](https://yash-dhore.quarto.pub/advanced-placement/). Rural states with lower populations tend to have a greater number of people per AP Scholar award granted to a student in that state.  
+[Yash Dhore](https://github.com/yash-dhore): [Analysis of Advanced Placement](https://yash-dhore.quarto.pub/advanced-placement/). Rural states with lower populations tend to have a lower number of AP Scholar Awards per capita.
 
 [Venkat Tatituri](https://github.com/VenkatT2026): [Top 10 Youtube Channels in Subscribers](https://venkatt.quarto.pub/final-project/). These are the Top channels on Youtube! Lets see who wins the race to 10 billion  
 
@@ -22,7 +22,7 @@ A total of 87 students have completed the Course. Congratulations! Here are thei
 
 [Anish Bellamkonda](https://splashyzues5197.quarto.pub/indias-temperature-changes-and-effects/): [Impact of climate change on the world](https://splashyzues5197.quarto.pub/indias-temperature-changes-and-effects/). Climate change is a complex and urgent global issue that requires collective action to mitigate its impacts and prevent further damage to the planet's ecosystems and human societies.  
 
-[Zayan Farooq](https://github.com/Zfarooq08): [How Do Position and Age Correlate With Soccer Injuries?](https://zfarooq-08.quarto.pub/final-project/about.html) Position and age in the Premier League tend tend to effect how many players get injured  
+[Zayan Farooq](https://github.com/Zfarooq08): [How Do Position and Age Correlate With Soccer Injuries?](https://zfarooq-08.quarto.pub/final-project/about.html) Position and age in the Premier League tend to affect the type of injuries that happen to players.  
 
 ## August 2022
 
