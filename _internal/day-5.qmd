@@ -79,17 +79,6 @@ We did not really get to this.
 
 Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.
 
-Discuss the traditional approach of group_by() and the cool new approach of .by.
-
-```{r}
-x |> 
-  drop_na() |> 
-  mutate(state = str_remove(county_name, ".*, ")) |> 
-  group_by(state) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county))
-```
-
 
 ```{r}
 x |> 
@@ -100,13 +89,12 @@ x |>
             .by = state)
 ```
 
-The second approach is prefered. I am editing the Primer and the tutorials to go this way. Check the version of dplyr. Update if necessary.
 
 Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.
 
 Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
 
-## Session 5
+## Session 6
 
 Make this plot. This might take two days! Today, we will probably only be able to calculate the state level statistics.
 
@@ -114,9 +102,9 @@ Make this plot. This might take two days! Today, we will probably only be able t
 x |> 
   drop_na() |> 
   mutate(state = str_remove(county_name, ".*, ")) |> 
-  group_by(state) |> 
   summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county)) |> 
+            avg_ec = mean(ec_county),
+            .by = state) |> 
   ggplot(aes(x = pop_state, y = avg_ec)) +
     geom_point() +
     geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +

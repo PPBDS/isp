@@ -130,6 +130,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
+<section id="for-next-year" class="level2">
+<h2 class="anchored" data-anchor-id="for-next-year">For Next Year</h2>
+<p>Ensure that the key code tricks are explained in both the Primer and the Wrangling: Overview tutorial.</p>
+<p>drop_na() |&gt; mutate(state = str_remove(county_name, “.*, “))</p>
+<p>Or perhaps using str_replace() is better.</p>
+<p>Change the variable names to be better. For example, <code>county_name</code> should be <code>location</code> since it is not the name of the county.</p>
+</section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>Goal is to start wrangling with the <code>ec.rds</code> data. Need to highlight that the material assigned in the tutorials is used in class, so doing the tutorials is a good idea. Let them struggle with the key step of creating a new state variable. Expose them to ChatGPT.</p>
@@ -137,19 +144,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="session-1" class="level2">
 <h2 class="anchored" data-anchor-id="session-1">Session 1</h2>
 <p>Show how to delete a repo. We don’t keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9</p>
-<p>Show how to fork a repo from the class organization and then connect that repo (in your Github account) to a new R project on your computer. Note that it has the code and data we finished working with last class. Get this working for everyone in your group. Explore the data.</p>
+<p>Show how to fork a repo from the class organization. Send the breakout rooms so that students get started quickly on this work.</p>
+</section>
+<section id="session-2" class="level2">
+<h2 class="anchored" data-anchor-id="session-2">Session 2</h2>
+<p>Connect the forked repo (in your Github account) to a new R project on your computer. Note that it has the code and data we finished working with last class. Get this working for everyone in your group. Explore the data.</p>
 <p>https://github.com/bootcamp-2023-01/class-2023-02-01-fork</p>
 <div class="cell">
 
 </div>
-</section>
-<section id="session-2" class="level2">
-<h2 class="anchored" data-anchor-id="session-2">Session 2</h2>
-<p>Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!</p>
-<p>Brief trip to break out rooms.</p>
+<p>They may not explore the data that well, which is OK.</p>
 </section>
 <section id="session-3" class="level2">
 <h2 class="anchored" data-anchor-id="session-3">Session 3</h2>
+<p>Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!</p>
+<p>Find something interesting, strange, funny, broken, whatever and then post your discovery in the #class-work Discord channel. Hope that they, for example, find the missing data problem. Find extreme values of population and economic connectedness.</p>
+<p>Trip to break out rooms.</p>
+</section>
+<section id="session-4" class="level2">
+<h2 class="anchored" data-anchor-id="session-4">Session 4</h2>
 <p>Recall our question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?</p>
 <p>First step: Create a new variable which is the state? Seems simple. Hard to do!</p>
 <p>Maybe ask ChatGPT? https://chat.openai.com/</p>
@@ -176,17 +189,17 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </section>
-<section id="session-4" class="level2">
-<h2 class="anchored" data-anchor-id="session-4">Session 4</h2>
+<section id="session-5" class="level2">
+<h2 class="anchored" data-anchor-id="session-5">Session 5</h2>
+<p>We did not really get to this.</p>
 <p>Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.</p>
-<p>Discuss the traditional approach of group_by() and the cool new approach of .by.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">|&gt;</span> </span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_remove</span>(county_name, <span class="st">".*, "</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(state) <span class="sc">|&gt;</span> </span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 51 × 3
    state                pop_state avg_ec
@@ -204,60 +217,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 # … with 41 more rows</code></pre>
 </div>
 </div>
+<p>Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.</p>
+<p>Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.</p>
+</section>
+<section id="session-6" class="level2">
+<h2 class="anchored" data-anchor-id="session-6">Session 6</h2>
+<p>Make this plot. This might take two days! Today, we will probably only be able to calculate the state level statistics.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">|&gt;</span> </span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_remove</span>(county_name, <span class="st">".*, "</span>)) <span class="sc">|&gt;</span> </span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
 <span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 51 × 3
-   state                pop_state avg_ec
-   &lt;chr&gt;                    &lt;dbl&gt;  &lt;dbl&gt;
- 1 Alabama                4855194  0.595
- 2 Alaska                  712389  0.977
- 3 Arizona                6946685  0.692
- 4 Arkansas               2990671  0.690
- 5 California            39147614  0.807
- 6 Colorado               5498538  0.954
- 7 Connecticut            3581504  0.949
- 8 Delaware                949495  0.782
- 9 District of Columbia    684498  0.996
-10 Florida               20598139  0.665
-# … with 41 more rows</code></pre>
-</div>
-</div>
-<p>The second approach is prefered. I am editing the Primer and the tutorials to go this way. Check the version of dplyr. Update if necessary.</p>
-<p>Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.</p>
-<p>Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.</p>
-</section>
-<section id="session-5" class="level2">
-<h2 class="anchored" data-anchor-id="session-5">Session 5</h2>
-<p>Make this plot. This might take two days! Today, we will probably only be able to calculate the state level statistics.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">|&gt;</span> </span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_remove</span>(county_name, <span class="st">".*, "</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(state) <span class="sc">|&gt;</span> </span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county)) <span class="sc">|&gt;</span> </span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> pop_state, <span class="at">y =</span> avg_ec)) <span class="sc">+</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">formula =</span> y <span class="sc">~</span> x, <span class="at">se =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_x_log10</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">1000000</span>, <span class="dv">10000000</span>),</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>                  <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">dollar_format</span>()) <span class="sc">+</span></span>
-<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Average County Economic Connectedness"</span>,</span>
-<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>         <span class="at">x =</span> <span class="st">"State Population"</span>,</span>
-<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>         <span class="at">title =</span> <span class="st">"Economic Connectedness and Population in US States"</span>,</span>
-<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>         <span class="at">subtitle =</span> <span class="st">"Biggger states have counties with lower average economic connectedness."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state) <span class="sc">|&gt;</span> </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> pop_state, <span class="at">y =</span> avg_ec)) <span class="sc">+</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">formula =</span> y <span class="sc">~</span> x, <span class="at">se =</span> <span class="cn">FALSE</span>) <span class="sc">+</span></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>    <span class="fu">scale_x_log10</span>(<span class="at">breaks =</span> <span class="fu">c</span>(<span class="dv">1000000</span>, <span class="dv">10000000</span>),</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>                  <span class="at">labels =</span> scales<span class="sc">::</span><span class="fu">dollar_format</span>()) <span class="sc">+</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">"Average County Economic Connectedness"</span>,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>         <span class="at">x =</span> <span class="st">"State Population"</span>,</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>         <span class="at">title =</span> <span class="st">"Economic Connectedness and Population in US States"</span>,</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>         <span class="at">subtitle =</span> <span class="st">"Biggger states have counties with lower average economic connectedness."</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="day-5_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="day-5_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="session-6" class="level2">
-<h2 class="anchored" data-anchor-id="session-6">Session 6</h2>
+<section id="session-6-1" class="level2">
+<h2 class="anchored" data-anchor-id="session-6-1">Session 6</h2>
 <p>Publish the plot to Rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.</p>
 </section>
 

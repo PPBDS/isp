@@ -1,6 +1,5 @@
 ## Priorities
 
-Get rid of group_by! See https://dplyr.tidyverse.org/reference/dplyr_by.html#supported-verbs
 
 ### Consider this college data:
 
@@ -63,7 +62,13 @@ Rweekly.
 
 #rstats
 
-# TFs
+# Future TFs
+
+Ava Ransbotham <avaransbotham@gmail.com>
+Miriam
+Felix
+Alex
+
 tejasnm07@gmail.com
 jacksonrroe@gmail.com
 
