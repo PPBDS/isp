@@ -4,17 +4,6 @@ author: "David Kane"
 ---
 
 
-## For Next Year
-
-Ensure that the key code tricks are explained in both the Primer and the Wrangling: Overview tutorial.
-
-  drop_na() |> 
-  mutate(state = str_remove(county_name, ".*, ")) 
-  
-Or perhaps using str_replace() is better.
-  
-Change the variable names to be better. For example, `county_name` should be `location` since it is not the name of the county.  
-
 
 ## Overview
 
@@ -67,7 +56,7 @@ TFs should not give out this answer! Let the students work on it! Let them strug
 ```{r}
 x |> 
   drop_na() |> 
-  mutate(state = str_remove(county_name, ".*, ")) 
+  mutate(state = str_replace(county_name, ".*, ", "")) 
 ```
 
 
@@ -83,7 +72,7 @@ Calculate the state-level statistics. Send them to rooms to do this for themselv
 ```{r}
 x |> 
   drop_na() |> 
-  mutate(state = str_remove(county_name, ".*, ")) |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
   summarise(pop_state = sum(pop2018),
             avg_ec = mean(ec_county),
             .by = state)
@@ -101,7 +90,7 @@ Make this plot. This might take two days! Today, we will probably only be able t
 ```{r}
 x |> 
   drop_na() |> 
-  mutate(state = str_remove(county_name, ".*, ")) |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
   summarise(pop_state = sum(pop2018),
             avg_ec = mean(ec_county),
             .by = state) |> 
