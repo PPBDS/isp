@@ -25,7 +25,7 @@ Need to start with a Github repo which includes the key code from last time:
 #| output: false
 
 library(tidyverse)
-x <- read_rds("ec.rds")
+library(primer.data)
 ```
 
 
@@ -33,9 +33,9 @@ x <- read_rds("ec.rds")
 #| label: clean data
 #| echo: false
 
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) 
+  mutate(state = str_replace(location, ".*, ", "")) 
 ```
 
 ## Session 1
@@ -52,10 +52,10 @@ Send them to rooms to do this for themselves. Bring them back.
 
 
 ```{r}
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(avg_ec = mean(ec_county),
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(avg_ec = mean(connectedness),
             .by = state)
 ```
 
@@ -70,11 +70,11 @@ Add total state population to the calculation of state-level statistics. Send th
 
 
 ```{r}
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(avg_ec = mean(ec_county),
-            pop_state = sum(pop2018),
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(pop_state = sum(population),
+            avg_ec = mean(connectedness),
             .by = state)
 ```
 
@@ -97,11 +97,11 @@ Not sure how long things will take. The purpose of this next section is to discu
 Make this plot. 
 
 ```{r}
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(avg_ec = mean(ec_county),
-            pop_state = sum(pop2018),
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(pop_state = sum(population),
+            avg_ec = mean(connectedness),
             .by = state) |> 
   ggplot(aes(x = pop_state, y = avg_ec)) +
     geom_point() +

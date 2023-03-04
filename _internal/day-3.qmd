@@ -54,8 +54,7 @@ Add appropriate options. (Mention execute: echo: false?)
 #| output: false
 #| echo: false
 library(tidyverse)
-
-x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
+library(primer.data)
 ```
 
 Back to rooms. Make sure everyone has done this. Start thinking about a plot.
@@ -74,9 +73,9 @@ Lead them to create a plot like this
 
 ```{r}
 #| echo: false
-x |> 
+connectedness |> 
   drop_na() |> 
-  ggplot(aes(x = pop2018)) +
+  ggplot(aes(x = population)) +
     geom_histogram(bins = 100) +
     scale_x_log10(labels = scales::comma_format()) +
     labs(title = "US County Populations in 2018",

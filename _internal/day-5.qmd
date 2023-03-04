@@ -28,7 +28,7 @@ https://github.com/bootcamp-2023-01/class-2023-02-01-fork
 #| output: false
 
 library(tidyverse)
-x <- read_rds("ec.rds")
+library(primer.data)
 ```
 
 They may not explore the data that well, which is OK.
@@ -54,9 +54,9 @@ Maybe ask ChatGPT? https://chat.openai.com/
 TFs should not give out this answer! Let the students work on it! Let them struggle! Point them to the Primer. Did they read the Wrangling chapter? Did they learn about the stringr package? Did they learn about regular expressions? Did they do the assigned tutorials, especially Wrangling: Overview?
 
 ```{r}
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) 
+  mutate(state = str_replace(location, ".*, ", "")) 
 ```
 
 
@@ -70,11 +70,11 @@ Calculate the state-level statistics. Send them to rooms to do this for themselv
 
 
 ```{r}
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county),
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(pop_state = sum(population),
+            avg_ec = mean(connectedness),
             .by = state)
 ```
 
@@ -88,17 +88,17 @@ Point out the distinction between just having a pipe vomit out its results versu
 Make this plot. This might take two days! Today, we will probably only be able to calculate the state level statistics.
 
 ```{r}
-x |> 
+connectedness |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county),
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(pop_state = sum(population),
+            avg_ec = mean(connectedness),
             .by = state) |> 
   ggplot(aes(x = pop_state, y = avg_ec)) +
     geom_point() +
     geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
     scale_x_log10(breaks = c(1000000, 10000000),
-                  labels = scales::dollar_format()) +
+                  labels = scales::comma_format()) +
     labs(y = "Average County Economic Connectedness",
          x = "State Population",
          title = "Economic Connectedness and Population in US States",

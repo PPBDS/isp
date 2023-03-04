@@ -65,12 +65,11 @@ Before sending them back to the rooms, encourage groups to both explore the data
 #| output: false
 #| echo: false
 library(tidyverse)
-
-x <- read_rds("https://github.com/PPBDS/bootcamp/raw/master/_internal/ec.rds")
+library(primer.data)
 ```
 
 ```{r}
-summary(x)
+summary(connectedness)
 ```
 
 
@@ -79,13 +78,13 @@ summary(x)
 Everyone has some data and can look at it. Do we have time for much more? Maybe send them back to answer some other questions. What is the 3rd largest (by population) county in the US? Which county has the best economic connectedness?
 
 ```{r}
-x |> 
-  arrange(desc(pop2018))
+connectedness |> 
+  arrange(desc(population))
 ```
 
 ```{r}
-x |> 
-  arrange(ec_county)
+connectedness |> 
+  arrange(location)
 ```
 
 Any guesses as to the makeup of those counties?
