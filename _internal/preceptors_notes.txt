@@ -5,14 +5,7 @@
 
 ## Before Next Time
 
-Ensure that tricks used in class are covered in the tutorials and Primer. 
-
-Key items including adding the ec.rds data to primer.data so we can play with that data from the start on week 1. 
-
-Then, making sure the tricks used, like str_replace(county, "*., ", ""), are explained ahead of time. This is really only two tricks, str_replace() function and the regular expression for "everything up to the first comma, and the space which follows it."
-
-
-
+Week 1 is easier because we now include the connectedness data in primer.data. But we should also make use of the raw csv data, which we could get from either the primer.data github or from the Opportunity Insights web page. This could happen on Monday of week 3, where we download that data by hand and then include it in our repo, doing this work from the Terminal.
 
 ## Week 1
 
