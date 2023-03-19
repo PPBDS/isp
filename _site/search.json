@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, always running four weeks. The next session has not been scheduled. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
+    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, always running four weeks. The next session will probably be in June. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "about.html",
@@ -98,88 +98,88 @@
     "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nTwo key resources: Preceptor’s Primer for Bayesian Data Science and its associated tutorials. Assignments associated with a specific lecture must be completed before that lecture.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in rds format. If you want to save a copy for your own records, use html."
   },
   {
-    "objectID": "schedule.html#monday-january-23",
-    "href": "schedule.html#monday-january-23",
+    "objectID": "schedule.html#monday",
+    "href": "schedule.html#monday",
     "title": "Schedule",
-    "section": "Monday January 23",
-    "text": "Monday January 23\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial together in class."
+    "section": "Monday",
+    "text": "Monday\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial together in class."
   },
   {
-    "objectID": "schedule.html#wednesday-january-25",
-    "href": "schedule.html#wednesday-january-25",
+    "objectID": "schedule.html#wednesday",
+    "href": "schedule.html#wednesday",
     "title": "Schedule",
-    "section": "Wednesday January 25",
-    "text": "Wednesday January 25\n\nRead Chapter 1 Visualization.\nComplete Visualization: Overview tutorial.\nComplete the RStudio and Code tutorial.\nComplete Visualization: Basic Plots tutorial."
+    "section": "Wednesday",
+    "text": "Wednesday\n\nRead Chapter 1 Visualization.\nComplete Visualization: Overview tutorial.\nComplete the RStudio and Code tutorial.\nComplete Visualization: Basic Plots tutorial."
   },
   {
-    "objectID": "schedule.html#thursday-january-26",
-    "href": "schedule.html#thursday-january-26",
+    "objectID": "schedule.html#thursday",
+    "href": "schedule.html#thursday",
     "title": "Schedule",
-    "section": "Thursday January 26",
-    "text": "Thursday January 26\n\nComplete R Studio and Github tutorial.\nComplete three Visualization tutorials: Tidyverse, Advanced Plotting, and Case Studies.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "section": "Thursday",
+    "text": "Thursday\n\nComplete R Studio and Github tutorial.\nComplete three Visualization tutorials: Tidyverse, Advanced Plotting, and Case Studies.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
-    "objectID": "schedule.html#monday-january-30",
-    "href": "schedule.html#monday-january-30",
+    "objectID": "schedule.html#monday-1",
+    "href": "schedule.html#monday-1",
     "title": "Schedule",
-    "section": "Monday January 30",
-    "text": "Monday January 30\n\nComplete Terminal tutorial.\nRead Chapter 2 Wrangling Data.\nComplete Wrangling: Overview and Wrangling: Plots tutorials."
+    "section": "Monday",
+    "text": "Monday\n\nComplete Terminal tutorial.\nRead Chapter 2 Wrangling Data.\nComplete Wrangling: Overview and Wrangling: Plots tutorials."
   },
   {
-    "objectID": "schedule.html#wednesday-february-1",
-    "href": "schedule.html#wednesday-february-1",
+    "objectID": "schedule.html#wednesday-1",
+    "href": "schedule.html#wednesday-1",
     "title": "Schedule",
-    "section": "Wednesday February 1",
-    "text": "Wednesday February 1\n\nComplete Wrangling: More Plots tutorial.\nComplete Census Data I tutorial."
+    "section": "Wednesday",
+    "text": "Wednesday\n\nComplete Wrangling: More Plots tutorial.\nComplete Census Data I tutorial."
   },
   {
-    "objectID": "schedule.html#thursday-february-2",
-    "href": "schedule.html#thursday-february-2",
+    "objectID": "schedule.html#thursday-1",
+    "href": "schedule.html#thursday-1",
     "title": "Schedule",
-    "section": "Thursday February 2",
-    "text": "Thursday February 2\n\nComplete Census Data II tutorial.\nComplete API Key tutorial."
+    "section": "Thursday",
+    "text": "Thursday\n\nComplete Census Data II tutorial.\nComplete API Key tutorial."
   },
   {
-    "objectID": "schedule.html#monday-february-6",
-    "href": "schedule.html#monday-february-6",
+    "objectID": "schedule.html#monday-2",
+    "href": "schedule.html#monday-2",
     "title": "Schedule",
-    "section": "Monday February 6",
-    "text": "Monday February 6\n\nRead Chapter 3 Data.\nComplete Quarto Websites tutorial.\nComplete Getting Help tutorial."
+    "section": "Monday",
+    "text": "Monday\n\nRead Chapter 3 Data.\nComplete Quarto Websites tutorial.\nComplete Getting Help tutorial."
   },
   {
-    "objectID": "schedule.html#wednesday-february-8",
-    "href": "schedule.html#wednesday-february-8",
+    "objectID": "schedule.html#wednesday-2",
+    "href": "schedule.html#wednesday-2",
     "title": "Schedule",
-    "section": "Wednesday February 8",
-    "text": "Wednesday February 8\n\nRead the Style Guide.\nComplete Data - Files.\nComplete Data - API tutorial.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+    "section": "Wednesday",
+    "text": "Wednesday\n\nRead the Style Guide.\nComplete Data - Files.\nComplete Data - API tutorial.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
   },
   {
-    "objectID": "schedule.html#thursday-february-9",
-    "href": "schedule.html#thursday-february-9",
+    "objectID": "schedule.html#thursday-2",
+    "href": "schedule.html#thursday-2",
     "title": "Schedule",
-    "section": "Thursday February 9",
-    "text": "Thursday February 9\n\nComplete Data - Webscraping tutorial."
+    "section": "Thursday",
+    "text": "Thursday\n\nComplete Data - Webscraping tutorial."
   },
   {
-    "objectID": "schedule.html#monday-february-13",
-    "href": "schedule.html#monday-february-13",
+    "objectID": "schedule.html#monday-3",
+    "href": "schedule.html#monday-3",
     "title": "Schedule",
-    "section": "Monday February 13",
-    "text": "Monday February 13\n\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
+    "section": "Monday",
+    "text": "Monday\n\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
   },
   {
-    "objectID": "schedule.html#wednesday-february-15",
-    "href": "schedule.html#wednesday-february-15",
+    "objectID": "schedule.html#wednesday-3",
+    "href": "schedule.html#wednesday-3",
     "title": "Schedule",
-    "section": "Wednesday February 15",
-    "text": "Wednesday February 15\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+    "section": "Wednesday",
+    "text": "Wednesday\n\nPractice presentations and feedback. You must have your presentation ready to go!"
   },
   {
-    "objectID": "schedule.html#thursday-february-16",
-    "href": "schedule.html#thursday-february-16",
+    "objectID": "schedule.html#thursday-3",
+    "href": "schedule.html#thursday-3",
     "title": "Schedule",
-    "section": "Thursday February 16",
-    "text": "Thursday February 16\n\nFinal project presentations. You must invite someone."
+    "section": "Thursday",
+    "text": "Thursday\n\nFinal project presentations. You must invite someone."
   },
   {
     "objectID": "testimonials.html",

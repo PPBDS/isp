@@ -16,11 +16,11 @@ Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the 
 
 Looking at the data is the first step in data science.
 
-## Monday January 23
+## Monday 
 
 * Read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial together in class.
 
-## Wednesday January 25
+## Wednesday 
 
 * Read [Chapter 1 Visualization](https://ppbds.github.io/primer/01-visualization.html). 
 
@@ -30,7 +30,7 @@ Looking at the data is the first step in data science.
 
 * Complete Visualization: Basic Plots tutorial.
 
-## Thursday January 26
+## Thursday 
 
 * Complete R Studio and Github tutorial.
 
@@ -42,7 +42,7 @@ Reminder: All work must be completed before class. Failure to submit your tutori
 
 Now that we know how to visualize data that is already clean, we need to learn how to clean up data which might come to us quite messy. To help generate ideas for the final projects, we will also take a close look at US census data.
 
-## Monday January 30
+## Monday 
 
 * Complete Terminal tutorial.
 
@@ -50,13 +50,13 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Complete Wrangling: Overview and Wrangling: Plots tutorials.
 
-## Wednesday February 1
+## Wednesday 
 
 * Complete Wrangling: More Plots tutorial.
 
 * Complete Census Data I tutorial.
 
-## Thursday February 2
+## Thursday
 
 * Complete Census Data II tutorial.
 
@@ -67,7 +67,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 Now that we know how to clean and organize messy data, we need to learn how to get some data.
 
-## Monday February 6
+## Monday 
 
 * Read [Chapter 3 Data](https://ppbds.github.io/primer/03-data.html). 
 
@@ -76,7 +76,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 * Complete Getting Help tutorial.
 
 
-## Wednesday February 8
+## Wednesday 
 
 * Read the [Style Guide](https://rpubs.com/dkane/style-guide). 
 
@@ -87,7 +87,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 * Determine the data source you will use for your final project. Don't come to class without one!
 
 
-## Thursday February 9
+## Thursday 
 
 * Complete Data - Webscraping tutorial.
 
@@ -97,18 +97,18 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 
 
-## Monday February 13
+## Monday 
 
 * Complete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.
 
 * You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
 
 
-## Wednesday February 15
+## Wednesday 
 
 * Practice presentations and feedback. You must have your presentation ready to go! 
 
-## Thursday February 16
+## Thursday 
 
 * Final project presentations. You must invite someone.
 
