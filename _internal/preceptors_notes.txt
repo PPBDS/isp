@@ -5,7 +5,7 @@
 
 ## Before Next Time
 
-Week 1 is easier because we now include the connectedness data in primer.data. But we should also make use of the raw csv data, which we could get from either the primer.data github or from the Opportunity Insights web page. This could happen on Monday of week 3, where we download that data by hand and then include it in our repo, doing this work from the Terminal.
+Week 1 is easier because we now include the connectedness data in primer.data. But we should also make use of the raw csv data, which we could get from either the primer.data github or from the Opportunity Insights web page. This could happen on Monday of week 2, where we download that data by hand and then include it in our repo, doing this work from the Terminal.
 
 ## Week 1
 
@@ -70,17 +70,19 @@ Go through name/email on tutorial together. Then send them to breakout rooms to 
 
 Call me "Preceptor."
 
-0) If possible, please change your Discord and Zoom display name to be your real name. We are a community! Also, please do not pollute the Discord with too much chit-chat with your buddies.
+0) If possible, please change your Discord and Zoom display name to be the name which we should use in addressing you. We are a community! Also, please do not pollute the Discord with too much chit-chat with your buddies.
 
-1) Big thanks to all the students (including legend, Ayush Jain, Larry Seltzer, BoatBoy420 among others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+1) Big thanks to all the students (including XXX among others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
-2) It is always a good idea to reinstall the all.primer.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+2) It is always a good idea to reinstall the all.primer.tutorials or r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
 remotes::install_github("PPBDS/all.primer.tutorials")
+remotes::install_github("PPBDS/r4ds.tutorials")
 
 If you have problems, it is sometimes necessary to remove the package first:
 
 remove.packages("all.primer.tutorials")
+remove.packages("r4ds.tutorials")
 
 3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares.
 
@@ -90,17 +92,19 @@ remove.packages("all.primer.tutorials")
 
 6) Philosophy page provides background on our pedagogical approach.
 
-7) In the first class, we just worked from the Console. Today, we go "one level up" and work from an R project. Tomorrow, we go one more level up and start with Github.
+7) In the first class, we just worked from the Console. Today, we go "one level up" and work from a script within an R project. Tomorrow, we go one more level up, start with Github and work on Quarto document within an R project.
 
-8) We will be assigning permanent breakout rooms. If there is a student in whose room you would like to be (or a TF you would like to work with), email Miriam at memerheiss@gmail.com before midnight tonight.
+8) We will be assigning permanent breakout rooms. If there is a student in whose room you would like to be (or a TF you would like to work with), email X at XXX before midnight tonight.
 
 9) Never stress about the tutorials! Just do your best. Skip any questions which give you trouble. Ask lots of questions on Discord.
 
 #### TF Notes
 
-Goal for today and tomorrow is to start with nothing and then finish with something published on Rpubs. Today, we start with a new project. Tomorrow, we start with a Github repo. Today's published doc will be messy, because we don't have time to make it look nice. Tomorrow's will be just a clean plot.
+Goal for today is to start with nothing and then finish with a nice looking plot. Today, we start with a new project. Tomorrow, we start with a Github repo. 
 
-If there are specific students you want to work with, let Miriam know.
+We spend all of Day 2 working in an R script. Nnail down the distinction between a text file and the Console. Get good at command-return as well as sourcing a whole file, much as is done in the RStudio and Code tutorial.
+
+If there are specific students you want to work with, let XXX know.
 
 Going forward, I will not have dedicated rooms assigned. Instead, I will try to visit all the rooms. I expect that we will have 9 rooms total: 1-3 Miriam, 4-6 Felix and 7-9 Alex. We might only have 6 rooms, with two rooms for each of you. Or even just three rooms!
 
@@ -110,6 +114,8 @@ I will move from room to room. Let me know when I arrive if there is anything yo
 
 
 ### Day 3
+
+#### Preceptor's Notes
 
 1) New experiment with breakout rooms. You will be assigned to the same room for the rest of the course, with the same TF to help you. Hope this works! If you have any complaints, email Miriam. Depending on drops/adds, we may have to adjust these assignments next week. Let's meet your posse!
 
@@ -131,7 +137,9 @@ That is, we want your full name, and the full name of the tutorial, separated by
 7) Goal today is to publish an interesting graphic relating economic connectedness across US counties.
 
 
+#### TF Notes
 
+The script from Day 2 might not be perfect, but it should have a plot with the key components. We will provide (in Discord) our cleaned up version of that script as a starting point for Day 3. Goal is to finish Day 3 with something published in Rpubs.
 
 
 ## Week 2
