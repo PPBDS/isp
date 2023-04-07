@@ -17,8 +17,6 @@ website:
         href: projects.qmd
       - text: "Demo Day"
         href: demo_day.qmd
-      - text: "Philosophy"
-        href: philosophy.qmd
 exclude:
   - internal
     
