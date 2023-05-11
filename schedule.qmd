@@ -6,6 +6,8 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+*ROUGHT DRAFT*: Course is being modified from 4 week t 6 weeks.
+
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
 Two key resources: [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) and its [associated tutorials](https://ppbds.github.io/all.primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
@@ -91,8 +93,40 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Complete Data - Webscraping tutorial.
 
+# Week 4: Models
 
-# Week 4: Projects
+## Monday
+
+* Read [Chapter 4 Rubin Causal Model](https://ppbds.github.io/primer/04-rubin-causal-model.html). Focus on sections 4.1, 4.2 and 4.4. 
+
+* Complete Rubin Causal Model - Overview tutorial.
+
+## Wednesday
+
+* Read [Chapter 5 Probability](https://ppbds.github.io/primer/05-probability.html). Focus on sections 5.1, 5.2, 5.7, and 5.8. 
+
+* Complete Probability - Overview tutorial.
+
+## Thursday
+
+
+# Week 5: Inference
+
+## Monday
+
+* Read [Chapter 6 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 6.3 and 6.4. 
+
+* Complete One Parameter - Overview tutorial.
+
+## Wednesday
+
+* Read [Chapter 7 Two Parameters](https://ppbds.github.io/primer/07-two-parameters.html). 
+
+* Complete Two Parameters - Overview tutorial.
+
+## Thursday
+
+# Week 6: Projects
 
 The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 

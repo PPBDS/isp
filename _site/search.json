@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, always running four weeks. The next session will probably be in June. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
+    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, running for 6 weeks. The next session will probably be in June. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "about.html",
@@ -88,7 +88,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nTwo key resources: Preceptor’s Primer for Bayesian Data Science and its associated tutorials. Assignments associated with a specific lecture must be completed before that lecture.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in rds format. If you want to save a copy for your own records, use html."
+    "text": "ROUGHT DRAFT: Course is being modified from 4 week t 6 weeks.\nClasses run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nTwo key resources: Preceptor’s Primer for Bayesian Data Science and its associated tutorials. Assignments associated with a specific lecture must be completed before that lecture.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in rds format. If you want to save a copy for your own records, use html."
   },
   {
     "objectID": "schedule.html#monday",
@@ -158,18 +158,60 @@
     "href": "schedule.html#monday-3",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
+    "text": "Monday\n\nRead Chapter 4 Rubin Causal Model. Focus on sections 4.1, 4.2 and 4.4.\nComplete Rubin Causal Model - Overview tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-3",
     "href": "schedule.html#wednesday-3",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+    "text": "Wednesday\n\nRead Chapter 5 Probability. Focus on sections 5.1, 5.2, 5.7, and 5.8.\nComplete Probability - Overview tutorial."
   },
   {
     "objectID": "schedule.html#thursday-3",
     "href": "schedule.html#thursday-3",
+    "title": "Schedule",
+    "section": "Thursday",
+    "text": "Thursday"
+  },
+  {
+    "objectID": "schedule.html#monday-4",
+    "href": "schedule.html#monday-4",
+    "title": "Schedule",
+    "section": "Monday",
+    "text": "Monday\n\nRead Chapter 6 One Parameter. Focus on sections 6.3 and 6.4.\nComplete One Parameter - Overview tutorial."
+  },
+  {
+    "objectID": "schedule.html#wednesday-4",
+    "href": "schedule.html#wednesday-4",
+    "title": "Schedule",
+    "section": "Wednesday",
+    "text": "Wednesday\n\nRead Chapter 7 Two Parameters.\nComplete Two Parameters - Overview tutorial."
+  },
+  {
+    "objectID": "schedule.html#thursday-4",
+    "href": "schedule.html#thursday-4",
+    "title": "Schedule",
+    "section": "Thursday",
+    "text": "Thursday"
+  },
+  {
+    "objectID": "schedule.html#monday-5",
+    "href": "schedule.html#monday-5",
+    "title": "Schedule",
+    "section": "Monday",
+    "text": "Monday\n\nComplete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
+  },
+  {
+    "objectID": "schedule.html#wednesday-5",
+    "href": "schedule.html#wednesday-5",
+    "title": "Schedule",
+    "section": "Wednesday",
+    "text": "Wednesday\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+  },
+  {
+    "objectID": "schedule.html#thursday-5",
+    "href": "schedule.html#thursday-5",
     "title": "Schedule",
     "section": "Thursday",
     "text": "Thursday\n\nFinal project presentations. You must invite someone."
