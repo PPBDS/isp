@@ -1,5 +1,87 @@
-## Priorities
+## Priorities for June Class
 
+Update schedule.
+
+Bite the bullet and remove chapters 1, 2, 3. Could add some if it to the Getting Started chapter, and then maybe create a Chapter 1 tutorial to go along with it, either in R4DS or in all.primer.tutorials.
+
+Start work on tutorials for chapters 4 through 8. Looks like students will be doing them. And we certainly don't want to create any problem sets!
+
+Think about using Posit Cloud.
+
+
+Create as many r4ds tutorials as possible.
+
+Maybe we want an iteration tutorial, given the code we use in chapter 5?
+
+Create tidycensus.tutorials package. Move over material from all.primer.tutorials.
+
+Create teaching.tutorials. These are tutorials for my specific assignments. Might only include final_projects tutorial, but could have other stuff. Maybe add data: api tutorial? Maybe add quarto websites tutorial?
+
+* Clean out chapters 1 through 3 in Primer. Maybe delete them completely? Update Getting Started to explain, perhaps? 
+
+
+## Projects for Apprentices
+
+### Bootcamp Tutorials
+
+* Good for students starting soon.
+
+* Writing ones we need. Start with strings and regular expressions.
+
+* Taking ownership of ones that are done and using student feedback to make them better.
+
+### Other R4DS tutorials
+
+* Chapters 26 (functions), 27 (iterations), 28 (base R).
+
+* 26/27 each make good month-long projects, both because they are hard and because we should do much more than what is covered in the book.
+
+### R4DS infrastructure
+
+Do what is necessary to get this on CRAN. Start by shrinking the size.
+
+### Tutorials for R Packages 2e
+
+tutorial for Chapter 2 (the whole game) . Want to ensure that all students have made an R package. Maybe this goes in teaching.tutorials. Maybe rename it making.tutorials? creation.tutorials?
+
+tutorial for chapters 14 and 15 from R packages 2e. Students need to learn how to make a test. Maybe this and chapter 2 go together?
+
+tutorial for function documentation and vignettes? More that I look at this, more it seems that we need and r.packages.tutorials package.
+
+
+### Tutorials for Tidymodels with R
+
+I think we need to do the entire book. But note that there really isn't that much code . . .
+
+
+### tutorial.helpers
+
+Matthew Ru
+
+Maybe another student? See TODO.txt file for some of the many issues.
+
+One student in charge of figuring out how to process these for a class of 50. Is the gmail approach best? Does it still work? Need an option of working with a zip folder of submissions, like what we might get from Canvas or Moodle.
+
+Process answers as html files rather than rds, I think.
+
+### Primer Chapters
+
+For 4, 5, and 6, just improve the associated tutorials.
+
+For 7 through 11, write the overview tutorials and make the chapters better, especially with the use of the Four Cardinal Virtues.
+
+
+### tidycensus.tutorials
+
+* Move over the current tutorials from all.primer.tutorials.
+
+* Split them up into individual chapters.
+
+* Add other chapters.
+
+
+
+## Other Topics
 
 ### Consider this college data:
 
