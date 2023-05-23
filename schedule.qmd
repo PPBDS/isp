@@ -6,13 +6,14 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-*ROUGHT DRAFT*: Course is being modified from 4 week to 6 weeks.
 
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane and their [associated]() [tutorials](https://ppbds.github.io/all.primer.tutorials/). Assignments associated with a specific lecture must be completed before that lecture.
+Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane and their [associated](https://ppbds.github.io/r4ds.tutorials/) [tutorials](https://ppbds.github.io/all.primer.tutorials/). Homework should be completed before the class meeting for which it is assigned.
 
-Completed tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format.
+See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) and [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) for installation instructions.
+
+Completed tutorials are sent to **kanes.datacamp@gmail.com** with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format.
 
 # Week 1: Visualization
 
@@ -20,49 +21,44 @@ Looking at the data is the first step in data science.
 
 ## Monday 
 
-* Read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial from the **tutorial.helpers** package together in class.
+* Read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package together in class.
 
 ## Wednesday 
 
-<!-- DK: Maybe this is a bit too much work for the first week? -->
-
 * Read Chapters 1 through 4 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the **r4ds.tutorials** package, complete the associated tutorials: Data Visualization, RStudio and Code, and Data Transformation.
-
-* Optional: [Get Started with Quarto](https://quarto.org/docs/blog/posts/2023-05-15-get-started/) video.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Data Visualization, RStudio and Code, and Data Transformation.
 
 ## Thursday 
 
 * Read Chapters 5, 6 and 8 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the **r4ds.tutorials** package, complete the associated tutorials: RStudio and Github, Data Tidying, RStudio and Code, and Data Transformation tutorials.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: RStudio and Github, Data Tidying and Data Import tutorials.
 
-Reminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
+**Reminder**: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
 # Week 2: Wrangling
 
-Now that we know how to visualize data that is already clean, we need to learn how to clean up messy data. To help generate ideas for the final projects, we will also take a close look at US census data.
+Now that we know how to visualize data that is already clean, we need to learn how to clean up messy data. 
 
 ## Monday 
 
 * Read Chapters 9, 10, 11 and 12 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the **r4ds.tutorials** package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Getting Help, Layers, Exploratory Data Analysis, and Communication. Note that the Terminal tutorial is at the end of the collection. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Getting Help, Layers, Exploratory Data Analysis, and Communication. Note that the Terminal tutorial is at the end of the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) collection. 
  
 
 ## Wednesday 
 
 * Read chapters 13, 14, 15 and 16 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the **r4ds.tutorials** package, complete the associated tutorials: Logical, Numbers, Strings, and Regular Expressions. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Logical, Numbers, Strings, and Regular Expressions. 
 
 ## Thursday
 
-* Read chapters 17 and 18 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 17, 18, 19 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the **r4ds.tutorials** package, complete the associated tutorials: Factors and Dates and Times. 
-
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins. 
 
 
 # Week 3: Data
@@ -71,25 +67,24 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Monday 
 
-* Complete Quarto Websites tutorial.
+* Read chapters 21, 22 and 23 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* Complete Getting Help tutorial.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Spreadsheets, Databases, and Arrow. 
 
 
 ## Wednesday 
 
-* Read the [Style Guide](https://rpubs.com/dkane/style-guide). 
+* Read the [Style Guide](https://ppbds.github.io/primer/style-guide.html). 
 
-* Complete Data - Files.
+* Read chapters 7, 24 and 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* Complete Data - API tutorial.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Quarto Websites, Hierarchical data and Web scraping. 
 
 * Determine the data source you will use for your final project. Don't come to class without one!
 
-
 ## Thursday 
 
-* Complete Data - Webscraping tutorial.
+
 
 # Week 4: Models
 
@@ -109,26 +104,31 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday
 
+* Read [Chapter 6 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 6.3 and 6.4. 
+
+* From the **all.primer.tutorials** package, complete One Parameter - Overview tutorial.
 
 # Week 5: Inference
 
 ## Monday
 
-* Read [Chapter 6 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 6.3 and 6.4. 
-
-* From the **all.primer.tutorials** package, complete One Parameter - Overview tutorial.
-
-## Wednesday
-
 * Read [Chapter 7 Two Parameters](https://ppbds.github.io/primer/07-two-parameters.html). 
 
 * From the **all.primer.tutorials** package, complete Two Parameters - Overview tutorial.
 
-## Thursday
+
+## Wednesday
 
 * Read [Chapter 8 Three Parameters](https://ppbds.github.io/primer/08-three-parameters.html). 
 
 * From the **all.primer.tutorials** package, complete Three Parameters - Overview tutorial.
+
+
+## Thursday
+
+* Read [Chapter 9 Four Parameters](https://ppbds.github.io/primer/09-four-parameters.html). 
+
+* From the **all.primer.tutorials** package, complete Four Parameters - Overview tutorial.
 
 
 # Week 6: Projects
