@@ -32,10 +32,20 @@ knitr::include_graphics("images/cai.jpg")
 
 [Felix Cai](https://github.com/FelixCai525) is a second year Medical Sciences student at Western University.
 
+## Anish Bellamkonda
+
+```{r, out.width="%50"}
+knitr::include_graphics("images/cai.jpg")
+```
+
+
+[Anish Bellamkonda](https://github.com/SplashyZues5197) is a rising senior at Metea Valley High School.
+
+
 ## Alex Kuai
 
 ```{r, out.width ="50%"}
-knitr::include_graphics("images/kuai.jpg")
+knitr::include_graphics("images/anish.jpg")
 ```
 
 [Alex Kuai](https://github.com/AlexKuaiR/) is freshman at Newton North High School.
