@@ -1,23 +1,25 @@
 ## Priorities for June Class
 
+email R4DS authors, looking for a retweet
+
+ask our one user for a retweet.
+
 Update schedule.
 
-Bite the bullet and remove chapters 1, 2, 3. Could add some if it to the Getting Started chapter, and then maybe create a Chapter 1 tutorial to go along with it, either in R4DS or in all.primer.tutorials.
+Maybe we require the tutorial.helpers tutorial to even register for the course?
+
+Maybe create a Chapter 1 tutorial to go along with it, either in R4DS or in all.primer.tutorials. Maybe that is based on the current visualization-overview tutorial.
 
 Start work on tutorials for chapters 4 through 8. Looks like students will be doing them. And we certainly don't want to create any problem sets!
 
 Think about using Posit Cloud.
 
-
 Create as many r4ds tutorials as possible.
 
 Maybe we want an iteration tutorial, given the code we use in chapter 5?
 
-Create tidycensus.tutorials package. Move over material from all.primer.tutorials.
-
 Create teaching.tutorials. These are tutorials for my specific assignments. Might only include final_projects tutorial, but could have other stuff. Maybe add data: api tutorial? Maybe add quarto websites tutorial?
 
-* Clean out chapters 1 through 3 in Primer. Maybe delete them completely? Update Getting Started to explain, perhaps? 
 
 
 ## Projects for Apprentices
@@ -46,7 +48,7 @@ tutorial for Chapter 2 (the whole game) . Want to ensure that all students have 
 
 tutorial for chapters 14 and 15 from R packages 2e. Students need to learn how to make a test. Maybe this and chapter 2 go together?
 
-tutorial for function documentation and vignettes? More that I look at this, more it seems that we need and r.packages.tutorials package.
+tutorial for function documentation and vignettes? More that I look at this, more it seems that we need an r.packages.tutorials package.
 
 
 ### Tutorials for Tidymodels with R
@@ -72,8 +74,6 @@ For 7 through 11, write the overview tutorials and make the chapters better, esp
 
 
 ### tidycensus.tutorials
-
-* Move over the current tutorials from all.primer.tutorials.
 
 * Split them up into individual chapters.
 
@@ -126,14 +126,7 @@ Or maybe this works now! Or maybe you need to build it once, then restart and tr
 
 * The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.
 
-* Figure out way to create an email list for just the class itsel, will change for each session of the class. Maybe temporary substacks? 
-
-
-* We want the sign-up-for-the-email to be more prominent. We have the raw html which, I think, we need to include. It is in sign_up.html. But when I follow the instructions here:
-
-https://bookdown.org/yihui/rmarkdown-cookbook/include-html.html
-
-It does not work. There is space for an image/thing, but the rectangle is empty.
+* Figure out way to create an email list for just the class itself, will change for each session of the class. Maybe temporary substacks? 
 
 Is whimsical a useful tool for teaching the class itself?
 

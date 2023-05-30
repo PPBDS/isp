@@ -63,18 +63,11 @@
     "text": "David Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
   },
   {
-    "objectID": "staff.html#miriam-heiss",
-    "href": "staff.html#miriam-heiss",
+    "objectID": "staff.html#anish-bellamkonda",
+    "href": "staff.html#anish-bellamkonda",
     "title": "Staff",
-    "section": "Miriam Heiss",
-    "text": "Miriam Heiss\n\n\n\n\n\nMiriam Heiss is a 8th grader (homeschooled), organist of 5 years, and amateur Data Scientist."
-  },
-  {
-    "objectID": "staff.html#felix-cai",
-    "href": "staff.html#felix-cai",
-    "title": "Staff",
-    "section": "Felix Cai",
-    "text": "Felix Cai\n\n\n\n\n\nFelix Cai is a second year Medical Sciences student at Western University."
+    "section": "Anish Bellamkonda",
+    "text": "Anish Bellamkonda\n\n\n\n\n\nAnish Bellamkonda is a rising senior at Metea Valley High School."
   },
   {
     "objectID": "staff.html#alex-kuai",
@@ -88,7 +81,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned.\nSee the home pages for the r4ds.tutorials and all.primer.tutorials for installation instructions.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format."
+    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, all.primer.tutorials, and tidycensus.tutorials for installation instructions.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format."
   },
   {
     "objectID": "schedule.html#monday",
@@ -151,7 +144,7 @@
     "href": "schedule.html#thursday-2",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday"
+    "text": "Thursday\n\nFrom the tidycensus.tutorials package, complete: Census Data I, Census Data II and API Key."
   },
   {
     "objectID": "schedule.html#monday-3",

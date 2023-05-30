@@ -1,0 +1,10 @@
+/.quarto/
+
+.Rhistory
+.Rproj.user
+*_cache
+*_files
+
+_internal/county_outcomes.csv
+_internal/county_outcomes.zip
+

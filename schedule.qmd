@@ -6,12 +6,13 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+<!-- Maybe move some of the R4DS tutorials into weeks 3 and 4? Week 1 workload is OK. Seems like week 2 has a lot of work . . . if we write the tutorials! -->
 
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane and their [associated](https://ppbds.github.io/r4ds.tutorials/) [tutorials](https://ppbds.github.io/all.primer.tutorials/). Homework should be completed before the class meeting for which it is assigned.
+Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane and their [associated](https://ppbds.github.io/r4ds.tutorials/) [tutorials](https://ppbds.github.io/all.primer.tutorials/). Homework should be completed before the class meeting for which it is assigned. We also reference [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker.
 
-See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) and [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) for installation instructions.
+See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
 Completed tutorials are sent to **kanes.datacamp@gmail.com** with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format.
 
@@ -84,7 +85,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday 
 
-
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete: Census Data I, Census Data II and API Key. 
 
 # Week 4: Models
 
