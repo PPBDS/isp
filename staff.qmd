@@ -16,6 +16,15 @@ knitr::include_graphics("images/david_kane.png")
 [David Kane](https://www.davidkane.info) is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.
 
 
+## Srihith Garlapati
+
+```{r, out.width="%50"}
+knitr::include_graphics("images/srihith.jpg")
+```
+
+[Srihith Garlapati](https://github.com/srihithg) is a rising sophomore in Computer Sciences at University of Wisconsin-Madison
+
+
 ## Anish Bellamkonda
 
 ```{r, out.width="%50"}
