@@ -14,7 +14,7 @@ Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wi
 
 See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
-Completed tutorials are sent to **kanes.datacamp@gmail.com** with your name and the name of the tutorial separated by a semi-colon  --- like "Sarah Jones; Getting Started" --- in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format.
+Completed tutorials are submitted via [this Google form](https://forms.gle/fCZm77KPW4923Xk27). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
 # Week 1: Visualization
 
@@ -22,13 +22,13 @@ Looking at the data is the first step in data science.
 
 ## Monday 
 
-* Read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package together in class.
+* Read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. We will do the Getting Started tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package together in class. When you complete the Getting Started tutorial, submit your answers via [this Google form](https://forms.gle/fCZm77KPW4923Xk27).
 
 ## Wednesday 
 
 * Read Chapters 1 through 4 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Data Visualization, RStudio and Code, and Data Transformation.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Introduction, Data Visualization, RStudio and Code, and Data Transformation.
 
 ## Thursday 
 

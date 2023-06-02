@@ -88,21 +88,21 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, all.primer.tutorials, and tidycensus.tutorials for installation instructions.\nCompleted tutorials are sent to kanes.datacamp@gmail.com with your name and the name of the tutorial separated by a semi-colon — like “Sarah Jones; Getting Started” — in the subject line. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format."
+    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, all.primer.tutorials, and tidycensus.tutorials for installation instructions.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
   },
   {
     "objectID": "schedule.html#monday",
     "href": "schedule.html#monday",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial from the tutorial.helpers package together in class."
+    "text": "Monday\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial from the tutorial.helpers package together in class. When you complete the Getting Started tutorial, submit your answers via this Google form."
   },
   {
     "objectID": "schedule.html#wednesday",
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapters 1 through 4 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Visualization, RStudio and Code, and Data Transformation."
+    "text": "Wednesday\n\nRead Chapters 1 through 4 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Introduction, Data Visualization, RStudio and Code, and Data Transformation."
   },
   {
     "objectID": "schedule.html#thursday",
