@@ -30,7 +30,7 @@ Bring people back. Console:
 library(primer.data)
 connectedness
 
-Just out the data. Interesting. Console:
+Just look at the data. Interesting. Console:
 
 summary(connectedness)
 

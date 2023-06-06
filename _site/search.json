@@ -70,6 +70,20 @@
     "text": "Yuhan Wu\n\n\n\n\n\nYuhan Wu is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics."
   },
   {
+    "objectID": "staff.html#tejas-mundhe",
+    "href": "staff.html#tejas-mundhe",
+    "title": "Staff",
+    "section": "Tejas Mundhe",
+    "text": "Tejas Mundhe\n\n\n\n\n\n\nTejas Mundhe is an incoming junior at Walnut Hills High School who is interested in Data Science and Robotics."
+  },
+  {
+    "objectID": "staff.html#alex-kuai",
+    "href": "staff.html#alex-kuai",
+    "title": "Staff",
+    "section": "Alex Kuai",
+    "text": "Alex Kuai\n\n\n\n\n\nAlex Kuai is a rising sophomore at Newton North High School and has been a TF since freshman year."
+  },
+  {
     "objectID": "staff.html#anish-bellamkonda",
     "href": "staff.html#anish-bellamkonda",
     "title": "Staff",
@@ -81,7 +95,14 @@
     "href": "staff.html#srihith-garlapati",
     "title": "Staff",
     "section": "Srihith Garlapati",
-    "text": "Srihith Garlapati\n\n\n\n\n\nSrihith Garlapati is a rising sophomore in Computer Sciences at University of Wisconsin-Madison"
+    "text": "Srihith Garlapati\n\n\n\n\n\nSrihith Garlapati is a rising sophomore in Computer Sciences at University of Wisconsin-Madison."
+  },
+  {
+    "objectID": "staff.html#krish-saluja",
+    "href": "staff.html#krish-saluja",
+    "title": "Staff",
+    "section": "Krish Saluja",
+    "text": "Krish Saluja\n\n\n\n\n\nKrish Saluja is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry."
   },
   {
     "objectID": "schedule.html",
@@ -95,28 +116,28 @@
     "href": "schedule.html#monday",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Getting Started and follow all the associated instructions. We will do the Getting Started tutorial from the tutorial.helpers package together in class. When you complete the Getting Started tutorial, submit your answers via this Google form."
+    "text": "Monday\n\nBefore class, please read Getting Started and follow all the associated instructions. Complete the “Getting Started” tutorial from the tutorial.helpers package. Submit your answers, as an html file, via this Google form."
   },
   {
     "objectID": "schedule.html#wednesday",
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapters 1 through 4 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Introduction, Data Visualization, RStudio and Code, and Data Transformation."
+    "text": "Wednesday\n\nRead Chapters 1 through 3 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete two tutorials: Data Visualization and RStudio and Code. The Introduction tutorial is optional. Submit your answers via the usual Google form. (Note that you need to submit each set of answers separately.)"
   },
   {
     "objectID": "schedule.html#thursday",
     "href": "schedule.html#thursday",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapters 5, 6 and 8 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: RStudio and Github, Data Tidying and Data Import tutorials.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "text": "Thursday\n\nRead Chapters 4, 5, and 6 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
     "objectID": "schedule.html#monday-1",
     "href": "schedule.html#monday-1",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapters 9, 10, 11 and 12 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Getting Help, Layers, Exploratory Data Analysis, and Communication. Note that the Terminal tutorial is at the end of the r4ds.tutorials collection."
+    "text": "Monday\n\nRead Chapters 8 and 9 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Data Import and Getting Help. Note that the Terminal tutorial is at the end of the r4ds.tutorials collection."
   },
   {
     "objectID": "schedule.html#wednesday-1",
@@ -130,49 +151,49 @@
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead chapters 17, 18, 19 and 29 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
+    "text": "Thursday\n\nRead Chapters 10, 11 and 12 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication."
   },
   {
     "objectID": "schedule.html#monday-2",
     "href": "schedule.html#monday-2",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead chapters 21, 22 and 23 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Spreadsheets, Databases, and Arrow."
+    "text": "Monday\n\nRead chapters 17, 18, 19 and 20 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
   },
   {
     "objectID": "schedule.html#wednesday-2",
     "href": "schedule.html#wednesday-2",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead the Style Guide.\nRead chapters 7, 24 and 25 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Quarto Websites, Hierarchical data and Web scraping.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+    "text": "Wednesday\n\nRead chapters 21, 22 and 23 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Spreadsheets, Databases, and Arrow.\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
   },
   {
     "objectID": "schedule.html#thursday-2",
     "href": "schedule.html#thursday-2",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nFrom the tidycensus.tutorials package, complete: Census Data I, Census Data II and API Key."
+    "text": "Thursday\n\nRead chapters 7, 24 and 25 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Quarto Websites, Hierarchical data and Web scraping."
   },
   {
     "objectID": "schedule.html#monday-3",
     "href": "schedule.html#monday-3",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\n\nRead Chapter 4 Rubin Causal Model. Focus on sections 4.1, 4.2 and 4.4.\nFrom the all.primer.tutorials package, complete Rubin Causal Model - Overview tutorial."
+    "text": "Monday\n\n\nRead Chapter 4 Rubin Causal Model. Focus on sections 4.1, 4.2 and 4.4.\nFrom the all.primer.tutorials package, complete Rubin Causal Model - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data I."
   },
   {
     "objectID": "schedule.html#wednesday-3",
     "href": "schedule.html#wednesday-3",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 5 Probability. Focus on sections 5.1, 5.2, 5.7, and 5.8.\nFrom the all.primer.tutorials package, complete Probability - Overview tutorial."
+    "text": "Wednesday\n\nRead Chapter 5 Probability. Focus on sections 5.1, 5.2, 5.7, and 5.8.\nFrom the all.primer.tutorials package, complete Probability - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data II."
   },
   {
     "objectID": "schedule.html#thursday-3",
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 6 One Parameter. Focus on sections 6.3 and 6.4.\nFrom the all.primer.tutorials package, complete One Parameter - Overview tutorial."
+    "text": "Thursday\n\nRead Chapter 6 One Parameter. Focus on sections 6.3 and 6.4.\nFrom the all.primer.tutorials package, complete One Parameter - Overview tutorial.\nFrom the tidycensus.tutorials package, complete API Key."
   },
   {
     "objectID": "schedule.html#monday-4",

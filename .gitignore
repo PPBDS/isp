@@ -8,3 +8,5 @@
 _internal/county_outcomes.csv
 _internal/county_outcomes.zip
 
+.DS_Store
+

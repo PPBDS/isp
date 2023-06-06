@@ -27,37 +27,44 @@ Class always begins by looking at the Preceptor's Notes for the day, available h
 
 Bootcamp: https://bootcamp.davidkane.info/
 Schedule: https://bootcamp.davidkane.info/schedule.html
-Primer: https://ppbds.github.io/primer/
-Final projects: https://bootcamp.davidkane.info/projects.html
+R4DS: https://r4ds.hadley.nz/
+Final projects: https://davidkane.info/files/final_projects.html
 
 2) Second trip to breakout rooms. Introduce yourselves again but, this time, write down the names of the students in your room and how they found out about the course. I will randomly call on some students to report this info when I bring the class back together.
 
-3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble.
+3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Most important tutorial is RStudio and Code.
 
 4) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers.
 
 5) Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it.
 
-6) Start the Getting Started tutorial together. Note how your work is automatically saved. Finish in the breakout rooms. One person shares a screen and does not talk. Second person reads the text out loud and tells the first person what to type. Switch roles for each succeeding question.
+6) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
-7) If we have time, let's go back to breakout rooms and start working on first tutorial: Visualization -- Overview. 
+remotes::install_github("PPBDS/r4ds.tutorials")
+
+If you have problems, it is sometimes necessary to remove the package first:
+
+remove.packages("r4ds.tutorials")
+
+7) Start the Data visualization tutorial together. (Unless you have yet to do the Getting Started tutorial, as instructed.) Note how your work is automatically saved. Continue in the breakout rooms. One person shares a screen and does not talk. Second person reads the text out loud and tells the first person what to type. Switch roles for each succeeding question.
+
 
 
 #### TF Notes
 
-Make sure, in this class and future ones, that I (or someone else) turn you into a co-host so that you can move from room to room.
+Make sure, in this class and future ones, that I (or someone else) turn you into a co-host so that you can move from room to room. I will usually turn one TF into the host and then have him do this. When you are done, you turn me into the host again.
 
 Identify a final project or two which you like and which you think are well done. It is OK if one of the projects is yours. Indeed, you should probably clean up your own final project just in case students want to look at it!
 
-I will assign breakout rooms in the order in which you are appear in the staff listing: https://bootcamp.davidkane.info/staff.html. You might be responsible for anywhere from 1 to 5 rooms, but they will always be continuous and in staff order. So, if you are the second person listed, and I assigned 3 rooms per TF, then you would get rooms 4, 5 and 6.
+I will assign breakout rooms in the order in which you are appear in the staff listing: https://bootcamp.davidkane.info/staff.html. You might be responsible for anywhere from 1 to 5 rooms, but they will always be continuous and in staff order. So, if you are the second person listed, and I assigned 3 rooms per TF, then you would get rooms 4, 5 and 6. (I am not assigned any specific rooms, at least today. I move all over.)
 
-You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. This might seem weird since we are mostly looking at final projects form past years, but we want them to get into practice. So, have the driver say, "Click on the About tab," for example. 
+You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. This might seem weird since we are mostly looking at final projects from past years, but we want them to get into practice. So, have the driver say, "Click on the About tab," for example. 
 
 Key goal for today is to help them decide if they should take the course. Please help them! Tell them about the interactive nature of class. Warn them about video always on and cold-calling. Tell them about the tutorials. Show them the final projects.
 
 Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. 
 
-For the first class or two, I will make sure that the number of breakout rooms created is a multiple of the number of staff. (This year that number is 4.) You are responsible for the set of rooms in the order in which your photos appear on the same page. So, for example, if there are 20 rooms and 4 staff, I would get rooms 1-5, the second person listed would get rooms 6-10 and so on.
+For the first class or two, I will make sure that the number of breakout rooms created is a multiple of the number of TFs. (This year that number is 5, at least on the first day.) You are responsible for the set of rooms in the order in which your photos appear on the same page. So, for example, if there are 20 rooms and 5 TFs, Yuhan would get rooms 1-4, Alex would get rooms 5-8 and so on.
 
 #### Lecture Notes
 
@@ -74,14 +81,12 @@ Call me "Preceptor."
 
 1) Big thanks to all the students (including XXX among others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
-2) It is always a good idea to reinstall the all.primer.tutorials or r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+2) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
-remotes::install_github("PPBDS/all.primer.tutorials")
 remotes::install_github("PPBDS/r4ds.tutorials")
 
 If you have problems, it is sometimes necessary to remove the package first:
 
-remove.packages("all.primer.tutorials")
 remove.packages("r4ds.tutorials")
 
 3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares.
@@ -102,11 +107,11 @@ remove.packages("r4ds.tutorials")
 
 Goal for today is to start with nothing and then finish with a nice looking plot. Today, we start with a new project. Tomorrow, we start with a Github repo. 
 
-We spend all of Day 2 working in an R script. Nnail down the distinction between a text file and the Console. Get good at command-return as well as sourcing a whole file, much as is done in the RStudio and Code tutorial.
+We spend all of Day 2 working in an R script. Nail down the distinction between a text file and the Console. Get good at command-return as well as sourcing a whole file, much as is done in the RStudio and Code tutorial. Make them restart their R sessions multiple times.
 
 If there are specific students you want to work with, let XXX know.
 
-Going forward, I will not have dedicated rooms assigned. Instead, I will try to visit all the rooms. I expect that we will have 9 rooms total: 1-3 Miriam, 4-6 Felix and 7-9 Alex. We might only have 6 rooms, with two rooms for each of you. Or even just three rooms!
+I will not have dedicated rooms assigned. Instead, I will try to visit all the rooms. I expect that we will have ? rooms total: 1-3 for 
 
 I will move from room to room. Let me know when I arrive if there is anything you want me to discuss. 
 
@@ -121,20 +126,12 @@ I will move from room to room. Let me know when I arrive if there is anything yo
 
 2) Apologies to the many students who are caught up. This is the last time that we will slow down the class in order to take care of students who have not done the work. Let's go to breakout rooms and ensure that everyone has a free www.github.com account. 
 
-3) R Weekly is a great way to keep up on all the things happening in the world of R: https://rweekly.org/. I subscribe to their weekly email.
 
-4) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data.
+3) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data.
 
-5) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
+4) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
 
-6) Submit your answers for each tutorial assigment separately, one per email. And don't forget that the Subject line of the email should like:
-
-David Kane; RStudio and Github
-
-That is, we want your full name, and the full name of the tutorial, separated by a semi-colon.
-
-
-7) Goal today is to publish an interesting graphic relating economic connectedness across US counties.
+5) Goal today is to publish an interesting graphic relating economic connectedness across US counties.
 
 
 #### TF Notes
@@ -178,6 +175,8 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 2) Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
 
+3) R Weekly is a great way to keep up on all the things happening in the world of R: https://rweekly.org/. I subscribe to their weekly email.
+
 3) Always reinstall the tutorials before starting a new tutorial. It certain weird situations, it may be necessary to explicitly remove and then reinstall:
 
 remove.packages("all.primer.tutorials")
@@ -193,7 +192,7 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 6) Should we mess around with ChatGPT? https://chat.openai.com/
 
-7) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. (Hat-tip to Ava!)
+
 
 Class Github: 
 Class website: 
@@ -212,6 +211,8 @@ https://github.com/bootcamp-2023-01/class-2023-02-02
 
 Class Github: 
 Class website: 
+
+7) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. (Hat-tip to Ava!)
 
 ## Week 3
 
