@@ -5,9 +5,9 @@ author: "David Kane"
 
 ## Session 1
 
-Start by making an R project. Note how it, by default, is placed in my projects folder. Note that all this only makes sense if you have done the RStudio and Code tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
+Start by making an R project. Note how it, by default, is placed in my `projects` folder. Note that all this only makes sense if you have done the RStudio and Code tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
 
-Look in the files directory. Talk about the two things that are there. Show the hidden files button. Mention that this was set by prep_rstudio_settings().
+Look in the files directory. Talk about the two things that are there. Show the hidden files button. Mention that this was set by set_rstudio_settings().
 
 Send to rooms so that everyone has this working.
 
