@@ -3,19 +3,9 @@ title: "Day 3"
 author: "David Kane"
 ---
 
-## Notes for next year
-
-This session failed because there was no way to get everything done in just one hour. First thing to fix is to make the graphic much, much easier. There is not enough time to deal with thing like drop_na(), log scales or axis labelling formatting.
-
-Even with that fix, there is still a lot going on here. Maybe try to do some of this on Day 2? Maybe go faster in the first 3 sessions? I guess that the best approach is to just assume that students have done the RStudio and Github tutorial. If that assumption is made, then we can go much faster. And, with luck, even if not all students have done that, there will be at least one student in each group who has.
-
-
 ## Session 1
 
-Don't forget to do things in the class organization repo, not your personal one.
-
 Start with a Github repo, named class-yyyy-mm-dd. Make sure it is public. Add a README. Connect it to RStudio.  
-
 Send to rooms to create. If you succeeded while I was demonstrating, that is OK! Now help your classmates.
 
 If you have not done the RStudio and Github homework, then this will be really hard. And it is not fair to your classmates! Either catch up this weekend or don't come back on Monday.
@@ -42,27 +32,27 @@ To the rooms to make sure everyone can do this. Extra time? Talk about final pro
 
 ## Session 3
 
-Start a Quarto document. Same steps as last time. Render to confirm that everything works. Remove the junk. Render.
+Start a Quarto document, called ec.Rmd. Render to confirm that everything works. Remove the junk. Render.
 
-Check the Git pane. Changes! All *_files to the .gitignore. Add the qmd and the html. Commit and push. See the new files on the web.
+Check the Git pane. Changes! All ec_files to the .gitignore. Add the qmd and the html. Commit and push. See the new files on the web.
 
-Add code chunk with library(tidyverse) and the download data code.
+Add code chunk with library(tidyverse) and library(primer.data). Render. Annoying messages! 
 
-Add appropriate options. (Mention execute: echo: false?)
+Add appropriate options. Don't like messages or code.
 
 ```{r}
-#| output: false
+#| message: false
 #| echo: false
 library(tidyverse)
 library(primer.data)
 ```
 
-Back to rooms. Make sure everyone has done this. Start thinking about a plot.
+Back to rooms. Make sure everyone has done this. Start thinking about a plot. How can we related population to economic connectedness.
 
 
 ## Session 4
 
-We want to make a plot of county populations. What hints to provide? Suggest a histogram. x variable is pop2018. What are good titles/labels? Deal with the warning about bins. Distribution looks ugly. What can we do? What did we do in Chapter 1?
+Make a geom_point() plot. Take about log scale on the x axis. How deal with the warnings? Don'
 
 
 ## Session 5
@@ -70,24 +60,23 @@ We want to make a plot of county populations. What hints to provide? Suggest a h
 Lead them to create a plot like this
 
 
-
 ```{r}
 #| echo: false
+#| warning: false
 connectedness |> 
-  drop_na() |> 
-  ggplot(aes(x = population)) +
-    geom_histogram(bins = 100) +
+  ggplot(aes(x = population, y = connectedness)) +
+    geom_point() +
     scale_x_log10(labels = scales::comma_format()) +
-    labs(title = "US County Populations in 2018",
-         subtitle = "Populations are highly skewed",
+    labs(title = "US County Populations versus Economic Connectedness",
+         subtitle = "Population size does not matter to EC",
          x = "Population",
-         y = "Number of Counties",
+         y = "Economic Connectedness",
          caption = "Opportunity Insights")
 ```
 
 ## Session 6
 
-Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
+Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work. Update .gitignore for rsconnect. Push everything.
 
 Now we are ready to do data science!
 

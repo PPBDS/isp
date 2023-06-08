@@ -27,6 +27,7 @@ Send them to the rooms. Practice everything that I have just showed you!
 
 Bring people back. Console:
 
+library(tidyverse) # Or tibble will print ugly.
 library(primer.data)
 connectedness
 
@@ -44,7 +45,9 @@ Works from there too. Source it. Works OK. But restart R and it doesn't work!
 
 Review the distinction between what happens in the document and what happens in the environment. Execute the data loading code. Now summary(x) works! Restart R. Note how x disappears from the environment. Rendering the document still works! But summary(x) does not.
 
-There are two shortcut keys we are learning today: command-enter (for working with code line-by-line), and command-shift-k (for sourcing entire file).
+Focus on the short cut key command-enter (for working with code line-by-line).
+
+Need to show link to NYT article somehow.
 
 Script:
 
@@ -54,25 +57,33 @@ library(tidyverse)
 
 Note all the garbage which this is producing! The document is ugly. There are two problems: we don't want to see the code and we don't want to see junky output. Wonder how we might get rid of these? In the meantime, just do what I have done here.
 
-Send them to the breakout rooms to replicate these.
+Send them to the breakout rooms to replicate these. Explore the data!
 
 ## Session 4
 
+Make sure that students have been exposed to the concept of a pipe and to the core dplyr functions. This should be done in the Introduction tutorial for R4DS.
+
 You can never restart R (not RStudio) too often.
 
-In your script, start looking at the data. What is the 3rd largest (by population) county in the US? Which county has the best economic connectedness?
+In your script, start looking at the data. What is the 3rd largest (by population) county in the US? Which county has the worst economic connectedness?
 
 connectedness |> 
   arrange(desc(population))
 
 connectedness |> 
-  arrange(location)
+  arrange(connectedness)
+  
+Hmm. Note the danger of connectedness being the name of the tibble and the name of the variable?  
 
-Any guesses as to the makeup of those counties?
+Any guesses as to the makeup of those counties? Check the data. Does it make sense?
 
 ## Session 5
 
-Let's make a plot of population (x-axis) versus connectedness on the (y-axis). Goal is to copy/paste a copy of your plot into the Discord class-work channel. Example code:
+Let's make a histogram of population. Goal is to copy/paste a copy of your plot into the Discord class-work channel. Example code:
+
+Maybe we should leave out drop_na and just deal with and/or ignore and/or discuss the warning.
+
+Make sure that things like bins and scale_x_log10 are covered in the Data visualization chapter.
 
 
 ```{r}
@@ -88,5 +99,5 @@ connectedness |>
          caption = "Opportunity Insights")
 ```
 
-Unlikely that most groups will get this far.
+Make sure to start plotting exercise with at least 20 minutes left in class.
 

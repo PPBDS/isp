@@ -81,7 +81,7 @@ Call me "Preceptor."
 
 0) If possible, please change your Discord and Zoom display name to be the name which we should use in addressing you. We are a community! 
 
-1) Big thanks to all the students (including Joshua, Dylan A, Matthew Ng, Natalie, harnoor, Alan Cai, Rishi S, Xamin and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+1) Big thanks to all the students (including Joshua, Dylan A, Matthew Ng, Natalie, harnoor, Alan Cai, Rishi S, Xamin, Hafsah K and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
 2) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
@@ -122,21 +122,26 @@ I will move from room to room. Let me know when I arrive if there is anything yo
 
 #### Preceptor's Notes
 
-1) New experiment with breakout rooms. You will be assigned to the same room for the rest of the course, with the same TF to help you. Hope this works! If you have any complaints, email Miriam. Depending on drops/adds, we may have to adjust these assignments next week. Let's meet your posse!
+Fill out this form about breakout rooms. 
 
-2) Apologies to the many students who are caught up. This is the last time that we will slow down the class in order to take care of students who have not done the work. Let's go to breakout rooms and ensure that everyone has a free www.github.com account. 
+https://forms.gle/xtVzQainfpsKXbTP6
 
+We will assign rooms for Monday. You must have caught up on the tutorials by Monday in order to stay in the course.
 
-3) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data.
+0) For Monday, from the r4ds.tutorials package, complete the *Terminal* tutorial. Also complete the tutorials associated with the readings: Data Import and Getting Help. Note that the Terminal tutorial is at the end of the r4ds.tutorials collection.
 
-4) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
+1) Apologies to the many students who are caught up. This is the last time that we will slow down the class in order to take care of students who have not done the work. Let's go to breakout rooms and ensure that everyone has a free www.github.com account. 
 
-5) Goal today is to publish an interesting graphic relating economic connectedness across US counties.
+2) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data. Use the #final-projects channel on Discord.
+
+3) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
+
+4) Goal today is to publish an interesting graphic relating population to economic connectedness across US counties.
 
 
 #### TF Notes
 
-The script from Day 2 might not be perfect, but it should have a plot with the key components. We will provide (in Discord) our cleaned up version of that script as a starting point for Day 3. Goal is to finish Day 3 with something published in Rpubs.
+
 
 
 ## Week 2
