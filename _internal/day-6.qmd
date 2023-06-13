@@ -8,8 +8,7 @@ There was not nearly enough time to do all of this. Just calculating the state-l
 
 Should we be using str_replace() or str_remove()? Need to make sure the Primer (and the tutorials) cover these tricks. Also, stuff like scale_x_log10(labels = scales::comma_format()).
 
-Explain execute:
-          echo: false.
+
 
 ## Overview
 
@@ -41,6 +40,9 @@ connectedness |>
 ## Session 1
 
 Fork the repo (in which the author is listed as "Your Name") and connect to a new R project. Change the author, render, commit file changes with git, push to Github. Have them do this in the rooms. 
+
+Explain execute:
+          echo: false.
 
 ## Session 2
 

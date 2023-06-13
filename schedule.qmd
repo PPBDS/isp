@@ -160,13 +160,13 @@ The last week will consist of projects that the students will make. Do you love 
 * You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
 
 
-## Wednesday 
+## Tuesday 
 
 * Practice presentations and feedback. You must have your presentation ready to go! 
 
-## Thursday 
+## Wednesday 
 
-* Final project presentations. You must invite someone.
+* Final project presentations. You must invite someone, and bcc your TF when you do so.
 
 
 

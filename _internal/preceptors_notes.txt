@@ -152,21 +152,25 @@ See the daily scripts for more details. Key things this week are getting comfort
 
 ### Day 4
 
-1) Big thanks to those (including tlonz, Namyuktha, Larry Seltzer and others) pointing our typos and errors in the tutorials, and to those helping out their classmates. Much appreciated.
+0) We will try out permanent breakout room assignments. See here: https://docs.google.com/spreadsheets/d/1fEYkLTTIQKPFeFhVJ3ifx9iDTrK454rFQVZG8hImUuw/. Find your room. Add your email address. If your name is not listed, add yourself to the room with the fewest students. Start with Room 5.
+
+1) Big thanks to those (including Joshua, Nick, Natalie and others) pointing our typos and errors in the tutorials, and to those helping out their classmates. Much appreciated.
 
 2) Whenever starting a new tutorial, please:
 
-install_github("PPBDS/all.primer.tutorials")
+install_github("PPBDS/r4ds.tutorials")
 
 Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is zero not the letter O.
 
-3) Time to think hard about your projects. Why has no one asked for help on this #final-project Discord channel?
+3) Key question this week: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
-4) Key goal today is to practice some of the techniques you learned in the Terminal tutorial. You completed that right?
+4) Key goal today is to practice some of the techniques you learned in the Terminal tutorial. You completed that right? If your on Windows, use https://www.geeksforgeeks.org/linux-vs-windows-commands/
 
 5) See the #class-work channel for the data file which we will be downloading and the plot which I hope to get to. #announcements provides a link for the room assignments.
 
-6) Review assignments for this week.
+6) Review assignments for this week. Several of the tutorials are unfinished. One is barely started. Just do whatever is there.
+
+7) Final projects?
 
 
 

@@ -54,6 +54,8 @@ x <- read_csv("data/social_capital_county.csv", show_col_types = FALSE) |>
   select(county_name, pop2018, ec_county)
 ```
 
+Explain execute:
+          echo: false
 
 
 ## Session 4
