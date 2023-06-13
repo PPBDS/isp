@@ -4,11 +4,6 @@ author: "David Kane"
 ---
 
 
-## For Next Time
-
-Change ec.rds so that it has the necessary income data so that we can replicate the plots from the NYT article.
-
-There is not nearly enough time to do all this. Last time, we only got through the reading in of the data. We had no time to even start plotting. And that is OK! I don't mind spending a whole day messing around with terminal issues. The command line is that important! And doing so on the day that the Terminal tutorial was due helps to re-iterate the importance of doing the tutorials on time.
 
 ## Overview
 
@@ -17,6 +12,8 @@ Key question to answer this week: Is there a relationship between the total popu
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 
 
 For today, we are getting more comfortable with the Terminal and with file locations on our machines. A key problem is that many/most students will not have done the Terminal tutorial before class today, even though they were supposed to. We should use this fact as an occasion to shame students into staying up-to-date with the work. Slacking is not fair to their classmates!
+
+By end of class, we should have the data downloaded.
 
 ## Session 1
 
@@ -32,19 +29,22 @@ Send to rooms to create. If you succeeded while I was demonstrating, that is OK!
 
 ## Session 2
 
-Download the ec.rds file by hand. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which ec.rds has been placed.
+Go to: https://github.com/PPBDS/primer.data/blob/master/data-raw/social_capital_county.csv Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which ec.rds has been placed.
 
 ls ~/Downloads
-ls ~/Download/ec*
+ls ~/Download/soc*
 
 The second is useful if you have a lot of items in your Downloads folder.
+
+Note that you need different commands on Windows.
 
 But where will we place the file? We might just stick it in the top-level of our project. That is fine for simple projects. But for anything more complex, we want organization, which generally means a "data" directory, although you can call it what you want.
 
 pwd
 ls
+ls -a   
 mdkir data
-mv ~/Downloads/ec.rds data/
+mv ~/Downloads/social_capital_county.csv data/
 
 Of course, you could do this by hand, with point-and-click and drag-and-drop. That is OK with one file. But not with 1,000!
 
@@ -56,47 +56,52 @@ Go to rooms and get the data into your projects. Help your friends.
 
 Start a new Quarto document. Render it. Get rid of the junk. 
 
-Add library(tidyverse). Add read_rds(), which you now understand from reading the Wrangling chapter. Add in a label code option. Render and see how the set-up label is shown during knitting.
+Add library(tidyverse).  Add in a label code option. Render and see how the set-up label is shown during knitting.
 
 ```{r}
 #| output: false
 #| echo: false
 #| label: set-up
 library(tidyverse)
-library(primer.data)
 ```
 
 Back to rooms. Make sure everyone has done this. Start thinking about a plot. Did everyone do the necessary git steps? If your work isn't pushed, then you are not a professional.
 
+What about the code in which we read in the data. Do that first!
 
 ## Session 4
 
-Take a look at the #class-work channel and see this target plot. Work on making it. Maybe let them start and then bring them back.
+Impossible to get this far. But here is the code for the graphic, in case you want to add it to the class-work. channel. 
 
 Explain the distinction between just vomitting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
 
 ```{r}
 #| echo: false
 #| label: make plot
+
+library(primer.data)
 connectedness |> 
   drop_na() |> 
-  ggplot(aes(x = population)) +
-    geom_histogram(bins = 100) +
-    scale_x_log10(labels = scales::comma_format()) +
-    labs(title = "US County Populations in 2018",
-         subtitle = "Populations are highly skewed",
-         x = "Population",
-         y = "Number of Counties",
-         caption = "Opportunity Insights")
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(pop_state = sum(population),
+            avg_ec = mean(connectedness),
+            .by = state) |> 
+  ggplot(aes(x = pop_state, y = avg_ec)) +
+    geom_point() +
+    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
+    scale_x_log10(breaks = c(1000000, 10000000),
+                  labels = scales::comma_format()) +
+    labs(y = "Average County Economic Connectedness",
+         x = "State Population",
+         title = "Economic Connectedness and Population in US States",
+         subtitle = "Biggger states have counties with lower average economic connectedness.")
 ```
 
 If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
 
 How might we make the plot so that there was a different panel for each state?
 
-## Session 5
 
-Publish the plot to Rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
 
 
 
