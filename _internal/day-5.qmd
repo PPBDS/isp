@@ -7,14 +7,22 @@ author: "David Kane"
 
 ## Overview
 
-Goal is to start wrangling with the `ec.rds` data. Need to highlight that the material assigned in the tutorials is used in class, so doing the tutorials is a good idea. Let them struggle with the key step of creating a new state variable. Expose them to ChatGPT.
+Goal is to start wrangling with the connectedness data. Need to highlight that the material assigned in the tutorials is used in class, so doing the tutorials is a good idea. Let them struggle with the key step of creating a new state variable. Expose them to ChatGPT.
+
+My repo from the last class, which was created on the class organization account, is used to start everyone's work, via fork.
+
+We might only get as far as calculating the state level variables. We can then plot tomorrow.
 
 
 ## Session 1
 
 Show how to delete a repo. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
 
+https://github.com/Bootcamp-June-2023/class-2023-06-12
+
 Show how to fork a repo from the class organization. Send the breakout rooms so that students get started quickly on this work.
+
+
 
 ## Session 2
 
@@ -25,16 +33,30 @@ https://github.com/bootcamp-2023-01/class-2023-02-01-fork
 ```{r}
 #| label: set up
 #| echo: false
-#| output: false
+#| message: false
 
 library(tidyverse)
 library(primer.data)
+connectedness
+summary(connectedness)
+glimpse(connectedness)
+slice_sample(connectedness, n = 5)
 ```
 
-They may not explore the data that well, which is OK.
-
-
 ## Session 3
+
+They may not explore the data that well, which is OK. Read in the data
+
+```{r}
+#| echo: false
+
+x <- read_csv("data/social_capital_county.csv", show_col_types = FALSE) |> 
+  select(county_name, pop2018, ec_county)
+```
+
+
+
+## Session 4
 
 Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!
 
@@ -51,10 +73,10 @@ First step: Create a new variable which is the state? Seems simple. Hard to do!
 
 Maybe ask ChatGPT? https://chat.openai.com/
 
-TFs should not give out this answer! Let the students work on it! Let them struggle! Point them to the Primer. Did they read the Wrangling chapter? Did they learn about the stringr package? Did they learn about regular expressions? Did they do the assigned tutorials, especially Wrangling: Overview?
+TFs should not give out this answer! Let the students work on it! Let them struggle! Point them to R4DS. Did they read the strings and regular expressions chapters? Did they do the assigned tutorials?
 
 ```{r}
-connectedness |> 
+x |> 
   drop_na() |> 
   mutate(state = str_replace(location, ".*, ", "")) 
 ```
@@ -70,7 +92,7 @@ Calculate the state-level statistics. Send them to rooms to do this for themselv
 
 
 ```{r}
-connectedness |> 
+x |> 
   drop_na() |> 
   mutate(state = str_replace(location, ".*, ", "")) |> 
   summarise(pop_state = sum(population),
@@ -83,11 +105,18 @@ Highlight how we often work two ways. First, render the entire document. Second 
 
 Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
 
-## Session 6
 
-Make this plot. This might take two days! Today, we will probably only be able to calculate the state level statistics.
+## Session 4
+
+Impossible to get this far. But here is the code for the graphic, in case you want to add it to the class-work. channel. 
+
+Explain the distinction between just vomitting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
 
 ```{r}
+#| echo: false
+#| label: make plot
+
+library(primer.data)
 connectedness |> 
   drop_na() |> 
   mutate(state = str_replace(location, ".*, ", "")) |> 
@@ -105,10 +134,11 @@ connectedness |>
          subtitle = "Biggger states have counties with lower average economic connectedness.")
 ```
 
+If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
 
-## Session 6
+How might we make the plot so that there was a different panel for each state?
 
-Publish the plot to Rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work.
+
 
 
 
