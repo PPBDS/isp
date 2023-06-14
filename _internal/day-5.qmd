@@ -3,32 +3,32 @@ title: "Day 5"
 author: "David Kane"
 ---
 
-
-
 ## Overview
 
-Goal is to start wrangling with the connectedness data. Need to highlight that the material assigned in the tutorials is used in class, so doing the tutorials is a good idea. Let them struggle with the key step of creating a new state variable. Expose them to ChatGPT.
+Goal is to download the social capital data by hand and start to wrangle it.  Need to highlight that the material assigned in the tutorials is used in class, so doing the tutorials is a good idea. Let them struggle with the key step of creating a new state variable. Expose them to ChatGPT.
 
-My repo from the last class, which was created on the class organization account, is used to start everyone's work, via fork.
+My repo from the last class, which was created on the class organization account, is used to start everyone's work, via fork. I show them the fork as if I were a student.
 
 We might only get as far as calculating the state level variables. We can then plot tomorrow.
 
 
 ## Session 1
 
-Show how to delete a repo. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
+Show how to delete a repo from one of the examples last week. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
 
 https://github.com/Bootcamp-June-2023/class-2023-06-12
 
-Show how to fork a repo from the class organization. Send the breakout rooms so that students get started quickly on this work.
+Show how to fork a repo from the class organization. Connect the forked repo (in your Github account) to a new R project on your computer. Send the breakout rooms so that students get started quickly on this work. They should:
 
+1) Delete one of last week's repos from their Github account.
+2) Delete the corresponding project from their computer.
+3) Fork and connect, and start loading up the data.
 
 
 ## Session 2
 
-Connect the forked repo (in your Github account) to a new R project on your computer. Note that it has the code and data we finished working with last class. Get this working for everyone in your group. Explore the data.
+Before loading up with this new data, let's take a look at the connectedness tibble from last week.  Explore the data.
 
-https://github.com/bootcamp-2023-01/class-2023-02-01-fork
 
 ```{r}
 #| label: set up
@@ -43,9 +43,15 @@ glimpse(connectedness)
 slice_sample(connectedness, n = 5)
 ```
 
+Send to the rooms and interactively find the information for your county, or for a weird county.
+
 ## Session 3
 
-They may not explore the data that well, which is OK. Read in the data
+Read in the new data. Create a new tibble called `x` with this data. All this is done in quarto. Make it look nice, which really means that it happens behind the scenes. `read_csv()` is a useful function. Hope you have done the Data import tutorial.
+
+## Session 4
+
+Bring them back. They should have something like this.
 
 ```{r}
 #| echo: false
@@ -57,17 +63,16 @@ x <- read_csv("data/social_capital_county.csv", show_col_types = FALSE) |>
 Explain execute:
           echo: false
 
+Is x the same as connectedness? How do you check? Go to the rooms and explore.
 
-## Session 4
+## Session 5
 
 Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!
 
 Find something interesting, strange, funny, broken, whatever and then post your discovery in the #class-work Discord channel. Hope that they, for example, find the missing data problem. Find extreme values of population and economic connectedness.
 
-Trip to break out rooms.
 
-
-## Session 4
+## Session 6
 
 Recall our question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
@@ -86,9 +91,9 @@ x |>
 
 
 
-## Session 5
+## Session 7
 
-We did not really get to this. 
+Highly unlikely to get to this, but . . .
 
 Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.
 
@@ -108,7 +113,7 @@ Highlight how we often work two ways. First, render the entire document. Second 
 Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
 
 
-## Session 4
+## Session 8
 
 Impossible to get this far. But here is the code for the graphic, in case you want to add it to the class-work. channel. 
 
