@@ -147,7 +147,7 @@ We will assign rooms for Monday. You must have caught up on the tutorials by Mon
 ## Week 2
 
 
-See the daily scripts for more details. Key things this week are getting comfortable with rendering qmd, using Git/Github and then publishing the page to the web.
+See the daily scripts for more details. Key things this week are getting comfortable with rendering qmd, using Git/Github and then publishing the page to the web. All week is answering the question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
 
 ### Day 4
@@ -176,35 +176,30 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 ### Day 5
 
--1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+-1) Thanks to everyone (Alan Tao, Pranav C, Rishi S, vibha24, ricesucker2000, Pratham, and others) for asking/amswering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
 
 0) Sign up for https://chat.openai.com/ now.
 
-1) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.) Following the instructions in Getting Started. 
+1)  Always reinstall the tutorials before starting a new tutorial. It certain weird situations, it may be necessary to explicitly remove and then reinstall:
 
-2) Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+remove.packages("r4ds.tutorials")
+remotes::install_github("PPBDS/r4ds.tutorials")
 
-3) R Weekly is a great way to keep up on all the things happening in the world of R: https://rweekly.org/. I subscribe to their weekly email.
+2) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
-3) Always reinstall the tutorials before starting a new tutorial. It certain weird situations, it may be necessary to explicitly remove and then reinstall:
+3) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.) 
 
-remove.packages("all.primer.tutorials")
-install_github("PPBDS/all.primer.tutorials")
+4) Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
 
-4) Let's learn how to delete a repo. Keep your Github account clean.
+5) Let's learn how to delete a repo. Keep your Github account clean.
 
-5) Let's learn how to fork a repo: 
+6) Let's learn how to fork a repo: 
 
-https://github.com/bootcamp-2023-01/class-2023-02-01-fork
+https://github.com/Bootcamp-June-2023/class-2023-06-12
 
 Connect this to a new RStudio project. Data science work often begins with a fork like this. Is there a relationship between the total population in a state and the average economic connectedness of counties in the state?
 
-6) Should we mess around with ChatGPT? https://chat.openai.com/
 
-
-
-Class Github: 
-Class website: 
 
 ### Day 6
 

@@ -55,7 +55,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Read chapters 13, 14, 15 and 16 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Logical, Numbers, Strings, and Regular Expressions. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions. 
 
 ## Thursday
 

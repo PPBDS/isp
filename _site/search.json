@@ -144,7 +144,7 @@
     "href": "schedule.html#wednesday-1",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead chapters 13, 14, 15 and 16 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Logical, Numbers, Strings, and Regular Expressions."
+    "text": "Wednesday\n\nRead chapters 13, 14, 15 and 16 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions."
   },
   {
     "objectID": "schedule.html#thursday-1",
