@@ -2,62 +2,55 @@
 title: "Day 6"
 ---
 
-## Next time
-
-There was not nearly enough time to do all of this. Just calculating the state-level numbers took a bunch of time. Almost no students could do it right away. Does this indicate that the tutorials are not teaching these skills?
-
-Should we be using str_replace() or str_remove()? Need to make sure the Primer (and the tutorials) cover these tricks. Also, stuff like scale_x_log10(labels = scales::comma_format()).
-
-
-
 ## Overview
 
-Answer the question with which we began the week:
+Use project which they were working with last class to answer the question with which we began the week:
 
 Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
-
-Need to start with a Github repo which includes the key code from last time:
 
 ```{r}
 #| label: set up
 #| echo: false
-#| output: false
+#| message: false
 
 library(tidyverse)
-library(primer.data)
 ```
 
+The below code should have been completed last class. Ideally, we noticed and discussed the missing data problem, but maybe not.
+
+```{r}
+#| label: load data
+#| echo: false
+
+x <- read_csv("data/social_capital_county.csv", show_col_types = FALSE) |> 
+  select(county_name, pop2018, ec_county)
+```
+
+## Session 1
+
+Make sure everyone in the room has the basic set up working. We can now start a new code chunk and add a state variable.
 
 ```{r}
 #| label: clean data
 #| echo: false
 
-connectedness |> 
-  drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) 
+x |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) 
 ```
 
-## Session 1
-
-Fork the repo (in which the author is listed as "Your Name") and connect to a new R project. Change the author, render, commit file changes with git, push to Github. Have them do this in the rooms. 
 
 Explain execute:
           echo: false.
 
 ## Session 2
 
-Tell them to calculate the average county_ec for each state. 
-
-Perhaps provide a link to the Tidyverse -> summarise() section of the Visualization chapter which shows exactly how to do this. Even with this hint, doing so is hard!
-
-Send them to rooms to do this for themselves. Bring them back.
+Tell them to calculate the average county_ec for each state. Send them to rooms to do this for themselves. Bring them back.
 
 
 ```{r}
-connectedness |> 
-  drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) |> 
-  summarise(avg_ec = mean(connectedness),
+x |> 
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  summarise(avg_ec = mean(ec_county),
             .by = state)
 ```
 
@@ -66,26 +59,27 @@ Highlight how we often work two ways. First, render the entire document. Second 
 
 Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
 
+Note the NA problem! Can fix either by adding na.rm to the function calls or putting drop_na() earlier in the pipe.
+
 ## Session 3
 
 Add total state population to the calculation of state-level statistics. Send them to rooms to do this for themselves. Bring them back.
 
 
 ```{r}
-connectedness |> 
+x |> 
   drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) |> 
-  summarise(pop_state = sum(population),
-            avg_ec = mean(connectedness),
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  summarise(pop_state = sum(pop2018),
+            avg_ec = mean(ec_county),
             .by = state)
 ```
 
 Show more interactive work, how you can add a new line to a pipe, hit command-return, check out the result, and keep working. For example, adding an arrange() step to this pipe to sort by population.
 
-
 ## Session 4
 
-Show them the plot in #class-work. Have them start with just a simple scatter plot. And then add a fitted line. Look at the warning message. How can we make that go away?
+Show them the plot in #class-work. Have them start with just a simple scatter plot. And then add a fitted line. If they did not deal with missing data, they now have a warning message. How can we make that go away?
 
 Don't tell them the answers! Help them to Google things.
 
@@ -99,11 +93,11 @@ Not sure how long things will take. The purpose of this next section is to discu
 Make this plot. 
 
 ```{r}
-connectedness |> 
+x |> 
   drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) |> 
-  summarise(pop_state = sum(population),
-            avg_ec = mean(connectedness),
+  mutate(state = str_replace(county_name, ".*, ", "")) |> 
+  summarise(pop_state = sum(pop2018),
+            avg_ec = mean(ec_county),
             .by = state) |> 
   ggplot(aes(x = pop_state, y = avg_ec)) +
     geom_point() +

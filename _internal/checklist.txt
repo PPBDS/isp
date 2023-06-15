@@ -2,8 +2,6 @@
 
 * Reach out to potential TFs, including:
 
-Krish Badri <kpb.2006@gmail.com>
-
 * Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention
 
 * Create a new location for example reprexes at R Studio Community. Here is the most recent one: https://community.rstudio.com/t/thread-for-students-in-kanes-data-science-bootcamp-to-post-example-questions/140111

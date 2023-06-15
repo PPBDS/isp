@@ -146,6 +146,11 @@ We will assign rooms for Monday. You must have caught up on the tutorials by Mon
 
 ## Week 2
 
+Monday: Get the data downloaded and placed in a data directory.
+
+Wednesday: Fork the repo from Monday, read in the data and, hopefully, get as far as creating a new state variable.
+
+Thursday: Use the same project as Wednesday. Calculate the state-level statistics and make a nice plot. Publish it to Rpubs.
 
 See the daily scripts for more details. Key things this week are getting comfortable with rendering qmd, using Git/Github and then publishing the page to the web. All week is answering the question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
@@ -176,7 +181,7 @@ Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is 
 
 ### Day 5
 
--1) Thanks to everyone (Alan Tao, Pranav C, Rishi S, vibha24, ricesucker2000, Pratham, and others) for asking/amswering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
+-1) Thanks to everyone (Alan Tao, Pranav C, Rishi S, vibha24, ricesucker2000, Pratham, and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
 
 0) Sign up for https://chat.openai.com/ now.
 
@@ -203,20 +208,19 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 ### Day 6
 
-0) Fork this repo and connect it to a new R project on your computer:
 
-https://github.com/bootcamp-2023-01/class-2023-02-02
+1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state? See #class-work channel for my plot.
 
-1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+2) Final Project presentations (Demo Day) on Wednesday July 12.
 
-2) Have you found data for your final project? Lots of great stuff in the census! It is impossible to do a bad final project when using census data and making a map. Find a variable which interests you! Often, we start with the data rather than with the project idea.
+3) Call me "Preceptor."
 
-3)  If you have not completed (and submitted) the Quarto Websites Tutorial by Monday, you will not be allowed to attend class.  See the schedule: https://bootcamp.davidkane.info/schedule.html.
+4) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. 
 
-Class Github: 
-Class website: 
+5) Always reinstall the r4ds.tutorials package before starting a new tutorial.
 
-7) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. (Hat-tip to Ava!)
+6) Let's get to know each other better. Go to the breakout rooms and have everyone say where they are and how they found out about the course.
+
 
 ## Week 3
 

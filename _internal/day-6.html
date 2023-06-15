@@ -123,73 +123,69 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="next-time" class="level2">
-<h2 class="anchored" data-anchor-id="next-time">Next time</h2>
-<p>There was not nearly enough time to do all of this. Just calculating the state-level numbers took a bunch of time. Almost no students could do it right away. Does this indicate that the tutorials are not teaching these skills?</p>
-<p>Split up state-level calculatiins</p>
-<p>Should we be using str_replace() or str_remove()?</p>
-</section>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Answer the question with which we began the week:</p>
+<p>Use project which they were working with last class to answer the question with which we began the week:</p>
 <p>Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?</p>
-<p>Need to start with a Github repo which includes the key code from last time:</p>
 <div class="cell">
 
 </div>
+<p>The below code should have been completed last class. Ideally, we noticed and discussed the missing data problem, but maybe not.</p>
 <div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2,942 × 5
-   county county_name       pop2018 ec_county state  
-    &lt;dbl&gt; &lt;chr&gt;               &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  
- 1   1001 Autauga, Alabama    55200     0.721 Alabama
- 2   1003 Baldwin, Alabama   208107     0.743 Alabama
- 3   1005 Barbour, Alabama    25782     0.414 Alabama
- 4   1007 Bibb, Alabama       22527     0.632 Alabama
- 5   1009 Blount, Alabama     57645     0.726 Alabama
- 6   1011 Bullock, Alabama    10352     0.355 Alabama
- 7   1013 Butler, Alabama     20025     0.460 Alabama
- 8   1015 Calhoun, Alabama   115098     0.602 Alabama
- 9   1017 Chambers, Alabama   33826     0.498 Alabama
-10   1019 Cherokee, Alabama   25853     0.605 Alabama
-# … with 2,932 more rows</code></pre>
-</div>
+
 </div>
 </section>
 <section id="session-1" class="level2">
 <h2 class="anchored" data-anchor-id="session-1">Session 1</h2>
-<p>Fork the repo (in which the author is listed as “Your Name”) and connect to a new R project. Change the author, render, commit file changes with git, push to Github. Have them do this in the rooms.</p>
+<p>Make sure everyone in the room has the basic set up working. We can now start a new code chunk and add a state variable.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 3,089 × 4
+   county_name       pop2018 ec_county state  
+   &lt;chr&gt;               &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  
+ 1 Autauga, Alabama    55200     0.721 Alabama
+ 2 Baldwin, Alabama   208107     0.743 Alabama
+ 3 Barbour, Alabama    25782     0.414 Alabama
+ 4 Bibb, Alabama       22527     0.632 Alabama
+ 5 Blount, Alabama     57645     0.726 Alabama
+ 6 Bullock, Alabama    10352     0.355 Alabama
+ 7 Butler, Alabama     20025     0.460 Alabama
+ 8 Calhoun, Alabama   115098     0.602 Alabama
+ 9 Chambers, Alabama   33826     0.498 Alabama
+10 Cherokee, Alabama   25853     0.605 Alabama
+# ℹ 3,079 more rows</code></pre>
+</div>
+</div>
+<p>Explain execute: echo: false.</p>
 </section>
 <section id="session-2" class="level2">
 <h2 class="anchored" data-anchor-id="session-2">Session 2</h2>
-<p>Tell them to calculate the average county_ec for each state.</p>
-<p>Perhaps provide a link to the Tidyverse -&gt; summarise() section of the Visualization chapter which shows exactly how to do this. Even with this hint, doing so is hard!</p>
-<p>Send them to rooms to do this for themselves. Bring them back.</p>
+<p>Tell them to calculate the average county_ec for each state. Send them to rooms to do this for themselves. Bring them back.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">|&gt;</span> </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_replace</span>(county_name, <span class="st">".*, "</span>, <span class="st">""</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_replace</span>(county_name, <span class="st">".*, "</span>, <span class="st">""</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 51 × 2
    state                avg_ec
    &lt;chr&gt;                 &lt;dbl&gt;
- 1 Alabama               0.595
- 2 Alaska                0.977
+ 1 Alabama              NA    
+ 2 Alaska               NA    
  3 Arizona               0.692
  4 Arkansas              0.690
- 5 California            0.807
- 6 Colorado              0.954
+ 5 California           NA    
+ 6 Colorado             NA    
  7 Connecticut           0.949
  8 Delaware              0.782
  9 District of Columbia  0.996
 10 Florida               0.665
-# … with 41 more rows</code></pre>
+# ℹ 41 more rows</code></pre>
 </div>
 </div>
 <p>Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.</p>
 <p>Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.</p>
+<p>Note the NA problem! Can fix either by adding na.rm to the function calls or putting drop_na() earlier in the pipe.</p>
 </section>
 <section id="session-3" class="level2">
 <h2 class="anchored" data-anchor-id="session-3">Session 3</h2>
@@ -198,31 +194,31 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">|&gt;</span> </span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_replace</span>(county_name, <span class="st">".*, "</span>, <span class="st">""</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
 <span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 51 × 3
-   state                avg_ec pop_state
-   &lt;chr&gt;                 &lt;dbl&gt;     &lt;dbl&gt;
- 1 Alabama               0.595   4855194
- 2 Alaska                0.977    712389
- 3 Arizona               0.692   6946685
- 4 Arkansas              0.690   2990671
- 5 California            0.807  39147614
- 6 Colorado              0.954   5498538
- 7 Connecticut           0.949   3581504
- 8 Delaware              0.782    949495
- 9 District of Columbia  0.996    684498
-10 Florida               0.665  20598139
-# … with 41 more rows</code></pre>
+   state                pop_state avg_ec
+   &lt;chr&gt;                    &lt;dbl&gt;  &lt;dbl&gt;
+ 1 Alabama                4855194  0.595
+ 2 Alaska                  712389  0.977
+ 3 Arizona                6946685  0.692
+ 4 Arkansas               2990671  0.690
+ 5 California            39147614  0.807
+ 6 Colorado               5498538  0.954
+ 7 Connecticut            3581504  0.949
+ 8 Delaware                949495  0.782
+ 9 District of Columbia    684498  0.996
+10 Florida               20598139  0.665
+# ℹ 41 more rows</code></pre>
 </div>
 </div>
 <p>Show more interactive work, how you can add a new line to a pipe, hit command-return, check out the result, and keep working. For example, adding an arrange() step to this pipe to sort by population.</p>
 </section>
 <section id="session-4" class="level2">
 <h2 class="anchored" data-anchor-id="session-4">Session 4</h2>
-<p>Show them the plot in #class-work. Have them start with just a simple scatter plot. And then add a fitted line. Look at the warning message. How can we make that go away?</p>
+<p>Show them the plot in #class-work. Have them start with just a simple scatter plot. And then add a fitted line. If they did not deal with missing data, they now have a warning message. How can we make that go away?</p>
 <p>Don’t tell them the answers! Help them to Google things.</p>
 </section>
 <section id="session-5" class="level2">
@@ -236,8 +232,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>x <span class="sc">|&gt;</span> </span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">drop_na</span>() <span class="sc">|&gt;</span> </span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">state =</span> <span class="fu">str_replace</span>(county_name, <span class="st">".*, "</span>, <span class="st">""</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">pop_state =</span> <span class="fu">sum</span>(pop2018),</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">avg_ec =</span> <span class="fu">mean</span>(ec_county),</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">.by =</span> state) <span class="sc">|&gt;</span> </span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> pop_state, <span class="at">y =</span> avg_ec)) <span class="sc">+</span></span>
 <span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
@@ -249,7 +245,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>         <span class="at">subtitle =</span> <span class="st">"Biggger states have counties with lower average economic connectedness."</span>,</span>
 <span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>         <span class="at">caption =</span> <span class="st">"Data: Opportunity Insights"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="day-6_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="day-6_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
