@@ -1,0 +1,75 @@
+---
+title: "Day 7"
+---
+
+DK: Fix _publish.yml and use of checked git box.
+
+Most of this week is devoted to building an example final project from scratch. Ideally, we cover everything we want them to do, everything which is mentioned in the Final Project tutorial. This ensures that they are ready to spend this week-end making their project.
+
+## Scene 1: Make Website
+
+Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
+
+* `File -> New Project... -> New Directory -> Quarto Website`
+
+* Name the 'example-project`. `Create Project`
+
+Send them to the rooms to make sure everyone can do this. If they can, talk about final project ideas. Anyone doing census data? Highly recommended.
+
+## Scene 2: Publish Website
+
+* Take a tour of some of the files in the File pane. Note that there is nothing about Git/Github because we have delayed that part. Note that 
+
+* Edit the `title` in `_quarto.yml` to be something like "Cool Project Name". 
+
+* Edit the title in `about.qmd` to "About Me" and add a sentence about me.
+
+* `quarto publish` the project. Note the need to hit return twice. You might need to sign up if you haven't completed the Quarto Websites tutorial.
+
+* Take a look at your cool website!
+
+Send to rooms.
+
+## Scene 3: Git/Github
+
+* Time to save our work in case our computer blows up.
+
+* Load the usethis library. Lots of cool stuff! Check out the Happy Git with R book.
+
+* Look at files. No git stuff.
+
+* Run: `usethis::use_git()`. Answer No to the first question and Yes to the second.
+
+* Check out all the new files! Try `git log`. Still, haven't done anything with Github yet.
+
+* Edit the .gitignore to ensure that only files you want to push to the web are pushed. Of course, this isn't quite correct, since the initial versions are pushed.
+
+* Run: `usethis::use_github()`. Does this change anything in our directory? Not sure! Don't see any files changed. Run `git log` to check.
+
+* Could do all these working with git from the Terminal, but it is much harder.
+
+* Change the about.qmd page. Render. Commit and push. But that does not change the website!
+
+* `quarto publish` again.
+
+## Scene 4: Add Map
+
+* Edit the `index.qmd`. Discuss why it is named "index." Copy the first example from this section:
+
+https://walker-data.com/census-r/mapping-census-data-with-r.html#using-geometry-in-tidycensus
+
+Should work out of the box. Render. `quarto publish`. Now we are cooking with gas!
+
+* Go to your rooms and choose a different state. What pops up? What aspects should you clean up, like messages and code echos?
+
+## Scene 5: Clean Map
+
+* Show how to clean up the appearence of the website with, for example, `echo: false` and `message: false`.
+
+* Publish final version. Place link to website into #class-work.
+
+
+
+
+
+

@@ -5,7 +5,9 @@
 
 ## Before Next Time
 
-Week 1 is easier because we now include the connectedness data in primer.data. But we should also make use of the raw csv data, which we could get from either the primer.data github or from the Opportunity Insights web page. This could happen on Monday of week 2, where we download that data by hand and then include it in our repo, doing this work from the Terminal.
+Think harder about week 3, and what should be completed before then. For example, we might complete both the Quarto Websites Tutorial and the Census I tutorial for Monday of this week. Then, the week could be spent building a quarto websites with census data, which would be a nice project. Then, we would have more time to do proper data science during weeks 4 and 5.
+
+
 
 ## Week 1
 
@@ -224,27 +226,23 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 ## Week 3
 
-Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 8 and 9, going faster each time and leaving more time for discussion and playing around with the resulting website. 
+Las week, we started with nothing, created a project, downloaded some data, read in the data, did some wrangling, made a nice plot and put it on the web. Good stuff! 
 
-Whole thing worked very well last time. It is really good to make them comfortable making websites. It is really good to show them how to split out component parts in scripts like download-data.R and make-plots.R.
+This week, we do it all again.
+
+
 
 
 
 ### Day 7
 
+1) Thanks to everyone (Rishi S, Alan Tao, Alan Cai, vibha24, susuwatari, cindyqiao, satvik, Aryan, Pratham, Luit Deka  and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
+
+2) Want to do a data science apprenticeship with me this summer? You now have enough background to do so, starting either now (while you take the course) or after the course ends. More details: https://davidkane.substack.com/p/data-science-apprenticeships
+
 0) Goal this week is to build a nice looking (mini) final project which uses census data in interesting ways. Today, we just want to get the project up and running.
 
-1) Many thanks to @Zayan for pointing out a key error in the Quarto Websites tutorial. Much appreciated --- as are all the reports about typos, confusions and so on. I have fixed the key error. So, please
-
-remotes::install_github("PPBDS/all.primer.tutorials")
-
-before you start the tutorial. Of course, you should do this before each tutorial.
-
 2) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
-
-3) Let's make a nice map, following along with Kyle Walker's excellent book:
-
-https://walker-data.com/census-r/mapping-census-data-with-r.html
 
 4) Discuss your ideas for projects. Look at what students have done in prior sessions: https://bootcamp.davidkane.info/projects.html
 
@@ -255,8 +253,6 @@ Class website:
 
 ### Day 8
 
-0) I decided that the method of starting a new website which we used on Monday (and practiced in the tutorial) is not as clean as it should be. So, I present a better method today. You are, of course, free to use any approach you like. Only change is to check the git bix when creating the project.
-
 1) Thanks for all the suggestions and typo reports (DermotFinn, Justin Yee and others). Much appreciated!
 
 2) There are lots of CRAN packages which specialize in different types of data. Google is your friend! Examples:
@@ -265,6 +261,12 @@ https://cran.r-project.org/web/packages/worldfootballR/index.html
 https://cran.r-project.org/web/packages/oce/index.html
 
 3) Lots of cool stuff at CRAN Task Views: https://cran.r-project.org/web/views/ 
+
+4) Please
+
+remotes::install_github("PPBDS/r4ds.tutorials")
+
+before you start the tutorial. Of course, you should do this before each tutorial, including tutorials from other packages like primer.tutorials and tidycensus.tutorials.
 
 Class Github: 
 Class website: 
@@ -288,6 +290,18 @@ Class website:
 
 
 ## Week 4
+
+Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 8 and 9, going faster each time and leaving more time for discussion and playing around with the resulting website. 
+
+Whole thing worked very well last time. It is really good to make them comfortable making websites. It is really good to show them how to split out component parts in scripts like download-data.R and make-plots.R.
+
+
+
+
+## Week 5
+
+
+## Week 6
 
 This week is all about making Demo Day a success.
 
