@@ -7,6 +7,9 @@
 
 Think harder about week 3, and what should be completed before then. For example, we might complete both the Quarto Websites Tutorial and the Census I tutorial for Monday of this week. Then, the week could be spent building a quarto websites with census data, which would be a nice project. Then, we would have more time to do proper data science during weeks 4 and 5.
 
+End of week 1, Github/Rpubs using library data
+End of week 2, Github/Rpubs using downloaded data
+End of week 3, Github/Quarto Website using downloaded census data, perhaps with several different scripts and saved images.
 
 
 ## Week 1

@@ -80,13 +80,12 @@ x |>
   ggplot(aes(x = year, y = perc, fill = sex)) +
     geom_area() +
     scale_y_continuous(labels = scales::percent_format()) +
-    labs(title = "Percentage of US Babies with Names Ending in i",
+    labs(title = 'Percentage of US Babies with Names Ending in "i"',
          subtitle = "Boy names end with i are steadily increasing",
          x = "Year",
          y = "Percent",
          caption = "Babynames R Package",
-         fill = "Sex") +
-    scale_color_manual(values = c("Male" = "blue", "Female" = "pink"))
+         fill = "Sex") 
   
 ```
 

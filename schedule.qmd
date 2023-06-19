@@ -75,12 +75,11 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins. 
 
 
-
 ## Wednesday 
 
-* Read chapters 21, 22 and 23 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 21 and 22 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Spreadsheets, Databases, and Arrow. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Spreadsheets and Databases. 
 
 
 * Read the [Style Guide](https://ppbds.github.io/primer/style-guide.html). 
@@ -90,12 +89,12 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday 
 
-* Read chapters 7, 24 and 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 7 and 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Quarto Websites, Hierarchical data and Web scraping. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Quarto Websites and Web scraping. 
 
 
-
+<!-- DK: Add back in 23 and 24, once they are written. -->
 
 # Week 4: Models
 
