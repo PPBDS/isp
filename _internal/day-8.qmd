@@ -1,0 +1,72 @@
+---
+title: "Day 7"
+execute: 
+  echo: false
+---
+
+
+
+
+
+## Sesssion 1
+
+Make sure everyone has a working qmd which reads in the data and creates an object x. Explore the data with our favorite commands. What do the variables mean? How do the variables map to the plot we are trying to create? If you have extra time, talk about the final project.
+
+## Session 2
+
+How can we create the variables we need, which are a summary measure which shows, for each gender, the total proportion of names which end in i, for each year?
+
+Let them struggle with this a bit!
+
+```{r}
+x |> 
+  summarise(perc = sum(prop), .by = c(year, sex))
+```
+
+
+## Session 3
+
+Start the interactive plotting process. I don't think that they have seen geom_area() before. Don't tell them this. Have them ask chatGpt or a similar too.
+
+https://chat.openai.com/share/5e7ad2f5-3c18-4699-9a1a-7776b8a34daf
+
+
+Talk about all the things that are wrong with this plot and that we should fix, other than the obvious need for titles and axis labels.
+
+```{r}
+x |> 
+  summarise(perc = sum(prop), .by = c(year, sex)) |> 
+  ggplot(aes(x = year, y = perc, fill = sex)) +
+    geom_area()
+```
+
+
+## Sesssion 5
+
+Make the plot look nice. There is more that could be done here. F/M should be Female/Male, and Male should be on top.
+
+```{r}
+x |> 
+  summarise(perc = sum(prop), .by = c(year, sex)) |> 
+  ggplot(aes(x = year, y = perc, fill = sex)) +
+    geom_area() +
+    scale_y_continuous(labels = scales::percent_format()) +
+    labs(title = 'Percentage of US Babies with Names Ending in "i"',
+         subtitle = "Boy names end with i are steadily increasing",
+         x = "Year",
+         y = "Percent",
+         caption = "Babynames R Package",
+         fill = "Sex") 
+  
+```
+
+## Sesssion 6
+
+Publish to Rpubs. Put link in class work.
+
+If you have time, write a paragraph which explains what is happening. Have you looked closely at the data?
+
+
+
+
+

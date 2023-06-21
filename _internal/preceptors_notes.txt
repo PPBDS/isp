@@ -231,7 +231,7 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 Las week, we started with nothing, created a project, downloaded some data, read in the data, did some wrangling, made a nice plot and put it on the web. Good stuff! 
 
-This week, we do it all again.
+This week, we do it all again. In the next session, we should ensure that we do Census I for Monday. Then, this week's project builds a nice map of census data. 
 
 
 
@@ -243,9 +243,7 @@ This week, we do it all again.
 
 2) Want to do a data science apprenticeship with me this summer? You now have enough background to do so, starting either now (while you take the course) or after the course ends. More details: https://davidkane.substack.com/p/data-science-apprenticeships
 
-0) Goal this week is to build a nice looking (mini) final project which uses census data in interesting ways. Today, we just want to get the project up and running.
-
-2) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
+3) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
 
 4) Discuss your ideas for projects. Look at what students have done in prior sessions: https://bootcamp.davidkane.info/projects.html
 
@@ -256,7 +254,9 @@ Class website:
 
 ### Day 8
 
-1) Thanks for all the suggestions and typo reports (DermotFinn, Justin Yee and others). Much appreciated!
+0) Make sure you complete the Quarto Websites (chapter 7) tutorial for Thursday class. We will be making a website in class.
+
+1) If you are using Posit Cloud, make sure to understand how it works and to set up everything before class.
 
 2) There are lots of CRAN packages which specialize in different types of data. Google is your friend! Examples:
 
@@ -270,6 +270,8 @@ https://cran.r-project.org/web/packages/oce/index.html
 remotes::install_github("PPBDS/r4ds.tutorials")
 
 before you start the tutorial. Of course, you should do this before each tutorial, including tutorials from other packages like primer.tutorials and tidycensus.tutorials.
+
+5) Apologies that we are working on the tutorials now, but, as I mentioned at the start, we are making major changes in the course this session.
 
 Class Github: 
 Class website: 

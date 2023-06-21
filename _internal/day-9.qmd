@@ -1,5 +1,5 @@
 ---
-title: "Day 7"
+title: "Day 9"
 execute: 
   echo: false
 ---
@@ -54,11 +54,41 @@ x <- read_csv(file = "data/i_names.csv", show_col_types = FALSE)
 
 ## Sesssion 4
 
-Look at the data interactively: glimpse(), summary(), print(), slice_sample(n = 5) several times, x |> count(year), x |> count(sex), x |> count(year) |> arrange(desc(n)) and so on.
+Start the interactive plotting process. I don't think that they have seen geom_area() before. Don't tell them this. Have them ask chatGpt or a similar too.
 
-Key idea is that you need to look closely at the data.
+https://chat.openai.com/share/5e7ad2f5-3c18-4699-9a1a-7776b8a34daf
 
-Didn't have time for anything else.
+This might be too much to do in this session. Maybe we just try to get the summary() stuff correct. But, we certainly stop as this point.
+
+Talk about all the things that are wrong with this plot and that we should fix, other than the obvious need for titles and axis labels.
+
+```{r}
+x |> 
+  summarise(perc = sum(prop), .by = c(year, sex)) |> 
+  ggplot(aes(x = year, y = perc, fill = sex)) +
+    geom_area()
+```
+
+
+## Sesssion 5
+
+Make the plot look nice
+
+```{r}
+x |> 
+  summarise(perc = sum(prop), .by = c(year, sex)) |> 
+  ggplot(aes(x = year, y = perc, fill = sex)) +
+    geom_area() +
+    scale_y_continuous(labels = scales::percent_format()) +
+    labs(title = 'Percentage of US Babies with Names Ending in "i"',
+         subtitle = "Boy names end with i are steadily increasing",
+         x = "Year",
+         y = "Percent",
+         caption = "Babynames R Package",
+         fill = "Sex") 
+  
+```
+
 
 
 
