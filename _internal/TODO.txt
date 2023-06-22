@@ -24,31 +24,6 @@ Create teaching.tutorials. These are tutorials for my specific assignments. Migh
 
 ## Projects for Apprentices
 
-### Bootcamp Tutorials
-
-* Good for students starting soon.
-
-* Writing ones we need. Start with strings and regular expressions.
-
-* Taking ownership of ones that are done and using student feedback to make them better.
-
-### Other R4DS tutorials
-
-* Chapters 26 (functions), 27 (iterations), 28 (base R).
-
-* 26/27 each make good month-long projects, both because they are hard and because we should do much more than what is covered in the book.
-
-### R4DS infrastructure
-
-Do what is necessary to get this on CRAN. Start by shrinking the size.
-
-### Tutorials for R Packages 2e
-
-tutorial for Chapter 2 (the whole game) . Want to ensure that all students have made an R package. Maybe this goes in teaching.tutorials. Maybe rename it making.tutorials? creation.tutorials?
-
-tutorial for chapters 14 and 15 from R packages 2e. Students need to learn how to make a test. Maybe this and chapter 2 go together?
-
-tutorial for function documentation and vignettes? More that I look at this, more it seems that we need an r.packages.tutorials package.
 
 
 ### Tutorials for Tidymodels with R
@@ -71,14 +46,6 @@ Process answers as html files rather than rds, I think.
 For 4, 5, and 6, just improve the associated tutorials.
 
 For 7 through 11, write the overview tutorials and make the chapters better, especially with the use of the Four Cardinal Virtues.
-
-
-### tidycensus.tutorials
-
-* Split them up into individual chapters.
-
-* Add other chapters.
-
 
 
 ## Other Topics

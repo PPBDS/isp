@@ -52,9 +52,9 @@ x |>
     geom_area() +
     scale_y_continuous(labels = scales::percent_format()) +
     labs(title = 'Percentage of US Babies with Names Ending in "i"',
-         subtitle = "Boy names end with i are steadily increasing",
+         subtitle = "Boy names ending with i are steadily increasing",
          x = "Year",
-         y = "Percent",
+         y = NULL,
          caption = "Babynames R Package",
          fill = "Sex") 
   

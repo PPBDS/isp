@@ -254,7 +254,7 @@ Class website:
 
 ### Day 8
 
-0) Make sure you complete the Quarto Websites (chapter 7) tutorial for Thursday class. We will be making a website in class.
+0) Make sure you complete the Quarto Websites (chapter 7) tutorial for Thursday class. We will be making a website in class tomorrow.
 
 1) If you are using Posit Cloud, make sure to understand how it works and to set up everything before class.
 
