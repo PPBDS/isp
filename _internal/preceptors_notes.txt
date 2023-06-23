@@ -278,6 +278,31 @@ Class website:
 
 ### Day 9
 
+0) Ask questions in public Discord. Don't DM me (except for personal issues). Why? I want other people to check out your approach. Maybe there is something for them to learn! I also want them to try to answer questions. That is how you really learn.
+
+1) If you are having trouble making quarto websites (see the discussion in the ⁠tutorials channel), you may want to update your Quarto installation. Go here to do so: https://quarto.org/docs/get-started/. Run `quarto -v` from the Terminal to see what version you are using.
+
+2) If you are using Windows, make sure that you installed RTools, as instructed in the Getting Started Chapter in the Primer.
+
+3) Update all the tutorials, including all.primer and tidycensus.
+
+remotes::install_github("PPBDS/r4ds.tutorials")
+remotes::install_github("PPBDS/all.primer.tutorials")
+remotes::install_github("PPBDS/tidycensus.tutorials")
+
+Class Github: 
+Class website: 
+
+
+## Week 4
+
+Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 8 and 9, going faster each time and leaving more time for discussion and playing around with the resulting website. 
+
+Whole thing worked very well last time. It is really good to make them comfortable making websites. It is really good to show them how to split out component parts in scripts like download-data.R and make-plots.R.
+
+
+### Day 10
+
 0) You must have a rough draft ready for Monday. Make sure to finish the "Final Project" tutorial. If you don't complete that, don't bother coming to class. 
 
 1) But note that you can always change your project after Monday!
@@ -292,15 +317,6 @@ Class website:
 
 Class Github: 
 Class website: 
-
-
-## Week 4
-
-Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 8 and 9, going faster each time and leaving more time for discussion and playing around with the resulting website. 
-
-Whole thing worked very well last time. It is really good to make them comfortable making websites. It is really good to show them how to split out component parts in scripts like download-data.R and make-plots.R.
-
-
 
 
 ## Week 5

@@ -102,47 +102,52 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 <!-- DK: Should we do the other chapter tutorials as well. Maybe? -->
 
-* Read [Chapter 4 Rubin Causal Model](https://ppbds.github.io/primer/04-rubin-causal-model.html). Focus on sections 4.1, 4.2 and 4.4. 
+* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/04-rubin-causal-model.html). Focus on sections 4.1, 4.2 and 4.4. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete Census Data I. 
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete Census Data I. 
 
 ## Wednesday
 
-* Read [Chapter 5 Probability](https://ppbds.github.io/primer/05-probability.html). Focus on sections 5.1, 5.2, 5.7, and 5.8. 
+* Read [Chapter 2 Probability](https://ppbds.github.io/primer/05-probability.html). Focus on sections 5.1, 5.2, 5.7, and 5.8. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Probability - Overview tutorial.
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete Census Data II. 
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete Census Data II. 
 
 ## Thursday
 
-* Read [Chapter 6 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 6.3 and 6.4. 
+* Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 6.3 and 6.4. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete One Parameter - Overview tutorial.
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete API Key. 
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete API Key. 
 
 # Week 5: Inference
 
 ## Monday
 
-* Read [Chapter 7 Two Parameters](https://ppbds.github.io/primer/07-two-parameters.html). 
+* Read [Chapter 4 Two Parameters](https://ppbds.github.io/primer/07-two-parameters.html). 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Two Parameters - Overview tutorial.
+
+* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Hierarchical data.
 
 
 ## Wednesday
 
-* Read [Chapter 8 Three Parameters](https://ppbds.github.io/primer/08-three-parameters.html). 
+* Read [Chapter 5 Three Parameters](https://ppbds.github.io/primer/08-three-parameters.html). 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Three Parameters - Overview tutorial.
 
 
+
 ## Thursday
 
-* Read [Chapter 9 Four Parameters](https://ppbds.github.io/primer/09-four-parameters.html). 
+* Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/09-four-parameters.html). 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/)     package, complete Four Parameters - Overview tutorial.
 

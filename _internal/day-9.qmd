@@ -4,23 +4,7 @@ execute:
   echo: false
 ---
 
-Might not use this version again, but, for this session.
-
-## Preparation
-
-```{r}
-#| message: false
-
-library(tidyverse)
-library(babynames)
-
-babynames |> 
-  filter(str_detect(name, "i$")) |> 
-  write_csv(file = "data/i_names.csv")
-
-```
-
-Consider copy/pasting a copy of the graphic to the #course-work channel.
+Perhaps of today's class is for each student to make a Quarto Website which 
 
 
 ## Session 1
