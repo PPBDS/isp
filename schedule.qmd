@@ -102,7 +102,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 <!-- DK: Should we do the other chapter tutorials as well. Maybe? -->
 
-* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/04-rubin-causal-model.html). Focus on sections 4.1, 4.2 and 4.4. 
+* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/04-rubin-causal-model.html). Focus on sections 1.1, 1.2 and 1.4. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
 
@@ -110,7 +110,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Wednesday
 
-* Read [Chapter 2 Probability](https://ppbds.github.io/primer/05-probability.html). Focus on sections 5.1, 5.2, 5.7, and 5.8. 
+* Read [Chapter 2 Probability](https://ppbds.github.io/primer/05-probability.html). Focus on sections 2.1, 2.2, 2.7, and 2.8. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Probability - Overview tutorial.
 
@@ -118,7 +118,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday
 
-* Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 6.3 and 6.4. 
+* Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 3.3 and 3.4. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete One Parameter - Overview tutorial.
 
@@ -132,9 +132,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Two Parameters - Overview tutorial.
 
-* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Hierarchical data.
+* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Hierarchical data.
 
 
 ## Wednesday

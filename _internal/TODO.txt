@@ -79,7 +79,6 @@ Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by C
 ## Other
 
 
-* Consider redoing the first week so that we don't race to get something posted to Rpubs on Day 2. Instead, aim to have a nice graphic posted on Day 3.  We would still start with a new R project on Day 2, but nothing from Quarto until Day 3.  Might make a promise on Day 1 that we will publish to the web a plot like this (and show the example) by the end of the week. 
 
 * Think about changing Day 1 to use Posit Cloud. FYI: tutorials (of all sorts) do not work if you install remotes and then the package. However, if you:
 
