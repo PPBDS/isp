@@ -1,5 +1,5 @@
 ---
-title: "Day 8"
+title: "Day 11"
 ---
 
 Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to data-download and make-plots scripts as well as the use of saved objects.

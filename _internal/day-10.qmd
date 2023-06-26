@@ -1,10 +1,16 @@
 ---
-title: "Day 7"
+title: "Day 10"
 ---
 
-DK: Fix _publish.yml and use of checked git box.
+## Next Time
 
-Most of this week is devoted to building an example final project from scratch. Ideally, we cover everything we want them to do, everything which is mentioned in the Final Project tutorial. This ensures that they are ready to spend this week-end making their project.
+Material this week will be used in week 3 next time, but we need to cut out all the causal effect stuff.
+
+## Scene 0
+
+What is the causal effect of male median age in a US county on female median age?
+
+Send to rooms to discuss. Point out Chapter 1. Point out Key Concepts. Someone shares a screen. Others dictate to them. But everyone write down something. I will call on people.
 
 ## Scene 1: Make Website
 
@@ -12,19 +18,21 @@ Follow the same steps as in the Quarto Websites tutorial to build a new website 
 
 * `File -> New Project... -> New Directory -> Quarto Website`
 
-* Name the 'example-project`. `Create Project`
+* Name the project `median-age`. Then `Create Project`.
+
+* Make sure to check the git box.
 
 Send them to the rooms to make sure everyone can do this. If they can, talk about final project ideas. Anyone doing census data? Highly recommended.
 
 ## Scene 2: Publish Website
 
-* Take a tour of some of the files in the File pane. Note that there is nothing about Git/Github because we have delayed that part. Note that 
+* Take a tour of some of the files in the File pane. 
 
 * Edit the `title` in `_quarto.yml` to be something like "Cool Project Name". 
 
 * Edit the title in `about.qmd` to "About Me" and add a sentence about me.
 
-* `quarto publish` the project. Note the need to hit return twice. You might need to sign up if you haven't completed the Quarto Websites tutorial.
+* `quarto publish quarto-pub` the project. Note the need to hit return twice. You might need to sign up if you haven't completed the Quarto Websites tutorial.
 
 * Take a look at your cool website!
 
@@ -36,11 +44,7 @@ Send to rooms.
 
 * Load the usethis library. Lots of cool stuff! Check out the Happy Git with R book.
 
-* Look at files. No git stuff.
-
-* Run: `usethis::use_git()`. Answer No to the first question and Yes to the second.
-
-* Check out all the new files! Try `git log`. Still, haven't done anything with Github yet.
+* Check out all the files! Try `git log`. Still, haven't done anything with Github yet.
 
 * Edit the .gitignore to ensure that only files you want to push to the web are pushed. Of course, this isn't quite correct, since the initial versions are pushed.
 
@@ -50,25 +54,56 @@ Send to rooms.
 
 * Change the about.qmd page. Render. Commit and push. But that does not change the website!
 
-* `quarto publish` again.
+* `quarto publish quarto-pub` again.
 
-## Scene 4: Add Map
+## Scene 4: Download data
 
-* Edit the `index.qmd`. Discuss why it is named "index." Copy the first example from this section:
+* Edit the `index.qmd`. Discuss why it is named "index." 
 
-https://walker-data.com/census-r/mapping-census-data-with-r.html#using-geometry-in-tidycensus
+* Insert this code:
 
-Should work out of the box. Render. `quarto publish`. Now we are cooking with gas!
+```{r}
+library(tidycensus)
+x <- get_decennial(geography = "county", 
+                   variables = c(population = "P001001", 
+                                 med_age_male = "P013002", 
+                                 med_age_female = "P013003"), 
+                   year = 2010, 
+                   output = "wide") 
 
-* Go to your rooms and choose a different state. What pops up? What aspects should you clean up, like messages and code echos?
+summary(x)
+```
 
-## Scene 5: Clean Map
+Examine the data!
 
-* Show how to clean up the appearence of the website with, for example, `echo: false` and `message: false`.
+Render `quarto publish quarto-pub`. Now we are cooking with gas! Don't need the `quarto-pub` any longer, I think.
+
+* Create a scatter plot of median age male versus female.
+
+## Scene 5: Make a Plot
+
+
+```{r}
+library(tidyverse)
+
+
+x |> 
+  ggplot(aes(x = med_age_male, y = med_age_female)) +
+    geom_point() +
+    labs(title = "Median Ages of Men and Women Across US Counties",
+         subtitle = "Why are some counties so far off the line?",
+         x = "Median Age of Men",
+         y = "Median Age of Women")
+```
+
+
+* Clean up code with set up chunk, data chunk and plotting chunk. Note that we may split these into separate files later.
+
+* Show how to clean up the appearance of the website with, for example, `echo: false` and `message: false`.
 
 * Publish final version. Place link to website into #class-work.
 
-
+* Discuss causal effects. What is the causal effect of male age on female age? Answer: Nonsensical question! No causation without manipulation! And it is very hard to think about how we might manipulate the median age of men. Or is it? What happens in a county if we ship in lots of older or younger men? You will certainly change the median age of men! Will anything happen to the median age of women? Whatever that is, the difference between that potential outcome and the potential outcome of doing nothing is a measure of the causal effect of . . . shipping men of a certain age into a county.
 
 
 

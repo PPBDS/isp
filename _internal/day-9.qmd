@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-Perhaps of today's class is for each student to make a Quarto Website which 
+Purpose of today's class is for each student to make a Quarto Website.
 
 
 ## Session 1

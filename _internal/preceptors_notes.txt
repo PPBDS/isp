@@ -5,13 +5,13 @@
 
 ## Before Next Time
 
-Think harder about week 3, and what should be completed before then. For example, we might complete both the Quarto Websites Tutorial and the Census I tutorial for Monday of this week. Then, the week could be spent building a quarto websites with census data, which would be a nice project. Then, we would have more time to do proper data science during weeks 4 and 5.
+Think harder about week 3, and what should be completed before then. For example, we might complete both the Quarto Websites Tutorial and the Census I tutorial for Monday of week 3, even though we will not be done with R4DS tutorials. Then, the week could be spent building a quarto websites with census data, which would be a nice project. Then, we would have more time to do proper data science during weeks 4 and 5.
 
 End of week 1, Github/Rpubs using library data
 End of week 2, Github/Rpubs using downloaded data
 End of week 3, Github/Quarto Website using downloaded census data, perhaps with several different scripts and saved images.
 
-Would it make sense to swap out the Chetty data for regular census data? Then we could use county census data in primer.data (or, better, stored in r4ds.tutorials) for week one. Provide that data as a csv in week 2. And then dowload that data from the census directly in week 3.
+Swap out the Chetty data for regular census data.  Then we could use county census data in primer.data (or, better, stored in r4ds.tutorials) for week one. Provide that data as a csv in week 2. And then dowload that data from the census directly in week 3.
 
 
 Consider switching to Quarto Pubs for everything.
@@ -319,30 +319,47 @@ Class website:
 
 ## Week 4
 
-Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 8 and 9, going faster each time and leaving more time for discussion and playing around with the resulting website. 
+Note that this will be week 3 next time, without the data science stuff.
+
+Key goal is to show them how to build a final project, from start to finish. First day is just building a Quarto website. This should go fairly fast since they all should have done it in the tutorial already. We do the exact same thing on days 11 and 12, going faster each time and leaving more time for discussion and playing around with the resulting website. 
 
 Whole thing worked very well last time. It is really good to make them comfortable making websites. It is really good to show them how to split out component parts in scripts like download-data.R and make-plots.R.
 
 
 ### Day 10
 
-0) You must have a rough draft ready for Monday. Make sure to finish the "Final Project" tutorial. If you don't complete that, don't bother coming to class. 
+-1) Students in Room 6 (normally) should move to Room 5 for today.
 
-1) But note that you can always change your project after Monday!
+0) Thanks to shah nawaz, cindyqiao, Gaurinath Subash, Nick, vibha24, Rishi S, susuwatari and others for doing such a great job on Discord. Much appreciated! 
 
-2) Last class, I used the `rds` approach for storing plots. Much better is the `png` approach, as in the tutorial, and as I will demonstrate today.
+1) What is the causal effect of male age on female age across US counties? Think about the units, outcomes, covariates and (sometimes) treatments. What are the potential outcomes? Go to breakout rooms, share a screen, and write down some answers. Everyone write. I will call on students at random when we come back to the main room.
 
-3) Don't know what to do with your final project? Having trouble finding data? You can always do a Census project as a back-up. But it must be different from the ones we have done in class!
+2) Let's make a website, and hope it works this time!
 
-4) Good job with all the questions on Discord! With final project questions, make sure to include your Github and to ensure that all your code/data is pushed. That way, people trying to help you can just fork your repo and then run your code. No one wants to copy/paste your code, much less download your data, from a Discord thread.
+3) Some useful download code:
 
-5) Ask questions in public Discord. Don't DM me (except for personal issues). Why? I want other people to check out your approach. Maybe there is something for them to learn! I also want them to try to answer questions. That is how you really learn.
+```
+library(tidycensus)
+x <- get_decennial(geography = "county", 
+                   variables = c(population = "P001001", 
+                                 med_age_male = "P013002", 
+                                 med_age_female = "P013003"), 
+                   year = 2010, 
+                   output = "wide")
+```
+
+
+
+4) Create a scatter plot which of male median ages versus female median ages across US counties.
+
 
 Class Github: 
 Class website: 
 
 
 ## Week 5
+
+
 
 
 ## Week 6

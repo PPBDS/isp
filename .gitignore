@@ -10,3 +10,5 @@ _internal/county_outcomes.zip
 
 .DS_Store
 
+_internal/*html
+
