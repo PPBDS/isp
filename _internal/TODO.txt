@@ -14,9 +14,6 @@ Start work on tutorials for chapters 4 through 8. Looks like students will be do
 
 Think about using Posit Cloud.
 
-Create as many r4ds tutorials as possible.
-
-Maybe we want an iteration tutorial, given the code we use in chapter 5?
 
 Create teaching.tutorials. These are tutorials for my specific assignments. Might only include final_projects tutorial, but could have other stuff. Maybe add data: api tutorial? Maybe add quarto websites tutorial?
 
