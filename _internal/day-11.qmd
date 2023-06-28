@@ -33,7 +33,7 @@ Our models will get much more complex over time.
 
 ## Scene 5
 
-Temperance.
+Temperance. How do we use that model to make a forecast? With humility! Although we did not calculate it, there is a posterior probability distribution for the simple estimate of 1.5. (And we need to spend time understanding what 1.5 means, both for the commuters in the data and the students in the class.) But, the world is less certain that the naive use of that posterior would suggest because our assumptions are never perfect.
 
 
 

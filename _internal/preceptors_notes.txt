@@ -374,7 +374,7 @@ But you probably already have the latest version.
 
 3) Recall some of the key concepts to doing data science: https://ppbds.github.io/primer/glossary.html
 
-
+Class Github: 
 
 
 ### Day 12
