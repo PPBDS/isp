@@ -356,6 +356,28 @@ x <- get_decennial(geography = "county",
 Class Github: 
 Class website: 
 
+### Day 11
+
+0) Always start a data science project the same way: New Repo -> New R project -> New Quarto Document.
+
+What is the average causal effect of hearing Spanish on attitudes toward immigration among students in this class? 
+
+Write down the units, treatments and outcomes. What does the Preceptor Table look like?
+
+1) Grab the latest version of the **primer.data** package, if necessary
+
+remotes::install_github("PPBDS/primer.data")
+
+But you probably already have the latest version.
+
+2) Explore the `trains` tibble. This was used extensively in Chapter 1 of the Primer. Focus on the key variables: treatment, att_end, gender. Look at the help page.
+
+3) Recall some of the key concepts to doing data science: https://ppbds.github.io/primer/glossary.html
+
+
+
+
+### Day 12
 
 ## Week 5
 

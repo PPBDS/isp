@@ -2,75 +2,39 @@
 title: "Day 11"
 ---
 
-Last class, we built a project. But it went fast! Students missed lots of things! Let's do it again, going quickly over some items while still spending time on important concepts. Key learning object is moving stuff from index.qmd to data-download and make-plots scripts as well as the use of saved objects.
-
-We used the Hennepin County dot plot example from:
-
-https://walker-data.com/census-r/mapping-census-data-with-r.html#dot-density-maps
-
-Note that the data download code appears above this link.
+This material probably belongs on Day 10 next time. The best way to introduce casual models is by, in class, walking through the same example as the chapter and the tutorial have covered. Key is to review some of the key concepts: Preceptor Table, Population Table, units/outcomes/treatments, validity, stability, representativeness and confounding. Then, on Day 11, we do another example, but using Cardinal Virtue to organize things.
 
 
+Question: What is the average causal effect of hearing Spanish on attitudes toward immigration among students in this class? 
 
-## Scene 1: Make/Publish Website
 
-Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
+## Scene 1
 
-* `File -> New Project... -> New Directory -> Quarto Website`
+Start a data science project. Repo -> Project -> Quarto. Load up `trains` tibble form the **primer.data** package. Explore the data, especially `treatment`, `att_end` and `gender`.
 
-* Name the 'project-2`. `Create Project`. Make sure only git box is checked.
 
-* `quarto publish` the project. Note the need to hit return twice. 
+## Scene 2
 
-* Take a look at your cool website!
+In your room, apply the Cardinal Virtue of Wisdom to this problem. First, describe the Preceptor Table which would allow us to answer the question. What are the units, outcomes, covariates and treatments? Second, explore the data we have. (Hopefully you already did so.) Third, examine the assumption of validity. Is the "treatment" in the Preceptor Table close enough to the "treatment" in our data that we can consider both to have come out of the same population?
 
-Send to rooms.
+## Scene 3
 
-## Scene 2: Git/Github
+Justice. Describe the Population Table. We can only create this object because the assumption of validity allows us to assume that there is an underlying population from which our data and the Preceptor Table might be drawn. Go through the next three assumptions: stability, representativeness and unconfoundedness. For each, write down one reason why that assumption might *not* hold in this case. How would those failure bias the results?
 
-Time to save our work in case our computer blows up.
+Last step for Justice is to decide the mathematical form for our model. More on that tomorrow.
 
-* Edit the `.gitignore` to add `*Rproj`. Commit all files. Note how you can't push yet. No Github!
+## Scene 4
 
-* Run: `usethis::use_github()`. 
+Courage. We have not, yet, used R to create a model. That starts tomorrow, and gets serious next week. But, for now, we can still estimate the average causal effect by following the instructions at: https://ppbds.github.io/primer/04-rubin-causal-model.html#average-treatment-effect
 
-* Push all files.
+The estimate of the average treatment effect equals the different between the average outcome for the treated group and the average outcome for the control group.
 
-## Scene 3: Add Map
+Our models will get much more complex over time.
 
-* Edit the `index.qmd`. Discuss why it is named "index." Copy the Hennepin dot density example:
+## Scene 5
 
-https://walker-data.com/census-r/mapping-census-data-with-r.html#dot-density-maps
+Temperance.
 
-Note that you need to download the data in an earlier example. Need race and dots and tracts, then make the map.
-
-Should work out of the box. Render. `quarto publish`. Now we are cooking with gas!
-
-* Go to your rooms and choose a different state/county. What pops up? What aspects should you clean up, like messages and code echos?
-
-## Scene 4: Separate out data download
-
-* Don't want to download the data each time you render the home page. What a waste! Instead, move the data download to an R script and do it once. 
-
-* Script must be self-containted. Must including libraries. Must save out the final tibble as an rds object.
-
-* Edit the index.qmd to read in that rds file. No downloads every time.
-
-## Scene 5: Separate out image creation
-
-* Do the same thing with the plotting code which you did with the downloading data code. 
-
-* `ggsave()` the plot.
-
-* Change the `index.qmd` code so it just uses `knitr::include_graphics()` to bring in the graphic.
-
-* Perhaps make data and images directories and place the two created files in them. Of course, you then need to change the path for any code which references those files.
-
-## Scene 6: Clean Map
-
-* Show how to clean up the appearance of the website with, for example, `echo: false` and `message: false`.
-
-* Publish final version. Place link to website into #class-work.
 
 
 
