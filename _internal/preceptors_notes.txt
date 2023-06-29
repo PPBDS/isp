@@ -379,6 +379,20 @@ Class Github:
 
 ### Day 12
 
+0) We need the rstanarm library. If `library(rstanarm)` fails, you need to install it with `install.packages("rstanarm")`.
+
+1) Fill out your name and email on this spreadsheet: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU/edit?usp=sharing
+
+Later in class, we will give you time to add information about your final project.
+
+2) You must have your final project data ready to work with for Monday's class!
+
+3) Consider the schedule: https://bootcamp.davidkane.info/schedule.html
+
+4) The Key Concept page is very handy: https://ppbds.github.io/primer/glossary.html
+
+
+
 ## Week 5
 
 

@@ -1,84 +1,50 @@
 ---
-title: "Day 9"
+title: "Day 12"
 ---
 
+## Next Time
 
-DK: Some notes. Today went well. We had time to do most things, although I forgot to have people add their site to the #class-notes. Was useful to have copied out all the necessary code and placed it in #class-notes, so that students could just copy/paste it. 
+This will need to be adjusted, given whatever changes we make in days 10 and 11. Basic message is that we need to devote lots of time to the Cardinal Virtues.
+
+Questions: What will be the attitude toward immigration, measured on the 3 to 15 scale, of a Parisian after they hear two Arabic speakers walking down the street? What about the average Parisian? What about the 90th percentile of Parisians?
 
 
-We have built an example final project twice. Let's do it a third time! 
+## Scene 1
 
-Today's main goal is to ensure that students know, really know, that they need a rough draft of the final project for Monday. Indeed, it is impossible to complete the last tutorial --- Final Project --- without having a rough draft. It can still be very rough! But, it must exist. It must have some data. And it must have a graphic on the main page.
+Start a data science project. Repo -> Project -> Quarto. Load up `trains` tibble form the **primer.data** package. Explore the data, especially `treatment`, and `att_end`.
 
-Let's use Dallas data from:
 
-https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-mapping-with-leaflet
+## Scene 2
 
-## Scene 1: Make/Publish/Github Website
+In your room, apply the Cardinal Virtue of Wisdom to this problem. First, describe the Preceptor Table which would allow us to answer the question. Is this a causal or predictive model? What are the units, outcomes, and covariates? (There are no treatments because this is not a causal model.) Second, explore the data we have. (But we already did this.) Third, examine the assumption of validity. Is the "treatment," which is really a covariate since everyone gets it, in the Preceptor Table close enough to the "treatment" in our data that we can consider both to have come out of the same population?
 
-Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
+## Scene 3
 
-* `File -> New Project... -> New Directory -> Quarto Website`
+Justice. Describe the Population Table. We can only create this object because the assumption of validity allows us to assume that there is an underlying population from which our data and the Preceptor Table might be drawn. Go through the next three assumptions: stability, representativeness and unconfoundedness. For each, write down one reason why that assumption might *not* hold in this case. How would those failure impact the results?
 
-* Name the 'final-project`. `Create Project`. Make sure only git box is checked.
+Last step for Justice is to decide the mathematical form for our model. The 
 
-* `quarto publish` the project. Note the need to hit return several times. 
 
-* Take a look at your cool website!
+## Scene 4
 
-* IMPORTANT! Check out the `_publish.yml`. Discuss why you should not commit this file.
+Courage. We have not, yet, used R to create a model. That starts next week. That process will look like this:
 
-* Edit the `.gitignore` to add `*Rproj` and `_publish.yml`. Commit all files. Note how you can't push yet. No Github!
+```{r}
+librar
 
-* Run: `usethis::use_github()`. Note that this fails if you have not committed at least one file in the previous step.
+fit_1 <- stan_glm(att_end ~ treatment,
+                  data = trains,
+                  refresh = 0,
+                  seed = 10)
+```
 
-* Push all files.
+But, again, that is too much for today. If you have not seen code like this, it is because you did not complete today's tutorial assignment!
 
-Go to rooms and do the same.
 
-## Scene 2: Change Github/Website Names
+## Scene 5
 
-* Do not use "final project" as the name of your project, either the Github repo or the website url. That is bush league. What are you? A third grader?
+Temperance. How do we use that model to make a forecast? With humility!  But, the world is less certain that the naive use of that posterior would suggest because our assumptions are never perfect.
 
-* Since you have pushed all your code, you can delete the project on your computer. Nothing is lost, except for the two files that you did not push. But the `.Rproj` file is automatically generated when you make a new project. And `_publish.yml` comes back automatically when you publish again.
-
-* Since everything is backed up on Github, you can delete your website. Try it!
-
-* Change the name of the repo to anything other than final project. Connect to a new R project on your computer.
-
-## Scene 3: Add Map
-
-* Edit the `index.qmd`. Discuss why it is named "index." Copy the Dallas leaflet example:
-
-https://walker-data.com/census-r/mapping-census-data-with-r.html#interactive-mapping-with-leaflet
-
-* Should work out of the box. Render. `quarto publish`. Now we are cooking with gas!
-
-* But maybe you don't like the new url. You can always change the slug! Do so. The name of the Guthub repo and the url slug do not need to match. But they should both be professional.
-
-* Go to your rooms and choose a different state/county. What pops up? What aspects should you clean up, like messages and code echos?
-
-## Scene 4: Separate out data download and graphic creation
-
-* Don't want to download the data each time you render the home page. What a waste! Instead, move the data download to an R script and do it once. 
-
-* Script must be self-containted. Must including libraries. Must save out the final tibble as an rds object.
-
-* Edit the index.qmd to read in that rds file. No downloads every time.
-
-* Do the same thing with the plotting code which you did with the downloading data code. 
-
-* `ggsave()` the plot.
-
-* Change the `index.qmd` code so it just uses `knitr::include_graphics()` to bring in the graphic.
-
-* Perhaps make data and images directories and place the two created files in them. Of course, you then need to change the path for any code which references those files.
-
-## Scene 5: Clean Map
-
-* Show how to clean up the appearance of the website with, for example, `echo: false` and `message: false`.
-
-* Publish final version. Place link to website into #class-work.
 
 
 
