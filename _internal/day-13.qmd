@@ -1,7 +1,5 @@
 ---
 title: "Day 13"
-execute: 
-  echo: false
 ---
 
 
@@ -14,9 +12,9 @@ Make sure students have their data, their outcome variable and their covariates.
 ### Wisdom
 
 The model is predictive, not causal.
-The units are women.
+The units are individual women.
 The outcome is pulse.
-There is no covariate, although we could have gender as a covariate, if we did not filter our men.
+There is no covariate, although we could have gender as a covariate, if we did not filter out men.
 There is no treatment variable.
 Describe the Preceptor Table.
 Explore the data.
@@ -71,6 +69,7 @@ fit_obj <- stan_glm(data = x,
 ```{r}
 fit_obj
 ```
+
 ```{r}
 print(fit_obj, detail = FALSE)
 ```
@@ -89,7 +88,7 @@ newobs <- tibble(.rows = 2)
 
 ```{r}
 results <- posterior_predict(object = fit_obj,
-                        newdata = newobs) |> 
+                             newdata = newobs) |> 
   as_tibble() |> 
   mutate(diff = abs(`1` - `2`)) 
 ```
@@ -104,8 +103,7 @@ results |>
          x = "Absolute Value of Pulse Difference",
          y = "Probability",
          caption = "Data source: NHANES") + 
-    scale_x_continuous(breaks = seq(0, 50, 10),
-                       labels = scales::number_format()) +
+    scale_x_continuous(labels = scales::number_format()) +
     scale_y_continuous(labels = scales::percent_format()) 
 ```
 

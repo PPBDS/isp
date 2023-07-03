@@ -397,6 +397,29 @@ Later in class, we will give you time to add information about your final projec
 
 
 
+### Day 13
+
+0) Make sure you have filled out this spreadsheet: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
+
+1) Is your outcome really an "outcome?" It must be a variable, some column in the data which you propose to use. It must be possible to explain/predict using some other variables (the covariates) in the data you have. Most of the current outcomes are not outcomes . . . Example: "NBA Best Starting Lineup based on 2022-23 Stats" is not an outcome.
+
+2) Once you have a model which uses the variables you have to model/forecast the outcome, then you can use that model to answer all sorts of interesting questions. For example, if you have a measure of basketball skill (as an outcome) which can be modeled as a function of covariates, then you can use that model to predict/explain skill in the future. Such a model could be used to, for example, predict the 5 best players next year.
+
+3) It is often a good idea to start with an interestingd data set (in an area in which you are interested) rather than start with a question and then look for data to answer that question. Most questions do not have data available for answering them! But every data set generates interesting questions to answer. 
+
+4) An example source: https://fivethirtyeight-r.netlify.app/. Another source: https://vincentarelbundock.github.io/Rdatasets/articles/data.html. Pick any data set and outcome variable NOW!
+
+5) Use `nhanes` tibble from **primer.data** to answer this question: What is the difference in pulse rate between two randomly selected female students in this class? 
+
+6) Start a data science project. Repo -> Project -> Quarto. Load up nhanes tibble from the primer.data package. Explore the data, especially pulse and gender.
+
+### Day 14
+
+
+### Day 15
+
+
+
 
 ## Week 6
 
