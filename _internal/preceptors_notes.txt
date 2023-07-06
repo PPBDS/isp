@@ -395,6 +395,9 @@ Later in class, we will give you time to add information about your final projec
 
 ## Week 5
 
+For next time, note that you can only get through Wisdom and Justice in the first day this week. There is so much to talk about! But, given that, you can start with a model which has two indepedent varables even though the students will not have officially read that chapter until Wednesday.
+
+Also, the pulse ~ gender and age seems like a good model to work with. Or maybe save that addition for Thursday. That is, on Wednesday, just do Courage and Temperance for the model pulse ~ 1 model we started with. Then, on Thursday do a full model from start to finish, sort of an example for their final projects. 
 
 
 ### Day 13
@@ -414,6 +417,16 @@ Later in class, we will give you time to add information about your final projec
 6) Start a data science project. Repo -> Project -> Quarto. Load up nhanes tibble from the primer.data package. Explore the data, especially pulse and gender.
 
 ### Day 14
+
+0) Make sure that you have an outcome variable and a data set: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
+
+1) Before class tomorrow, add a link to the Proof of Fit section demonstrating that you have used your data and your outcome variable to fit a model.
+
+2) You proof-of-fitted-model should look something like: https://rpubs.com/dkane/example
+
+3) Today, we dive into Courage and Temperance, picking up where we left off on Monday.
+
+Class Github:
 
 
 ### Day 15

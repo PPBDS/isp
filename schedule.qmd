@@ -147,7 +147,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/09-four-parameters.html). 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/)     package, complete Four Parameters - Overview tutorial.
+* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Four Parameters - Overview tutorial.
 
 
 # Week 6: Projects
@@ -157,7 +157,7 @@ The last week will consist of projects that the students will make. Do you love 
 
 ## Monday 
 
-* Complete Final Project tutorial before class, or you will be removed the course. There are no extensions for this assignment.
+* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete "Final Project" tutorial before class, or you will be removed the course. There are no extensions for this assignment.
 
 * You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
 
