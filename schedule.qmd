@@ -24,7 +24,7 @@ Looking at the data is the first step in data science.
 
 ## Monday 
 
-* Before class, please read [Getting Started](https://ppbds.github.io/primer/00-getting-started.html) and follow all the associated instructions. Complete the "Getting Started" tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package. Submit your answers, as an html file, via [this Google form](https://forms.gle/fCZm77KPW4923Xk27).
+* Before class, please read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. Complete the "Getting Started" tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package. Submit your answers, as an html file, via [this Google form](https://forms.gle/fCZm77KPW4923Xk27).
 
 ## Wednesday 
 
@@ -102,7 +102,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 <!-- DK: Should we do the other chapter tutorials as well. Maybe? -->
 
-* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/04-rubin-causal-model.html). Focus on sections 1.1, 1.2 and 1.4. 
+* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html). Focus on sections 1.1, 1.2 and 1.4. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
 
@@ -110,7 +110,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Wednesday
 
-* Read [Chapter 2 Probability](https://ppbds.github.io/primer/05-probability.html). Focus on sections 2.1, 2.2, 2.7, and 2.8. 
+* Read [Chapter 2 Probability](https://ppbds.github.io/primer/probability.html). Focus on sections 2.1, 2.2, 2.7, and 2.8. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Probability - Overview tutorial.
 
@@ -118,7 +118,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday
 
-* Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/06-one-parameter.html). Focus on sections 3.3 and 3.4. 
+* Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/one-parameter.html). Focus on sections 3.3 and 3.4. 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete One Parameter - Overview tutorial.
 
@@ -128,7 +128,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Monday
 
-* Read [Chapter 4 Two Parameters](https://ppbds.github.io/primer/07-two-parameters.html). 
+* Read [Chapter 4 Two Parameters](https://ppbds.github.io/primer/two-parameters.html). 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Two Parameters - Overview tutorial.
 
@@ -137,7 +137,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Wednesday
 
-* Read [Chapter 5 Three Parameters](https://ppbds.github.io/primer/08-three-parameters.html). 
+* Read [Chapter 5 Three Parameters](https://ppbds.github.io/primer/three-parameters.html). 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Three Parameters - Overview tutorial.
 
@@ -145,7 +145,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday
 
-* Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/09-four-parameters.html). 
+* Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/four-parameters.html). 
 
 * From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Four Parameters - Overview tutorial.
 
