@@ -493,19 +493,17 @@ If you have already filled it out, please check that your information is correct
 
 Sys.Date() + runif(n = 1, min = 365*5, max = 365*10)
 
-This is a random day sometime in the range of 5 to 10 years from now. Add a note in your calendar for that date to send us a thank you email, letting us know what you are up to, with data science or anything else. Good teachers love to hear from their former students!
+This is a random day sometime in the range of 5 to 10 years from now. Add a note in your calendar for that date to send us a thank you email, letting us know what you are up to, with data science or anything else. Good teachers love to hear from their former students! dave.kane@gmail.com
 
 3) Read about the Demo Day procedures:
 
 https://bootcamp.davidkane.info/demo_day.html
 
-With bigger classes, we would practice this today, but perhaps that is not necessary. We will be done by 9:00 PM. If you would like to go in the first batch, please email me.
+We will be done by 9:00 PM. If you would like to go in the first batch, please email me now.
 
 4) Keep working on your projects. Ask questions! 
 
-5) In breakout rooms, take turns starting your presentations. Say your five sentences. Say them again. Make them fluent. No uhs and ahs. Memorize the sentences, but don't say them like a machine.
-
-6) Look at each other's code. Do you have enough comments? Do you follow the Style Guide? Look at each other's repos. Are the organized? Can we fork them and reproduce your results?
+5) Let's practice the first few rounds.
 
 
 ### Day 3: Demo Day!
