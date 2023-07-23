@@ -6,7 +6,48 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 87 students have completed the Course. Congratulations! Here are their Final Projects.
+A total of 105 students have completed the Course. Congratulations! Here are their Final Projects.
+
+## July 2023
+
+[Emmanuel Yeboah](https://github.com/kwakuemma1): [Social and Economic Factors Endangering Vulnerable Languages](https://ema-pubweb0707.quarto.pub/kanes_ds-class_degree-of-endangered-languages/). Improving agricultural opportunities in rural areas preserve vulnerable languages, but higher literacy rates and urbanization increase odds of language extinction by 20%.  
+
+[Avery Zheng](https://github.com/averyzheng-yay): [Wimbledon 2023 Prediction](https://averyzheng-yay.quarto.pub/wimbledon2023prediction3/). Alcaraz, Medvedev, and Djokovic have the highest chances of winning the Men's draw, and Swiatek has the highest chance for Women's. 
+
+[Daniel Cho](https://github.com/chodani): [European Soccer Wages](https://chodani.quarto.pub/european-soccer-wages/). Payroll rank within league is associated with end-of-year standings; an increase in payroll rank leads to a 0.69 increase in standing ± 0.02.  
+
+[Alan Tao](https://github.com/alantao5056): [Carbon Dioxide and Temperature Over Time](https://alienjao.quarto.pub/carbon-dioxide/). Around 53,000 (+/- 2000) metric tons of carbon dioxide is going to be in the year 2025 and the average land temperature is going to be 20.6 C (+/- 0.6).  
+
+[Vaangmaya Rebba](https://github.com/Vaangmaya): [Annual Income Predictions for Universities in Pennsylvania](https://vaangmaya.quarto.pub/universities-vs-annual-income/). Over 90% of the graduates make less than 100k  
+
+[Luit Deka](https://github.com/luitdeka): [Education Expenditure on Urban and Rural Populations](https://l-deka.quarto.pub/effect-of-education-on-urban-and-rural-populations/). Every 440 billion dollars spent on education correlates to about .1% urban population growth while every 350 billion dollars of educational expenditure correlates to about .08% rural population growth.  
+
+[Rishvanth Amsaraj](https://github.com/RishvanthAmsaraj): [Analysis of AP Exam Data](https://rishvanth-amsaraj.quarto.pub/ap-exam-data/). The findings emphasize the need for targeted efforts and interventions to support and empower minority groups, including females and black individuals, within the education system.  
+
+[Aadhira Satheesh](https://github.com/aadhira12): [The Probability of Contracting Alzheimers Based on Different Lifestyles and Conditions](https://aadhira12.quarto.pub/alzheimers/). There are various lifestyles that you would think increase/decrease the risk of alzheimers, and this project shows you what actually can raise the risk of developing Alzheimers  
+
+[Ethan Xiao](https://github.com/EpiCoder25): [The Effect of Engine Displacement on Fuel Economy](https://ethanx25.quarto.pub/finalproject/). The highest displacement engine has 6.375x less fuel efficiency than the lowest displacement engine.  
+
+[Rishi Sandrana](https://github.com/RishiSandrana): [Trends in Global Education Rankings](https://rsandrana.quarto.pub/trends-in-global-education/). A country's average IQ and test scores are almost perfectly correlated (r = 0.92), but there is only a moderate correlation (r = 0.65) between either of these factors and a country's education ranking.  
+
+[Nicholas Grant](https://github.com/nicholasgrant97): [NFL Point Spread: 1978-2013](https://nicholasgrant97.quarto.pub/nfl-spread-1978-2013/). Overall, most NFL games are decided by double digits margin of victory, with a higher average margin of victory when the point spread exceeds 7 points.  
+
+[Sririthvik Bellala](https://github.com/srbellala): [Outcomes of Infectious Diseases from 2001-2014](https://srbellala.quarto.pub/incide-and-outcomes-of-infectious-diseases-from-2001-2014/). The total amount of people infected with E.Coli, HIV, and Malaria has decreased over time, reaching close to 0 for some years.  
+
+[Pranav Chivukula](https://github.com/pchiaroscurist): [Chelsea's Transfer Market and its Effect on Their Season](https://pchiaroscurist.quarto.pub/chelseas-got-the-blues/). If you spend like Chelsea did in the transfer market, your season will suffer as a result.  
+
+[Melissa Ban](https://github.com/melissaBB): [Influence of Patients' Initial Treatment Age on OrthoK Lenses Effect](https://melissabb.quarto.pub/orthok-lenses-effect/). The effect of OrthoK lenses in treating myopia is not affected by patients' age when receiving initial treatment.  
+
+
+[Vibha Dara](https://github.com/vibhadara): [Diabetes Analysis](https://vibhadara.quarto.pub/diabetes2/). Females have 0.0046 times lower odds of having diabetes with a range from 0.002 to 0.010 compared to males.  
+
+[Rajarshi Mandal](https://github.com/rajarshi-mandal): [Market Value of Fortune 500 Companies from Economic Indicators](https://rajarshi-mandal.quarto.pub/fortune-500-companies/). Companies in the Fortune 500 with 100,000 employees have an expected market value of $75 billion, plus/minus $8 billion.  
+
+[Aryan Kancherla](https://github.com/aryan-kancherla/): [Chicago Bulls 2023-2024 Field Goal Percentage Prediction](https://aryan-kancherla21.quarto.pub/chicago-bulls-2022-2023-data/). For the 2023-2024 NBA Season, the Chicago Bulls’ predicted average field goal percentage is 48.7%.  
+
+[Pratham Kancherla](https://github.com/prathkan03): [NBA 2023-24 Free Throw % Prediction at Each Position](https://prathkan03.quarto.pub/nba-ft-/). Each position has a predicted FT% for the NBA 2023-24 season.  
+
+[Gaurinath Subash](https://github.com/GauripSubash): [Player Salaries vs Field Position](https://46a153568e334a09b31f51273bdb911a.app.posit.cloud/p/ec5bc91b/). On average, forwards tend to earn the most money, with an average salary of around $145,000, which is more than any other position on the field for players in the MLS League during 2007.
 
 ## February 2023
 
