@@ -1,10 +1,66 @@
 [
   {
-    "objectID": "demo_day.html",
-    "href": "demo_day.html",
-    "title": "Procedures for Demo Day",
+    "objectID": "testimonials.html",
+    "href": "testimonials.html",
+    "title": "Testimonials",
     "section": "",
-    "text": "These are the procedures we follow on “Demo Day” — the last class of the course — during which students present their final projects to an audience of their peers and guests. Demo Day is public. All are welcome.\nThe only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nBasic idea is that all students are in two groups: A and B. A presents first. Each breakout room includes two students, an A and a B. (We will post the assignments.)\nAt the start, we are all in the main room. I offer introductions. I open the breakout rooms. You move yourself to your assigned room. (Guests will also go to the room featuring the student they want to listen to.) Chat politely. I will then issue a Breakout Room message saying to start. The A student presents her work for 4 minutes. The B student asks a lot of questions. So do the guests. These questions often involve your code. You can answer them by showing the actual R code in your Github repo.\nAfter three and a half minutes, I send a Message saying: 30 seconds left. At four minutes, I Message “Switch Rooms!”\nPlease switch rooms when I ask you to!\nStudent A stays in the room. Student B moves one room up. From room 6 to room 7, for example. (If you are the B student in the highest room, you move to room 1.) Then, Student A presents again.\nAfter 30 minutes of this, the A students will have presented several times. Good stuff! I bring back everyone to the main room. Say a few words. And then we do the whole thing again, but with the B students presenting and staying put in the rooms. And now the A students move from room to room.\nAfter the B students present, I close the breakout rooms, thereby bringing everyone back together. I offer thanks and congratulations. The course is now complete."
+    "text": "This course is an excellent introduction to data science for students of any level, with a detailed textbook you can easily follow-along with! — Stephanie, Senior, White Oaks Secondary School\nThe data science course was an invaluable experience that provided me with the building blocks to pursue future data science investigations and analyses. The course was well-structured and taught me the fundamentals of not only producing stunning visualizations in R, but most importantly how to think like a data scientist and manage your code effectively. If you are someone interested in dipping their toes in an emerging field of data science, this course will guide you well! — Dhruv Syngol, Junior, Metea Valley High School\nThe learning environment was exceptional and encouraged me to navigate the basic challenges of RStudio with other students! It’s extremely effective for beginner individuals like me to gain this exposure! - Joyce Li, Senior, White Oaks Secondary School\nThe final project allowed me to draw from real world data about mental health disorders and learn how to make conclusions, moving me to be captivated by the data science field. —– Isaac Frank, Senior, Dublin Coffman High School\nThis course was really helpful! I learned a lot about data science and how to code in R. My favorite part were the breakout rooms since it allowed for students to share ideas and solve problems together. — Gabriel You (dengxuanjia@gmail.com), Senior, White Oaks Secondary School\nThe course tutorials were very informative and included an abundance of practice to ensure the material was understood. — Daniel Chen (danielc20051218@gmail.com), Junior, Naperville North High School\nThe course was an interesting way to learn the basics of data science, with the Final Projects being a great way to show what we grasped. — Oliver Raif Altindag (oliveraltindag@icloud.com), Freshman, Newton North High School\nGreat course overall. Introduces data science really well to people who may not have much knowledge about the field by showing important subjects such as data manipulation and visualization. Although some of the course content was slightly repetitive, it was still extremely effective in teaching students both basic and complex topics through the use of peer collaboration and the projects created at the end of the course. Definitely recommend it to anyone who wants an introduction to the language R and data science. — Abhay Paidipalli (abhay.paidipalli@gmail.com), Junior, James B. Conant High School\nBeing able to take part of a Harvard course, first of all, is such a valuable experience as you’re able to get a feel of the methodology that these elite institutions use. David Kane’s Data Science Boot camp was one of the most influential camps I’ve ever attended. Before this summer, I’ve never learned or touched a single piece of code and had no interest in programming, but after taking this course, it’s really made me fascinated in computer science, even going as far as planning to minor in cs. Working with Preceptor during the camp and under an apprenticeship really helped me gain valuable experience as well as sharpening skills in coding, critical thinking, and discipline. Also, it’s completely free. There’s so much to gain from this experience and nothing to lose. This camp is definitely one of the best offered to High school students and not one that you should pass on. — Bryan Li (libryan261@gmail.com/ 614-316-1061), Senior, Dublin Coffman High School\nThis course was valuable in helping me manage my time during school. Although I did not have any previous experience in R and Rstudio I had to learn to balance my school work and extracurriculars while meeting the demands of the course. — Joseph Jeiwan Kim (josephjwkim04@gmail.com), Senior, White Oaks High School\nThis course does a fantastic job of not only putting you in the shoes of a student, learning the underlying coding and statistics, but also putting you in the shoes of a worker, doing real Data Science as a real Data Scientist. — George, senior, White Oaks Secondary School"
+  },
+  {
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "Staff",
+    "section": "",
+    "text": "David Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
+  },
+  {
+    "objectID": "staff.html#david-kane",
+    "href": "staff.html#david-kane",
+    "title": "Staff",
+    "section": "",
+    "text": "David Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
+  },
+  {
+    "objectID": "staff.html#yuhan-wu",
+    "href": "staff.html#yuhan-wu",
+    "title": "Staff",
+    "section": "Yuhan Wu",
+    "text": "Yuhan Wu\n\n\n\n\n\n\n\n\n\nYuhan Wu is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics."
+  },
+  {
+    "objectID": "staff.html#tejas-mundhe",
+    "href": "staff.html#tejas-mundhe",
+    "title": "Staff",
+    "section": "Tejas Mundhe",
+    "text": "Tejas Mundhe\n\n\n\n\n\n\n\n\n\n\nTejas Mundhe is an incoming junior at Walnut Hills High School who is interested in Data Science and Robotics."
+  },
+  {
+    "objectID": "staff.html#alex-kuai",
+    "href": "staff.html#alex-kuai",
+    "title": "Staff",
+    "section": "Alex Kuai",
+    "text": "Alex Kuai\n\n\n\n\n\n\n\n\n\nAlex Kuai is a rising sophomore at Newton North High School and has been a TF since freshman year."
+  },
+  {
+    "objectID": "staff.html#anish-bellamkonda",
+    "href": "staff.html#anish-bellamkonda",
+    "title": "Staff",
+    "section": "Anish Bellamkonda",
+    "text": "Anish Bellamkonda\n\n\n\n\n\n\n\n\n\nAnish Bellamkonda is a rising senior at Metea Valley High School."
+  },
+  {
+    "objectID": "staff.html#srihith-garlapati",
+    "href": "staff.html#srihith-garlapati",
+    "title": "Staff",
+    "section": "Srihith Garlapati",
+    "text": "Srihith Garlapati\n\n\n\n\n\n\n\n\n\nSrihith Garlapati is a rising sophomore in Computer Sciences at University of Wisconsin-Madison."
+  },
+  {
+    "objectID": "staff.html#krish-saluja",
+    "href": "staff.html#krish-saluja",
+    "title": "Staff",
+    "section": "Krish Saluja",
+    "text": "Krish Saluja\n\n\n\n\n\n\n\n\n\nKrish Saluja is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry."
   },
   {
     "objectID": "projects.html",
@@ -49,81 +105,25 @@
     "text": "June 2021\nSophia Zhu: BREAKING NEWS: FBI Says They Found ‘Man Child’ In The Woods! An analysis of the length and wording of 2018 fake news articles titles.\nNuo Wen Lei: PAC Influence on US Politics. Trend of foreign donations seems to parallel party representation in US congress.\nKevin Xu: ATP Tour Analysis Over Time. The game of tennis on the ATP Tour has shifted tactically and demographically since its conception.\nStefan Arroyo-Cottier: The Time Hass Come. Avocado consumption and prices in the United States over time.\nOsaretin Lawani: An Analysis of the Causes Singapore’s Aging Population. This is an investigation of the relationship between Singapore’s aging population and the nation-state’s declining birth rates\nDhruv Syngol: World Happiness Report Data Analysis and Visualizations. Data from the World Happiness Report over the years reveals interesting trends in a variety of factors, from GDP per Capita to the Freedom to Make Life Choices.\nAbhay Paidipalli: The Evolution of Basketball. An analysis of some of the most noticeable trends in the history of basketball.\nMarco Tchernychev: 20/21 EPL Data Visualizations. This project examines the correlation between age and goals, as well as nationality and passing.\nMax Xu: Covid 19 Around the World. Examining Covid 19 cases and trends among the continents.\nAjay Malik: High School Performance and Future Salary, by College. The more students of a university who were at the top of their high school class, the more salary these students will make.\nShreeram Patkar: Covid-19 Socio-Economic Causal Analysis. Comparing different socio-economic metrics to Covid death and infection rates\nZ Schwab: GDP and Wealth Distribution: Not a Uniform Picture. GDP is an inaccurate indicator of quality of life because it doesn’t factor in income inequality.\nAndre Arroyo-Cottier: Covid Cases and Vaccination Rates in the US. Graphs that show the effectiveness of vaccinations in the USA.\nDaniel Chen: Population and Crime rate in the US. Population and crime rate have no correlation in the US.\nTejas Mundhe: United States Covid-19 Death Toll by State. Are more populated states impacted by the Covid-19 pandemic more than less populated ones?\nMatthew Ru: An Analysis of Pro Tennis Players. An arrangement of graphs to show the relationship between height, weight, birth month, and country of origin in the tennis pro-scene.\nRonit Anandani: COVID-19 and its Impact on Sectors of the Stock Market. Visualizing the effect of COVID-19 pandemic on different stock market sectors.\nFrank Li: Chance of Automation Replacement of Various Occupations. Exploring the likelihood of a variety of occupations being replaced by machine labor.\nZuhair Usmani: Movie Genres and if Producers are using the same genres. Gathering movie genres and analyzing if producers are using the same genres.\nBryan Li: Covid-19 Effect on Student Mental Health and Behavorial Change. Analyzing the effects of the pandemic on the mental and physical health of students and adults.\nMahima Malhotra: Diabetes Prevalence by State. A comparison of the prevalence of diabetes among adults by state to rates of depression amongst adults with diabetes and mortality rates.\nYuhan Wu: Housing Fluctuation Using Case-Shiller Index. The two key factors that influenced the housing price are income and housing supply; population matters little.\nNabiha Rabbani: Sci-Fi and Techno Orientalism. Measuring interest in science fiction movies over time and comparing that interest to economic success in East Asian countries.\nEmmanuel Buabeng: Average Salary Per Department in Chicago. An analysis of spending across government departments in the city of Chicago.\nFahim Ahmed: Investment Analysis of Exchange Traded Funds (ETF). What types of ETFs would have made you the most returns if you invested in them last year?\nIsaac Frank: Anxiety and the Need for Research. Examining the correlation between pharmaceutical spending and anxiety.\nAnmay Gupta: Effect of Various Factors on 3D Print Strength. 3D prints can be strengthened by changing a variety of factors.\nSrihith Garlapati: Goverment Department Earnings by Region. This is an investigation of the highest earning departments on average per each state in each region in the US.\nTom Pan: COVID-19 Cases/Vaccinations Analysis. Analyzing cases and vaccination progress in China, Canada, United States, and United Kingdom.\nGeorge Pentchev: Course Enrollment in Secondary Schools. Ranking secondary school courses by enrollment and examining the growth of the most popular courses.\nGabriel You: Sinoalice Power vs Cost Analysis. Looking at Sinoalice Weapons and comparing weapon total power to cost to see the correlation between them.\nJoseph Jeiwan Kim: Change In Sea Level. An examination of climate changes impact on the global sea level.\nVarun Mittal: Impact of Covid On Home Court Advantage in the NFL and NBA. Examining how much home court/field advantage was affected by Covid-19 by measuring the amount of times that home team won and other stats.\nShyam Sai Bethina: Motor Vehicle deaths by Age and Year. Is the message “Don’t drink and Drive” still prevalent in older people?\nOliver Altindag: Liverpool Football Clubs Best Eleven. This is an inquiry into the statistics of Liverpool FC and the best possible Eleven the club could field in future games.\nDaniel Wang: Effects of Covid-19 on Student’s Educational Stress. Examination of the stress levels experienced by students before and during Covid-19.\nArghayan Jeiyasarangkan: How The Overall Gold Difference Changes Throughout Professional League of Legends Games. Examining the relationship between gold difference and game duration in professional League of Legends matches.\nKyle Sabo: How Speed Affects Offensive Ability in Baseball. Determining the extent that speed enables players to get more hits.\nFelix Cai: Relationship Between GDP per Capita and Percentage of Population with a Confirmed Case of COVID-19. Exploring the relationship between GDP per capita and percentage of population with a confirmed case of COVID-19.\nShreya Sree Morishetty: Undergraduate Engineering Enrollment by Demographics. Exploring if the demographics have changed through the years as enrollment in engineering programs have risen\nArjun Velayutham: Earnings vs Inflation. Have the increase in a companies earnings outpaced the inflation margin.\nStephanie Saab: These Boots are made for Shopping. A comparison of men and women’s shoe shopping tendencies shows that women spend more money while men are fond of a sale.\nHeather Li: An Overview of Toronto Shelter Data in 2020. Mapping the occupancy percentage of Toronto shelters during 2020."
   },
   {
+    "objectID": "demo_day.html",
+    "href": "demo_day.html",
+    "title": "Procedures for Demo Day",
+    "section": "",
+    "text": "These are the procedures we follow on “Demo Day” — the last class of the course — during which students present their final projects to an audience of their peers and guests. Demo Day is public. All are welcome.\nThe only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nBasic idea is that all students are in two groups: A and B. A presents first. Each breakout room includes two students, an A and a B. (We will post the assignments.)\nAt the start, we are all in the main room. I offer introductions. I open the breakout rooms. You move yourself to your assigned room. (Guests will also go to the room featuring the student they want to listen to.) Chat politely. I will then issue a Breakout Room message saying to start. The A student presents her work for 4 minutes. The B student asks a lot of questions. So do the guests. These questions often involve your code. You can answer them by showing the actual R code in your Github repo.\nAfter three and a half minutes, I send a Message saying: 30 seconds left. At four minutes, I Message “Switch Rooms!”\nPlease switch rooms when I ask you to!\nStudent A stays in the room. Student B moves one room up. From room 6 to room 7, for example. (If you are the B student in the highest room, you move to room 1.) Then, Student A presents again.\nAfter 30 minutes of this, the A students will have presented several times. Good stuff! I bring back everyone to the main room. Say a few words. And then we do the whole thing again, but with the B students presenting and staying put in the rooms. And now the A students move from room to room.\nAfter the B students present, I close the breakout rooms, thereby bringing everyone back together. I offer thanks and congratulations. The course is now complete."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, running for 6 weeks. The next session has not been scheduled. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\nCheck out the final projects created by prior students.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "staff.html",
-    "href": "staff.html",
-    "title": "Staff",
-    "section": "",
-    "text": "David Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
-  },
-  {
-    "objectID": "staff.html#david-kane",
-    "href": "staff.html#david-kane",
-    "title": "Staff",
-    "section": "",
-    "text": "David Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
-  },
-  {
-    "objectID": "staff.html#yuhan-wu",
-    "href": "staff.html#yuhan-wu",
-    "title": "Staff",
-    "section": "Yuhan Wu",
-    "text": "Yuhan Wu\n\n\n\n\n\nYuhan Wu is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics."
-  },
-  {
-    "objectID": "staff.html#tejas-mundhe",
-    "href": "staff.html#tejas-mundhe",
-    "title": "Staff",
-    "section": "Tejas Mundhe",
-    "text": "Tejas Mundhe\n\n\n\n\n\n\nTejas Mundhe is an incoming junior at Walnut Hills High School who is interested in Data Science and Robotics."
-  },
-  {
-    "objectID": "staff.html#alex-kuai",
-    "href": "staff.html#alex-kuai",
-    "title": "Staff",
-    "section": "Alex Kuai",
-    "text": "Alex Kuai\n\n\n\n\n\nAlex Kuai is a rising sophomore at Newton North High School and has been a TF since freshman year."
-  },
-  {
-    "objectID": "staff.html#anish-bellamkonda",
-    "href": "staff.html#anish-bellamkonda",
-    "title": "Staff",
-    "section": "Anish Bellamkonda",
-    "text": "Anish Bellamkonda\n\n\n\n\n\nAnish Bellamkonda is a rising senior at Metea Valley High School."
-  },
-  {
-    "objectID": "staff.html#srihith-garlapati",
-    "href": "staff.html#srihith-garlapati",
-    "title": "Staff",
-    "section": "Srihith Garlapati",
-    "text": "Srihith Garlapati\n\n\n\n\n\nSrihith Garlapati is a rising sophomore in Computer Sciences at University of Wisconsin-Madison."
-  },
-  {
-    "objectID": "staff.html#krish-saluja",
-    "href": "staff.html#krish-saluja",
-    "title": "Staff",
-    "section": "Krish Saluja",
-    "text": "Krish Saluja\n\n\n\n\n\nKrish Saluja is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry."
+    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course is offered occasionally, running for 6 - 8 weeks. The next session will be in JUne 2024. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, all.primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
+    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
   },
   {
     "objectID": "schedule.html#monday",
@@ -137,105 +137,105 @@
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapters 1 through 3 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The last of these is the most important. Submit your answers via the usual Google form. (Note that you need to submit each set of answers separately.)"
+    "text": "Wednesday\n\nRead the Introduction and Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual Google form. (Note that you need to submit each set of answers separately.)"
   },
   {
     "objectID": "schedule.html#thursday",
     "href": "schedule.html#thursday",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapters 4, 5, and 6 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "text": "Thursday\n\nRead Chapters 3, 4, and 5 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
     "objectID": "schedule.html#monday-1",
     "href": "schedule.html#monday-1",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapters 8 and 9 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Data Import and Getting Help. Note that the Terminal tutorial is at the end of the r4ds.tutorials collection."
+    "text": "Monday\n\nRead Chapters 6, 7 and 8 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Data Import and Getting Help."
   },
   {
     "objectID": "schedule.html#wednesday-1",
     "href": "schedule.html#wednesday-1",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead chapters 13, 14, 15 and 16 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions."
+    "text": "Wednesday\n\nRead chapters 12, 13, 14 and 15 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions."
   },
   {
     "objectID": "schedule.html#thursday-1",
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapters 10, 11 and 12 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication."
+    "text": "Thursday\n\nRead Chapters 9, 10 and 11 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication."
   },
   {
     "objectID": "schedule.html#monday-2",
     "href": "schedule.html#monday-2",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead chapters 17, 18, 19 and 20 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
+    "text": "Monday\n\nRead chapters 16, 17, 19 and 19 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
   },
   {
     "objectID": "schedule.html#wednesday-2",
     "href": "schedule.html#wednesday-2",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead chapters 21 and 22 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Spreadsheets and Databases.\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+    "text": "Wednesday\n\nRead chapters 20 and 21 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Spreadsheets and Databases.\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
   },
   {
     "objectID": "schedule.html#thursday-2",
     "href": "schedule.html#thursday-2",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead chapters 7 and 25 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Quarto Websites and Web scraping."
+    "text": "Thursday\n\nRead chapters 24 and 28 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Web scraping and Quarto. The latter is much more important."
   },
   {
     "objectID": "schedule.html#monday-3",
     "href": "schedule.html#monday-3",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\n\nRead Chapter 1 Rubin Causal Model. Focus on sections 1.1, 1.2 and 1.4.\nFrom the all.primer.tutorials package, complete Rubin Causal Model - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data I."
+    "text": "Monday\n\n\nRead Chapter 1 Rubin Causal Model. Focus on sections 1.1, 1.2 and 1.4.\nFrom the primer.tutorials package, complete Rubin Causal Model - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data I."
   },
   {
     "objectID": "schedule.html#wednesday-3",
     "href": "schedule.html#wednesday-3",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 2 Probability. Focus on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the all.primer.tutorials package, complete Probability - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data II."
+    "text": "Wednesday\n\nRead Chapter 2 Probability. Focus on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete Probability - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data II."
   },
   {
     "objectID": "schedule.html#thursday-3",
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 3 One Parameter. Focus on sections 3.3 and 3.4.\nFrom the all.primer.tutorials package, complete One Parameter - Overview tutorial.\nFrom the tidycensus.tutorials package, complete API Key."
+    "text": "Thursday\n\nRead Chapter 3 One Parameter. Focus on sections 3.3 and 3.4.\nFrom the primer.tutorials package, complete One Parameter - Overview tutorial.\nFrom the tidycensus.tutorials package, complete API Key."
   },
   {
     "objectID": "schedule.html#monday-4",
     "href": "schedule.html#monday-4",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapter 4 Two Parameters.\nFrom the all.primer.tutorials package, complete Two Parameters - Overview tutorial.\nRead chapter 24 from R for Data Science (2e). From the r4ds.tutorials package, complete the associated tutorial: Hierarchical data."
+    "text": "Monday\n\nRead Chapter 4 Two Parameters.\nFrom the primer.tutorials package, complete Two Parameters - Overview tutorial.\nRead chapter 24 from R for Data Science (2e). From the r4ds.tutorials package, complete the associated tutorial: Hierarchical data."
   },
   {
     "objectID": "schedule.html#wednesday-4",
     "href": "schedule.html#wednesday-4",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 5 Three Parameters.\nFrom the all.primer.tutorials package, complete Three Parameters - Overview tutorial."
+    "text": "Wednesday\n\nRead Chapter 5 Three Parameters.\nFrom the primer.tutorials package, complete Three Parameters - Overview tutorial."
   },
   {
     "objectID": "schedule.html#thursday-4",
     "href": "schedule.html#thursday-4",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 6 Four Parameters.\nFrom the all.primer.tutorials package, complete Four Parameters - Overview tutorial."
+    "text": "Thursday\n\nRead Chapter 6 Four Parameters.\nFrom the primer.tutorials package, complete Four Parameters - Overview tutorial."
   },
   {
     "objectID": "schedule.html#monday-5",
     "href": "schedule.html#monday-5",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nFrom the all.primer.tutorials package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
+    "text": "Monday\n\nFrom the primer.tutorials package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
   },
   {
     "objectID": "schedule.html#tuesday",
@@ -250,12 +250,5 @@
     "title": "Schedule",
     "section": "Wednesday",
     "text": "Wednesday\n\nFinal project presentations. You must invite someone, and bcc your TF when you do so."
-  },
-  {
-    "objectID": "testimonials.html",
-    "href": "testimonials.html",
-    "title": "Testimonials",
-    "section": "",
-    "text": "This course is an excellent introduction to data science for students of any level, with a detailed textbook you can easily follow-along with! — Stephanie, Senior, White Oaks Secondary School\nThe data science course was an invaluable experience that provided me with the building blocks to pursue future data science investigations and analyses. The course was well-structured and taught me the fundamentals of not only producing stunning visualizations in R, but most importantly how to think like a data scientist and manage your code effectively. If you are someone interested in dipping their toes in an emerging field of data science, this course will guide you well! — Dhruv Syngol, Junior, Metea Valley High School\nThe learning environment was exceptional and encouraged me to navigate the basic challenges of RStudio with other students! It’s extremely effective for beginner individuals like me to gain this exposure! - Joyce Li, Senior, White Oaks Secondary School\nThe final project allowed me to draw from real world data about mental health disorders and learn how to make conclusions, moving me to be captivated by the data science field. —– Isaac Frank, Senior, Dublin Coffman High School\nThis course was really helpful! I learned a lot about data science and how to code in R. My favorite part were the breakout rooms since it allowed for students to share ideas and solve problems together. — Gabriel You (dengxuanjia@gmail.com), Senior, White Oaks Secondary School\nThe course tutorials were very informative and included an abundance of practice to ensure the material was understood. — Daniel Chen (danielc20051218@gmail.com), Junior, Naperville North High School\nThe course was an interesting way to learn the basics of data science, with the Final Projects being a great way to show what we grasped. — Oliver Raif Altindag (oliveraltindag@icloud.com), Freshman, Newton North High School\nGreat course overall. Introduces data science really well to people who may not have much knowledge about the field by showing important subjects such as data manipulation and visualization. Although some of the course content was slightly repetitive, it was still extremely effective in teaching students both basic and complex topics through the use of peer collaboration and the projects created at the end of the course. Definitely recommend it to anyone who wants an introduction to the language R and data science. — Abhay Paidipalli (abhay.paidipalli@gmail.com), Junior, James B. Conant High School\nBeing able to take part of a Harvard course, first of all, is such a valuable experience as you’re able to get a feel of the methodology that these elite institutions use. David Kane’s Data Science Boot camp was one of the most influential camps I’ve ever attended. Before this summer, I’ve never learned or touched a single piece of code and had no interest in programming, but after taking this course, it’s really made me fascinated in computer science, even going as far as planning to minor in cs. Working with Preceptor during the camp and under an apprenticeship really helped me gain valuable experience as well as sharpening skills in coding, critical thinking, and discipline. Also, it’s completely free. There’s so much to gain from this experience and nothing to lose. This camp is definitely one of the best offered to High school students and not one that you should pass on. — Bryan Li (libryan261@gmail.com/ 614-316-1061), Senior, Dublin Coffman High School\nThis course was valuable in helping me manage my time during school. Although I did not have any previous experience in R and Rstudio I had to learn to balance my school work and extracurriculars while meeting the demands of the course. — Joseph Jeiwan Kim (josephjwkim04@gmail.com), Senior, White Oaks High School\nThis course does a fantastic job of not only putting you in the shoes of a student, learning the underlying coding and statistics, but also putting you in the shoes of a worker, doing real Data Science as a real Data Scientist. — George, senior, White Oaks Secondary School"
   }
 ]

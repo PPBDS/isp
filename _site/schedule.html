@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Kane’s Free Data Science Course</span>
     </a>
@@ -82,33 +89,33 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./testimonials.html" rel="" target="">
- <span class="menu-text">Testimonials</span></a>
+    <a class="nav-link" href="./testimonials.html"> 
+<span class="menu-text">Testimonials</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./staff.html" rel="" target="">
- <span class="menu-text">Staff</span></a>
+    <a class="nav-link" href="./staff.html"> 
+<span class="menu-text">Staff</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./schedule.html" rel="" target="" aria-current="page">
- <span class="menu-text">Schedule</span></a>
+    <a class="nav-link active" href="./schedule.html" aria-current="page"> 
+<span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html" rel="" target="">
- <span class="menu-text">Final Projects</span></a>
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Final Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./demo_day.html" rel="" target="">
- <span class="menu-text">Demo Day</span></a>
+    <a class="nav-link" href="./demo_day.html"> 
+<span class="menu-text">Demo Day</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -135,12 +142,14 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <!-- Maybe move some of the R4DS tutorials into weeks 3 and 4? Week 1 workload is OK. Seems like week 2 has a lot of work . . . if we write the tutorials! -->
 <p>Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.</p>
-<p>Key resources: <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a> by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, <a href="https://ppbds.github.io/primer/"><em>Preceptor’s Primer for Bayesian Data Science</em></a> by David Kane and their <a href="https://ppbds.github.io/r4ds.tutorials/">associated</a> <a href="https://ppbds.github.io/all.primer.tutorials/">tutorials</a>. Homework should be completed before the class meeting for which it is assigned. We also reference <a href="https://walker-data.com/census-r/"><em>Analyzing US Census Data: Methods, Maps, and Models in R</em></a> by Kyle Walker.</p>
-<p>See the home pages for the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a>, <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a>, and <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> for installation instructions.</p>
+<p>Key resources: <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a> by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, <a href="https://ppbds.github.io/primer/"><em>Preceptor’s Primer for Bayesian Data Science</em></a> by David Kane and their <a href="https://ppbds.github.io/r4ds.tutorials/">associated</a> <a href="https://ppbds.github.io/primer.tutorials/">tutorials</a>. Homework should be completed before the class meeting for which it is assigned. We also reference <a href="https://walker-data.com/census-r/"><em>Analyzing US Census Data: Methods, Maps, and Models in R</em></a> by Kyle Walker.</p>
+<p>See the home pages for the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a>, <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a>, and <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> for installation instructions.</p>
 <p><strong>Always reinstall the relevant package before starting a new tutorial.</strong> We are always fixing mistakes. You want to use the latest version.</p>
 <p>Completed tutorials are submitted via <a href="https://forms.gle/fCZm77KPW4923Xk27">this Google form</a>. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in <em>html</em> format. Please try to ensure that the name of the file is the default name, like <code>getting-started_answers.html</code>. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like <code>getting-started_answers (2).html</code>. You can just change the name of the file by hand if this happens.</p>
 <section id="week-1-visualization" class="level1">
@@ -155,14 +164,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="wednesday" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday">Wednesday</h2>
 <ul>
-<li><p>Read Chapters 1 through 3 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The last of these is the most important. Submit your answers via the usual <a href="https://forms.gle/fCZm77KPW4923Xk27">Google form</a>. (Note that you need to submit each set of answers separately.)</p></li>
+<li><p>Read the Introduction and Chapters 1 and 2 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual <a href="https://forms.gle/fCZm77KPW4923Xk27">Google form</a>. (Note that you need to submit each set of answers separately.)</p></li>
 </ul>
 </section>
 <section id="thursday" class="level2">
 <h2 class="anchored" data-anchor-id="thursday">Thursday</h2>
 <ul>
-<li><p>Read Chapters 4, 5, and 6 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>Read Chapters 3, 4, and 5 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.</p></li>
 </ul>
 <p><strong>Reminder</strong>: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.</p>
@@ -174,21 +183,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="monday-1" class="level2">
 <h2 class="anchored" data-anchor-id="monday-1">Monday</h2>
 <ul>
-<li><p>Read Chapters 8 and 9 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, <strong>complete the Terminal tutorial</strong>. Also complete the tutorials associated with the readings: Data Import and Getting Help. Note that the Terminal tutorial is at the end of the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> collection.</p></li>
+<li><p>Read Chapters 6, 7 and 8 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, <strong>complete the Terminal tutorial</strong>. Also complete the tutorials associated with the readings: Data Import and Getting Help.</p></li>
 </ul>
 </section>
 <section id="wednesday-1" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday-1">Wednesday</h2>
 <ul>
-<li><p>Read chapters 13, 14, 15 and 16 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>Read chapters 12, 13, 14 and 15 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions.</p></li>
 </ul>
 </section>
 <section id="thursday-1" class="level2">
 <h2 class="anchored" data-anchor-id="thursday-1">Thursday</h2>
 <ul>
-<li><p>Read Chapters 10, 11 and 12 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>Read Chapters 9, 10 and 11 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication.</p></li>
 </ul>
 </section>
@@ -199,14 +208,14 @@ ul.task-list li input[type="checkbox"] {
 <section id="monday-2" class="level2">
 <h2 class="anchored" data-anchor-id="monday-2">Monday</h2>
 <ul>
-<li><p>Read chapters 17, 18, 19 and 20 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>Read chapters 16, 17, 19 and 19 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins.</p></li>
 </ul>
 </section>
 <section id="wednesday-2" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday-2">Wednesday</h2>
 <ul>
-<li><p>Read chapters 21 and 22 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>Read chapters 20 and 21 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorials: Spreadsheets and Databases.</p></li>
 <li><p>Read the <a href="https://ppbds.github.io/primer/style-guide.html">Style Guide</a>.</p></li>
 <li><p>Determine the data source you will use for your final project. Don’t come to class without one!</p></li>
@@ -215,8 +224,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="thursday-2" class="level2">
 <h2 class="anchored" data-anchor-id="thursday-2">Thursday</h2>
 <ul>
-<li><p>Read chapters 7 and 25 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorials: Quarto Websites and Web scraping.</p></li>
+<li><p>Read chapters 24 and 28 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorials: Web scraping and Quarto. The latter is much more important.</p></li>
 </ul>
 <!-- DK: Add back in 23 and 24, once they are written. -->
 </section>
@@ -228,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- DK: Should we do the other chapter tutorials as well. Maybe? -->
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/rubin-causal-model.html">Chapter 1 Rubin Causal Model</a>. Focus on sections 1.1, 1.2 and 1.4.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete Rubin Causal Model - Overview tutorial.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete Rubin Causal Model - Overview tutorial.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> package, complete Census Data I.</p></li>
 </ul>
 </section>
@@ -236,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="wednesday-3">Wednesday</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/probability.html">Chapter 2 Probability</a>. Focus on sections 2.1, 2.2, 2.7, and 2.8.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete Probability - Overview tutorial.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete Probability - Overview tutorial.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> package, complete Census Data II.</p></li>
 </ul>
 </section>
@@ -244,7 +253,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="thursday-3">Thursday</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/one-parameter.html">Chapter 3 One Parameter</a>. Focus on sections 3.3 and 3.4.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete One Parameter - Overview tutorial.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete One Parameter - Overview tutorial.</p></li>
 <li><p>From the <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> package, complete API Key.</p></li>
 </ul>
 </section>
@@ -255,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="monday-4">Monday</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/two-parameters.html">Chapter 4 Two Parameters</a>.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete Two Parameters - Overview tutorial.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete Two Parameters - Overview tutorial.</p></li>
 <li><p>Read chapter 24 from <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a>. From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete the associated tutorial: Hierarchical data.</p></li>
 </ul>
 </section>
@@ -263,14 +272,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="wednesday-4">Wednesday</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/three-parameters.html">Chapter 5 Three Parameters</a>.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete Three Parameters - Overview tutorial.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete Three Parameters - Overview tutorial.</p></li>
 </ul>
 </section>
 <section id="thursday-4" class="level2">
 <h2 class="anchored" data-anchor-id="thursday-4">Thursday</h2>
 <ul>
 <li><p>Read <a href="https://ppbds.github.io/primer/four-parameters.html">Chapter 6 Four Parameters</a>.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete Four Parameters - Overview tutorial.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete Four Parameters - Overview tutorial.</p></li>
 </ul>
 </section>
 </section>
@@ -280,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="monday-5" class="level2">
 <h2 class="anchored" data-anchor-id="monday-5">Monday</h2>
 <ul>
-<li><p>From the <a href="https://ppbds.github.io/all.primer.tutorials/"><strong>all.primer.tutorials</strong></a> package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.</p></li>
+<li><p>From the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.</p></li>
 <li><p>You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction.</p></li>
 </ul>
 </section>
@@ -380,10 +389,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -393,8 +401,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -407,6 +424,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -450,6 +586,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -475,6 +612,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -535,6 +698,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

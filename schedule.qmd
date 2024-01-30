@@ -10,9 +10,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane and their [associated](https://ppbds.github.io/r4ds.tutorials/) [tutorials](https://ppbds.github.io/all.primer.tutorials/). Homework should be completed before the class meeting for which it is assigned. We also reference [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker.
+Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane and their [associated](https://ppbds.github.io/r4ds.tutorials/) [tutorials](https://ppbds.github.io/primer.tutorials/). Homework should be completed before the class meeting for which it is assigned. We also reference [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker.
 
-See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
+See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
 **Always reinstall the relevant package before starting a new tutorial.** We are always fixing mistakes. You want to use the latest version.
 
@@ -28,13 +28,13 @@ Looking at the data is the first step in data science.
 
 ## Wednesday 
 
-* Read Chapters 1 through 3 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read the Introduction and Chapters 1 and 2 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The last of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/fCZm77KPW4923Xk27). (Note that you need to submit each set of answers separately.)
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/fCZm77KPW4923Xk27). (Note that you need to submit each set of answers separately.)
 
 ## Thursday 
 
-* Read Chapters 4, 5, and 6 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 3, 4, and 5 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.
 
@@ -46,20 +46,20 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Monday 
 
-* Read Chapters 8 and 9 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 6, 7 and 8 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, **complete the Terminal tutorial**. Also complete the tutorials associated with the readings: Data Import and Getting Help.  Note that the Terminal tutorial is at the end of the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) collection. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, **complete the Terminal tutorial**. Also complete the tutorials associated with the readings: Data Import and Getting Help.   
  
 
 ## Wednesday 
 
-* Read chapters 13, 14, 15 and 16 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 12, 13, 14 and 15 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions. 
 
 ## Thursday
 
-* Read Chapters 10, 11 and 12 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 9, 10 and 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication. 
 
@@ -70,14 +70,14 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Monday 
 
-* Read chapters 17, 18, 19 and 20 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 16, 17, 19 and 19 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins. 
 
 
 ## Wednesday 
 
-* Read chapters 21 and 22 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 20 and 21 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Spreadsheets and Databases. 
 
@@ -89,9 +89,9 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday 
 
-* Read chapters 7 and 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 24 and 28 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Quarto Websites and Web scraping. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Web scraping and Quarto. The latter is much more important. 
 
 
 <!-- DK: Add back in 23 and 24, once they are written. -->
@@ -104,7 +104,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html). Focus on sections 1.1, 1.2 and 1.4. 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
 
 * From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete Census Data I. 
 
@@ -112,7 +112,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 2 Probability](https://ppbds.github.io/primer/probability.html). Focus on sections 2.1, 2.2, 2.7, and 2.8. 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Probability - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Probability - Overview tutorial.
 
 * From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete Census Data II. 
 
@@ -120,7 +120,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/one-parameter.html). Focus on sections 3.3 and 3.4. 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete One Parameter - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete One Parameter - Overview tutorial.
 
 * From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete API Key. 
 
@@ -130,7 +130,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 4 Two Parameters](https://ppbds.github.io/primer/two-parameters.html). 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Two Parameters - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Two Parameters - Overview tutorial.
 
 * Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Hierarchical data.
 
@@ -139,7 +139,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 5 Three Parameters](https://ppbds.github.io/primer/three-parameters.html). 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Three Parameters - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Three Parameters - Overview tutorial.
 
 
 
@@ -147,7 +147,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/four-parameters.html). 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete Four Parameters - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Four Parameters - Overview tutorial.
 
 
 # Week 6: Projects
@@ -157,7 +157,7 @@ The last week will consist of projects that the students will make. Do you love 
 
 ## Monday 
 
-* From the [**all.primer.tutorials**](https://ppbds.github.io/all.primer.tutorials/) package, complete "Final Project" tutorial before class, or you will be removed the course. There are no extensions for this assignment.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete "Final Project" tutorial before class, or you will be removed the course. There are no extensions for this assignment.
 
 * You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
 
