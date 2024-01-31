@@ -1,5 +1,7 @@
 ## Priorities for June Class
 
+Substack sign up does not work on Safari (java script error)
+
 email R4DS authors, looking for a retweet
 
 ask our one user for a retweet.
