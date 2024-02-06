@@ -1,25 +1,16 @@
 ## Priorities for June Class
 
-Substack sign up does not work on Safari (java script error)
+Decide on timing. Could start Monday May 27th, which is after AP exams but is Memorial Day. If so, we could get 5 weeks in before July 1 departure for Europe. Then, pause for two weeks. Then three weeks from July 15 through August 1. That seems sensible!
 
 email R4DS authors, looking for a retweet
 
 ask our one user for a retweet.
 
-Update schedule.
+Update schedule to accomodate 8 weeks/
 
 Maybe we require the tutorial.helpers tutorial to even register for the course?
 
-Maybe create a Chapter 1 tutorial to go along with it, either in R4DS or in all.primer.tutorials. Maybe that is based on the current visualization-overview tutorial.
-
-Start work on tutorials for chapters 4 through 8. Looks like students will be doing them. And we certainly don't want to create any problem sets!
-
 Think about using Posit Cloud.
-
-
-Create teaching.tutorials. These are tutorials for my specific assignments. Might only include final_projects tutorial, but could have other stuff. Maybe add data: api tutorial? Maybe add quarto websites tutorial?
-
-
 
 ## Projects for Apprentices
 
