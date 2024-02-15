@@ -18,7 +18,7 @@ See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tut
 
 Completed tutorials are submitted via [this Google form](https://forms.gle/fCZm77KPW4923Xk27). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
-# Week 1: Visualization
+# Week 1: Data
 
 Looking at the data is the first step in data science.
 
@@ -30,7 +30,7 @@ Looking at the data is the first step in data science.
 
 * Read the Introduction and Chapters 1 and 2 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/fCZm77KPW4923Xk27). (Note that you need to submit each set of answers separately.)
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/fCZm77KPW4923Xk27). (Note that you need to submit each set of answers separately.)
 
 ## Thursday 
 
@@ -40,7 +40,7 @@ Looking at the data is the first step in data science.
 
 **Reminder**: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
-# Week 2: Wrangling
+# Week 2: Models
 
 Now that we know how to visualize data that is already clean, we need to learn how to clean up messy data. 
 
@@ -64,13 +64,13 @@ Now that we know how to visualize data that is already clean, we need to learn h
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication. 
 
 
-# Week 3: Data
+# Week 3: Inference
 
 Now that we know how to clean and organize messy data, we need to learn how to get some data.
 
 ## Monday 
 
-* Read chapters 16, 17, 19 and 19 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read chapters 16, 17, 18 and 19 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins. 
 
@@ -94,13 +94,13 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 * From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Web scraping and Quarto. The latter is much more important. 
 
 
-<!-- DK: Add back in 23 and 24, once they are written. -->
+<!-- DK: Add back in 23 and 24, once they are written. Add other R4DS tutorials. Or maybe spread them out, now that we have 8 weeks instead of 6. -->
 
-# Week 4: Models
+# Week 4: Wisdom
 
 ## Monday
 
-<!-- DK: Should we do the other chapter tutorials as well. Maybe? -->
+<!-- DK: Should we do the other chapter tutorials as well. Probably, but do we have time for 2024? -->
 
 * Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html). Focus on sections 1.1, 1.2 and 1.4. 
 
@@ -118,39 +118,67 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Thursday
 
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete API Key. 
+
+# Week 5: Justice
+
+## Monday
+
 * Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/one-parameter.html). Focus on sections 3.3 and 3.4. 
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete One Parameter - Overview tutorial.
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete API Key. 
-
-# Week 5: Inference
-
-## Monday
+## Wednesday
 
 * Read [Chapter 4 Two Parameters](https://ppbds.github.io/primer/two-parameters.html). 
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Two Parameters - Overview tutorial.
 
+## Thursday
+
 * Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Hierarchical data.
 
 
-## Wednesday
+# Week 6: Courage
+
+## Monday
 
 * Read [Chapter 5 Three Parameters](https://ppbds.github.io/primer/three-parameters.html). 
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Three Parameters - Overview tutorial.
 
-
-
-## Thursday
+## Wednesday
 
 * Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/four-parameters.html). 
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Four Parameters - Overview tutorial.
 
+## Thursday
 
-# Week 6: Projects
+* TBD
+
+# Week 7: Temperance
+
+## Monday
+
+* Read [Chapter 7 Five Parameters](https://ppbds.github.io/primer/five-parameters.html). 
+
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Five Parameters - Overview tutorial.
+
+## Wednesday
+
+* Read [Chapter 8 N Parameters](https://ppbds.github.io/primer/n-parameters.html). 
+
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete N Parameters - Overview tutorial.
+
+## Thursday
+
+* Read [Key Concepts](https://ppbds.github.io/primer/glossary.html). 
+
+<!-- Is there a tutorial for the Key Concepts? Connect all those concepts to your final project, for class discussion? Or is that too close to the final project tutorial. -->
+
+
+# Week 8: Projects
 
 The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 
@@ -162,11 +190,11 @@ The last week will consist of projects that the students will make. Do you love 
 * You must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction. 
 
 
-## Tuesday 
+## Wednesday 
 
 * Practice presentations and feedback. You must have your presentation ready to go! 
 
-## Wednesday 
+## Thursday 
 
 * Final project presentations. You must invite someone, and bcc your TF when you do so.
 

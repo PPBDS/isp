@@ -137,7 +137,7 @@
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead the Introduction and Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual Google form. (Note that you need to submit each set of answers separately.)"
+    "text": "Wednesday\n\nRead the Introduction and Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual Google form. (Note that you need to submit each set of answers separately.)"
   },
   {
     "objectID": "schedule.html#thursday",
@@ -172,7 +172,7 @@
     "href": "schedule.html#monday-2",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead chapters 16, 17, 19 and 19 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
+    "text": "Monday\n\nRead chapters 16, 17, 18 and 19 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
   },
   {
     "objectID": "schedule.html#wednesday-2",
@@ -207,48 +207,90 @@
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 3 One Parameter. Focus on sections 3.3 and 3.4.\nFrom the primer.tutorials package, complete One Parameter - Overview tutorial.\nFrom the tidycensus.tutorials package, complete API Key."
+    "text": "Thursday\n\nFrom the tidycensus.tutorials package, complete API Key."
   },
   {
     "objectID": "schedule.html#monday-4",
     "href": "schedule.html#monday-4",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapter 4 Two Parameters.\nFrom the primer.tutorials package, complete Two Parameters - Overview tutorial.\nRead chapter 24 from R for Data Science (2e). From the r4ds.tutorials package, complete the associated tutorial: Hierarchical data."
+    "text": "Monday\n\nRead Chapter 3 One Parameter. Focus on sections 3.3 and 3.4.\nFrom the primer.tutorials package, complete One Parameter - Overview tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-4",
     "href": "schedule.html#wednesday-4",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 5 Three Parameters.\nFrom the primer.tutorials package, complete Three Parameters - Overview tutorial."
+    "text": "Wednesday\n\nRead Chapter 4 Two Parameters.\nFrom the primer.tutorials package, complete Two Parameters - Overview tutorial."
   },
   {
     "objectID": "schedule.html#thursday-4",
     "href": "schedule.html#thursday-4",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 6 Four Parameters.\nFrom the primer.tutorials package, complete Four Parameters - Overview tutorial."
+    "text": "Thursday\n\nRead chapter 24 from R for Data Science (2e). From the r4ds.tutorials package, complete the associated tutorial: Hierarchical data."
   },
   {
     "objectID": "schedule.html#monday-5",
     "href": "schedule.html#monday-5",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nFrom the primer.tutorials package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
-  },
-  {
-    "objectID": "schedule.html#tuesday",
-    "href": "schedule.html#tuesday",
-    "title": "Schedule",
-    "section": "Tuesday",
-    "text": "Tuesday\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+    "text": "Monday\n\nRead Chapter 5 Three Parameters.\nFrom the primer.tutorials package, complete Three Parameters - Overview tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-5",
     "href": "schedule.html#wednesday-5",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nFinal project presentations. You must invite someone, and bcc your TF when you do so."
+    "text": "Wednesday\n\nRead Chapter 6 Four Parameters.\nFrom the primer.tutorials package, complete Four Parameters - Overview tutorial."
+  },
+  {
+    "objectID": "schedule.html#thursday-5",
+    "href": "schedule.html#thursday-5",
+    "title": "Schedule",
+    "section": "Thursday",
+    "text": "Thursday\n\nTBD"
+  },
+  {
+    "objectID": "schedule.html#monday-6",
+    "href": "schedule.html#monday-6",
+    "title": "Schedule",
+    "section": "Monday",
+    "text": "Monday\n\nRead Chapter 7 Five Parameters.\nFrom the primer.tutorials package, complete Five Parameters - Overview tutorial."
+  },
+  {
+    "objectID": "schedule.html#wednesday-6",
+    "href": "schedule.html#wednesday-6",
+    "title": "Schedule",
+    "section": "Wednesday",
+    "text": "Wednesday\n\nRead Chapter 8 N Parameters.\nFrom the primer.tutorials package, complete N Parameters - Overview tutorial."
+  },
+  {
+    "objectID": "schedule.html#thursday-6",
+    "href": "schedule.html#thursday-6",
+    "title": "Schedule",
+    "section": "Thursday",
+    "text": "Thursday\n\nRead Key Concepts."
+  },
+  {
+    "objectID": "schedule.html#monday-7",
+    "href": "schedule.html#monday-7",
+    "title": "Schedule",
+    "section": "Monday",
+    "text": "Monday\n\nFrom the primer.tutorials package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
+  },
+  {
+    "objectID": "schedule.html#wednesday-7",
+    "href": "schedule.html#wednesday-7",
+    "title": "Schedule",
+    "section": "Wednesday",
+    "text": "Wednesday\n\nPractice presentations and feedback. You must have your presentation ready to go!"
+  },
+  {
+    "objectID": "schedule.html#thursday-7",
+    "href": "schedule.html#thursday-7",
+    "title": "Schedule",
+    "section": "Thursday",
+    "text": "Thursday\n\nFinal project presentations. You must invite someone, and bcc your TF when you do so."
   }
 ]

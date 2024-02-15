@@ -1,6 +1,8 @@
 ## Priorities for June Class
 
-Decide on timing. Could start Monday May 27th, which is after AP exams but is Memorial Day. If so, we could get 5 weeks in before July 1 departure for Europe. Then, pause for two weeks. Then three weeks from July 15 through August 1. That seems sensible!
+design course so we can read the R4DS chapters in order
+
+figure out tidycensus tutorials
 
 email R4DS authors, looking for a retweet
 
@@ -11,6 +13,8 @@ Update schedule to accomodate 8 weeks/
 Maybe we require the tutorial.helpers tutorial to even register for the course?
 
 Think about using Posit Cloud.
+
+See discussion below about centering the course around social capital data.
 
 ## Projects for Apprentices
 
