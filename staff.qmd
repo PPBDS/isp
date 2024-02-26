@@ -1,24 +1,32 @@
 ---
 title: "Staff"
+format:
+  html:
+    knitr:
+      opts_chunk:
+        out.width: '50%'
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Preceptor
 
 ## David Kane
 
-```{r david, out.width ="50%"}
+```{r david}
 knitr::include_graphics("images/david_kane.png")
 ```
 
 [David Kane](https://www.davidkane.info) is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.
 
 
+# Teaching Fellows
+
 ## Yuhan Wu
 
-```{r, out.width ="50%"}
+```{r}
 knitr::include_graphics("images/yuhan.jpg")
 ```
 
@@ -36,7 +44,7 @@ knitr::include_graphics("images/tejas.jpg")
 
 ## Alex Kuai
 
-```{r, out.width ="50%"}
+```{r}
 knitr::include_graphics("images/kuai.jpg")
 ```
 
@@ -68,7 +76,16 @@ knitr::include_graphics("images/saluja.jpg")
 
 [Krish Saluja](https://github.com/thekrishsaluja) is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry.
 
+# Executive Directors
 
+
+## Ethan Xiao 
+
+```{r, out.width="%50"}
+knitr::include_graphics("images/xiao.jpeg")
+```
+
+[Ethan Xiao](https://github.com/EpiCoder25) is a rising senior with interest in mathematics and statistics.
 
 <!-- ## Miriam Heiss -->
 
@@ -80,7 +97,7 @@ knitr::include_graphics("images/saluja.jpg")
 
 <!-- ## Felix Cai -->
 
-<!-- ```{r, out.width ="50%"} -->
+<!-- ```{r} -->
 <!-- knitr::include_graphics("images/cai.jpg") -->
 <!-- ``` -->
 
@@ -91,7 +108,7 @@ knitr::include_graphics("images/saluja.jpg")
 
 <!-- ## Stephanie Saab -->
 
-<!-- ```{r saab, out.width ="50%"} -->
+<!-- ```{r saab} -->
 <!-- knitr::include_graphics("images/saab.jpg") -->
 <!-- ``` -->
 
@@ -103,7 +120,7 @@ knitr::include_graphics("images/saluja.jpg")
 
 <!-- ## Arghayan Jeiyasarangkan -->
 
-<!-- ```{r arghayan, out.width ="50%"} -->
+<!-- ```{r arghayan} -->
 <!-- knitr::include_graphics("images/arghayan.png") -->
 <!-- ``` -->
 
@@ -111,7 +128,7 @@ knitr::include_graphics("images/saluja.jpg")
 
 <!-- ## Jackson Roe -->
 
-<!-- ```{r roe, out.width ="50%"} -->
+<!-- ```{r roe} -->
 <!-- knitr::include_graphics("images/roe.png") -->
 <!-- ``` -->
 
