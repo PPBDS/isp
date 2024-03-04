@@ -70,6 +70,13 @@
     "text": "Ethan Xiao\n\n\n\n\n\n\n\n\n\nEthan Xiao is a rising senior with interest in mathematics and statistics."
   },
   {
+    "objectID": "staff.html#monish-malla",
+    "href": "staff.html#monish-malla",
+    "title": "Staff",
+    "section": "Monish Malla",
+    "text": "Monish Malla\n\n\n\n\n\n\n\n\n\nMonish Malla is a junior at Metea Valley High School who is interested in computer science and cybersecurity"
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Final Projects",
@@ -130,7 +137,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers once or twice, stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
+    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane, and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
   },
   {
     "objectID": "schedule.html#monday",

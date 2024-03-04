@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## David Kane
 
-```{r david}
+```{r}
 knitr::include_graphics("images/david_kane.png")
 ```
 
@@ -52,7 +52,7 @@ knitr::include_graphics("images/kuai.jpg")
 
 ## Anish Bellamkonda
 
-```{r, out.width="%50"}
+```{r}
 knitr::include_graphics("images/anish.jpg")
 ```
 
@@ -61,7 +61,7 @@ knitr::include_graphics("images/anish.jpg")
 
 ## Srihith Garlapati
 
-```{r, out.width="%50"}
+```{r}
 knitr::include_graphics("images/srihith.jpg")
 ```
 
@@ -70,22 +70,30 @@ knitr::include_graphics("images/srihith.jpg")
 
 ## Krish Saluja
 
-```{r, out.width="%50"}
+```{r}
 knitr::include_graphics("images/saluja.jpg")
 ```
 
 [Krish Saluja](https://github.com/thekrishsaluja) is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry.
 
-# Executive Directors
+# Program Directors
 
 
 ## Ethan Xiao 
 
-```{r, out.width="%50"}
+```{r}
 knitr::include_graphics("images/xiao.jpeg")
 ```
 
 [Ethan Xiao](https://github.com/EpiCoder25) is a rising senior with interest in mathematics and statistics.
+
+## Monish Malla
+
+```{r}
+knitr::include_graphics("images/malla.jpg")
+```
+
+[Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity
 
 <!-- ## Miriam Heiss -->
 
