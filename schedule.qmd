@@ -124,15 +124,11 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Monday
 
-* Read [Chapter 3 One Parameter](https://ppbds.github.io/primer/one-parameter.html). Focus on sections 3.3 and 3.4. 
-
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete One Parameter - Overview tutorial.
+TBD
 
 ## Wednesday
 
-* Read [Chapter 4 Two Parameters](https://ppbds.github.io/primer/two-parameters.html). 
-
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Two Parameters - Overview tutorial.
+TBD
 
 ## Thursday
 
@@ -143,33 +139,25 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 ## Monday
 
-* Read [Chapter 5 Three Parameters](https://ppbds.github.io/primer/three-parameters.html). 
-
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Three Parameters - Overview tutorial.
+TBD
 
 ## Wednesday
 
-* Read [Chapter 6 Four Parameters](https://ppbds.github.io/primer/four-parameters.html). 
-
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Four Parameters - Overview tutorial.
+TBD
 
 ## Thursday
 
-* TBD
+TBD
 
 # Week 7: Temperance
 
 ## Monday
 
-* Read [Chapter 7 Five Parameters](https://ppbds.github.io/primer/five-parameters.html). 
-
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Five Parameters - Overview tutorial.
+TBD
 
 ## Wednesday
 
-* Read [Chapter 8 N Parameters](https://ppbds.github.io/primer/n-parameters.html). 
-
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete N Parameters - Overview tutorial.
+TBD
 
 ## Thursday
 
