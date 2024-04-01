@@ -24,6 +24,14 @@ knitr::include_graphics("images/david_kane.png")
 
 # Teaching Fellows
 
+## Vaangmaya Rebba
+
+```{r}
+knitr::include_graphics("images/rebba.jpg")
+```
+
+[Vaangmaya Rebba](https://github.com/Vaangmaya) is a rising senior who is interested in Data Science and Linguistics.
+
 ## Yuhan Wu
 
 ```{r}
@@ -93,7 +101,16 @@ knitr::include_graphics("images/xiao.jpeg")
 knitr::include_graphics("images/malla.jpg")
 ```
 
-[Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity
+[Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity.
+
+## Adi Chaudhary
+
+```{r}
+knitr::include_graphics("images/adi.jpeg")
+```
+
+
+[Adi Chaudhary](https://github.com/adichaudhary) is a junior at Carmel High School who is passionate about data science and cybersecurity.
 
 <!-- ## Miriam Heiss -->
 
