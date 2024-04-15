@@ -32,6 +32,15 @@ knitr::include_graphics("images/rebba.jpg")
 
 [Vaangmaya Rebba](https://github.com/Vaangmaya) is a rising senior who is interested in Data Science and Linguistics.
 
+## Luit Deka
+
+```{r}
+knitr::include_graphics("images/deka.jpg")
+```
+
+[Luit Deka](https://github.com/luitdeka) is an incoming freshman at Carnegie Mellon University, PA in the School of Computer Science.
+
+
 ## Yuhan Wu
 
 ```{r}
