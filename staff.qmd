@@ -24,6 +24,16 @@ knitr::include_graphics("images/david_kane.png")
 
 # Teaching Fellows
 
+## Anish Bellamkonda
+
+```{r}
+knitr::include_graphics("images/anish.jpg")
+```
+
+[Anish Bellamkonda](https://github.com/SplashyZues5197) is a rising senior at Metea Valley High School.
+
+
+
 ## Vaangmaya Rebba
 
 ```{r}
@@ -41,57 +51,48 @@ knitr::include_graphics("images/deka.jpg")
 [Luit Deka](https://github.com/luitdeka) is an incoming freshman at Carnegie Mellon University, PA in the School of Computer Science.
 
 
-## Yuhan Wu
+<!-- ## Yuhan Wu -->
 
-```{r}
-knitr::include_graphics("images/yuhan.jpg")
-```
+<!-- ```{r} -->
+<!-- knitr::include_graphics("images/yuhan.jpg") -->
+<!-- ``` -->
 
-[Yuhan Wu](https://github.com/UhanWu) is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics.
+<!-- [Yuhan Wu](https://github.com/UhanWu) is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics. -->
 
-## Tejas Mundhe
-
-<!-- There is something weird, I think, about this photo. It always shows up when I build it locally. But, once pushed to the web, it is fine. -->
-
-```{r}
-knitr::include_graphics("images/tejas.jpg")
-```
-
-[Tejas Mundhe](https://github.com/TejasMundhe) is an incoming junior at Walnut Hills High School who is interested in Data Science and Robotics.
-
-## Alex Kuai
-
-```{r}
-knitr::include_graphics("images/kuai.jpg")
-```
-
-[Alex Kuai](https://github.com/AlexKuaiR) is a rising sophomore at Newton North High School and has been a TF since freshman year.
-
-## Anish Bellamkonda
-
-```{r}
-knitr::include_graphics("images/anish.jpg")
-```
-
-[Anish Bellamkonda](https://github.com/SplashyZues5197) is a rising senior at Metea Valley High School.
+<!-- ## Tejas Mundhe -->
 
 
-## Srihith Garlapati
+<!-- ```{r} -->
+<!-- knitr::include_graphics("images/tejas.jpg") -->
+<!-- ``` -->
 
-```{r}
-knitr::include_graphics("images/srihith.jpg")
-```
+<!-- [Tejas Mundhe](https://github.com/TejasMundhe) is an incoming junior at Walnut Hills High School who is interested in Data Science and Robotics. -->
 
-[Srihith Garlapati](https://github.com/srihithg) is a rising sophomore in Computer Sciences at University of Wisconsin-Madison.
+<!-- ## Alex Kuai -->
+
+<!-- ```{r} -->
+<!-- knitr::include_graphics("images/kuai.jpg") -->
+<!-- ``` -->
+
+<!-- [Alex Kuai](https://github.com/AlexKuaiR) is a rising sophomore at Newton North High School and has been a TF since freshman year. -->
 
 
-## Krish Saluja
+<!-- ## Srihith Garlapati -->
 
-```{r}
-knitr::include_graphics("images/saluja.jpg")
-```
+<!-- ```{r} -->
+<!-- knitr::include_graphics("images/srihith.jpg") -->
+<!-- ``` -->
 
-[Krish Saluja](https://github.com/thekrishsaluja) is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry.
+<!-- [Srihith Garlapati](https://github.com/srihithg) is a rising sophomore in Computer Sciences at University of Wisconsin-Madison. -->
+
+
+<!-- ## Krish Saluja -->
+
+<!-- ```{r} -->
+<!-- knitr::include_graphics("images/saluja.jpg") -->
+<!-- ``` -->
+
+<!-- [Krish Saluja](https://github.com/thekrishsaluja) is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry. -->
 
 # Program Directors
 
