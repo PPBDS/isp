@@ -64,7 +64,7 @@ knitr::include_graphics("images/adi.jpeg")
 knitr::include_graphics("images/aadhira.jpg")
 ```
 
-Aadhira Satheesh is a middle schooler attending Acera School, with interest in mathematics, computer science and health care.
+[Aadhira Satheesh](https://github.com/aadhira12) is a middle schooler attending Acera School, with interest in mathematics, computer science and health care.
 
 
 <!-- ## Yuhan Wu -->
