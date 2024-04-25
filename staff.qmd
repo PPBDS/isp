@@ -24,6 +24,15 @@ knitr::include_graphics("images/david_kane.png")
 
 # Teaching Fellows
 
+## Tejas Mundhe
+
+
+```{r}
+knitr::include_graphics("images/tejas.jpg")
+```
+
+[Tejas Mundhe](https://github.com/TejasMundhe) is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics.
+
 ## Anish Bellamkonda
 
 ```{r}
@@ -75,14 +84,7 @@ knitr::include_graphics("images/aadhira.jpg")
 
 <!-- [Yuhan Wu](https://github.com/UhanWu) is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics. -->
 
-<!-- ## Tejas Mundhe -->
 
-
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/tejas.jpg") -->
-<!-- ``` -->
-
-<!-- [Tejas Mundhe](https://github.com/TejasMundhe) is an incoming junior at Walnut Hills High School who is interested in Data Science and Robotics. -->
 
 <!-- ## Alex Kuai -->
 
