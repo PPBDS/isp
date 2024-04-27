@@ -1,5 +1,4 @@
 ---
-title: "Staff"
 format:
   html:
     knitr:
@@ -131,8 +130,6 @@ knitr::include_graphics("images/malla.jpg")
 
 [Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity.
 
-
-
 ## Adhithan Manivassakam
 
 ```{r}
@@ -140,6 +137,14 @@ knitr::include_graphics("images/adith.jpeg")
 ```
 
 [Adhithan Manivassakam](https://github.com/AdhiMvm) is a junior at Adlai E. Stevenson High School, with a keen interest in data science and applied mathematics.
+
+## Atharva Bir Dutta
+
+```{r}
+knitr::include_graphics("images/dutta.jpg")
+```
+
+Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
 
 <!-- ## Miriam Heiss -->
 
