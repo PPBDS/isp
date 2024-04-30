@@ -144,14 +144,14 @@
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course will run for 8 weeks this summer, starting on Monday, May 26 and ending on Thursday, August 1, with a two week vacation in the middle. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM EDT on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nRegistration for the course will open around May 15.\nSign up for our e-mail list to receive updates."
+    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course will run for 8 weeks this summer, starting on Monday, May June 3rd and ending on Thursday, August 8th, with a two week vacation in the middle. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nRegistration for the course will open around May 15.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane, and their associated tutorials. Homework should be completed before the class meeting for which it is assigned. We also reference Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
+    "text": "THIS IS A DRAFT SCHEDULE\nClasses run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane, Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker, along with their their associated tutorials. Homework should be completed before the class meeting for which it is assigned.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens.\nSubmit each set of tutorial answers separately."
   },
   {
     "objectID": "schedule.html#monday",
@@ -172,133 +172,133 @@
     "href": "schedule.html#thursday",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapters 3, 4, and 5 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "text": "Thursday\n\nRead Chapters 3 and 4 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Transformation and RStudio and Github. The most important of these is RStudio and Github.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
     "objectID": "schedule.html#monday-1",
     "href": "schedule.html#monday-1",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapters 6, 7 and 8 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Terminal tutorial. Also complete the tutorials associated with the readings: Data Import and Getting Help."
+    "text": "Monday\n\nRead Chapters 5, 6, and 7 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Data Tidying, Terminal, and Data Import."
   },
   {
     "objectID": "schedule.html#wednesday-1",
     "href": "schedule.html#wednesday-1",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead chapters 12, 13, 14 and 15 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions."
+    "text": "Wednesday\n\nRead Chapters 8, 9 and 10 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Getting Help, Layers, and Exploratory Data Analysis."
   },
   {
     "objectID": "schedule.html#thursday-1",
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapters 9, 10 and 11 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication."
+    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorial: Communication.\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your final projects.\nFrom the tidycensus.tutorials) package, complete the associated tutorials: “The United States Census and the R programming language” and “An introduction to tidycensus.”"
   },
   {
     "objectID": "schedule.html#monday-2",
     "href": "schedule.html#monday-2",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead chapters 16, 17, 18 and 19 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins."
+    "text": "Monday"
   },
   {
     "objectID": "schedule.html#wednesday-2",
     "href": "schedule.html#wednesday-2",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead chapters 20 and 21 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Spreadsheets and Databases.\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+    "text": "Wednesday\n\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
   },
   {
     "objectID": "schedule.html#thursday-2",
     "href": "schedule.html#thursday-2",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead chapters 24 and 28 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Web scraping and Quarto. The latter is much more important."
+    "text": "Thursday\n\nRead chapter 17 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Dates and times” tutorial."
   },
   {
     "objectID": "schedule.html#monday-3",
     "href": "schedule.html#monday-3",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\n\nRead Chapter 1 Rubin Causal Model. Focus on sections 1.1, 1.2 and 1.4.\nFrom the primer.tutorials package, complete Rubin Causal Model - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data I."
+    "text": "Monday\n\nRead chapter 17 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Dates and times” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-3",
     "href": "schedule.html#wednesday-3",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 2 Probability. Focus on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete Probability - Overview tutorial.\nFrom the tidycensus.tutorials package, complete Census Data II."
+    "text": "Wednesday\n\nRead chapter 18 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Missing values” tutorial.\nPractice presentations and feedback. You must have your presentation ready to go!"
   },
   {
     "objectID": "schedule.html#thursday-3",
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nFrom the tidycensus.tutorials package, complete API Key."
+    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so.\n\nTWO WEEK VACATION: July 1 through July 14"
   },
   {
     "objectID": "schedule.html#monday-4",
     "href": "schedule.html#monday-4",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\nTBD"
+    "text": "Monday\n\n\nRead Chapter 1 Rubin Causal Model. Focus on sections 1.1, 1.2 and 1.4.\nFrom the primer.tutorials package, complete Rubin Causal Model - Overview tutorial.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-4",
     "href": "schedule.html#wednesday-4",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\nTBD"
+    "text": "Wednesday\n\nRead Chapter 2 Probability. Focus on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete Probability - Overview tutorial.\nRead chapter 20 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Spreadsheets” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-4",
     "href": "schedule.html#thursday-4",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead chapter 24 from R for Data Science (2e). From the r4ds.tutorials package, complete the associated tutorial: Hierarchical data."
+    "text": "Thursday\n\nRead Key Concepts.\nRead chapter 21 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Databases” tutorial."
   },
   {
     "objectID": "schedule.html#monday-5",
     "href": "schedule.html#monday-5",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\nTBD"
+    "text": "Monday\n\nRead chapter 22 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Arrow” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-5",
     "href": "schedule.html#wednesday-5",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\nTBD"
+    "text": "Wednesday\n\nRead chapter 23 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Hierarchical data” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-5",
     "href": "schedule.html#thursday-5",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\nTBD"
+    "text": "Thursday\n\nRead chapter 24 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Web scraping” tutorial."
   },
   {
     "objectID": "schedule.html#monday-6",
     "href": "schedule.html#monday-6",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\nTBD"
+    "text": "Monday\n\nRead chapter 25 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Functions” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-6",
     "href": "schedule.html#wednesday-6",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\nTBD"
+    "text": "Wednesday\n\nRead chapter 26 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Iteration” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-6",
     "href": "schedule.html#thursday-6",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Key Concepts."
+    "text": "Thursday\n\nRead chapter 27 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “A field guide to base R” tutorial."
   },
   {
     "objectID": "schedule.html#monday-7",

@@ -6,11 +6,12 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<!-- Maybe move some of the R4DS tutorials into weeks 3 and 4? Week 1 workload is OK. Seems like week 2 has a lot of work . . . if we write the tutorials! -->
+
+*THIS IS A DRAFT SCHEDULE*
 
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane, and their [associated](https://ppbds.github.io/r4ds.tutorials/) [tutorials](https://ppbds.github.io/primer.tutorials/). Homework should be completed before the class meeting for which it is assigned. We also reference [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker.
+Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane, [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker, along with their [their](https://ppbds.github.io/r4ds.tutorials/) [associated](https://ppbds.github.io/primer.tutorials/) [tutorials](https://ppbds.github.io/tidycensus.tutorials/). Homework should be completed before the class meeting for which it is assigned.
 
 See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
@@ -18,7 +19,9 @@ See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tut
 
 Completed tutorials are submitted via [this Google form](https://forms.gle/fCZm77KPW4923Xk27). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
-# Week 1: Data
+**Submit each set of tutorial answers separately.**
+
+# Week 1: Data: June 3
 
 Looking at the data is the first step in data science.
 
@@ -34,69 +37,90 @@ Looking at the data is the first step in data science.
 
 ## Thursday 
 
-* Read Chapters 3, 4, and 5 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 3 and 4 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Data Transformation, RStudio and Github, and Data Tidying tutorials. The most important of these is RStudio and Github.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Data Transformation and RStudio and Github. The most important of these is RStudio and Github.
 
 **Reminder**: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
-# Week 2: Models
+# Week 2: Models: June 10
 
 Now that we know how to visualize data that is already clean, we need to learn how to clean up messy data. 
 
 ## Monday 
 
-* Read Chapters 6, 7 and 8 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 5, 6, and 7 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, **complete the Terminal tutorial**. Also complete the tutorials associated with the readings: Data Import and Getting Help.   
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Data Tidying, Terminal, and Data Import.   
  
 
 ## Wednesday 
 
-* Read chapters 12, 13, 14 and 15 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 8, 9 and 10 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Logical vectors, Numbers, Strings, and Regular expressions. 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Getting Help, Layers, and Exploratory Data Analysis. 
+
 
 ## Thursday
 
-* Read Chapters 9, 10 and 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+<!-- DK: Too much work? How long does the tidy census stuff take? Delay? -->
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Layers, Exploratory Data Analysis, and Communication. 
+* Read chapter 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Communication. 
+
+* Read chapters 1 and 2 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your final projects.
+
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)) package, complete the associated tutorials: "The United States Census and the R programming language" and "An introduction to tidycensus."  
 
 
-# Week 3: Inference
 
-Now that we know how to clean and organize messy data, we need to learn how to get some data.
+# Week 3: Inference: June 17
+
 
 ## Monday 
 
-* Read chapters 16, 17, 18 and 19 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Factors, Dates and times, Missing values, and Joins. 
+ 
 
 
 ## Wednesday 
 
-* Read chapters 20 and 21 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Spreadsheets and Databases. 
-
 
 * Read the [Style Guide](https://ppbds.github.io/primer/style-guide.html). 
-
 
 * Determine the data source you will use for your final project. Don't come to class without one!
 
 ## Thursday 
 
-* Read chapters 24 and 28 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Web scraping and Quarto. The latter is much more important. 
+* Read chapter 17 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Dates and times" tutorial.
 
 
-<!-- DK: Add back in 23 and 24, once they are written. Add other R4DS tutorials. Or maybe spread them out, now that we have 8 weeks instead of 6. -->
 
-# Week 4: Wisdom
+
+# Week 4: Wisdom: June 24
+
+The main focus on the 4th week is individual presentations of your Data Project. Do you love soccer or wine or NYC politics? The Data Project provides you with an opportunity to study that topic in depth. Your Data Project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
+
+## Monday
+
+* Read chapter 17 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Dates and times" tutorial.
+
+## Wednesday 
+
+* Read chapter 18 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Missing values" tutorial.
+
+* Practice presentations and feedback. You must have your presentation ready to go! 
+
+## Thursday 
+
+* Data Project presentations. You must invite someone, and bcc your TF when you do so.
+
+
+
+
+**TWO WEEK VACATION: July 1 through July 14**
+
+# Week 5: Justice: July 15
 
 ## Monday
 
@@ -106,7 +130,7 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete Census Data I. 
+* Read chapter 19 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Joins" tutorial.
 
 ## Wednesday
 
@@ -114,61 +138,48 @@ Now that we know how to clean and organize messy data, we need to learn how to g
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Probability - Overview tutorial.
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete Census Data II. 
+* Read chapter 20 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Spreadsheets" tutorial.
+
 
 ## Thursday
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)  package, complete API Key. 
+* Read [Key Concepts](https://ppbds.github.io/primer/glossary.html).
 
-# Week 5: Justice
+* Read chapter 21 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Databases" tutorial.
+
+
+# Week 6: Courage: July 22
 
 ## Monday
 
-TBD
+* Read chapter 22 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Arrow" tutorial. 
 
 ## Wednesday
 
-TBD
+* Read chapter 23 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Hierarchical data" tutorial. 
 
 ## Thursday
 
-* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Hierarchical data.
+* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Web scraping" tutorial. 
 
-
-# Week 6: Courage
+# Week 7: Temperance: July 29
 
 ## Monday
 
-TBD
+* Read chapter 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Functions" tutorial. 
 
 ## Wednesday
 
-TBD
+* Read chapter 26 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Iteration" tutorial. 
 
 ## Thursday
 
-TBD
-
-# Week 7: Temperance
-
-## Monday
-
-TBD
-
-## Wednesday
-
-TBD
-
-## Thursday
-
-* Read [Key Concepts](https://ppbds.github.io/primer/glossary.html). 
-
-<!-- Is there a tutorial for the Key Concepts? Connect all those concepts to your final project, for class discussion? Or is that too close to the final project tutorial. -->
+* Read chapter 27 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "A field guide to base R" tutorial. 
 
 
-# Week 8: Projects
+# Week 8: Projects: August 5
 
-The last week will consist of projects that the students will make. Do you love soccer or wine or NYC politics? The final project provides you with an opportunity to study that topic in depth. Your final project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
+The last week will consist of projects that the students will make. 
 
 
 ## Monday 
