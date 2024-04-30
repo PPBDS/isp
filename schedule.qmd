@@ -7,8 +7,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-*THIS IS A DRAFT SCHEDULE*
-
 Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.
 
 Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane, [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker, along with their [their](https://ppbds.github.io/r4ds.tutorials/) [associated](https://ppbds.github.io/primer.tutorials/) [tutorials](https://ppbds.github.io/tidycensus.tutorials/). Homework should be completed before the class meeting for which it is assigned.
@@ -80,11 +78,12 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Monday 
 
- 
+* Read chapters 12, 13, and 14 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors," "Numbers," and "Strings" tutorials. 
 
 
 ## Wednesday 
 
+* Read chapters 15 and 16 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Regular expressions" and "Factors" tutorials. 
 
 * Read the [Style Guide](https://ppbds.github.io/primer/style-guide.html). 
 
@@ -92,9 +91,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Thursday 
 
-* Read chapter 17 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Dates and times" tutorial.
-
-
+* Read chapters 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Quarto" tutorial.
 
 
 # Week 4: Wisdom: June 24
@@ -113,9 +110,7 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 ## Thursday 
 
-* Data Project presentations. You must invite someone, and bcc your TF when you do so.
-
-
+* Data Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.
 
 
 **TWO WEEK VACATION: July 1 through July 14**
