@@ -158,14 +158,14 @@
     "href": "schedule.html#monday",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nBefore class, please read Getting Started and follow all the associated instructions. Complete the “Getting Started” tutorial from the tutorial.helpers package. Submit your answers, as an html file, via this Google form."
+    "text": "Monday\n\nBefore class, please read Getting Started and follow all the associated instructions. Complete the “Getting Started with Tutorials” tutorial from the tutorial.helpers package. Submit your answers, as an html file, via this Google form."
   },
   {
     "objectID": "schedule.html#wednesday",
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead the Introduction and Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual Google form. (Note that you need to submit each set of answers separately.)"
+    "text": "Wednesday\n\nRead the Introduction and Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual Google form."
   },
   {
     "objectID": "schedule.html#thursday",
@@ -193,7 +193,7 @@
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorial: Communication.\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your final projects.\nFrom the tidycensus.tutorials) package, complete the associated tutorials: “The United States Census and the R programming language” and “An introduction to tidycensus.”"
+    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorial: Communication.\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your final projects.\n\n\n\nFrom the tidycensus.tutorials) package, complete the associated tutorials: “The United States Census and the R programming language” and “An introduction to tidycensus.”"
   },
   {
     "objectID": "schedule.html#monday-2",
@@ -242,14 +242,14 @@
     "href": "schedule.html#monday-4",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\n\nRead Chapter 1 Rubin Causal Model. Focus on sections 1.1, 1.2 and 1.4.\nFrom the primer.tutorials package, complete Rubin Causal Model - Overview tutorial.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
+    "text": "Monday\n\nRead Chapter 1 Rubin Causal Model. Focus on sections 1.1, 1.2 and 1.4.\nFrom the primer.tutorials package, complete “Rubin Causal Model - Overview” tutorial.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-4",
     "href": "schedule.html#wednesday-4",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 2 Probability. Focus on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete Probability - Overview tutorial.\nRead chapter 20 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Spreadsheets” tutorial."
+    "text": "Wednesday\n\nRead Chapter 2 Probability. Focus on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete “Probability - Overview” tutorial.\nRead chapter 20 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Spreadsheets” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-4",

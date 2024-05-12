@@ -15,7 +15,7 @@ See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tut
 
 **Always reinstall the relevant package before starting a new tutorial.** We are always fixing mistakes. You want to use the latest version.
 
-Completed tutorials are submitted via [this Google form](https://forms.gle/fCZm77KPW4923Xk27). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
+Completed tutorials are submitted via [this Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
 **Submit each set of tutorial answers separately.**
 
@@ -25,13 +25,13 @@ Looking at the data is the first step in data science.
 
 ## Monday 
 
-* Before class, please read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. Complete the "Getting Started" tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package. Submit your answers, as an html file, via [this Google form](https://forms.gle/fCZm77KPW4923Xk27).
+* Before class, please read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. Complete the "Getting Started with Tutorials" tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package. Submit your answers, as an html file, via [this Google form](https://forms.gle/ScrSYjb6pYPbtvNj7).
 
 ## Wednesday 
 
 * Read the Introduction and Chapters 1 and 2 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/fCZm77KPW4923Xk27). (Note that you need to submit each set of answers separately.)
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
 
 ## Thursday 
 
@@ -69,6 +69,8 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Read chapters 1 and 2 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your final projects.
 
+<!-- DK: Maybe there is only a tutorial for chapter 2? -->
+
 * From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)) package, complete the associated tutorials: "The United States Census and the R programming language" and "An introduction to tidycensus."  
 
 
@@ -98,6 +100,8 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 The main focus on the 4th week is individual presentations of your Data Project. Do you love soccer or wine or NYC politics? The Data Project provides you with an opportunity to study that topic in depth. Your Data Project will be, for most of you, the first item in your professional portfolio, something so impressive that you will be eager to show it to graduate schools or potential employers.
 
+<!-- DK: Add back in the final project tutorial. -->
+
 ## Monday
 
 * Read chapter 17 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Dates and times" tutorial.
@@ -119,11 +123,9 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 ## Monday
 
-<!-- DK: Should we do the other chapter tutorials as well. Probably, but do we have time for 2024? -->
-
 * Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html). Focus on sections 1.1, 1.2 and 1.4. 
 
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Rubin Causal Model - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete "Rubin Causal Model - Overview" tutorial.
 
 * Read chapter 19 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Joins" tutorial.
 
@@ -131,7 +133,7 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 * Read [Chapter 2 Probability](https://ppbds.github.io/primer/probability.html). Focus on sections 2.1, 2.2, 2.7, and 2.8. 
 
-* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete Probability - Overview tutorial.
+* From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete "Probability - Overview" tutorial.
 
 * Read chapter 20 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Spreadsheets" tutorial.
 
