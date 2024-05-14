@@ -19,19 +19,25 @@ Completed tutorials are submitted via [this Google form](https://forms.gle/ScrSY
 
 **Submit each set of tutorial answers separately.**
 
+# Registration
+
+To register for the class and reserve your spot, please read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. Complete the "Getting Started with Tutorials" tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package. Submit your answers, as an html file, via [this Google form](https://forms.gle/ScrSYjb6pYPbtvNj7).
+
 # Week 1: Data: June 3
 
 Looking at the data is the first step in data science.
 
 ## Monday 
 
-* Before class, please read [Getting Started](https://ppbds.github.io/primer/getting-started.html) and follow all the associated instructions. Complete the "Getting Started with Tutorials" tutorial from the [**tutorial.helpers**](https://ppbds.github.io/tutorial.helpers/) package. Submit your answers, as an html file, via [this Google form](https://forms.gle/ScrSYjb6pYPbtvNj7).
+* Read the Introduction from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the Introduction tutorial. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
 
 ## Wednesday 
 
-* Read the Introduction and Chapters 1 and 2 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Read Chapters 1 and 2 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
 
 ## Thursday 
 
@@ -80,12 +86,13 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Monday 
 
-* Read chapters 12, 13, and 14 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors," "Numbers," and "Strings" tutorials. 
+Read chapters 12, 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors" and "Quarto" tutorials.
+
 
 
 ## Wednesday 
 
-* Read chapters 15 and 16 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Regular expressions" and "Factors" tutorials. 
+* Read chapters 13 and 14 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the  "Numbers" and "Strings" tutorials. 
 
 * Read the [Style Guide](https://ppbds.github.io/primer/style-guide.html). 
 
@@ -93,7 +100,9 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Thursday 
 
-* Read chapters 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Quarto" tutorial.
+* Read chapters 15 and 16 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Regular expressions" and "Factors" tutorials. 
+
+
 
 
 # Week 4: Wisdom: June 24

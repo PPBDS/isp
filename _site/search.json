@@ -91,6 +91,13 @@
     "text": "Atharva Bir Dutta\n\n\n\n\n\n\n\n\n\nAtharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science."
   },
   {
+    "objectID": "staff.html#navya-joshi",
+    "href": "staff.html#navya-joshi",
+    "title": "Preceptor",
+    "section": "Navya Joshi",
+    "text": "Navya Joshi\n\n\n\n\n\n\n\n\n\nNavya Joshi is a rising junior at Conant High School with an interest in Computer Science and Mathematics."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Final Projects",
@@ -158,14 +165,14 @@
     "href": "schedule.html#monday",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nBefore class, please read Getting Started and follow all the associated instructions. Complete the “Getting Started with Tutorials” tutorial from the tutorial.helpers package. Submit your answers, as an html file, via this Google form."
+    "text": "Monday\n\nRead the Introduction from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Introduction tutorial. Submit your answers via the usual Google form."
   },
   {
     "objectID": "schedule.html#wednesday",
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead the Introduction and Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete three tutorials: Introduction, Data Visualization and RStudio and Code. The third of these is the most important. Submit your answers via the usual Google form."
+    "text": "Wednesday\n\nRead Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual Google form."
   },
   {
     "objectID": "schedule.html#thursday",
@@ -200,21 +207,21 @@
     "href": "schedule.html#monday-2",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead chapters 12, 13, and 14 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Logical vectors,” “Numbers,” and “Strings” tutorials."
+    "text": "Monday\nRead chapters 12, 28 and 29 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Logical vectors” and “Quarto” tutorials."
   },
   {
     "objectID": "schedule.html#wednesday-2",
     "href": "schedule.html#wednesday-2",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead chapters 15 and 16 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Regular expressions” and “Factors” tutorials.\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
+    "text": "Wednesday\n\nRead chapters 13 and 14 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Numbers” and “Strings” tutorials.\nRead the Style Guide.\nDetermine the data source you will use for your final project. Don’t come to class without one!"
   },
   {
     "objectID": "schedule.html#thursday-2",
     "href": "schedule.html#thursday-2",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead chapters 28 and 29 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Quarto” tutorial."
+    "text": "Thursday\n\nRead chapters 15 and 16 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Regular expressions” and “Factors” tutorials."
   },
   {
     "objectID": "schedule.html#monday-3",

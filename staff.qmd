@@ -75,6 +75,8 @@ knitr::include_graphics("images/aadhira.jpg")
 [Aadhira Satheesh](https://github.com/aadhira12) is a middle schooler attending Acera School, with interest in mathematics, computer science and health care.
 
 
+
+
 <!-- ## Yuhan Wu -->
 
 <!-- ```{r} -->
@@ -145,6 +147,15 @@ knitr::include_graphics("images/dutta.jpg")
 ```
 
 Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
+
+## Navya Joshi
+
+```{r}
+knitr::include_graphics("images/joshi.jpeg")
+```
+
+Navya Joshi is a rising junior at Conant High School with an interest in Computer Science and Mathematics.
+
 
 <!-- ## Miriam Heiss -->
 

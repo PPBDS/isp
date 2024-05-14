@@ -1,5 +1,9 @@
 ## Priorities for June Class
 
+Update Getting Help tutorial links
+
+Setup Excel spreadsheet for Data and Model Projects
+
 design course so we can read the R4DS chapters in order
 
 figure out tidycensus tutorials
@@ -8,38 +12,11 @@ email R4DS authors, looking for a retweet
 
 ask our one user for a retweet.
 
-Update schedule to accomodate 8 weeks/
-
-Maybe we require the tutorial.helpers tutorial to even register for the course?
-
-Think about using Posit Cloud.
+Update schedule to accomodate 8 weeks
 
 See discussion below about centering the course around social capital data.
 
-## Projects for Apprentices
 
-
-
-### Tutorials for Tidymodels with R
-
-I think we need to do the entire book. But note that there really isn't that much code . . .
-
-
-### tutorial.helpers
-
-Matthew Ru
-
-Maybe another student? See TODO.txt file for some of the many issues.
-
-One student in charge of figuring out how to process these for a class of 50. Is the gmail approach best? Does it still work? Need an option of working with a zip folder of submissions, like what we might get from Canvas or Moodle.
-
-Process answers as html files rather than rds, I think.
-
-### Primer Chapters
-
-For 4, 5, and 6, just improve the associated tutorials.
-
-For 7 through 11, write the overview tutorials and make the chapters better, especially with the use of the Four Cardinal Virtues.
 
 
 ## Other Topics
@@ -71,18 +48,6 @@ Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by C
 
 
 ## Other
-
-
-
-* Think about changing Day 1 to use Posit Cloud. FYI: tutorials (of all sorts) do not work if you install remotes and then the package. However, if you:
-
-install.packages("remotes")
-remotes::install_github("PPBDS/all.primer.tutorials")
-
-After restarting, the initial attempt to run a tutorial will fail. The tutorial will build, but you will get a "Connection refused"" message. Just hit the Home button and try the tutorial a second time.
-
-Or maybe this works now! Or maybe you need to build it once, then restart and try it again. Annoying!
-
 
 * The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.
 

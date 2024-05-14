@@ -1,0 +1,48 @@
+This document provides an overview of the course --- its structure, schedule and philosophy. Key ideas:
+
+* Make stuff. Each week ends with the construction of something cool.
+
+* Present stuff. 
+
+* Professional tools.
+
+* Use AI.
+
+
+## Week 1: Github/Rpubs using library data
+
+We are only using data from a package: connectedness data from primer.data.  Use R projects and Github repos. Finish with a nice plot, available on Rpubs.
+
+## Week 2: Github/Rpubs using dirty data
+
+We use "dirty" text data that we need to clean at least a bit. Need to select that data. Should not be connectedness. Each week should be new data. Maybe Census data? Make sure to do at least one Census tutorial.
+
+## Week 3: Github/Quarto Website using downloaded census data
+
+Download data as part of a larger project. This is mimicing the process by which students create their data projects for next week. This should probably be Census. Create a Quarto website which will look alot like the data projects. If we use Census, we could encourage to pick different data items. Include several different scripts and saved images.
+
+## Week 4: Data Projects
+
+Focus is the data project presentations on Thursday.
+
+## Week 5: First Model
+
+First four chapters of Primer. This gets the basics down and also gives us the easiest brms model in the models chapter. Focus on the Cardinal Virtues. Understand the whole process. Learn all the key terms. Finish with an RPubs that does and shows an entire model. Maybe use recent survey data? Could always use presidential approval.
+
+## Week 6
+
+Each of the last three (or just 2) weeks we complete the entire modeling process. Starting with some data and a question. Finishing with an graphic which shows the answer to the question. Entire thing becomes a Quarto website by the end of the week. The more we show students what a good Model Project looks like, the better theirs will be. Not sure how many chapters we will have ready to go this time.
+
+## Week 7
+
+Drop the Bayesian tools but not the Bayesian interpretation. Use Tidymodels but drop the bayesian() engine. Use other tools, especially the good ones, like random forest and catboost.
+
+
+## Week 8: Model Projects
+
+Focus is the model project presentations on Thursday.
+
+
+# Outstanding Topics
+
+Maybe switch to using bayesian package with tidymodels and with brms as the starter engine.
