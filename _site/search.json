@@ -151,56 +151,56 @@
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Sign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course will run for 8 weeks this summer, starting on Monday, June 3rd and ending on Thursday, August 8th, with a two week vacation in the middle. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nRegistration for the course will open around May 15.\nSign up for our e-mail list to receive updates."
+    "text": "Registration is open! Follow the instructions.\nSign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course will run for 8 weeks this summer, starting on Monday, June 3rd and ending on Thursday, August 8th, with a two week vacation in the middle. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course!\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "schedule.html",
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane, Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker, along with their their associated tutorials. Homework should be completed before the class meeting for which it is assigned.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens.\nSubmit each set of tutorial answers separately."
+    "text": "Classes run from 8:00 to 9:00 PM EDT on Mondays, Wednesdays and Thursdays.\nKey resources: R for Data Science (2e) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, Preceptor’s Primer for Bayesian Data Science by David Kane, Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker, along with their their associated tutorials. Homework should be completed before the class meeting for which it is assigned.\nSee the home pages for the r4ds.tutorials, primer.tutorials, and tidycensus.tutorials for installation instructions.\nAlways reinstall the relevant package before starting a new tutorial. We are always fixing mistakes. You want to use the latest version.\nCompleted tutorials are submitted via this Google form. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in html format. Please try to ensure that the name of the file is the default name, like getting-started_answers.html. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like getting-started_answers (2).html. You can just change the name of the file by hand if this happens."
   },
   {
     "objectID": "schedule.html#monday",
     "href": "schedule.html#monday",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead the Introduction from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the Introduction tutorial. Submit your answers via the usual Google form."
+    "text": "Monday\n\nRead the Introduction from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the “Introduction” tutorial. Submit your answers via the usual Google form."
   },
   {
     "objectID": "schedule.html#wednesday",
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual Google form."
+    "text": "Wednesday\n\nRead Chapters 1 and 2 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete two tutorials: “Data Visualization” and “RStudio and Code.” The second of these is the most important. Submit your answers via the usual Google form."
   },
   {
     "objectID": "schedule.html#thursday",
     "href": "schedule.html#thursday",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapters 3 and 4 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: Data Transformation and RStudio and Github. The most important of these is RStudio and Github.\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "text": "Thursday\n\nRead Chapters 3 and 4 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorials: “Data Transformation” and “RStudio and Github.” The most important of these is “RStudio and Github.”\n\nReminder: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
     "objectID": "schedule.html#monday-1",
     "href": "schedule.html#monday-1",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapters 5, 6, and 7 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Data Tidying, Terminal, and Data Import."
+    "text": "Monday\n\nRead Chapters 5, 6, and 7 from R for Data Science (2e), and from the r4ds.tutorials package, complete the tutorials associated with the readings: “Data Tidying,” “Terminal,” and “Data Import.”"
   },
   {
     "objectID": "schedule.html#wednesday-1",
     "href": "schedule.html#wednesday-1",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapters 8, 9 and 10 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the tutorials associated with the readings: Getting Help, Layers, and Exploratory Data Analysis."
+    "text": "Wednesday\n\nRead Chapters 8, 9 and 10 from R for Data Science (2e), and from the r4ds.tutorials package, complete the tutorials associated with the readings: “Getting Help,” “Layers,” and “Exploratory Data Analysis.”"
   },
   {
     "objectID": "schedule.html#thursday-1",
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e).\nFrom the r4ds.tutorials package, complete the associated tutorial: Communication.\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your final projects.\n\n\n\nFrom the tidycensus.tutorials) package, complete the associated tutorials: “The United States Census and the R programming language” and “An introduction to tidycensus.”"
+    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your final projects.\n\n\n\nFrom the tidycensus.tutorials package, complete the associated tutorials: “The United States Census and the R programming language” and “An introduction to tidycensus.”"
   },
   {
     "objectID": "schedule.html#monday-2",

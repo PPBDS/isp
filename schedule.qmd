@@ -17,7 +17,6 @@ See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tut
 
 Completed tutorials are submitted via [this Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
-**Submit each set of tutorial answers separately.**
 
 # Registration
 
@@ -25,25 +24,25 @@ To register for the class and reserve your spot, please read [Getting Started](h
 
 # Week 1: Data: June 3
 
-Looking at the data is the first step in data science.
+Looking at the data is the first step in data science. Note that Monday's homework must be completed before Monday's class. 
 
 ## Monday 
 
 * Read the Introduction from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the Introduction tutorial. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Introduction" tutorial. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
 
 ## Wednesday 
 
 * Read Chapters 1 and 2 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete two tutorials: Data Visualization and RStudio and Code. The second of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete two tutorials: "Data Visualization" and "RStudio and Code." The second of these is the most important. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
 
 ## Thursday 
 
 * Read Chapters 3 and 4 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: Data Transformation and RStudio and Github. The most important of these is RStudio and Github.
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorials: "Data Transformation" and "RStudio and Github." The most important of these is "RStudio and Github."
 
 **Reminder**: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
@@ -53,31 +52,25 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Monday 
 
-* Read Chapters 5, 6, and 7 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Data Tidying, Terminal, and Data Import.   
+* Read Chapters 5, 6, and 7 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: "Data Tidying," "Terminal," and "Data Import."   
  
 
 ## Wednesday 
 
-* Read Chapters 8, 9 and 10 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: Getting Help, Layers, and Exploratory Data Analysis. 
+* Read Chapters 8, 9 and 10 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: "Getting Help," "Layers," and "Exploratory Data Analysis." 
 
 
 ## Thursday
 
 <!-- DK: Too much work? How long does the tidy census stuff take? Delay? -->
 
-* Read chapter 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: Communication. 
+* Read chapter 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: "Communication." 
 
 * Read chapters 1 and 2 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your final projects.
 
 <!-- DK: Maybe there is only a tutorial for chapter 2? -->
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/)) package, complete the associated tutorials: "The United States Census and the R programming language" and "An introduction to tidycensus."  
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete the associated tutorials: "The United States Census and the R programming language" and "An introduction to tidycensus."  
 
 
 
