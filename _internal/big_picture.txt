@@ -35,7 +35,7 @@ Each of the last three (or just 2) weeks we complete the entire modeling process
 
 ## Week 7
 
-Drop the Bayesian tools but not the Bayesian interpretation. Use Tidymodels but drop the bayesian() engine. Use other tools, especially the good ones, like random forest and catboost.
+Drop the Bayesian tools but not the Bayesian interpretation. Use Tidymodels, first with the bayesian() engine and then without. Use other tools, especially the good ones, like random forest and catboost.
 
 
 ## Week 8: Model Projects
@@ -43,6 +43,4 @@ Drop the Bayesian tools but not the Bayesian interpretation. Use Tidymodels but 
 Focus is the model project presentations on Thursday.
 
 
-# Outstanding Topics
 
-Maybe switch to using bayesian package with tidymodels and with brms as the starter engine.

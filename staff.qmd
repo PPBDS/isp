@@ -58,13 +58,6 @@ knitr::include_graphics("images/deka.jpg")
 
 [Luit Deka](https://github.com/luitdeka) is an incoming freshman at Carnegie Mellon University, PA in the School of Computer Science.
 
-## Adi Chaudhary
-
-```{r}
-knitr::include_graphics("images/adi.jpeg")
-```
-
-[Adi Chaudhary](https://github.com/adichaudhary) is a junior at Carmel High School who is passionate about data science and cybersecurity.
 
 ## Aadhira Satheesh
 
@@ -147,6 +140,14 @@ knitr::include_graphics("images/dutta.jpg")
 ```
 
 Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
+
+## Adi Chaudhary
+
+```{r}
+knitr::include_graphics("images/adi.jpeg")
+```
+
+[Adi Chaudhary](https://github.com/adichaudhary) is a junior at Carmel High School who is passionate about data science and cybersecurity.
 
 ## Navya Joshi
 
