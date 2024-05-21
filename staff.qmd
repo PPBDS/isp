@@ -67,7 +67,13 @@ knitr::include_graphics("images/aadhira.jpg")
 
 [Aadhira Satheesh](https://github.com/aadhira12) is a middle schooler attending Acera School, with interest in mathematics, computer science and health care.
 
+## Ethan Xiao 
 
+```{r}
+knitr::include_graphics("images/xiao.jpeg")
+```
+
+[Ethan Xiao](https://github.com/EpiCoder25) is a rising senior with interest in mathematics and statistics.
 
 
 <!-- ## Yuhan Wu -->
@@ -109,13 +115,7 @@ knitr::include_graphics("images/aadhira.jpg")
 # Program Directors
 
 
-## Ethan Xiao 
 
-```{r}
-knitr::include_graphics("images/xiao.jpeg")
-```
-
-[Ethan Xiao](https://github.com/EpiCoder25) is a rising senior with interest in mathematics and statistics.
 
 ## Monish Malla
 

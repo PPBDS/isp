@@ -15,7 +15,9 @@ We are only using data from a package: connectedness data from primer.data.  Use
 
 ## Week 2: Github/Rpubs using dirty data
 
-We use "dirty" text data that we need to clean at least a bit. Need to select that data. Should not be connectedness. Each week should be new data. Maybe Census data? Make sure to do at least one Census tutorial.
+We use "dirty" text data that we need to clean at least a bit. Right now, we use a CSV file of connectedness. This is good in that students are used to this bad. But it is bad in that we ought to show new data each week. 
+
+Maybe Census data? Make them do least one Census tutorial this week, even Monday?
 
 ## Week 3: Github/Quarto Website using downloaded census data
 

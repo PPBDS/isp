@@ -1,0 +1,32 @@
+---
+title: "Day 1"
+author: "David Kane"
+---
+
+Students will have complete the Introduction tutorial, so they have been exposed to both ggplot2 and to the pipe.
+
+## Session 1
+
+Give a quick tour of RStudio. (Make sure that you are starting your session in an empty project and with no code visible.) Show the three *panes*: Console, Environment and Output. Mention the different *tabs*. 
+
+Type 2 + 2. 
+
+## Session 2
+
+Pull up chatGPT. Require them to sign up for one of the services. Encourage them to pay for one of them. Mention that I use Claude. Show the tab for Claude.
+
+
+
+## Session 3
+
+* Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we R.
+
+* Show them library(primer.data). 
+
+* Type connectedness. Run ?connectedness. 
+
+What is the third biggest, by population, county in the US?
+
+
+## Session 4
+

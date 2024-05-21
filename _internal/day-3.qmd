@@ -3,9 +3,33 @@ title: "Day 3"
 author: "David Kane"
 ---
 
+## Goal
+
+Start with a Github repository, RStudio project and a new Quarto document. Publish a scatterplot of county size versus economic connectedness to Rpubs.
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+library(primer.data)
+
+connectedness |> 
+  ggplot(aes(x = population, y = connectedness)) +
+    geom_point() +
+    scale_x_log10(labels = scales::comma_format()) +
+    labs(title = "US County Populations versus Economic Connectedness",
+         subtitle = "Population size does not matter to EC",
+         x = "Population",
+         y = "Economic Connectedness",
+         caption = "Opportunity Insights")
+```
+
+
 ## Session 1
 
 Start with a Github repo, named class-yyyy-mm-dd. Make sure it is public. Add a README. Connect it to RStudio.  
+
 Send to rooms to create. If you succeeded while I was demonstrating, that is OK! Now help your classmates.
 
 If you have not done the RStudio and Github homework, then this will be really hard. And it is not fair to your classmates! Either catch up this weekend or don't come back on Monday.

@@ -3,11 +3,32 @@ title: "Day 2"
 author: "David Kane"
 ---
 
+
+## Goal
+
+Start with an RStudio project and a new Quarto document. Publish a nice looking histogram of county population on RPubs.
+
+```{r}
+library(tidyverse)
+library(primer.data)
+
+connectedness |> 
+  drop_na() |> 
+  ggplot(aes(x = population)) +
+    geom_histogram(bins = 100) +
+    scale_x_log10(labels = scales::comma_format()) +
+    labs(title = "US County Populations in 2018",
+         subtitle = "Populations are highly skewed",
+         x = "Population",
+         y = "Number of Counties",
+         caption = "Opportunity Insights")
+```
+
 ## Session 1
 
-Start by making an R project. Note how it, by default, is placed in my `projects` folder. Note that all this only makes sense if you have done the RStudio and Code tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
+Start by making an R project. Note how it, by default, is placed in my `projects` folder. Note that all this only makes sense if you have done the "RStudio and Code" tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
 
-Look in the files directory. Talk about the two things that are there. Show the hidden files button. Mention that this was set by set_rstudio_settings().
+Look in the Files tab. Talk about the two things that are there. Show the hidden files button. Mention that this was set by set_rstudio_settings(). Mention trickiness with Posit Cloud.
 
 Send to rooms so that everyone has this working.
 
@@ -61,8 +82,6 @@ Send them to the breakout rooms to replicate these. Explore the data!
 
 ## Session 4
 
-Make sure that students have been exposed to the concept of a pipe and to the core dplyr functions. This should be done in the Introduction tutorial for R4DS.
-
 You can never restart R (not RStudio) too often.
 
 In your script, start looking at the data. What is the 3rd largest (by population) county in the US? Which county has the worst economic connectedness?
@@ -87,6 +106,9 @@ Make sure that things like bins and scale_x_log10 are covered in the Data visual
 
 
 ```{r}
+library(tidyverse)
+library(primer.data)
+
 connectedness |> 
   drop_na() |> 
   ggplot(aes(x = population)) +
