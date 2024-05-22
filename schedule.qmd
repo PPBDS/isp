@@ -24,7 +24,7 @@ To register for the class and reserve your spot, please read [Getting Started](h
 
 # Week 1: Data: June 3
 
-Looking at the data is the first step in data science. Note that Monday's homework must be completed before Monday's class. 
+Looking at the data is the first step in data science. Note that Monday's homework must be completed before Monday's class. I ensure this by only sending the Zoom link for class to students who submitted the homework.
 
 ## Monday 
 

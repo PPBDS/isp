@@ -11,13 +11,11 @@ This document provides an overview of the course --- its structure, schedule and
 
 ## Week 1: Github/Rpubs using library data
 
-We are only using data from a package: connectedness data from primer.data.  Use R projects and Github repos. Finish with a nice plot, available on Rpubs.
+We are only using data from a package: connectedness data from primer.data.  Use R projects and Github repos. Finish with a nice plot, available on Rpubs. Students going faster can make more plots, especially a scatterplot, even one with facets by state, but just for a few bigger, more interesting states.
 
-## Week 2: Github/Rpubs using dirty data
+## Week 2: Github/Rpubs using downloaded data
 
-We use "dirty" text data that we need to clean at least a bit. Right now, we use a CSV file of connectedness. This is good in that students are used to this bad. But it is bad in that we ought to show new data each week. 
-
-Maybe Census data? Make them do least one Census tutorial this week, even Monday?
+Students must download and save their own copy of some Census data, which we give them via a Discord link. At the end, they finish with another nice Rpubs plot, like the one in tidycensus book. 
 
 ## Week 3: Github/Quarto Website using downloaded census data
 

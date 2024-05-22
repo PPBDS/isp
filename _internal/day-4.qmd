@@ -5,9 +5,9 @@ author: "David Kane"
 
 
 
-## Overview
+## Goal
 
-Key question to answer this week: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+Key question to answer this week: What is the relationship between the plurality race of NYC census tracts and their median incomes?
 
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 
 
@@ -29,10 +29,12 @@ Send to rooms to create. If you succeeded while I was demonstrating, that is OK!
 
 ## Session 2
 
-Go to: https://github.com/PPBDS/primer.data/blob/master/data-raw/social_capital_county.csv Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which ec.rds has been placed.
+Go to: https://raw.githubusercontent.com/PPBDS/primer.data/master/data-raw/nyc_tracts.csv 
+
+Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which ec.rds has been placed.
 
 ls ~/Downloads
-ls ~/Download/soc*
+ls ~/Download/nyc*
 
 The second is useful if you have a lot of items in your Downloads folder.
 
@@ -44,7 +46,7 @@ pwd
 ls
 ls -a   
 mdkir data
-mv ~/Downloads/social_capital_county.csv data/
+mv ~/Downloads/nyc_tracts.csv data/
 
 Of course, you could do this by hand, with point-and-click and drag-and-drop. That is OK with one file. But not with 1,000!
 
@@ -75,27 +77,7 @@ Impossible to get this far. But here is the code for the graphic, in case you wa
 
 Explain the distinction between just vomitting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
 
-```{r}
-#| echo: false
-#| label: make plot
 
-library(primer.data)
-connectedness |> 
-  drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) |> 
-  summarise(pop_state = sum(population),
-            avg_ec = mean(connectedness),
-            .by = state) |> 
-  ggplot(aes(x = pop_state, y = avg_ec)) +
-    geom_point() +
-    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-    scale_x_log10(breaks = c(1000000, 10000000),
-                  labels = scales::comma_format()) +
-    labs(y = "Average County Economic Connectedness",
-         x = "State Population",
-         title = "Economic Connectedness and Population in US States",
-         subtitle = "Biggger states have counties with lower average economic connectedness.")
-```
 
 If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
 

@@ -3,16 +3,15 @@ title: "Day 5"
 author: "David Kane"
 ---
 
-## Overview
+## Goal
 
-Goal is to download the social capital data by hand and start to wrangle it.  Need to highlight that the material assigned in the tutorials is used in class, so doing the tutorials is a good idea. Let them struggle with the key step of creating a new state variable. Expose them to ChatGPT.
+Learn about forking by forking from my class repo from Monday, perhaps cleaned up. It includes the data and, probably, nothing else.
 
-My repo from the last class, which was created on the class organization account, is used to start everyone's work, via fork. I show them the fork as if I were a student.
-
-We might only get as far as calculating the state level variables. We can then plot tomorrow.
 
 
 ## Session 1
+
+Start with my repo from last class. Provide a tour.
 
 Show how to delete a repo from one of the examples last week. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
 
