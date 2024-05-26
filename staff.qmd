@@ -75,6 +75,22 @@ knitr::include_graphics("images/xiao.jpeg")
 
 [Ethan Xiao](https://github.com/EpiCoder25) is a rising senior with interest in mathematics and statistics.
 
+## Tongyan Ban
+
+```{r}
+knitr::include_graphics("images/ban.png")
+```
+
+Tongyan Ban is a third-year Health Sciences student at Queen's University, Canada, with a research focus on human sexuality, as well as bladder cancer & bioinformatics.
+
+
+## Alan Cai
+
+```{r}
+knitr::include_graphics("images/cai.jpg")
+```
+
+Alan Cai is a rising sophomore at White Oaks Secondary School with an interest in healthcare and mathematics.
 
 <!-- ## Yuhan Wu -->
 
@@ -113,9 +129,6 @@ knitr::include_graphics("images/xiao.jpeg")
 <!-- [Krish Saluja](https://github.com/thekrishsaluja) is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry. -->
 
 # Program Directors
-
-
-
 
 ## Monish Malla
 

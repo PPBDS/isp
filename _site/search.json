@@ -63,6 +63,20 @@
     "text": "Ethan Xiao\n\n\n\n\n\n\n\n\n\nEthan Xiao is a rising senior with interest in mathematics and statistics."
   },
   {
+    "objectID": "staff.html#tongyan-ban",
+    "href": "staff.html#tongyan-ban",
+    "title": "Preceptor",
+    "section": "Tongyan Ban",
+    "text": "Tongyan Ban\n\n\n\n\n\n\n\n\n\nTongyan Ban is a third-year Health Sciences student at Queen’s University, Canada, with a research focus on human sexuality, as well as bladder cancer & bioinformatics."
+  },
+  {
+    "objectID": "staff.html#alan-cai",
+    "href": "staff.html#alan-cai",
+    "title": "Preceptor",
+    "section": "Alan Cai",
+    "text": "Alan Cai\n\n\n\n\n\n\n\n\n\nAlan Cai is a rising sophomore at White Oaks Secondary School with an interest in healthcare and mathematics."
+  },
+  {
     "objectID": "staff.html#monish-malla",
     "href": "staff.html#monish-malla",
     "title": "Preceptor",
@@ -200,7 +214,7 @@
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your final projects.\n\n\n\nFrom the tidycensus.tutorials package, complete the associated tutorials: “The United States Census and the R programming language” and “An introduction to tidycensus.”"
+    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete the “An introduction to tidycensus” tutorial."
   },
   {
     "objectID": "schedule.html#monday-2",

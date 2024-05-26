@@ -66,11 +66,10 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Read chapter 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: "Communication." 
 
-* Read chapters 1 and 2 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your final projects.
+* Read chapters 1 and 2 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your projects.
 
-<!-- DK: Maybe there is only a tutorial for chapter 2? -->
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete the associated tutorials: "The United States Census and the R programming language" and "An introduction to tidycensus."  
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete the "An introduction to tidycensus" tutorial.  
 
 
 
