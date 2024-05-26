@@ -20,17 +20,17 @@ knitr::include_graphics("images/david_kane.png")
 
 [David Kane](https://www.davidkane.info) is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.
 
-
-# Teaching Fellows
+# Head Teaching Fellow
 
 ## Tejas Mundhe
-
 
 ```{r}
 knitr::include_graphics("images/tejas.jpg")
 ```
 
 [Tejas Mundhe](https://github.com/TejasMundhe) is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics.
+
+# Teaching Fellows
 
 ## Anish Bellamkonda
 

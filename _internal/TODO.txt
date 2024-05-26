@@ -10,19 +10,13 @@ Update Getting Help tutorial links
 
 Setup Excel spreadsheet for Data and Model Projects
 
-design course so we can read the R4DS chapters in order
-
 figure out tidycensus tutorials
 
 email R4DS authors, looking for a retweet
 
 ask our one user for a retweet.
 
-Update schedule to accomodate 8 weeks
-
 See discussion below about centering the course around social capital data.
-
-
 
 
 ## Other Topics
@@ -56,8 +50,6 @@ Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by C
 ## Other
 
 * The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.
-
-* Figure out way to create an email list for just the class itself, will change for each session of the class. Maybe temporary substacks? 
 
 Is whimsical a useful tool for teaching the class itself?
 
