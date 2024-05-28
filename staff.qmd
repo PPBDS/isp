@@ -40,8 +40,6 @@ knitr::include_graphics("images/anish.jpg")
 
 [Anish Bellamkonda](https://github.com/SplashyZues5197) is a rising senior at Metea Valley High School.
 
-
-
 ## Vaangmaya Rebba
 
 ```{r}
@@ -92,6 +90,38 @@ knitr::include_graphics("images/cai.jpg")
 
 Alan Cai is a rising sophomore at White Oaks Secondary School with an interest in healthcare and mathematics.
 
+## Adi Chaudhary
+
+```{r}
+knitr::include_graphics("images/adi.jpeg")
+```
+
+[Adi Chaudhary](https://github.com/adichaudhary) is a junior at Carmel High School who is passionate about data science and cybersecurity.
+
+## Atharva Bir Dutta
+
+```{r}
+knitr::include_graphics("images/dutta.jpg")
+```
+
+Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
+
+## Monish Malla
+
+```{r}
+knitr::include_graphics("images/malla.jpg")
+```
+
+[Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity.
+
+## Navya Joshi
+
+```{r}
+knitr::include_graphics("images/joshi.jpeg")
+```
+
+Navya Joshi is a rising junior at Conant High School with an interest in Computer Science and Mathematics.
+
 <!-- ## Yuhan Wu -->
 
 <!-- ```{r} -->
@@ -130,13 +160,6 @@ Alan Cai is a rising sophomore at White Oaks Secondary School with an interest i
 
 # Program Directors
 
-## Monish Malla
-
-```{r}
-knitr::include_graphics("images/malla.jpg")
-```
-
-[Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity.
 
 ## Adhithan Manivassakam
 
@@ -146,29 +169,8 @@ knitr::include_graphics("images/adith.jpeg")
 
 [Adhithan Manivassakam](https://github.com/AdhiMvm) is a junior at Adlai E. Stevenson High School, with a keen interest in data science and applied mathematics.
 
-## Atharva Bir Dutta
 
-```{r}
-knitr::include_graphics("images/dutta.jpg")
-```
 
-Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
-
-## Adi Chaudhary
-
-```{r}
-knitr::include_graphics("images/adi.jpeg")
-```
-
-[Adi Chaudhary](https://github.com/adichaudhary) is a junior at Carmel High School who is passionate about data science and cybersecurity.
-
-## Navya Joshi
-
-```{r}
-knitr::include_graphics("images/joshi.jpeg")
-```
-
-Navya Joshi is a rising junior at Conant High School with an interest in Computer Science and Mathematics.
 
 
 <!-- ## Miriam Heiss -->
