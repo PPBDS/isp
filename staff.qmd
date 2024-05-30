@@ -32,6 +32,14 @@ knitr::include_graphics("images/tejas.jpg")
 
 # Teaching Fellows
 
+## Nosa Lawani
+
+```{r}
+knitr::include_graphics("images/nosa.jpg")
+```
+
+Nosa Lawani is a recent graduate of Harvard College.
+
 ## Anish Bellamkonda
 
 ```{r}

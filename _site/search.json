@@ -28,6 +28,13 @@
     "text": "Tejas Mundhe\n\n\n\n\n\n\n\n\n\nTejas Mundhe is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics."
   },
   {
+    "objectID": "staff.html#nosa-lawani",
+    "href": "staff.html#nosa-lawani",
+    "title": "Preceptor",
+    "section": "Nosa Lawani",
+    "text": "Nosa Lawani\n\n\n\n\n\n\n\n\n\nNosa Lawani is a recent graduate of Harvard College."
+  },
+  {
     "objectID": "staff.html#anish-bellamkonda",
     "href": "staff.html#anish-bellamkonda",
     "title": "Preceptor",
@@ -214,7 +221,7 @@
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete the “An introduction to tidycensus” tutorial."
+    "text": "Thursday\nThe tidycenus.tutorials are not yet complete. Don’t start them yet.\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete the “An introduction to tidycensus” tutorial."
   },
   {
     "objectID": "schedule.html#monday-2",
@@ -256,7 +263,7 @@
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.\n\nTWO WEEK VACATION: July 1 through July 14"
+    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.\n\nTWO WEEK VACATION: July 1 through July 14\nThe primer.tutorials are not yet complete. Don’t start them yet."
   },
   {
     "objectID": "schedule.html#monday-4",

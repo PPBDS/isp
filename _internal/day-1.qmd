@@ -11,6 +11,8 @@ Give a quick tour of RStudio. (Make sure that you are starting your session in a
 
 Type 2 + 2. 
 
+
+
 ## Session 2
 
 Pull up chatGPT. Require them to sign up for one of the services. Encourage them to pay for one of them. Mention that I use Claude. Show the tab for Claude.
