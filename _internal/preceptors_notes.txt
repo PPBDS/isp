@@ -3,13 +3,13 @@
 # This is a text document because the contents need to be copy/pasted into Discord.
 
 
-## Before Next Time
+## Outline
+
+See the big_picture.txt file.
 
 End of week 1, Github/Rpubs using library data
 End of week 2, Github/Rpubs using downloaded data
 End of week 3, Github/Quarto Website using downloaded census data, perhaps with several different scripts and saved images.
-
-Swap out the Chetty data for regular census data.  Then we could use county census data in primer.data (or, better, stored in r4ds.tutorials) for week one. Provide that data as a csv in week 2. And then dowload that data from the census directly in week 3.
 
 
 ## Standard Preparations
@@ -49,25 +49,53 @@ Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. Email him 
 
 ## Constructing Breakout Rooms
 
-In general, we give each TF three rooms, in order. We assign up to 6 students to each of the first two rooms. The third room is left empty. After the first week, the TF might (or might not) move things around, often by taking the 4 weakest (or strongest) students and moving them to the third room. 
+Code for creating the class list:
+
+set.seed(9)
+x |> 
+  janitor::clean_names() |> 
+  filter(! information_name %in% c("Luit Deka", "Aditya Chaudhary", "Alan Cai", "Monish Malla", "Atharva Bir Dutta")) |> 
+  slice_sample(prop = 1) |> 
+  select(information_name, information_email) |>  
+  distinct(information_email, .keep_all = TRUE) |> 
+  write_csv("~/Downloads/class.csv") -> y
+  
+The spreadsheet should include both the name and email columns, the better to help everyone with names. I think I removed all the TFs. Sorry!  
+
+In general, we give each TF three rooms, in order. We assign up to 6 (or whatever number makes sense) students to each of the first two rooms. The third room is left empty. After the first week, the TF might (or might not) move things around, often by taking the 4 weakest (or strongest) students and moving them to the third room. 
 
 At least one TF, usually the head TF, is not assigned to any room. Their role is to replace any TFs who are absent on that day.
 
-
-
-### Younger
-adinarayan2009@gmail.com
-liao.2@dublinstudents.net
-toroshan2010@gmail.com
-shyneh8118@gmail.com
-tommyseoh@gmail.com
-
-
-### Older
-
+Have students email/dm the head TF if they are younger or old, and then use that information to construct a couple of rooms.
 
 
 ## Week 1
+
+### Email with Zoom Link for First Class
+
+This email is going out to all the students who have completed the first homework assignment. Please read it closely and follow all the instructions.
+
+0) Call me "Preceptor," not "David" nor "Mr. Kane" nor "Bro."
+
+1) Class today at 8:00 PM EST at 
+
+https://harvard.zoom.us/j/92188147735?pwd=STOd2TSKEm2hVcpygA9NvbnwoA4wIr.1
+
+Be early, not late. I will often shut the room at 8:01 and not allow anyone to attend late. Make sure that you have updated your Zoom client ahead of time.
+
+2) Login in to our Discord server at:
+
+https://discord.gg/GWPYn3pG
+
+We distribute class material on Discord, so you must use it.
+
+3) If you are 15 or younger (or 30 or older), please email Head TF Tejas (tejasnm07@gmail.com) with your name/email and age. We are organizing the groups by age, at least at the extremes. Even better is to DM Tejas this information on Discord itself.
+
+4) To attend class on Wednesday, you must complete the homework for Wednesday by midnight on Tuesday. Feel free to start now.
+
+I look forward to meeting you tonight!
+
+Preceptor
 
 ### Day 1
 
@@ -75,40 +103,41 @@ tommyseoh@gmail.com
 
 Call me "Preceptor."
 
-No 8 week course does a better job of increasing your odds of getting the future you want.
+No eight week course does a better job of increasing your odds of getting the future you want.
 
 Video on --- unless there is something going on in your life which prevents it. In which case, discuss with a TF.
 
 Class always begins by looking at the Preceptor's Notes for the day, available here, in Discord.
 
-0) After today, we start on time, often by going to breakout rooms immediately. Let's go now! Introduce yourself to your fellow students with one sentence. TFs will try and swing by. Your room assignment is specified on the spreadsheet in the course #announcements channel on Discord.  
+1) After today, we start on time, often by going to breakout rooms immediately. Let's go now! Introduce yourself to your fellow students with one sentence. TFs will try and swing by. Your room assignment is specified on the spreadsheet in the course #announcements channel on Discord.  
 
-1) Links to consider today:
+2) Links to consider today:
 
-Bootcamp: https://bootcamp.davidkane.info/
-Schedule: https://bootcamp.davidkane.info/schedule.html
-R4DS: https://r4ds.hadley.nz/
-Final projects: https://davidkane.info/files/final_projects.html
+NYT article: https://shorturl.at/o4b0n
+NYT article (pdf): https://shorturl.at/SBLCF
 
-2) Update this package now from the R Console.
+3) Update this package now from the R Console.
 
+```
 remotes::install_github("PPBDS/tutorial.helpers")
+```
 
 This should be the last time you need to mess with this package.
 
-3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Most important tutorial is RStudio and Code. Don't forget to answer the questions about your name, email and the number of minutes it took to complete the tutorial.
+4) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Don't forget to answer the questions about your name, email and the number of minutes it took to complete the tutorial. 
 
-4) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers.
+Use the default name for your HTML submissions, e.g., `rstudio-and-code_answers.html`
 
-5) Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it.
+5) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers. Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it.
 
-6) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+6) Sign up for free version of chatGPT (https://chatgpt.com/), or the equivalent.
 
+7) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+
+```
 remotes::install_github("PPBDS/r4ds.tutorials")
+```
 
-If you have problems, it is sometimes necessary to remove the package first:
-
-remove.packages("r4ds.tutorials")
 
 
 #### TF Notes
@@ -119,7 +148,7 @@ Identify a final project or two which you like and which you think are well done
 
 You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. 
 
-Make sure your display name in Zoom includes the name by which you want students to address you. Encourage studnets to do the same. 
+Make sure your display name in Zoom includes the name by which you want students to address you. Encourage students to do the same. 
 
 Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. Encourage studnets to do the same. 
 
@@ -134,7 +163,7 @@ Call me "Preceptor."
 
 0) If possible, please change your Discord and Zoom display name to be the name which we should use in addressing you. We are a community! 
 
-1) Big thanks to all the students (including Ethan K, Memo$taylooted, Alan Tao, basing my data, and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+1) Big thanks to all the students (including Ethan K, Memo$taylooted, Aedan, basing my data, and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
 2) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 

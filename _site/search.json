@@ -172,7 +172,7 @@
     "href": "index.html",
     "title": "Kane’s Data Science Course",
     "section": "",
-    "text": "Registration is open! Follow the instructions.\nSign up for our e-mail list to receive updates going forward.\nKane’s (Free) Data Science Course will run for 8 weeks this summer, starting on Monday, June 3rd and ending on Thursday, August 8th, with a two week vacation in the middle. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course! See here for details on my teaching philosophy.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
+    "text": "Sign up for our e-mail list to receive updates about the course going forward.\nKane’s (Free) Data Science Course runs for 8 weeks, mostly each summer. The current session has started. It is too late to join. The workload is 10 hours per week: 3 hours in class with former Harvard Preceptor David Kane, lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! There is no charge.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course! See here for details on my teaching philosophy.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git installed. You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nSign up for our e-mail list to receive updates."
   },
   {
     "objectID": "schedule.html",
@@ -228,7 +228,7 @@
     "href": "schedule.html#monday-2",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\nRead chapters 12, 28 and 29 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Logical vectors” and “Quarto” tutorials."
+    "text": "Monday\n\nRead chapters 12, 28 and 29 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Logical vectors” and “Quarto” tutorials."
   },
   {
     "objectID": "schedule.html#wednesday-2",

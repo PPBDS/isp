@@ -12,45 +12,59 @@ Students will have completed the Introduction tutorial, so they have been expose
 
 ## Session 1
 
-Go to the Preceptor's Notes. Talk through the first few items.
+Go to the Preceptor's Notes. Talk through the first few items. Finish with room assignments. Send them to those rooms.
+
+## Session 2
+
+Review breakout room behavior. One person always sharing, and then doing nothing but what they are told. Another person driving, telling the screen-sharer what to do.
+
+Go through items 2 (useful links) and 3 (install tutorial.helpers). 
 
 Give a quick tour of RStudio. (Make sure that you are starting your session in an empty project and with no code visible.) Show the three *panes*: Console, Environment and Output. Mention the different *tabs*. 
 
 Type 2 + 2. 
 
-Tell them to update the key packages:
+Tell them to update tutorial.helpers
 
 ```
 remotes::install_github("PPBDS/tutorial.helpers")
 ```
 
-```
-remotes::install_github("PPBDS/r4ds.tutorials")
-```
-
-
 Send them to breakout rooms to do the same.
 
-
-
-## Session 2
-
-Pull up chatGPT. Require them to sign up for one of the services. Encourage them to pay for one of them. Mention that I use Claude. Show the tab for Claude.
-
-
+But do this together! One person shares their screen. One other person drives.
 
 ## Session 3
 
-* Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we R.
+Review items 4 (Ulysses), 5 (Discord) and 6 (chatGPT).
+
+Pull up chatGPT. Require them to sign up for one of the services. No need to pay! Free service is fine. Mention that I use Claude. Show the tab for Claude.
+
+Send them to breakout rooms to do the same. Tell them to help (by having them share their screen) whomever is having the most problems.
+
+## Session 4
+
+* Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we use R.
 
 * Show them library(primer.data). 
 
 * Type connectedness. Run ?connectedness. 
 
+* See Preceptor Notes for links.
+
+* Explain the need to reinstall r4ds.tutorials each week-end. We are always fixing bugs!
+
+remotes::install_github("PPBDS/r4ds.tutorials")
+
+Go to breakout rooms. Reinstall r4ds.tutorials. Switch the screen-sharer and driver. Then, answer this question:
+
 What is the third biggest, by population, county in the US?
 
+## Session 5
 
-## Session 4
+Call on someone at random to tell me what to code.
+
+
 
 
 ## Extra Questions
