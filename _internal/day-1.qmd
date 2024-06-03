@@ -3,13 +3,33 @@ title: "Day 1"
 author: "David Kane"
 ---
 
-Students will have complete the Introduction tutorial, so they have been exposed to both ggplot2 and to the pipe.
+
+## Goal
+
+Explore the connectedness data from the primer.data. Answer some questions. 
+
+Students will have completed the Introduction tutorial, so they have been exposed to both ggplot2 and to the pipe.
 
 ## Session 1
+
+Go to the Preceptor's Notes. Talk through the first few items.
 
 Give a quick tour of RStudio. (Make sure that you are starting your session in an empty project and with no code visible.) Show the three *panes*: Console, Environment and Output. Mention the different *tabs*. 
 
 Type 2 + 2. 
+
+Tell them to update the key packages:
+
+```
+remotes::install_github("PPBDS/tutorial.helpers")
+```
+
+```
+remotes::install_github("PPBDS/r4ds.tutorials")
+```
+
+
+Send them to breakout rooms to do the same.
 
 
 
@@ -31,4 +51,7 @@ What is the third biggest, by population, county in the US?
 
 
 ## Session 4
+
+
+## Extra Questions
 

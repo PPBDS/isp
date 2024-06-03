@@ -26,23 +26,7 @@ Show how to fork a repo from the class organization. Connect the forked repo (in
 
 ## Session 2
 
-Before loading up with this new data, let's take a look at the connectedness tibble from last week.  Explore the data.
 
-
-```{r}
-#| label: set up
-#| echo: false
-#| message: false
-
-library(tidyverse)
-library(primer.data)
-connectedness
-summary(connectedness)
-glimpse(connectedness)
-slice_sample(connectedness, n = 5)
-```
-
-Send to the rooms and interactively find the information for your county, or for a weird county.
 
 ## Session 3
 
@@ -118,27 +102,7 @@ Impossible to get this far. But here is the code for the graphic, in case you wa
 
 Explain the distinction between just vomitting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
 
-```{r}
-#| echo: false
-#| label: make plot
 
-library(primer.data)
-connectedness |> 
-  drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) |> 
-  summarise(pop_state = sum(population),
-            avg_ec = mean(connectedness),
-            .by = state) |> 
-  ggplot(aes(x = pop_state, y = avg_ec)) +
-    geom_point() +
-    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-    scale_x_log10(breaks = c(1000000, 10000000),
-                  labels = scales::comma_format()) +
-    labs(y = "Average County Economic Connectedness",
-         x = "State Population",
-         title = "Economic Connectedness and Population in US States",
-         subtitle = "Biggger states have counties with lower average economic connectedness.")
-```
 
 If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
 

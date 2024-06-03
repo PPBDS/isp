@@ -123,3 +123,8 @@ connectedness |>
 
 Make sure to start plotting exercise with at least 20 minutes left in class.
 
+
+## Extra Questions
+
+Restrict the plot to your five favorite states, then facet by state
+Map states to regions of the country, then facet by region

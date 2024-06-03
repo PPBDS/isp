@@ -1,44 +1,76 @@
-This document provides an overview of the course --- its structure, schedule and philosophy. Key ideas:
+This document provides an overview of the course --- its structure, schedule and philosophy. 
+
+## Key Ideas
 
 * Make stuff. Each week ends with the construction of something cool.
 
-* Present stuff. 
+* Present stuff. Have a public presentation every four weeks.
 
 * Professional tools.
 
 * Use AI.
 
+## Zoom Issues
 
-## Week 1: Github/Rpubs using library data
+If I get cancelled from Harvard Zoom, it looks like you can get a one seat pro License for $12 per month and then the big Meeting addin for $50 per month.
+
+When using breakout rooms, just pick the option that allows people to move wherever they want. No need to pre-assign or grant co-host status, I think.
+
+## Class Preparation
+
+* Identify one or more head TFs.
+
+* Require submission of the "Getting Started with Tutorials" tutorial in order to "register" for the class. This guarantees that you will have a spot, but you still need to do all the work. Give students who submit a Discord link.
+
+* Require submission of the "Introduction" tutorial in order to get a Zoom link for the first class. (Need to add another 15 minutes of material to this tutorial.) Require this be submitted Sunday at midnight.
+
+* Solicit email from "special" students who should be grouped together. Two common examples are younger ones (<=14) and older ones (>22). Put these together in separate groups.
+
+* Spend Monday getting the class list organized. Need to put students into breakout rooms and assign rooms to TFs. Details will depend on # of students and of TFs. Also, how many students will skip out after going to the trouble of submitting the Introduction tutorial? Not sure! I think that giving each TF two rooms and 4 to 6 students per room works OK. Either way, we need a spreadsheet with those details which we can share both via email and 
+
+## Running the Class
+
+* Class is organized by week. What do we want to accomplish by the end of the week? The goal will always be a completed project, published to the web either via RPubs or Quarto Pub.
+
+* We have a target goal for each day, but we also have "extra" work/questions which we can use to challenge students who are going too fast. We never want students on Monday to start doing the work for Wednesday's class. All students start Wednesday's class from the same starting line.
+
+* Good extra/work questions are written ahead of time and, perhaps, included in the Preceptor Notes.
+
+
+## Schedule
+
+### Week 1: Github/Rpubs using library data
 
 We are only using data from a package: connectedness data from primer.data.  Use R projects and Github repos. Finish with a nice plot, available on Rpubs. Students going faster can make more plots, especially a scatterplot, even one with facets by state, but just for a few bigger, more interesting states.
 
-## Week 2: Github/Rpubs using downloaded data
+### Week 2: Github/Rpubs using downloaded data
 
-Students must download and save their own copy of some Census data, which we give them via a Discord link. At the end, they finish with another nice Rpubs plot, like the one in tidycensus book. 
+Students must download and save their own copy of some Census data, which we give them via link to Github. At the end, they finish with another nice Rpubs plot, like the one in tidycensus book. 
 
-## Week 3: Github/Quarto Website using downloaded census data
+### Week 3: Github/Quarto Website using downloaded census data
 
 Download data as part of a larger project. This is mimicing the process by which students create their data projects for next week. This should probably be Census. Create a Quarto website which will look alot like the data projects. If we use Census, we could encourage to pick different data items. Include several different scripts and saved images.
 
-## Week 4: Data Projects
+### Week 4: Data Projects
 
 Focus is the data project presentations on Thursday.
 
-## Week 5: First Model
+### Week 5: First Model
 
 First four chapters of Primer. This gets the basics down and also gives us the easiest brms model in the models chapter. Focus on the Cardinal Virtues. Understand the whole process. Learn all the key terms. Finish with an RPubs that does and shows an entire model. Maybe use recent survey data? Could always use presidential approval.
 
-## Week 6
+### Week 6
 
-Each of the last three (or just 2) weeks we complete the entire modeling process. Starting with some data and a question. Finishing with an graphic which shows the answer to the question. Entire thing becomes a Quarto website by the end of the week. The more we show students what a good Model Project looks like, the better theirs will be. Not sure how many chapters we will have ready to go this time.
+Each of weeks 6 and 7 we complete the entire modeling process. Starting with some data and a question. Finishing with an graphic which shows the answer to the question. Entire thing becomes a Quarto website by the end of the week. The more we show students what a good Model Project looks like, the better theirs will be. 
 
-## Week 7
+### Week 7
+
+Aspirations for next summer, or maybe if we had 10 weeks.
 
 Drop the Bayesian tools but not the Bayesian interpretation. Use Tidymodels, first with the bayesian() engine and then without. Use other tools, especially the good ones, like random forest and catboost.
 
 
-## Week 8: Model Projects
+### Week 8: Model Projects
 
 Focus is the model project presentations on Thursday.
 

@@ -45,8 +45,6 @@ Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by C
 * Change the initial tutorials to use the data.
 
 
-
-
 ## Other
 
 * The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.

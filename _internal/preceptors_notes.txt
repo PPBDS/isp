@@ -5,8 +5,6 @@
 
 ## Before Next Time
 
-Think harder about week 3, and what should be completed before then. For example, we might complete both the Quarto Websites Tutorial and the Census I tutorial for Monday of week 3, even though we will not be done with R4DS tutorials. Then, the week could be spent building a quarto websites with census data, which would be a nice project. Then, we would have more time to do proper data science during weeks 4 and 5.
-
 End of week 1, Github/Rpubs using library data
 End of week 2, Github/Rpubs using downloaded data
 End of week 3, Github/Quarto Website using downloaded census data, perhaps with several different scripts and saved images.
@@ -16,11 +14,11 @@ Swap out the Chetty data for regular census data.  Then we could use county cens
 
 ## Standard Preparations
 
-* Reach out to potential TFs.
+* Reach out to potential TFs. Check to see if any are interested in younger or older breakout rooms.
 
-* Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention
+* Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention https://github.com/Bootcamp-June-2024
 
-* Create a new location for example reprexes at POsit Community. Here is the most recent one: https://community.rstudio.com/t/thread-for-students-in-kanes-data-science-bootcamp-to-post-example-questions/140111
+* Create a new location for example reprexes at Posit Community. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
 
 * Update link in Getting Help tutorial with this new location.
 
@@ -30,7 +28,43 @@ Swap out the Chetty data for regular census data.  Then we could use county cens
 
 * Be careful about forks. If you have students fork from repo class-2022-08-01, you can not then change the name of this tutorial to class-2022-08-02 and then have them fork from it again. The reason is that these are the same repo, but with a name change, and you can't fork twice from the same repo.
 
-* Don't forget to make TFs co-hosts on the first day so that they can move from room to room.
+# First TF Meeting
+
+Confirm that everyone can see #staff channel and that their Discord display name is sensible.
+
+Confirm that everyone has a sensible Zoom display name.
+
+Everyone (this year) should install the development version of tutorial.helpers with:
+
+remotes::install_github("PPBDS/tutorial.helpers")
+
+Thanks to Alan for pointing out that we need the development version. Make sure that your students do this.
+
+Anyone interested in Older breakout room?
+
+We will be making extensive use of AI. I recommend the free version of ChatGPT. Unless you feel strongly, use this so students can do the same. But, if you are using a paid version of this, or another AI, that is fine to. Will be interesting to see if it is better.
+
+Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. Email him now (or as soon as you know) when you will be missing class.
+
+
+## Constructing Breakout Rooms
+
+In general, we give each TF three rooms, in order. We assign up to 6 students to each of the first two rooms. The third room is left empty. After the first week, the TF might (or might not) move things around, often by taking the 4 weakest (or strongest) students and moving them to the third room. 
+
+At least one TF, usually the head TF, is not assigned to any room. Their role is to replace any TFs who are absent on that day.
+
+
+
+### Younger
+adinarayan2009@gmail.com
+liao.2@dublinstudents.net
+toroshan2010@gmail.com
+shyneh8118@gmail.com
+tommyseoh@gmail.com
+
+
+### Older
+
 
 
 ## Week 1
@@ -41,13 +75,13 @@ Swap out the Chetty data for regular census data.  Then we could use county cens
 
 Call me "Preceptor."
 
-No six week course does a better job of increasing your odds of getting the future you want.
+No 8 week course does a better job of increasing your odds of getting the future you want.
 
 Video on --- unless there is something going on in your life which prevents it. In which case, discuss with a TF.
 
 Class always begins by looking at the Preceptor's Notes for the day, available here, in Discord.
 
-0) After today, we start on time, often by going to breakout rooms immediately. Let's go now! Introduce yourself to your fellow students. TFs will try and swing by.
+0) After today, we start on time, often by going to breakout rooms immediately. Let's go now! Introduce yourself to your fellow students with one sentence. TFs will try and swing by. Your room assignment is specified on the spreadsheet in the course #announcements channel on Discord.  
 
 1) Links to consider today:
 
@@ -56,9 +90,13 @@ Schedule: https://bootcamp.davidkane.info/schedule.html
 R4DS: https://r4ds.hadley.nz/
 Final projects: https://davidkane.info/files/final_projects.html
 
-2) Second trip to breakout rooms. Introduce yourselves again but, this time, write down the names of the students in your room and how they found out about the course. I will randomly call on some students to report this info when I bring the class back together.
+2) Update this package now from the R Console.
 
-3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Most important tutorial is RStudio and Code.
+remotes::install_github("PPBDS/tutorial.helpers")
+
+This should be the last time you need to mess with this package.
+
+3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Most important tutorial is RStudio and Code. Don't forget to answer the questions about your name, email and the number of minutes it took to complete the tutorial.
 
 4) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers.
 
@@ -72,31 +110,20 @@ If you have problems, it is sometimes necessary to remove the package first:
 
 remove.packages("r4ds.tutorials")
 
-7) Start the Data visualization tutorial together. 
-
-8) Zoom links for meetings are always in the Discord #⁠announcements channel.
-
-
 
 #### TF Notes
 
-Make sure, in this class and future ones, that I (or someone else) turn you into a co-host so that you can move from room to room. I will usually turn one TF into the host and then have him do this. When you are done, you turn me into the host again.
+Check the spreadsheet for your students and breakout room assignments. We will need to move things around as TFs come and go. For example, Ethan will take over Nosa's rooms at some point.
 
 Identify a final project or two which you like and which you think are well done. It is OK if one of the projects is yours. Indeed, you should probably clean up your own final project just in case students want to look at it!
 
-I will assign breakout rooms in the order in which you are appear in the staff listing: https://bootcamp.davidkane.info/staff.html. You might be responsible for anywhere from 1 to 5 rooms, but they will always be continuous and in staff order. So, if you are the second person listed, and I assigned 3 rooms per TF, then you would get rooms 4, 5 and 6. (I am not assigned any specific rooms, at least today. I move all over.)
+You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. 
 
-You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. This might seem weird since we are mostly looking at final projects from past years, but we want them to get into practice. So, have the driver say, "Click on the About tab," for example. 
+Make sure your display name in Zoom includes the name by which you want students to address you. Encourage studnets to do the same. 
 
-Key goal for today is to help them decide if they should take the course. Please help them! Tell them about the interactive nature of class. Warn them about video always on and cold-calling. Tell them about the tutorials. Show them the final projects.
+Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. Encourage studnets to do the same. 
 
-Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. 
 
-For the first class or two, I will make sure that the number of breakout rooms created is a multiple of the number of TFs. (This year that number is 5, at least on the first day.) You are responsible for the set of rooms in the order in which your photos appear on the same page. So, for example, if there are 20 rooms and 5 TFs, Yuhan would get rooms 1-4, Alex would get rooms 5-8 and so on.
-
-#### Lecture Notes
-
-Go through name/email on tutorial together. Then send them to breakout rooms to do exercises 1 - 5, and then stop there. Talk about final projects. Do 6 with them together. Have about 5 people in each room because there will be more than 1 person who has not done the installation. 
 
 
 ### Day 2
@@ -107,7 +134,7 @@ Call me "Preceptor."
 
 0) If possible, please change your Discord and Zoom display name to be the name which we should use in addressing you. We are a community! 
 
-1) Big thanks to all the students (including Joshua, Dylan A, Matthew Ng, Natalie, harnoor, Alan Cai, Rishi S, Xamin, Hafsah K and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+1) Big thanks to all the students (including Ethan K, Memo$taylooted, Alan Tao, basing my data, and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
 2) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
@@ -117,7 +144,7 @@ If you have problems, it is sometimes necessary to remove the package first:
 
 remove.packages("r4ds.tutorials")
 
-3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares.
+3) In the breakout rooms, one person shares a screen and the others tell her what to type. Then, next time, someone else shares and a different person "drives." If you are sharing your screen, you never type anything unless you are told explicitly to do so.
 
 4) Thanks for all the great comments/questions and bug reports on the tutorials. Much appreciated! We will fix these.
 
@@ -125,44 +152,21 @@ remove.packages("r4ds.tutorials")
 
 6) In the first class, we just worked from the Console. Today, we go "one level up" and work from a script within an R project. Tomorrow, we go one more level up, start with Github and work on Quarto document within an R project.
 
-8) We will be assigning permanent breakout rooms. If there is a student in whose room you would like to be (or a TF you would like to work with), email Anish at ani.bellamkonda@gmail.com before midnight Thursday.
-
-9) Never stress about the tutorials! Just do your best. Skip any questions which give you trouble. Ask lots of questions on Discord.
+7) Never stress about the tutorials! Just do your best. Skip any questions which give you trouble. Ask lots of questions on Discord.
 
 #### TF Notes
 
-Goal for today is to start with nothing and then finish with a nice looking plot on the student's computer. (We don't have enough time to post the plot to Rpubs.) Today, we start with a new project. Tomorrow, we start with a new Github repo. 
-
-We spend all of Day 2 working in an R script. Nail down the distinction between a text file and the Console. Get good at command-return as well as sourcing a whole file, much as is done in the RStudio and Code tutorial. Make them restart their R sessions multiple times.
-
-If there are specific students you want to work with, let Anish (ani.bellamkonda@gmail.com) know.
-
-I will not have dedicated rooms assigned. Instead, I will try to visit all the rooms. I expect that we will have 10 rooms total, with 2 rooms each for the 5 TFs tonight. But, if only 25 kids show up, we might go down to 5 rooms total.
-
-I will move from room to room. Let me know when I arrive if there is anything you want me to discuss. 
-
-
+Goal for today is to start with nothing and then finish with a nice looking plot posted to Rpubs. Today, we start with a new project. Tomorrow, we start with a new Github repo. 
 
 
 ### Day 3
 
 #### Preceptor's Notes
 
-Fill out this form about breakout rooms. 
 
-https://forms.gle/xtVzQainfpsKXbTP6
+For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data. Use the #final-projects channel on Discord.
 
-We will assign rooms for Monday. You must have caught up on the tutorials by Monday in order to stay in the course.
-
-0) For Monday, from the r4ds.tutorials package, complete the *Terminal* tutorial. Also complete the tutorials associated with the readings: Data Import and Getting Help. Note that the Terminal tutorial is at the end of the r4ds.tutorials collection.
-
-1) Apologies to the many students who are caught up. This is the last time that we will slow down the class in order to take care of students who have not done the work. Let's go to breakout rooms and ensure that everyone has a free www.github.com account. 
-
-2) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data. Use the #final-projects channel on Discord.
-
-3) Catch up with the tutorials before Monday or you will be removed from class. Note that there are several tutorials due on Monday. You have done the RStudio and Github tutorial, right? If not, pay attention now!
-
-4) Goal today is to publish an interesting graphic relating population to economic connectedness across US counties.
+Goal today is to publish an interesting graphic relating population to economic connectedness across US counties.
 
 
 #### TF Notes

@@ -11,9 +11,13 @@ Key question to answer this week: What is the relationship between the plurality
 
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 
 
-For today, we are getting more comfortable with the Terminal and with file locations on our machines. A key problem is that many/most students will not have done the Terminal tutorial before class today, even though they were supposed to. We should use this fact as an occasion to shame students into staying up-to-date with the work. Slacking is not fair to their classmates!
+For today, we are getting more comfortable with the Terminal and with file locations on our machines. 
 
-By end of class, we should have the data downloaded.
+By end of class, we should have the data downloaded. If we have time, we might start playing around with the data in Quarto. 
+
+Next class processes the data and starts the plotting.
+
+Final class finishes the plot and publishes it.
 
 ## Session 1
 
@@ -31,7 +35,7 @@ Send to rooms to create. If you succeeded while I was demonstrating, that is OK!
 
 Go to: https://raw.githubusercontent.com/PPBDS/primer.data/master/data-raw/nyc_tracts.csv 
 
-Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which ec.rds has been placed.
+Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which nyc_tracts.csv has been placed.
 
 ls ~/Downloads
 ls ~/Download/nyc*
@@ -45,7 +49,7 @@ But where will we place the file? We might just stick it in the top-level of our
 pwd
 ls
 ls -a   
-mdkir data
+mkdir data
 mv ~/Downloads/nyc_tracts.csv data/
 
 Of course, you could do this by hand, with point-and-click and drag-and-drop. That is OK with one file. But not with 1,000!
@@ -75,7 +79,7 @@ What about the code in which we read in the data. Do that first!
 
 Impossible to get this far. But here is the code for the graphic, in case you want to add it to the class-work. channel. 
 
-Explain the distinction between just vomitting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
+Explain the distinction between just vomiting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
 
 
 

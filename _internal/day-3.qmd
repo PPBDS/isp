@@ -104,4 +104,35 @@ Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title a
 
 Now we are ready to do data science!
 
+## Extra Questions
+
+Add a fitted line to the plot. Is there a relationship?
+Restrict the plot to your five favorite states, then facet by state.
+Map states to regions of the country, then facet by region.
+
+Calculate the sum of the population by state and the average connectedness for counties in a state. Is there a relationship between state population and average county connectedness?
+
+```{r}
+#| echo: false
+#| message: false
+#| label: make plot
+
+library(primer.data)
+library(tidyverse)
+connectedness |> 
+  drop_na() |> 
+  mutate(state = str_replace(location, ".*, ", "")) |> 
+  summarise(pop_state = sum(population),
+            avg_ec = mean(connectedness),
+            .by = state) |> 
+  ggplot(aes(x = pop_state, y = avg_ec)) +
+    geom_point() +
+    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
+    scale_x_log10(breaks = c(1000000, 10000000),
+                  labels = scales::comma_format()) +
+    labs(y = "Average County Economic Connectedness",
+         x = "State Population",
+         title = "Economic Connectedness and Population in US States",
+         subtitle = "Biggger states have counties with lower average economic connectedness.")
+```
 

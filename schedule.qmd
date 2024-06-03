@@ -78,7 +78,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Monday 
 
-Read chapters 12, 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors" and "Quarto" tutorials.
+* Read chapters 12, 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors" and "Quarto" tutorials.
 
 
 
