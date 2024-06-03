@@ -6,13 +6,11 @@ author: "David Kane"
 
 ## Goal
 
-Explore the connectedness data from the primer.data. Answer some questions. 
-
-Students will have completed the Introduction tutorial, so they have been exposed to both ggplot2 and to the pipe.
+Explore the connectedness data from the primer.data package. Answer some questions. Students will have completed the Introduction tutorial, so they have been exposed to both ggplot2 and to the pipe.
 
 ## Session 1
 
-Go to the Preceptor's Notes. Talk through the first few items. Finish with room assignments. Send them to those rooms.
+Go to the Preceptor's Notes. Talk through the first few items. Finish with room assignments. Send them to those rooms to meet each other.
 
 ## Session 2
 
@@ -44,15 +42,15 @@ Send them to breakout rooms to do the same. Tell them to help (by having them sh
 
 ## Session 4
 
-* Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we use R.
+Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we use R.
 
-* Show them library(primer.data). 
+Show them library(primer.data). 
 
-* Type connectedness. Run ?connectedness. 
+Type connectedness. Run ?connectedness. 
 
-* See Preceptor Notes for links.
+See Preceptor Notes for links.
 
-* Explain the need to reinstall r4ds.tutorials each week-end. We are always fixing bugs!
+Explain the need to reinstall r4ds.tutorials each week-end. We are always fixing bugs!
 
 remotes::install_github("PPBDS/r4ds.tutorials")
 
@@ -64,8 +62,18 @@ What is the third biggest, by population, county in the US?
 
 Call on someone at random to tell me what to code.
 
+How should we explore this data? Let's ask chatGPT: What functions are useful for exploring a new tibble in R?
 
+Go to breakout rooms, ask chatGPT, and follow its advice.
+
+## Session 6
+
+Call on someone at random to tell me what to code.
+
+What are the counties with the lowest connectedness? Why is that? Maybe ask chatGPT.
 
 
 ## Extra Questions
+
+If a group is too far ahead, ask them to create a graphic which makes a histogram of county populations. Or a scatterplot of population versus connectedness.
 
