@@ -8,11 +8,15 @@ author: "David Kane"
 
 Explore the connectedness data from the primer.data package. Answer some questions. Students will have completed the Introduction tutorial, so they have been exposed to both ggplot2 and to the pipe.
 
+Lesson from last time: Less time in the breakout rooms in the first few sessions. More time once you start asking R questions.
+
 ## Session 1
 
-Go to the Preceptor's Notes. Talk through the first few items. Finish with room assignments. Send them to those rooms to meet each other.
+Go to the Preceptor's Notes. Talk through the first few items. Finish with room assignments. Send them to those rooms to meet each other. Each person gives one sentence about themselves. 
 
 ## Session 2
+
+Cold call to tell me one thing about one student in the breakout room
 
 Review breakout room behavior. One person always sharing, and then doing nothing but what they are told. Another person driving, telling the screen-sharer what to do.
 
@@ -32,19 +36,25 @@ Send them to breakout rooms to do the same.
 
 But do this together! One person shares their screen. One other person drives.
 
+There may be problems, especially for students who are using a different computer from the one they used when they did the Getting Started chapter.
+
 ## Session 3
 
 Review items 4 (Ulysses), 5 (Discord) and 6 (chatGPT).
+
+Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we use R.
+
+Show them library(primer.data). 
 
 Pull up chatGPT. Require them to sign up for one of the services. No need to pay! Free service is fine. Mention that I use Claude. Show the tab for Claude.
 
 Send them to breakout rooms to do the same. Tell them to help (by having them share their screen) whomever is having the most problems.
 
+Ask chatGPT something goofy. Like write an haiku about what a cool language R is.
+
 ## Session 4
 
-Show them library(tidyverse). Discuss those weird messages. Explain the concept of the Tidyverse. Mention that we load up this package (i.e., this collection of packages) whenever we use R.
-
-Show them library(primer.data). 
+Cold call for the goofy thing.
 
 Type connectedness. Run ?connectedness. 
 
@@ -56,13 +66,14 @@ remotes::install_github("PPBDS/r4ds.tutorials")
 
 Go to breakout rooms. Reinstall r4ds.tutorials. Switch the screen-sharer and driver. Then, answer this question:
 
-What is the third biggest, by population, county in the US?
+How should we explore this data? Let's ask chatGPT: What functions are useful for exploring a new tibble in R?
+
 
 ## Session 5
 
-Call on someone at random to tell me what to code.
+Call on someone at random to tell me about interesting functions.
 
-How should we explore this data? Let's ask chatGPT: What functions are useful for exploring a new tibble in R?
+What is the third biggest, by population, county in the US?
 
 Go to breakout rooms, ask chatGPT, and follow its advice.
 
