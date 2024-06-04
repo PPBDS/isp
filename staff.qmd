@@ -28,7 +28,7 @@ knitr::include_graphics("images/david_kane.png")
 knitr::include_graphics("images/tejas.jpg")
 ```
 
-[Tejas Mundhe](https://github.com/TejasMundhe) is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics.
+[Tejas Mundhe](https://github.com/TejasMundhe) (tejasnm07 at gmail.com) is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics.
 
 # Teaching Fellows
 
@@ -38,7 +38,7 @@ knitr::include_graphics("images/tejas.jpg")
 knitr::include_graphics("images/nosa.jpg")
 ```
 
-Nosa Lawani is a recent graduate of Harvard College.
+Nosa Lawani (nlawani at college.harvard.edu) is a recent graduate of Harvard College.
 
 ## Anish Bellamkonda
 
@@ -46,7 +46,7 @@ Nosa Lawani is a recent graduate of Harvard College.
 knitr::include_graphics("images/anish.jpg")
 ```
 
-[Anish Bellamkonda](https://github.com/SplashyZues5197) is a rising senior at Metea Valley High School.
+[Anish Bellamkonda](https://github.com/SplashyZues5197) (ani.bellamkonda at gmail.com) is a rising senior at Metea Valley High School.
 
 ## Vaangmaya Rebba
 
@@ -54,7 +54,7 @@ knitr::include_graphics("images/anish.jpg")
 knitr::include_graphics("images/rebba.jpg")
 ```
 
-[Vaangmaya Rebba](https://github.com/Vaangmaya) is a rising senior who is interested in Data Science and Linguistics.
+[Vaangmaya Rebba](https://github.com/Vaangmaya) (vaangmaya at gmail.com) is a rising senior who is interested in Data Science and Linguistics.
 
 ## Luit Deka
 
@@ -62,7 +62,7 @@ knitr::include_graphics("images/rebba.jpg")
 knitr::include_graphics("images/deka.jpg")
 ```
 
-[Luit Deka](https://github.com/luitdeka) is an incoming freshman at Carnegie Mellon University, PA in the School of Computer Science.
+[Luit Deka](https://github.com/luitdeka) (luitdeka at gmail.com) is an incoming freshman at Carnegie Mellon University, PA in the School of Computer Science.
 
 
 ## Aadhira Satheesh
@@ -71,7 +71,7 @@ knitr::include_graphics("images/deka.jpg")
 knitr::include_graphics("images/aadhira.jpg")
 ```
 
-[Aadhira Satheesh](https://github.com/aadhira12) is a middle schooler attending Acera School, with interest in mathematics, computer science and health care.
+[Aadhira Satheesh](https://github.com/aadhira12) (aadhira.satheesh.12 at gmail.com) is a middle schooler attending Acera School, with interest in mathematics, computer science and health care.
 
 ## Ethan Xiao 
 
@@ -79,7 +79,7 @@ knitr::include_graphics("images/aadhira.jpg")
 knitr::include_graphics("images/xiao.jpeg")
 ```
 
-[Ethan Xiao](https://github.com/EpiCoder25) is a rising senior with interest in mathematics and statistics.
+[Ethan Xiao](https://github.com/EpiCoder25) (xiaoethan1 at gmail.com) is a rising senior with interest in mathematics and statistics.
 
 ## Tongyan Ban
 
@@ -87,7 +87,7 @@ knitr::include_graphics("images/xiao.jpeg")
 knitr::include_graphics("images/ban.png")
 ```
 
-Tongyan Ban is a third-year Health Sciences student at Queen's University, Canada, with a research focus on human sexuality, as well as bladder cancer & bioinformatics.
+Tongyan Ban (tongyanmelissa at gmail.com) is a third-year Health Sciences student at Queen's University, Canada, with a research focus on human sexuality, as well as bladder cancer & bioinformatics.
 
 
 ## Alan Cai
@@ -96,7 +96,7 @@ Tongyan Ban is a third-year Health Sciences student at Queen's University, Canad
 knitr::include_graphics("images/cai.jpg")
 ```
 
-Alan Cai is a rising sophomore at White Oaks Secondary School with an interest in healthcare and mathematics.
+Alan Cai (alanj.cai at hotmail.com) is a rising sophomore at White Oaks Secondary School with an interest in healthcare and mathematics.
 
 ## Adi Chaudhary
 
@@ -104,7 +104,7 @@ Alan Cai is a rising sophomore at White Oaks Secondary School with an interest i
 knitr::include_graphics("images/adi.jpeg")
 ```
 
-[Adi Chaudhary](https://github.com/adichaudhary) is a junior at Carmel High School who is passionate about data science and cybersecurity.
+[Adi Chaudhary](https://github.com/adichaudhary) (adichaudhary2025 at gmail.com) is a junior at Carmel High School who is passionate about data science and cybersecurity.
 
 ## Atharva Bir Dutta
 
@@ -112,7 +112,7 @@ knitr::include_graphics("images/adi.jpeg")
 knitr::include_graphics("images/dutta.jpg")
 ```
 
-Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
+Atharva Bir Dutta (biratharva13 at gmail.com) is a rising senior at Metea Valley High School who is keenly interested in the integration of biology, computer science, and data science.
 
 ## Monish Malla
 
@@ -120,7 +120,7 @@ Atharva Bir Dutta is a rising senior at Metea Valley High School who is keenly i
 knitr::include_graphics("images/malla.jpg")
 ```
 
-[Monish Malla](https://github.com/monishmal3375) is a junior at Metea Valley High School who is interested in computer science and cybersecurity.
+[Monish Malla](https://github.com/monishmal3375) (monish.mal0204 at gmail.com) is a junior at Metea Valley High School who is interested in computer science and cybersecurity.
 
 ## Navya Joshi
 
@@ -128,7 +128,7 @@ knitr::include_graphics("images/malla.jpg")
 knitr::include_graphics("images/joshi.jpeg")
 ```
 
-Navya Joshi is a rising junior at Conant High School with an interest in Computer Science and Mathematics.
+Navya Joshi (roopajoshi00 at gmail.com) is a rising junior at Conant High School with an interest in Computer Science and Mathematics.
 
 <!-- ## Yuhan Wu -->
 

@@ -28,6 +28,6 @@ read_rds("images/animation.rds")
 
 Check out the [final projects](https://bootcamp.davidkane.info/projects.html) created by prior students. Want to make something like that? Take the course! See [here](https://davidkane.info/writings/philosophy.html) for details on my teaching philosophy.
 
-There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). You must be able to use Zoom and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.
+There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). You must be able to use Zoom (with a working camera) and to share your screen. The course is designed for absolute beginners. Neither programming nor statistics experience is required.
 
 [Sign up for our e-mail list](https://davidkane.substack.com/) to receive updates.

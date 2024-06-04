@@ -159,11 +159,9 @@ Make sure your display name in Discord is the name by which students know you, c
 
 #### Preceptor's Notes
 
-Call me "Preceptor."
+1) If possible, please change your Discord and Zoom display name to be the name which we should use in addressing you. We are a community! 
 
-0) If possible, please change your Discord and Zoom display name to be the name which we should use in addressing you. We are a community! 
-
-1) Big thanks to all the students (including Ethan K, Memo$taylooted, Aedan, basing my data, and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
+2) Big thanks to all the students (including Ethan K, Memo$taylooted, Aedan, basing my data, Jammy_john, and others) using Discord. Much appreciated, especially those answering questions! You are a good person to do so. And, also, you only really understand something once you have explained it to someone else. See, do, teach. 
 
 2) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
@@ -183,9 +181,6 @@ remove.packages("r4ds.tutorials")
 
 7) Never stress about the tutorials! Just do your best. Skip any questions which give you trouble. Ask lots of questions on Discord.
 
-#### TF Notes
-
-Goal for today is to start with nothing and then finish with a nice looking plot posted to Rpubs. Today, we start with a new project. Tomorrow, we start with a new Github repo. 
 
 
 ### Day 3
