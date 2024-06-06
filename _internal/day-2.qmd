@@ -25,7 +25,7 @@ connectedness |>
 ```
 
 
-## Session 0
+## Session 1
 
 Send students to breakout rooms right away. They need to get used to starting on time. Two questions: 
 
@@ -33,7 +33,9 @@ Send students to breakout rooms right away. They need to get used to starting on
 
 2) Any initial ideas on how to make our plot for the day? (Make sure you posted it in #class-work before class.)
 
-## Session 1
+Don't dawdle! Three minutes at most.
+
+## Session 2
 
 Cold call: Tell me what your group discussed about the two questions.
 
@@ -45,8 +47,9 @@ Also, make sure that typing library(primer.data) at the Console works for everyo
 
 Send to rooms so that everyone has this working. 
 
+Don't dawdle. 5 minutes top.
 
-## Session 2
+## Session 3
 
 You need to create and publish your own version of the plot in #class-work.
 
@@ -56,7 +59,7 @@ Make sure everyone in your room gets this far, before you (selfishly) forge ahea
 
 Send them to the breakout rooms to replicate these. Explore the data!
 
-## Session 3
+## Session 4
 
 Cold call: Tell me what to do.
 
@@ -70,7 +73,7 @@ Note all the garbage which this is producing! The document is ugly. There are tw
 Good. Now, start working on the plot, use a new code chunk. With luck, you get to this stage with at least 45 minutes left.
 
 
-## Session 4
+## Session 5
 
 Try to call them in when they have the basic components of the plot.
 
@@ -86,13 +89,13 @@ Things that are likely to be tricky:
 Don't tell them these tricks! Make them figure it out themselves! chatGPT is amazing!
 
 
-## Session 5
+## Session 6
 
 Try to call them in when they have the whole plot done, but perhaps without some details.
 
 Code call: What progress has your group made?
 
-## Session 6
+## Session 7
 
 Edit my document to include the answer.
 
@@ -108,10 +111,9 @@ Goal: Ensure that everyone in the group posts a link. But, once you get to that 
 
 Most important thing is that everyone in a breakout room gets to publish. Leave no student behind! But, if the whole group has posted a url in #class-work, then, by all means, challenge them to do more.
 
-Consider removing the name and the title of Quarto document and publishing again. Looks better.
+Consider removing the author and the title of Quarto document and publishing again. Looks better.
 
 Font seems tough to read. Are there recommendations for text sizes on web images that we might follow? chatGPT
 
 Restrict the plot to your five favorite states, then facet by state
 
-Map states to regions of the country, then facet by region
