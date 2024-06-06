@@ -46,6 +46,8 @@ Show them library(tidyverse). Discuss those weird messages. Explain the concept 
 
 Show them library(primer.data). 
 
+Make sure all students have primer.data installed. They certainly need this for the next class. Show page in Getting Started for doing so.
+
 Pull up chatGPT. Require them to sign up for one of the services. No need to pay! Free service is fine. Mention that I use Claude. Show the tab for Claude.
 
 Send them to breakout rooms to do the same. Tell them to help (by having them share their screen) whomever is having the most problems.

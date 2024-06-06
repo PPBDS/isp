@@ -6,7 +6,7 @@ author: "David Kane"
 
 ## Goal
 
-Start with an RStudio project and a new Quarto document. Publish a nice looking histogram of county population on RPubs.
+Start with an RStudio project and a new Quarto document. Publish a nice looking histogram of county population on RPubs. 
 
 ```{r}
 library(tidyverse)
@@ -24,107 +24,94 @@ connectedness |>
          caption = "Opportunity Insights")
 ```
 
+
+## Session 0
+
+Send students to breakout rooms right away. They need to get used to starting on time. Two questions: 
+
+1) Did anyone read the NYT article? If so, tell your classmates about it. 
+
+2) Any initial ideas on how to make our plot for the day? (Make sure you posted it in #class-work before class.)
+
 ## Session 1
 
-Start by making an R project. Note how it, by default, is placed in my `projects` folder. Note that all this only makes sense if you have done the "RStudio and Code" tutorial. If you haven't done this, you are hurting your classmates. Catch up by tomorrow or don't come back.
+Cold call: Tell me what your group discussed about the two questions.
+
+Start by making an R project. Note how it, by default, is placed in my `projects` folder. Note that all this only makes sense if you have done the "RStudio and Code" tutorial.
 
 Look in the Files tab. Talk about the two things that are there. Show the hidden files button. Mention that this was set by set_rstudio_settings(). Mention trickiness with Posit Cloud.
 
-Send to rooms so that everyone has this working.
+Also, make sure that typing library(primer.data) at the Console works for everyone in your room.
+
+Send to rooms so that everyone has this working. 
+
 
 ## Session 2
 
-With an empty project, create an R script. Write 2 + 2. Source the script. See the echo. Add 6 + 7. Source the script. Then do it line-by-line. 
+You need to create and publish your own version of the plot in #class-work.
 
-Show how we can also execute this line directly, first by hitting the run button, and second with command-enter. Introduce the two "worlds" of data science: the document and the console. They are not the same thing!
+Create a new Quarto document. Load up the libraries you will need. Render. Make sure it doesn't look ugly.
 
-Change 2 + 2 to x <- 2 + 2. Source. "Nothing" happens! You only see what you have done if you "dump" it out in the document. No "output" if you typed it into the console means no "output" if you do it in a document.
+Make sure everyone in your room gets this far, before you (selfishly) forge ahead.
 
-Show how x shows up in the environment. Restart R. x is gone!
-
-Send them to the rooms. Practice everything that I have just showed you!
+Send them to the breakout rooms to replicate these. Explore the data!
 
 ## Session 3
 
-Bring people back. Console:
+Cold call: Tell me what to do.
 
-library(tidyverse) # Or tibble will print ugly.
-library(primer.data)
-connectedness
-
-Just look at the data. Interesting. Console:
-
-summary(connectedness)
-
-Cool.
-
-Script:
-
-summary(connectedness)
-
-Works from there too. Source it. Works OK. But restart R and it doesn't work!
-
-Review the distinction between what happens in the document and what happens in the environment. Execute the data loading code. Now summary(x) works! Restart R. Note how x disappears from the environment. Rendering the document still works! But summary(x) does not.
-
-Focus on the short cut key command-enter (for working with code line-by-line).
-
-Need to show link to NYT article somehow.
-
-Script:
+Type what they say. Render after the libraries are in.
 
 library(primer.data) 
 library(tidyverse)
 
+Note all the garbage which this is producing! The document is ugly. There are two problems: we don't want to see the code and we don't want to see junky output. 
 
-Note all the garbage which this is producing! The document is ugly. There are two problems: we don't want to see the code and we don't want to see junky output. Wonder how we might get rid of these? In the meantime, just do what I have done here.
+Good. Now, start working on the plot, use a new code chunk. With luck, you get to this stage with at least 45 minutes left.
 
-Send them to the breakout rooms to replicate these. Explore the data!
 
 ## Session 4
 
-You can never restart R (not RStudio) too often.
+Try to call them in when they have the basic components of the plot.
 
-In your script, start looking at the data. What is the 3rd largest (by population) county in the US? Which county has the worst economic connectedness?
+Code call: What did you group come up with?
 
-connectedness |> 
-  arrange(desc(population))
+Things that are likely to be tricky: 
 
-connectedness |> 
-  arrange(connectedness)
-  
-Hmm. Note the danger of connectedness being the name of the tibble and the name of the variable?  
+* drop_na() to deal with the warnings. 
+* bins argument
+* scale_x_log10
+* labels = scales::comma_format()
 
-Any guesses as to the makeup of those counties? Check the data. Does it make sense?
+Don't tell them these tricks! Make them figure it out themselves! chatGPT is amazing!
+
 
 ## Session 5
 
-Let's make a histogram of population. Goal is to copy/paste a copy of your plot into the Discord class-work channel. Example code:
+Try to call them in when they have the whole plot done, but perhaps without some details.
 
-Maybe we should leave out drop_na and just deal with and/or ignore and/or discuss the warning.
+Code call: What progress has your group made?
 
-Make sure that things like bins and scale_x_log10 are covered in the Data visualization chapter.
+## Session 6
 
+Edit my document to include the answer.
 
-```{r}
-library(tidyverse)
-library(primer.data)
+Code call: What gave your group the most problems?
 
-connectedness |> 
-  drop_na() |> 
-  ggplot(aes(x = population)) +
-    geom_histogram(bins = 100) +
-    scale_x_log10(labels = scales::comma_format()) +
-    labs(title = "US County Populations in 2018",
-         subtitle = "Populations are highly skewed",
-         x = "Population",
-         y = "Number of Counties",
-         caption = "Opportunity Insights")
-```
+Show how my plot solves those problems.
 
-Make sure to start plotting exercise with at least 20 minutes left in class.
+Publish the plot on Rpubs. Make sure the slug is cool. No need to add a description. Post a url link to #class-work. 
 
+Goal: Ensure that everyone in the group posts a link. But, once you get to that stage, make your plot better than mine. You can always re-publish!
 
 ## Extra Questions
 
+Most important thing is that everyone in a breakout room gets to publish. Leave no student behind! But, if the whole group has posted a url in #class-work, then, by all means, challenge them to do more.
+
+Consider removing the name and the title of Quarto document and publishing again. Looks better.
+
+Font seems tough to read. Are there recommendations for text sizes on web images that we might follow? chatGPT
+
 Restrict the plot to your five favorite states, then facet by state
+
 Map states to regions of the country, then facet by region
