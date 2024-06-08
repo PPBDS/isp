@@ -7,6 +7,12 @@ author: "David Kane"
 
 Start with a Github repository, RStudio project and a new Quarto document. Publish a scatterplot of county size versus economic connectedness to Rpubs.
 
+## Prep 
+
+Put plot in #course-work. 
+
+Go to your Github organization account for this class session. Have that webpage already on your browser. Note that it looks different for a personal account.
+
 ```{r}
 #| echo: false
 #| warning: false
@@ -15,8 +21,10 @@ library(tidyverse)
 library(primer.data)
 
 connectedness |> 
+  drop_na() |> 
   ggplot(aes(x = population, y = connectedness)) +
     geom_point() +
+    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
     scale_x_log10(labels = scales::comma_format()) +
     labs(title = "US County Populations versus Economic Connectedness",
          subtitle = "Population size does not matter to EC",
@@ -36,7 +44,7 @@ If you have not done the RStudio and Github homework, then this will be really h
 
 ## Session 2
 
-Explore files pane. Turn off Show Hidden files.
+Explore files pane. 
 
 Check out the Git pane.
 
@@ -52,53 +60,32 @@ Check the website. Where is your change? You need to push it.
 
 Your computer is now fully backed up on the cloud. 
 
-To the rooms to make sure everyone can do this. Extra time? Talk about final projects.
+To the rooms to make sure everyone can do this. Extra time? Start work on the plot.
 
 ## Session 3
 
+Cold call: Did everyone on your team get this working?
+
 Start a Quarto document, called ec.Rmd. Render to confirm that everything works. Remove the junk. Render.
 
-Check the Git pane. Changes! All ec_files to the .gitignore. Add the qmd and the html. Commit and push. See the new files on the web.
+Check the Git pane. Changes! Add ec_files to the .gitignore. Add the qmd and the html. Commit and push. See the new files on the web.
 
 Add code chunk with library(tidyverse) and library(primer.data). Render. Annoying messages! 
 
 Add appropriate options. Don't like messages or code.
 
-```{r}
-#| message: false
-#| echo: false
-library(tidyverse)
-library(primer.data)
-```
-
-Back to rooms. Make sure everyone has done this. Start thinking about a plot. How can we related population to economic connectedness.
-
 
 ## Session 4
 
-Make a geom_point() plot. Take about log scale on the x axis. How deal with the warnings? Don'
+Cold call: Did everyone on your team get this working?
 
+Create a new code chunk. Start working on your plot. Keep an eye on the difference between QMD World and Console World. 
 
-## Session 5
+Cycle back-and-forth to breakout rooms, making progress on the plot. Cold call each time.
 
-Lead them to create a plot like this
+## Session Last
 
-
-```{r}
-#| echo: false
-#| warning: false
-connectedness |> 
-  ggplot(aes(x = population, y = connectedness)) +
-    geom_point() +
-    scale_x_log10(labels = scales::comma_format()) +
-    labs(title = "US County Populations versus Economic Connectedness",
-         subtitle = "Population size does not matter to EC",
-         x = "Population",
-         y = "Economic Connectedness",
-         caption = "Opportunity Insights")
-```
-
-## Session 6
+Don't forget rsconnect in .gitignore!
 
 Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work. Update .gitignore for rsconnect. Push everything.
 
@@ -106,7 +93,6 @@ Now we are ready to do data science!
 
 ## Extra Questions
 
-Add a fitted line to the plot. Is there a relationship?
 Restrict the plot to your five favorite states, then facet by state.
 Map states to regions of the country, then facet by region.
 
