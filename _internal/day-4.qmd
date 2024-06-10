@@ -29,6 +29,8 @@ Edit the .gitignore but with *Rproj. Wild cards are handy! Note that the file na
 
 Send to rooms to create. If you succeeded while I was demonstrating, that is OK! Now help your classmates.
 
+Also, do the installs mentioned in #precepters-notes.
+
 ## Session 2
 
 Cold call: Did everyone in your group succeed?
@@ -65,9 +67,11 @@ Go to rooms and get the data into your projects. Help your friends.
 
 ## Session 4
 
+Cold call: Was everyone able to move the file to the project?
+
 Start a new Quarto document. Render it. Get rid of the junk. 
 
-Add library(tidyverse).  Add in a label code option. Render and see how the set-up label is shown during knitting.
+Tell them to add library(tidyverse).  Add in a label code option. Render. Note that you can render without saving since doing so causes an automatic save.
 
 ```{r}
 #| message: false
@@ -82,14 +86,9 @@ What about the code in which we read in the data. Do that first!
 
 ## Session 5
 
-Impossible to get this far. But here is the code for the graphic, in case you want to add it to the #class-work channel. 
+Cold call: Walk me through the process of creating a new Quarto doc, with library(tidyverse).
 
-Explain the distinction between just vomiting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
-
-If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
-
-How might we make the plot so that there was a different panel for each state?
-
+If there is extra time, tell chatGPt about your data and ask it to suggest a cool looking plot. What does it come up with?
 
 
 

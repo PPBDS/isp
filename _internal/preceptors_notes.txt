@@ -250,12 +250,11 @@ No eight week course does a better job of increasing your odds of getting the fu
 
 install_github("PPBDS/r4ds.tutorials")
 
-2) Whenever starting a new R4DS tutorial, please:
+3) Whenever starting a new R4DS tutorial, please:
 
 install_github("PPBDS/r4ds.tutorials")
 
 Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is zero not the letter O.
-
 
 3) Key goal today is to practice some of the techniques you learned in the Terminal tutorial. You completed that right . . .
 

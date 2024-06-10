@@ -5,7 +5,9 @@ author: "David Kane"
 
 ## Goal
 
-Learn about forking by forking from my class repo from Monday, perhaps cleaned up. It includes the data and, probably, nothing else. Read in the data and explore it. Make some plots. What do students come up with? In the first week, we told students what sort of plots to make. Not today! 
+I need to create a new repo (not a renamed one) from the previous class which can be used for forking.
+
+Learn about forking by forking from my repo, a cleaned up version from Monday. It includes the data and, probably, nothing else. Read in the data and explore it. Make some plots. What do students come up with? In the first week, we told students what sort of plots to make. Not today! 
 
 Distribute a survey, getting background information on students and some opinions.
 
@@ -81,5 +83,15 @@ Instructions to put in #class-work:
 Cold call: What commands did you use to explore the data?
 
 Recall the difference between Console World and QMD World.
+
+
+## Extra Stuff
+
+Explain the distinction between just vomiting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
+
+If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
+
+How might we make the plot so that there was a different panel for each state?
+
 
 
