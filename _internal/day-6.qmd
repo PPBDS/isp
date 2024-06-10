@@ -2,112 +2,31 @@
 title: "Day 6"
 ---
 
-## Overview
+## Goal
 
-Use project which they were working with last class to answer the question with which we began the week:
-
-Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+Use project which they were working with last class to create a plot using the NYC data.
 
 ```{r}
-#| label: set up
 #| echo: false
 #| message: false
-
 library(tidyverse)
-```
+library(ggbeeswarm)
 
-The below code should have been completed last class. Ideally, we noticed and discussed the missing data problem, but maybe not.
+x <- read_csv("data/nyc_tracts.csv", show_col_types = FALSE)
 
-```{r}
-#| label: load data
-#| echo: false
-
-x <- read_csv("data/social_capital_county.csv", show_col_types = FALSE) |> 
-  select(county_name, pop2018, ec_county)
-```
-
-## Session 1
-
-Make sure everyone in the room has the basic set up working. We can now start a new code chunk and add a state variable.
-
-```{r}
-#| label: clean data
-#| echo: false
-
-x |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) 
-```
-
-
-Explain execute:
-          echo: false.
-
-## Session 2
-
-Tell them to calculate the average county_ec for each state. Send them to rooms to do this for themselves. Bring them back.
-
-
-```{r}
-x |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(avg_ec = mean(ec_county),
-            .by = state)
-```
-
-
-Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.
-
-Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
-
-Note the NA problem! Can fix either by adding na.rm to the function calls or putting drop_na() earlier in the pipe.
-
-## Session 3
-
-Add total state population to the calculation of state-level statistics. Send them to rooms to do this for themselves. Bring them back.
-
-
-```{r}
 x |> 
   drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county),
-            .by = state)
-```
-
-Show more interactive work, how you can add a new line to a pipe, hit command-return, check out the result, and keep working. For example, adding an arrange() step to this pipe to sort by population.
-
-## Session 4
-
-Show them the plot in #class-work. Have them start with just a simple scatter plot. And then add a fitted line. If they did not deal with missing data, they now have a warning message. How can we make that go away?
-
-Don't tell them the answers! Help them to Google things.
-
-## Session 5
-
-Not sure how long things will take. The purpose of this next section is to discuss why we might want a log axis and then how to make it. Once we make it, we want to think about the labels arguments. Again, don't just give them the answer. Show them how to google things like "How to format axis labels with numbers using ggplot?"
-
-
-## Session 6
-
-Make this plot. 
-
-```{r}
-x |> 
-  drop_na() |> 
-  mutate(state = str_replace(county_name, ".*, ", "")) |> 
-  summarise(pop_state = sum(pop2018),
-            avg_ec = mean(ec_county),
-            .by = state) |> 
-  ggplot(aes(x = pop_state, y = avg_ec)) +
-    geom_point() +
-    geom_smooth(method = "lm", formula = y ~ x, se = FALSE) +
-    scale_x_log10(labels = scales::comma_format()) +
-    labs(y = "Average County Economic Connectedness",
-         x = "State Population",
-         title = "Population and Economic Connectedness in US States",
-         subtitle = "Biggger states have counties with lower average economic connectedness.",
-         caption = "Data: Opportunity Insights") 
+  ggplot(aes(x = race, y = med_income, color = med_income)) +
+    geom_quasirandom(alpha = 0.5) + 
+    coord_flip() + 
+    theme_minimal(base_size = 13) + 
+    scale_color_viridis_c(guide = "none") + 
+    scale_y_continuous(labels = scales::label_dollar()) + 
+    labs(x = "Largest group in Census tract", 
+         y = "Median household income", 
+         title = "Household income distribution by largest racial/ethnic group", 
+         subtitle = "Census tracts, New York City", 
+         caption = "Data source: 2016-2020 ACS")
 ```
 
 

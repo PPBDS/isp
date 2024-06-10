@@ -3,19 +3,17 @@ title: "Day 4"
 author: "David Kane"
 ---
 
-
-
 ## Goal
 
 Key question to answer this week: What is the relationship between the plurality race of NYC census tracts and their median incomes?
 
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 
 
-For today, we are getting more comfortable with the Terminal and with file locations on our machines. 
+For today, we are getting more comfortable with the Terminal and with file locations on our machines. Keep in mind that environment variables in Windows are surrounded with %. That is, $R_HOME on Mac is %R_HOME% on Windows. Also, backward slash on Windows (forward slash on Mac) for directory separators on the path.
 
 By end of class, we should have the data downloaded. If we have time, we might start playing around with the data in Quarto. 
 
-Next class processes the data and starts the plotting.
+Next class processes the data and start the plotting.
 
 Final class finishes the plot and publishes it.
 
@@ -33,6 +31,8 @@ Send to rooms to create. If you succeeded while I was demonstrating, that is OK!
 
 ## Session 2
 
+Cold call: Did everyone in your group succeed?
+
 Go to: https://raw.githubusercontent.com/PPBDS/primer.data/master/data-raw/nyc_tracts.csv 
 
 Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which nyc_tracts.csv has been placed.
@@ -42,7 +42,12 @@ ls ~/Download/nyc*
 
 The second is useful if you have a lot of items in your Downloads folder.
 
-Note that you need different commands on Windows.
+Note that you need different commands on Windows. Or do you?
+
+
+## Session 3
+
+Cold call: Was everyone able to download the file and find where it was?
 
 But where will we place the file? We might just stick it in the top-level of our project. That is fine for simple projects. But for anything more complex, we want organization, which generally means a "data" directory, although you can call it what you want.
 
@@ -58,16 +63,16 @@ Once it is there, note that we have some more nagging from the Git pane. We coul
 
 Go to rooms and get the data into your projects. Help your friends.
 
-## Session 3
+## Session 4
 
 Start a new Quarto document. Render it. Get rid of the junk. 
 
 Add library(tidyverse).  Add in a label code option. Render and see how the set-up label is shown during knitting.
 
 ```{r}
-#| output: false
+#| message: false
 #| echo: false
-#| label: set-up
+#| label: setup
 library(tidyverse)
 ```
 
@@ -75,13 +80,11 @@ Back to rooms. Make sure everyone has done this. Start thinking about a plot. Di
 
 What about the code in which we read in the data. Do that first!
 
-## Session 4
+## Session 5
 
-Impossible to get this far. But here is the code for the graphic, in case you want to add it to the class-work. channel. 
+Impossible to get this far. But here is the code for the graphic, in case you want to add it to the #class-work channel. 
 
 Explain the distinction between just vomiting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
-
-
 
 If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
 

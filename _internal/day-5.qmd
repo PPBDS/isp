@@ -5,110 +5,81 @@ author: "David Kane"
 
 ## Goal
 
-Learn about forking by forking from my class repo from Monday, perhaps cleaned up. It includes the data and, probably, nothing else.
+Learn about forking by forking from my class repo from Monday, perhaps cleaned up. It includes the data and, probably, nothing else. Read in the data and explore it. Make some plots. What do students come up with? In the first week, we told students what sort of plots to make. Not today! 
 
+Distribute a survey, getting background information on students and some opinions.
 
+TFs: More and more the flow of class will be:
+
+  * I tell students to do X and send them to the rooms, mostly without showing them X.
+  * I bring them back and cold-call a students to describe what they did.
+  * I then (often quickly) show them what they should have done.
+  * I tell them to do Y and send them back to the rooms.
+  
+Your key role is occurs at this point. You might be tempted to help them with Y. After all, I just told them to do Y. They are confused! They need your help! Ignore the urge to help them with Y until you ensure that everyone in the group has X done correctly. That is most important. Leave no student behind! 
+
+Once everyone is caught up with X, let them try to work on Y on their own. If they complete Y before being called back by me, you should challenge them to do more. (You can always remind them to commit and push their work.) 
 
 ## Session 1
 
 Start with my repo from last class. Provide a tour.
 
-Show how to delete a repo from one of the examples last week. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
+Show how to delete a repo from the first class last week. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
 
-https://github.com/Bootcamp-June-2023/class-2023-06-12
-
-Show how to fork a repo from the class organization. Connect the forked repo (in your Github account) to a new R project on your computer. Send the breakout rooms so that students get started quickly on this work. They should:
-
-1) Delete one of last week's repos from their Github account.
-2) Delete the corresponding project from their computer.
-3) Fork and connect, and start loading up the data.
-
+Send to breakout rooms to delete repo from Day 1.
 
 ## Session 2
 
+Cold call: Did everyone in your group delete the repo?
 
+Go to the repo from Monday. 
+
+https://github.com/Bootcamp-June-2024/class-2024-06-10
+
+Fork it to my personal account.
+
+Connect the forked repo to a new R project on your computer. Send the breakout rooms so that students get started quickly on this work. They should:
+
+Instructions to put in #class-work:
+
+1) Delete one of last week's repos from your Github account.
+2) Delete the corresponding project from your computer.
+3) Fork and connect, and start loading up the data.
 
 ## Session 3
 
-Read in the new data. Create a new tibble called `x` with this data. All this is done in quarto. Make it look nice, which really means that it happens behind the scenes. `read_csv()` is a useful function. Hope you have done the Data import tutorial.
+Cold call: Did everyone remember to delete the project from your computer?
 
-## Session 4
+Start a Quarto document. Read in the data. Assign to an object `x`.
 
-Bring them back. They should have something like this.
+Render the document. No ugly warnings. I won't show them this, but it is what we are looking for.
 
 ```{r}
 #| echo: false
+#| label: setup
+library(tidyverse)
 
-x <- read_csv("data/social_capital_county.csv", show_col_types = FALSE) |> 
-  select(county_name, pop2018, ec_county)
+x <- read_csv("data/nyc_tracts.csv", show_col_types = FALSE)
 ```
 
-Explain execute:
-          echo: false
+## Session 4
 
-Is x the same as connectedness? How do you check? Go to the rooms and explore.
+Cold call: Walk me through what your group did.
+
+Cold call: Did anyone in your group remember to push to Github? If not, do so now, as a group. Don't forget to edit the .gitignore.
+
+Explore the data
+
+Instructions to put in #class-work:
+
+1) Use some of your favorite explore-the-data commands.
+2) Any missing data? 
+3) Any patterns in the missing data?
 
 ## Session 5
 
-Review some of our favorite exploration commands. print(), summary(), skimr(), slice_sample(). What is the deal with missing data? How can we use a pipe to get rid of it? How many rows are we losing? Any biases? Explore it more. Find your county!
+Cold call: What commands did you use to explore the data?
 
-Find something interesting, strange, funny, broken, whatever and then post your discovery in the #class-work Discord channel. Hope that they, for example, find the missing data problem. Find extreme values of population and economic connectedness.
-
-
-## Session 6
-
-Recall our question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
-
-First step: Create a new variable which is the state? Seems simple. Hard to do!
-
-Maybe ask ChatGPT? https://chat.openai.com/
-
-TFs should not give out this answer! Let the students work on it! Let them struggle! Point them to R4DS. Did they read the strings and regular expressions chapters? Did they do the assigned tutorials?
-
-```{r}
-x |> 
-  drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) 
-```
-
-
-
-
-## Session 7
-
-Highly unlikely to get to this, but . . .
-
-Calculate the state-level statistics. Send them to rooms to do this for themselves. Bring them back.
-
-
-```{r}
-x |> 
-  drop_na() |> 
-  mutate(state = str_replace(location, ".*, ", "")) |> 
-  summarise(pop_state = sum(population),
-            avg_ec = mean(connectedness),
-            .by = state)
-```
-
-
-Highlight how we often work two ways. First, render the entire document. Second (and much more common), interactively between the qmd and the console. Add a line to the pipe. Try it out. Look at the result. Add another line. Try it out.
-
-Point out the distinction between just having a pipe vomit out its results versus assigning the result of a pipe to some object and then printing that object (or using that object elsewhere) when wanted.
-
-
-## Session 8
-
-Impossible to get this far. But here is the code for the graphic, in case you want to add it to the class-work. channel. 
-
-Explain the distinction between just vomitting output right into the document (as we do here) and first assigning it to an object and then printing that output. Neither approach is always right! But, in general, we use the first approach when creating our plots. It is so handy!
-
-
-
-If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
-
-How might we make the plot so that there was a different panel for each state?
-
-
-
+Recall the difference between Console World and QMD World.
 
 

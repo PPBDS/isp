@@ -24,6 +24,8 @@ End of week 3, Github/Quarto Website using downloaded census data, perhaps with 
 
 * Update link in Data Project tutorial which goes to the spreadsheet students fill out.
 
+* Update link in Terminal for rtools.
+
 * Set up empty project for first class so your set up looks like student set up.
 
 * Be careful about forks. If you have students fork from repo class-2022-08-01, you can not then change the name of this tutorial to class-2022-08-02 and then have them fork from it again. The reason is that these are the same repo, but with a name change, and you can't fork twice from the same repo.
@@ -34,20 +36,43 @@ Confirm that everyone can see #staff channel and that their Discord display name
 
 Confirm that everyone has a sensible Zoom display name.
 
-Everyone (this year) should install the development version of tutorial.helpers with:
-
-remotes::install_github("PPBDS/tutorial.helpers")
-
-Thanks to Alan for pointing out that we need the development version. Make sure that your students do this.
-
-Anyone interested in Older breakout room?
+Anyone interested in Older breakout room? Younger room?
 
 We will be making extensive use of AI. I recommend the free version of ChatGPT. Unless you feel strongly, use this so students can do the same. But, if you are using a paid version of this, or another AI, that is fine to. Will be interesting to see if it is better.
 
 Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. Email him now (or as soon as you know) when you will be missing class.
 
+Show breakout room spreadsheet, including TF schedule sheet.
+
 
 ## Constructing Breakout Rooms
+
+The Head TFs are not assigned to breakout rooms. They, along with me, visit lots of rooms and/or cover for missing TFs.
+
+The breakout room spreadsheet should be organized with these columns:
+
+Room #, TF, name, email
+
+Each room should have X + 2 rows, where X is defined at the total number of students divided by the number of regular (not Head) TFs. It is OK that rows are blank. It does not matter how long the spreadsheet is since students only look at their rooms. It is very convenient that we have students' names and emails together. 
+
+The Room # is repeated across all rows. Under the TF column, there are just two rows. First row is TF name. Second row is TF email. This is repeated for each of the 3 (?) rooms that TFs start with. But the remaining X - 2 rows under TF are blank.
+
+Each TF has 3 rooms, all in order. With too many students, one might expand this to 4 or more rooms. But there is no need for it ever to be fewer than 3.
+
+In our initial interactions with students (maybe a form that they need to submit?), we ask them if they are young (<-15) or old (25>=). Grouping students by age is useful, I think. We also ask if there is a friend (give us the name and email) with whom they would like to be grouped. As long as we are doing a form, we should ask a couple of questions about background. Would it be useful to group by ability? Maybe?
+
+Assume each TF starts with 12 (or X) students on the first day. All are placed in the first room. (The 2nd and 3rd rooms are left empty.) This will be crowded, but there are so many messed up students, that it is OK. This also gives the TF a chance to clearly demonstrate how the course should be run. Tell someone to share their screen. If they are messed up somehow, switch to a different person. Ask another person to drive. If they are clueless, no worries! Just say, "No worries. John (new person), why don't you direct Sarah?" If John is clueless, switch immediately to a new person. After a few minures, have a different person share their screen. Choose a different driver. Never share your screen. Never waste time with people who are having weird difficulties.
+
+On Day 2, the TF herself edits the spreadsheet, assigning 6 (or X/2) students to her first two rooms. We leave the last room empty, for now. 
+
+After the first week (?), we make permanent assignments, potentially re-arranging students, including moving students to the third room. We want the smallest rooms possible, but only if we can expect at least 2 students to always be there. For example, the TF might (or might not) move things around, perhaps by taking the 4 weakest (or strongest) students and moving them to the third room. 
+
+Key: TFs run their own shows! They are in charge of their students and their rooms. They should do what they think best. But, some flexibility is always needed, not least when the Head TF needs to move students from one TF to another.
+
+## TF Schedule Tab
+
+The second spreadsheet tab on the breakout room spreadsheet goes to a tab which shows the TF attendance schedule. First column is TF name. Second column is TF room numbers. 3rd and succeeding columns are dates of classes. TFs indicate whether they are "Present" or "Out" for each day.
+
 
 Code for creating the class list:
 
@@ -60,14 +85,6 @@ x |>
   distinct(information_email, .keep_all = TRUE) |> 
   write_csv("~/Downloads/class.csv") -> y
   
-The spreadsheet should include both the name and email columns, the better to help everyone with names. I think I removed all the TFs. Sorry!  
-
-In general, we give each TF three rooms, in order. We assign up to 6 (or whatever number makes sense) students to each of the first two rooms. The third room is left empty. After the first week, the TF might (or might not) move things around, often by taking the 4 weakest (or strongest) students and moving them to the third room. 
-
-At least one TF, usually the head TF, is not assigned to any room. Their role is to replace any TFs who are absent on that day.
-
-Have students email/dm the head TF if they are younger or old, and then use that information to construct a couple of rooms.
-
 
 ## Week 1
 
@@ -128,11 +145,9 @@ This should be the last time you need to mess with this package.
 
 Use the default name for your HTML submissions, e.g., `rstudio-and-code_answers.html`
 
-5) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers. Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it.
+5) Sign up for free version of chatGPT (https://chatgpt.com/), or the equivalent.
 
-6) Sign up for free version of chatGPT (https://chatgpt.com/), or the equivalent.
-
-7) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+6) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
 ```
 remotes::install_github("PPBDS/r4ds.tutorials")
@@ -181,9 +196,7 @@ remove.packages("r4ds.tutorials")
 
 7) Start thinking about the topic for your final project. What are you interested in? Is there data about it?
 
-8) In the first class, we just worked from the Console. Today, we go "one level up" and work from a script within an R project. Tomorrow, we go one more level up, start with Github and work on Quarto document within an R project.
-
-
+8) In the first class, we just worked from the Console. Today, we go "one level up" and work from a Quarto document within an R project. 
 
 
 
@@ -191,51 +204,70 @@ remove.packages("r4ds.tutorials")
 
 #### Preceptor's Notes
 
+0) If you need to miss class, email Tejas and your TF. Missing class (on occasion) is OK! School, family and prom (!) come first. Not submitting your homework will cause me to remove you from the course.
 
-For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data. Use the #final-projects channel on Discord.
+1) Ask lots of questions on Discord. Other students benefit from both your question and the resulting answers. Answer lots of questions on Discord! Your fellow students (and I) appreciate it. Moreover, you only really understand something once you have taught it. See. Do. Teach.
 
-Goal today is to publish an interesting graphic relating population to economic connectedness across US counties.
+2) Thanks to Ethan, SriRitvik, Eric, Leo, Thomas S, Ethan K, Shyamali Sheth and others for participating on Discord!
 
+3) For picking final projects, ask yourself some questions: What topic are you most interested in? What do you follow on social media? What do you care about even though no one is forcing you to care about it? Tell us, and we can help you find relevant data. Use the #final-projects channel on Discord.
 
-#### TF Notes
+4) Before you start a new tutorial (but after you have finished/submitted other tutorials), run:
 
+remotes::install_github("PPBDS/r4ds.tutorials")
 
+5) In the first class, we just worked from the Console. On day 2, we went "one level up" and worked from a Quarto Document within an R project. Today, we go one more level up, start with Github.
+
+6) Goal today is to publish an interesting graphic relating population to economic connectedness across US counties. See the #class-work channel.
+
+7) You must catch up with all homework, including the three tutorials due for Monday's class, by midnight EDT on Sunday. 
+
+Read Chapters 5, 6, and 7 from R for Data Science (2e), and from the r4ds.tutorials package, complete the tutorials associated with the readings: “Data Tidying,” “Terminal,” and “Data Import.”
 
 
 ## Week 2
 
 Monday: Get the data downloaded and placed in a data directory.
 
-Wednesday: Fork the repo from Monday, read in the data and, hopefully, get as far as creating a new state variable.
+Wednesday: Fork the repo from Monday, read in the data. Explore and understand the data. Maybe make some rough plots.
 
-Thursday: Use the same project as Wednesday. Calculate the state-level statistics and make a nice plot. Publish it to Rpubs.
+Thursday: Use the same project as Wednesday. Make a nice plot. Publish it to Rpubs.
 
-See the daily scripts for more details. Key things this week are getting comfortable with rendering qmd, using Git/Github and then publishing the page to the web. All week is answering the question: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+See the daily scripts for more details. Key things this week are getting comfortable with rendering qmd, using Git/Github and then publishing the page to the web. 
 
 
 ### Day 4
 
-0) We will try out permanent breakout room assignments. See here: https://docs.google.com/spreadsheets/d/1fEYkLTTIQKPFeFhVJ3ifx9iDTrK454rFQVZG8hImUuw/. Find your room. Add your email address. If your name is not listed, add yourself to the room with the fewest students. Start with Room 5.
+Call me "Preceptor."
 
-1) Big thanks to those (including Joshua, Nick, Natalie and others) pointing our typos and errors in the tutorials, and to those helping out their classmates. Much appreciated.
+No eight week course does a better job of increasing your odds of getting the future you want.
 
-2) Whenever starting a new tutorial, please:
+0) Tell your TF and Tejas (not me) if you will be missing a class, need an extension on the assignments and so on. They are nice people! They will always say "Yes," but you need to tell/ask them.
+
+1) Big thanks to those (including Yesmine, Sophia Y, meow, Joshua, Nick, Natalie and others) pointing our typos and errors in the tutorials, and to those helping out their classmates. Much appreciated.
+
+2) New version of tutorial.tidycensus is available. Install it now:
+
+install_github("PPBDS/r4ds.tutorials")
+
+2) Whenever starting a new R4DS tutorial, please:
 
 install_github("PPBDS/r4ds.tutorials")
 
 Do it now! (Never hurts.) And restart R with Command-shift-0. Note that this is zero not the letter O.
 
-3) Key question this week: Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
 
-4) Key goal today is to practice some of the techniques you learned in the Terminal tutorial. You completed that right? If your on Windows, use https://www.geeksforgeeks.org/linux-vs-windows-commands/
+3) Key goal today is to practice some of the techniques you learned in the Terminal tutorial. You completed that right . . .
 
-5) See the #class-work channel for the data file which we will be downloading and the plot which I hope to get to. #announcements provides a link for the room assignments.
+4) File we will be using:
 
-6) Review assignments for this week. Several of the tutorials are unfinished. One is barely started. Just do whatever is there.
+https://raw.githubusercontent.com/PPBDS/primer.data/master/data-raw/nyc_tracts.csv 
 
-7) Final projects?
+5) This is sloppy. Stop doing it:
 
+Removing file(s) 'data-import_answers - aditya raut - Aditya Raut.html', 'data-import_answers - astrxr.html', 'data-import_answers - Ethan Koshy.html', 'data-tidying_answers - Ethan Koshy.html', 'data-tidying_answers - kushal kanuparthi.html', 'terminal_answers - Ivy S.html', 'terminal_answers - Kushagra Singh.html', 'terminal_answers - kushal kanuparthi.html', 'terminal_answers - Phanithan K(1).html' due to missing key variables.
 
+6) Make your Zoom and Discord display name the same thing as how you want to be addressed.
 
 ### Day 5
 

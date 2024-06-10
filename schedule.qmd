@@ -62,7 +62,7 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 ## Thursday
 
-**The tidycenus.tutorials are not yet complete. Don't start them yet.**
+**The tidycenus.tutorials are ready. You must install them with: `remotes::install_github("PPBDS/tidycensus.tutorials")`.**
 
 * Read chapter 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the associated tutorial: "Communication." 
 
