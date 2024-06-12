@@ -23,15 +23,19 @@ Don't forget to do things in the class organization repo, not your personal one.
 
 Start with a Github repo, named class-yyyy-mm-dd. Make sure it is public. Add a README. Connect it to RStudio.  
 
+## Session 2
+
+Cold call: Did everyone in your group succeed? Did you go on to start working on the data? Read the Preceptor's Notes!
+
 Check out the Git window. Note the nagging. 
 
 Edit the .gitignore but with *Rproj. Wild cards are handy! Note that the file name is red and has an asterisk, because we have not saved it. Show how nothing changes in the Git window until we save the file. Once we save it, the nagging about the Rproj ends, but we still need to commit .gitignore. Then we push.
 
-Send to rooms to create. If you succeeded while I was demonstrating, that is OK! Now help your classmates.
+Send to rooms to clean up. If you succeeded while I was demonstrating, that is OK! Now help your classmates.
 
 Also, do the installs mentioned in #precepters-notes.
 
-## Session 2
+## Session 3
 
 Cold call: Did everyone in your group succeed?
 
@@ -47,7 +51,7 @@ The second is useful if you have a lot of items in your Downloads folder.
 Note that you need different commands on Windows. Or do you?
 
 
-## Session 3
+## Session 4
 
 Cold call: Was everyone able to download the file and find where it was?
 
@@ -65,7 +69,7 @@ Once it is there, note that we have some more nagging from the Git pane. We coul
 
 Go to rooms and get the data into your projects. Help your friends.
 
-## Session 4
+## Session 5
 
 Cold call: Was everyone able to move the file to the project?
 
@@ -84,7 +88,7 @@ Back to rooms. Make sure everyone has done this. Start thinking about a plot. Di
 
 What about the code in which we read in the data. Do that first!
 
-## Session 5
+## Session 6
 
 Cold call: Walk me through the process of creating a new Quarto doc, with library(tidyverse).
 
