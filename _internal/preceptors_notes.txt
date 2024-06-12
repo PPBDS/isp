@@ -270,37 +270,41 @@ Removing file(s) 'data-import_answers - aditya raut - Aditya Raut.html', 'data-i
 
 ### Day 5
 
--1) Thanks to everyone (Alan Tao, Pranav C, Rishi S, vibha24, ricesucker2000, Pratham, and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
+1) Uhappy with your Zoom room? No worries! Not all students work well together. Email Tejas and your TF together and they will adjust for Thursday.
 
-0) Sign up for https://chat.openai.com/ now.
+2) Thanks to everyone (Rajeev, Dinesh Satyavolu, Leo, Sanaka, e_jesse, Sophia Y, Melody, Adhi, John Menzies, Aditya, Jacob, and others) for asking/answering questions on Discord. Much appreciated!
 
-1)  Always reinstall the tutorials before starting a new tutorial. It certain weird situations, it may be necessary to explicitly remove and then reinstall:
+3) "not trying to be grammar police just wanted to let you know" We need the grammar police! Thanks to everyone for pointing out errors in the tutorials. 
+
+4) "Nvm I figured it out" Tell us what you figured out! Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+
+5) "You can't copy text. but the way i did it was to take a screenshot and have gpt format the arguments for me." Yes!!! Use Ai every chance you get, anyway you can.
+
+6)  Always reinstall the tutorials before starting a new tutorial. It certain weird situations, it may be necessary to explicitly remove and then reinstall:
 
 remove.packages("r4ds.tutorials")
 remotes::install_github("PPBDS/r4ds.tutorials")
 
-2) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state?
+7) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.) See: https://ppbds.github.io/tutorial.helpers/articles/cloud.html
 
-3) Posit Cloud (https://posit.cloud/) is an option for people with computer problems. (Posit is the company behind RStudio.) 
+8) Let's learn how to delete a repo. Keep your Github account clean.
 
-4) Whenever you, after asking a question on Discord, figure something out, please edit/update your question with the correct answer.
+9) Let's learn how to fork a repo: 
 
-5) Let's learn how to delete a repo. Keep your Github account clean.
+https://github.com/Bootcamp-June-2024/nyc-census-tracts
 
-6) Let's learn how to fork a repo: 
-
-https://github.com/Bootcamp-June-2023/class-2023-06-12
-
-Connect this to a new RStudio project. Data science work often begins with a fork like this. Is there a relationship between the total population in a state and the average economic connectedness of counties in the state?
+Connect this to a new RStudio project. Data science work often begins with a fork like this. 
 
 
 
 ### Day 6
 
+Run a survey!
 
-1) Is there a relationship between the total population of a state and the average economic connectedness of counties in that state? See #class-work channel for my plot.
+0) Run /nick yourname to change your discord name in this server. (Thanks to Leo.)
 
-2) Final Project presentations (Demo Day) on Wednesday July 12.
+
+2) Data Project presentations (Demo Day) on Thursday June 27. 
 
 3) Call me "Preceptor."
 

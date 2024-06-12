@@ -5,6 +5,8 @@ author: "David Kane"
 
 ## Goal
 
+Make sure to practice the exact download procedure so that the file goes to the Downloads file, probably by going to this link: https://github.com/PPBDS/primer.data/blob/master/data-raw/nyc_tracts.csv and hitting the download button. Don't go to the actual raw data itself, which lives here: https://raw.githubusercontent.com/PPBDS/primer.data/master/data-raw/nyc_tracts.csv. The former will go to your Download folder. The latter, which is via your browser, will download where you tell it.
+
 Key question to answer this week: What is the relationship between the plurality race of NYC census tracts and their median incomes?
 
 Core purpose of this week is to get comfortable using our tools to answer simple data science questions. We want students to be comfortable with R/RStudio/Git/Github/Quarto. 
@@ -13,9 +15,9 @@ For today, we are getting more comfortable with the Terminal and with file locat
 
 By end of class, we should have the data downloaded. If we have time, we might start playing around with the data in Quarto. 
 
-Next class processes the data and start the plotting.
+Next class fork a new repo, and plot the data.
 
-Final class finishes the plot and publishes it.
+Final class does another data download and plot all in 60 minutes.
 
 ## Session 1
 
@@ -39,7 +41,7 @@ Also, do the installs mentioned in #precepters-notes.
 
 Cold call: Did everyone in your group succeed?
 
-Go to: https://raw.githubusercontent.com/PPBDS/primer.data/master/data-raw/nyc_tracts.csv 
+Go to: https://github.com/PPBDS/primer.data/blob/master/data-raw/nyc_tracts.csv
 
 Click on the download button to the right of the Raw button. Where is it now? Every computer is different! For most of you, there should be a Downloads folder in which nyc_tracts.csv has been placed.
 
@@ -92,7 +94,17 @@ What about the code in which we read in the data. Do that first!
 
 Cold call: Walk me through the process of creating a new Quarto doc, with library(tidyverse).
 
-If there is extra time, tell chatGPt about your data and ask it to suggest a cool looking plot. What does it come up with?
+Cold call: Did anyone in your group remember to push to Github? If not, do so now, as a group. Don't forget to edit the .gitignore.
+
+Explore the data
+
+Instructions to put in #class-work:
+
+1) Use some of your favorite explore-the-data commands.
+2) Any missing data? 
+3) Any patterns in the missing data?
+
+If a group thinks they are cool, ask them how many tracts in each county? Ask chatGPT for help! This is a hard question since you need to tease out the county name from the tract variable.
 
 
 

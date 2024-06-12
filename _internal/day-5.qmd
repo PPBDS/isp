@@ -5,9 +5,8 @@ author: "David Kane"
 
 ## Goal
 
-I need to create a new repo (not a renamed one) from the previous class which can be used for forking.
 
-Learn about forking by forking from my repo, a cleaned up version from Monday. It includes the data and, probably, nothing else. Read in the data and explore it. Make some plots. What do students come up with? In the first week, we told students what sort of plots to make. Not today! 
+Learn about forking by forking from my repo, a cleaned up version from Monday. (Or maybe just use this one: ) It includes the data and nothing else. Read in the data and explore it. Make some plots. What do students come up with? In the first week, we told students what sort of plots to make. Not today! 
 
 Distribute a survey, getting background information on students and some opinions.
 
@@ -22,25 +21,54 @@ Your key role is occurs at this point. You might be tempted to help them with Y.
 
 Once everyone is caught up with X, let them try to work on Y on their own. If they complete Y before being called back by me, you should challenge them to do more. (You can always remind them to commit and push their work.) 
 
+
+The plot we are making:
+
+```{r}
+#| label: plot
+
+library(tidyverse)
+library(ggbeeswarm)
+
+x <- read_csv("data/nyc_tracts.csv", show_col_types = FALSE)
+
+
+x |> 
+  drop_na() |> 
+  ggplot(aes(y = med_income, x = race, color = med_income)) +
+  geom_quasirandom(alpha = 0.5) + 
+  coord_flip() + 
+  theme_minimal(base_size = 13) + 
+  scale_color_viridis_c(guide = "none") + 
+  scale_y_continuous(labels = scales::label_dollar()) + 
+  labs(x = "Largest group in Census tract", 
+       y = "Median household income", 
+       title = "Household income distribution by largest racial/ethnic group", 
+       subtitle = "Census tracts, New York City", 
+       caption = "Data source: 2018-2022 ACS")
+  
+```
+
+
 ## Session 1
 
-Start with my repo from last class. Provide a tour.
+Talk about Github. Give a tour. Start at https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9. And there is the repo view: https://github.com/davidkane9?tab=repositories
 
-Show how to delete a repo from the first class last week. We don't keep all the repos we make. Show how, when you go to just https://github.com/ (and are logged in), you get one view of your account. To get a better view, you need your account name, like: https://github.com/davidkane9
+Find a repo to delete. (Make sure that there is one there!) Show how to delete.
 
-Send to breakout rooms to delete repo from Day 1.
+We don't keep all the repos we make. 
+
+Send to breakout rooms to delete repo from Day 3.
 
 ## Session 2
 
 Cold call: Did everyone in your group delete the repo?
 
-Go to the repo from Monday. 
+Go to repo which is like the one from Monday:
 
-https://github.com/Bootcamp-June-2024/class-2024-06-10
+https://github.com/Bootcamp-June-2024/nyc-census-tracts
 
-Fork it to my personal account.
-
-Connect the forked repo to a new R project on your computer. Send the breakout rooms so that students get started quickly on this work. They should:
+Fork it. Connect the forked repo to a new R project on your computer. Send the breakout rooms so that students get started quickly on this work. They should:
 
 Instructions to put in #class-work:
 
@@ -64,26 +92,30 @@ library(tidyverse)
 x <- read_csv("data/nyc_tracts.csv", show_col_types = FALSE)
 ```
 
+
 ## Session 4
 
-Cold call: Walk me through what your group did.
+Cold call: What did your group do?
 
-Cold call: Did anyone in your group remember to push to Github? If not, do so now, as a group. Don't forget to edit the .gitignore.
+Get x working.
 
-Explore the data
-
-Instructions to put in #class-work:
-
-1) Use some of your favorite explore-the-data commands.
-2) Any missing data? 
-3) Any patterns in the missing data?
-
-## Session 5
-
-Cold call: What commands did you use to explore the data?
+Cold call: What should I do to explore x?
 
 Recall the difference between Console World and QMD World.
 
+Instructions: Start to create the plot. Use a new code chunk.
+
+## Session 5
+
+Cold call: Did anyone in your group use chatGPT. Why not?
+
+Cold call: What did your group type?
+
+Cold call: Have you checked in your work to Github? Why not?
+
+## Session 6
+
+Finish the plot. Publish to Rpubs. Post link in #class-work.
 
 ## Extra Stuff
 
@@ -91,7 +123,6 @@ Explain the distinction between just vomiting output right into the document (as
 
 If there is time, consider assiging the plot to an object and then printing that object. If there is a lot of time (there won't be), consider saving the plot to permanent object and then loading that object. Note the Git implications of this approach. Mention that a script would be the natural tool for this approach, and that is especially useful if the plot takes a long time to build.
 
-How might we make the plot so that there was a different panel for each state?
 
 
 

@@ -45,7 +45,7 @@ We are only using data from a package: connectedness data from primer.data.  Use
 
 ### Week 2: Github/Rpubs using downloaded data
 
-Students must download and save their own copy of some Census data, which we give them via link to Github. At the end, they finish with another nice Rpubs plot, like the one in tidycensus book. 
+Students must download and save their own copy of some Census data, which we give them via link to Github. First day is the Terminal and messing with the data. Second day, create the beeswarm plot. Third day?
 
 ### Week 3: Github/Quarto Website using downloaded census data
 

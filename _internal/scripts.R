@@ -35,6 +35,7 @@ homework <- function(pattern = "."){
 
 
 
+
 assignments <- 
   c("getting-started",
     "introduction",
@@ -44,11 +45,16 @@ assignments <-
     "rstudio-and-github",
     "data-tidying",
     "terminal",
-    "data-import")
+    "data-import",
+    "getting-help",
+    "layers",
+    "exploratory-data-analysis")
 
 
-z |> filter(source %in% assignments) |> 
+z |> 
+  janitor::clean_names() |> 
+  filter(source %in% assignments) |> 
   mutate(source = factor(source, levels = assignments)) |> 
   group_by(source) |> 
-  summarize(avg = median(as.numeric(download_answers))) 
+  summarize(avg = median(as.numeric(download_answers)))
 
