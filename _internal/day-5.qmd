@@ -5,6 +5,8 @@ author: "David Kane"
 
 ## Goal
 
+Change this to Day 6. And Day 6 to Day 5.
+
 
 Learn about forking by forking from my repo, a cleaned up version from Monday. (Or maybe just use this one: ) It includes the data and nothing else. Read in the data and explore it. Make some plots. What do students come up with? In the first week, we told students what sort of plots to make. Not today! 
 

@@ -299,20 +299,19 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 ### Day 6
 
-Run a survey!
+0) You must catch up with all tutorials by Sunday at midnight, if you want to stay in the course. This includes those tutorials due Monday, especially Quarto. It is unfair to your classmates if you don't. 
 
-0) Run /nick yourname to change your discord name in this server. (Thanks to Leo.)
+1) We will be using the same data as earlier, but downloading it again from a new location. Go to #course-announcements channel.
 
+2) Run `/nick yourname` to change your Discord name in this server. (Thanks to Leo.)
 
-2) Data Project presentations (Demo Day) on Thursday June 27. 
+3) Data Project presentations (Demo Day) on Thursday June 27. Read more: https://bootcamp.davidkane.info/demo_day.html
 
-3) Call me "Preceptor."
+4) Figure out this weekend a topic for your Data Project, and at least one url with some data. You will need to share that with your classmates on Monday, although you can change your topic later. 
 
-4) Data Elixir (https://dataelixir.com/) and Data is Plural (https://www.data-is-plural.com/) are great sources for data. 
+5) Always reinstall, from Github, any tutorial package before starting a new tutorial.
 
-5) Always reinstall the r4ds.tutorials package before starting a new tutorial.
-
-6) Let's get to know each other better. Go to the breakout rooms and have everyone say where they are and how they found out about the course.
+6) "I was curious if I could get an extension on today's homework?" Don't ask me! Ask Tejas and your TF. They are in charge of extensions, attendance, et cetera.
 
 
 ## Week 3

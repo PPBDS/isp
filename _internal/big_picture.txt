@@ -1,5 +1,10 @@
 This document provides an overview of the course --- its structure, schedule and philosophy. 
 
+## Next Time
+
+* Switch days 5 and 6. Need to explore the Census data first, perhaps making a boxplot. Then, entire class needed for complex beeswarm plot.
+
+
 ## Key Ideas
 
 * Make stuff. Each week ends with the construction of something cool.

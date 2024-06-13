@@ -4,31 +4,45 @@ title: "Day 6"
 
 ## Goal
 
-Use project which they were working with last class to create a plot using the NYC data.
+Work with and understand Massachusetts Census tracks data. Make a simpler plot. This will become Day 5 next time, although with NYC data probably.
 
-```{r}
-#| echo: false
-#| message: false
-library(tidyverse)
-library(ggbeeswarm)
+## Session 1
 
-x <- read_csv("data/nyc_tracts.csv", show_col_types = FALSE)
+You are data scientists! How do you start a project? Github -> RStudio Project -> Download the data into the `data` directory -> Start a Quarto document -> Load the data.
 
-x |> 
-  drop_na() |> 
-  ggplot(aes(x = race, y = med_income, color = med_income)) +
-    geom_quasirandom(alpha = 0.5) + 
-    coord_flip() + 
-    theme_minimal(base_size = 13) + 
-    scale_color_viridis_c(guide = "none") + 
-    scale_y_continuous(labels = scales::label_dollar()) + 
-    labs(x = "Largest group in Census tract", 
-         y = "Median household income", 
-         title = "Household income distribution by largest racial/ethnic group", 
-         subtitle = "Census tracts, New York City", 
-         caption = "Data source: 2016-2020 ACS")
-```
+Of course, you have done this several times already. But we need to practice this procedure a dozen more times before the class is over. Practice makes perfect.
 
+## Session 2
+
+Cold call: Walk me through the initial stages.
+
+## Session 3
+
+Cold call: Finish up the initial steps.
+
+Did you edit the .gitignore? Did you push to Github? 
+
+Make sure that everyone in your group has done this.
+
+## Session 4
+
+Let's take a closer look at the data. (We should have done this yesterday.)
+
+What are some commands to look at a new data set? How about print(), summary(), slice_sample(n = 5), tail()? Maybe skimr::skim?
+
+What about doing these calculations for each group separately?
+
+What do the words in tract mean? How many counties are there in Massachusetts? Do we have data from all of them?
+
+## Session 5
+
+Cold call: What did you group do?
+
+Make a plot. Don't make it the same as yesterday! Do something different. Maybe a box-plot by race? Maybe a plot which shows a bar plot with the standard deviation for each race? Maybe a histogram of med_income, faceted by race? 
+
+## Session 6
+
+Cold call: How are things going?
 
 ## Session 7
 

@@ -80,6 +80,8 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Read chapters 12, 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors" and "Quarto" tutorials.
 
+* Come to class with the url for at least one data source you will be using for your Data Project.
+
 
 
 ## Wednesday 
@@ -88,7 +90,6 @@ Now that we know how to visualize data that is already clean, we need to learn h
 
 * Read the [Style Guide](https://ppbds.github.io/primer/style-guide.html). 
 
-* Determine the data source you will use for your final project. Don't come to class without one!
 
 ## Thursday 
 
