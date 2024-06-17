@@ -330,7 +330,7 @@ Breakout Rooms: https://shorturl.at/La73d
 
 0) Enter your data project topic and at least one url with relevant data now: https://shorturl.at/WEA6C
 
-1) Thanks to everyone (Adhi and Alan Cai (amazing patience from both!), Rajeev, Grant Quattlebaum, Ronit Dash, John Menzies, Deepak, alex, gsheth, and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
+1) Thanks to everyone (Adhi and Alan Cai (amazing patience from both!), Aedan, Rajeev, Grant Quattlebaum, Ronit Dash, John Menzies, Deepak, alex, gsheth, and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
 
 2) Kushagra Singh, Ronit Dash, Sharav Joshi: Please follow the instructions: https://discord.com/channels/1066524559240597595/1247676325880402045/1251707786602090506
 
@@ -338,9 +338,11 @@ Breakout Rooms: https://shorturl.at/La73d
 
 4) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
 
-4) "Ok I goosed around w the website name and hte title in the _quarto.yml file, then deleted the changes I made and re-tried the instructions in the tutorial and it somehow worked" Welcome to professional data science! 
+5) "Ok I goosed around w the website name and hte title in the _quarto.yml file, then deleted the changes I made and re-tried the instructions in the tutorial and it somehow worked" Welcome to professional data science! 
 
-5) "fixed it, but it really is super picky it is about formatting" So true!
+6) "fixed it, but it really is super picky it is about formatting" So true!
+
+7) Begin every project with AI!
 
 ### Day 8
 

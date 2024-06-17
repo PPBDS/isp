@@ -29,9 +29,17 @@ Make sure this works for everyone in your group. Extra time? Student 2 gives a t
 
 ## Session 3
 
-Open `index.qmd`. Add this code. We will follow a similar structure as we did with the tutorial, first doing everything in index.qmd, then pulling it apart into different files. But change the code to the state (and/or county) picked by whoever shares their screen next.
+Open `index.qmd`. Ask chatGPT this question. 
 
-If you are feeling ambitious, choose a different variable. Don't forget `load_variables()`.
+```
+I am using tidycensus and R. Give me code to download info about median household income for each census tract in Massachusetts.
+```
+
+But change the code to the state (and/or county) picked by whoever shares their screen next. And change the variable too!
+
+We will follow a similar structure as we did with the tutorial, first doing everything in index.qmd, then pulling it apart into different files. 
+
+
 
 ```{r}
 library(tidycensus)
