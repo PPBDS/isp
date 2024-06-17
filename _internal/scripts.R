@@ -24,11 +24,12 @@ homework <- function(pattern = "."){
   names <- sort(unique(ret_df$information_name))
     
   cat("\n")
-  cat(paste0("There are ", length(emails), " emails."))
+  cat(paste0("There are ", length(emails), " unique emails."))
   cat("\n")
   cat(paste(emails, collapse = ","))
   cat("\n\n")
-  cat(paste(names, collapse = " # "))
+  cat(paste0('"', paste(names, collapse = " # "), '"'))
+  
   
   return(ret_df)  
 }
@@ -48,7 +49,11 @@ assignments <-
     "data-import",
     "getting-help",
     "layers",
-    "exploratory-data-analysis")
+    "exploratory-data-analysis",
+    "communication",
+    "an-introduction-to-tidycensus",
+    "quarto-websites",
+    "logical-vectors")
 
 
 z |> 
@@ -56,7 +61,8 @@ z |>
   filter(source %in% assignments) |> 
   mutate(source = factor(source, levels = assignments)) |> 
   group_by(source) |> 
-  summarize(avg = median(as.numeric(download_answers)))
+  summarize(avg = median(as.numeric(download_answers)),
+            N = n())
 
 
 

@@ -318,7 +318,7 @@ Connect this to a new RStudio project. Data science work often begins with a for
 
 Las week, we started with nothing, created a project, downloaded some data, read in the data, did some wrangling, made a nice plot and put it on the web. Good stuff! 
 
-This week, we do it all again. In the next session, we should ensure that we do Census I for Monday. Then, this week's project builds a nice map of census data. 
+This week, we do it all again, but with a Quarto website. Not sure if we should try to do multiple websites, one each day. Or just do one. Or do three, but make them increasingly complex. Goal is to make it more likely that their projects go well.
 
 
 
@@ -326,18 +326,21 @@ This week, we do it all again. In the next session, we should ensure that we do 
 
 ### Day 7
 
-1) Thanks to everyone (Rishi S, Alan Tao, Alan Cai, vibha24, susuwatari, cindyqiao, satvik, Aryan, Pratham, Luit Deka  and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
+Breakout Rooms: https://shorturl.at/La73d
 
-2) Want to do a data science apprenticeship with me this summer? You now have enough background to do so, starting either now (while you take the course) or after the course ends. More details: https://davidkane.substack.com/p/data-science-apprenticeships
+0) Enter your data project topic and at least one url with relevant data now: https://shorturl.at/WEA6C
 
-3) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
+1) Thanks to everyone (Adhi and Alan Cai (amazing patience from both!), Rajeev, Grant Quattlebaum, Ronit Dash, John Menzies, Deepak, alex, gsheth, and others) for asking/answering questions on Discord. Much appreciated! Also, thanks to everyone for pointing out errors in the tutorials. 
 
-4) Discuss your ideas for projects. Look at what students have done in prior sessions: https://bootcamp.davidkane.info/projects.html
+2) Kushagra Singh, Ronit Dash, Sharav Joshi: Please follow the instructions: https://discord.com/channels/1066524559240597595/1247676325880402045/1251707786602090506
 
-5) Review schedule for this week: https://bootcamp.davidkane.info/schedule.html
+3) Want to do a data science apprenticeship with me this summer? You now have enough background to do so, starting either now (while you take the course) or after the course ends. More details: https://davidkane.substack.com/p/data-science-apprenticeships. This is only open to people with 30+ hours per week available -- in addition to the 10 you already spend in the course. Email me to discuss. Luit, Anish and Tongyan worked with me last summer. Feel free to ask them about the experience.
 
-Class Github: 
-Class website: 
+4) Happy Git and GitHub for the useR is an incredible resource: https://happygitwithr.com/. 
+
+4) "Ok I goosed around w the website name and hte title in the _quarto.yml file, then deleted the changes I made and re-tried the instructions in the tutorial and it somehow worked" Welcome to professional data science! 
+
+5) "fixed it, but it really is super picky it is about formatting" So true!
 
 ### Day 8
 

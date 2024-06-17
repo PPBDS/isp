@@ -4,6 +4,14 @@ This document provides an overview of the course --- its structure, schedule and
 
 * Switch days 5 and 6. Need to explore the Census data first, perhaps making a boxplot. Then, entire class needed for complex beeswarm plot.
 
+* Add another tidycensus tutorial or two, need to show at least some cool maps. Should do during week 2. R4DS tutorials can wait.
+
+* Standardize (either in a tutorial or as a spreadsheet) students submitting their data project ideas (and a URL) before class #7.
+
+* Consider just having two classes a week.
+
+* Adjust Demo Day description to make clear that students stay within a group formed by two TFs, with one TFs students in group A and the other in group B.
+
 
 ## Key Ideas
 

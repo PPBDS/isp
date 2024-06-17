@@ -20,7 +20,7 @@ Cold call: Walk me through the initial stages.
 
 Cold call: Finish up the initial steps.
 
-Did you edit the .gitignore? Did you push to Github? 
+Did you edit the .gitignore? Including the _files? Did you push to Github? 
 
 Make sure that everyone in your group has done this.
 
@@ -38,7 +38,36 @@ What do the words in tract mean? How many counties are there in Massachusetts? D
 
 Cold call: What did you group do?
 
-Make a plot. Don't make it the same as yesterday! Do something different. Maybe a box-plot by race? Maybe a plot which shows a bar plot with the standard deviation for each race? Maybe a histogram of med_income, faceted by race? 
+Make a plot. Don't make it the same as yesterday! Do something different. How about overlapping density plots? Maybe a box-plot by race? Maybe a plot which shows a bar plot with the standard deviation for each race? Maybe a histogram of med_income, faceted by race? 
+
+```{r}
+#| message: false
+#| echo: false
+#| label: setup
+
+library(tidyverse)
+
+x <- read_csv("~/Downloads/mass-tracts.csv", show_col_types = FALSE)
+```
+
+```{r}
+x |> 
+  mutate(race = factor(race, levels = c("Hispanic", "Black", 
+                                         "Asian", "White"))) |> 
+  ggplot(aes(x = med_income, fill = race)) +
+    geom_density(alpha = 0.5, adjust = 2) +
+    theme_minimal() +
+    scale_x_continuous(labels = scales::dollar_format()) +
+    theme(axis.text.y = element_blank()) +
+    labs(title = "Median Income for Massachusetts Census Tracts",
+         subtitle = "The richest tracts are White",
+         x = "Median Income",
+         y = NULL,
+         fill = "Race",
+         caption = "The race of each tract is determined by the most numerous racial group\n present in that tract. Data from the American Community Survey 2022.")
+```
+
+
 
 ## Session 6
 

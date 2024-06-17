@@ -6,7 +6,7 @@ title: "Procedures for Demo Day"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-These are the procedures we follow on "Demo Day" --- the last class of the course --- during which students present their final projects to an audience of their peers and guests. Demo Day is public. All are welcome.
+These are the procedures we follow on "Demo Day" during which students present their projects to an audience of their peers and guests. Demo Day is public. All are welcome. We have two Demo Days, the first midway through the course and the second on the last day.
 
 The only material you need for your presentation is a browser which can show both your project's webpage and your Github repo. We don't use Powerpoint or other nonsense. 
 
