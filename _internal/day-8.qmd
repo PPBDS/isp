@@ -4,7 +4,7 @@ execute:
   echo: false
 ---
 
-Make another website. Need to think more about what the topics should be, the better to push students toward interesting projects. I think that tidytext is interesting, but there is too much there for just a class. Maybe we should add a tutorial for that
+Make another website. Need to think more about what the topics should be, the better to push students toward interesting projects. I think that tidytext is interesting, but there is too much there for just a class. Maybe we should add a tutorial for that next year. If we did, then we should do an example from there for today's project.
 
 ## Session 1
 
@@ -14,6 +14,8 @@ Extra time? Take a tour through the data associated with one person's project. (
 
 
 ## Session 2
+
+Cold call: Tell me about your peer's project? Or your project!
 
 In the project, create a Quarto website. From the Terminal:
 
@@ -25,13 +27,14 @@ quarto preview
 
 Make sure this works for everyone in your group. Extra time? Student 2 gives a tour of her data.
 
-
 ## Session 3
+
+Cold call: Tell me about another project in your group.
 
 Open `index.qmd`. Ask chatGPT this question. 
 
 ```
-I am using tidycensus and R. Give me code to download info about median household income for each census tract in Massachusetts.
+I am using tidycensus and R. Give me code to download info about the percentage of people with bachelor degrees in census tracts in LA.
 ```
 
 But change the code to the state (and/or county) picked by whoever shares their screen next. And change the variable too!
@@ -43,21 +46,79 @@ We will follow a similar structure as we did with the tutorial, first doing ever
 ```{r}
 library(tidycensus)
 
-ma_income <- get_acs(
-  geography = "tract", 
-  variables = "B19013_001",
-  state = "MA", 
+x <- get_acs(
+  geography = "tract",
+  variables = "DP02_0068P",
   year = 2022,
+  state = "CA",
+  county = "Los Angeles",
   geometry = TRUE
 )
 
-plot(ma_income["estimate"])
 ```
 
-Make sure that this works for everyone.
-
+Make sure that this works for everyone. Take a look at the data. What do you see?
 
 ## Session 4
+
+Cold call: How did your group do?
+
+Ask ChatGPT:
+
+```
+I have a tibble x, which looks like this:
+
+x
+
+How can I use the leaflet package to make a nice graphic?
+```
+
+```{r}
+library(leaflet)
+
+pal <- colorNumeric(
+  palette = "YlOrRd",
+  domain = x$estimate,
+  na.color = "transparent"
+)
+
+# Create the leaflet map
+map <- leaflet(x) %>%
+  addTiles() %>%
+  addPolygons(
+    fillColor = ~pal(estimate),
+    weight = 1,
+    opacity = 1,
+    color = "white",
+    fillOpacity = 0.7,
+    highlightOptions = highlightOptions(
+      weight = 3,
+      color = "#666",
+      fillOpacity = 0.7,
+      bringToFront = TRUE
+    ),
+    label = ~paste0(NAME, "<br>", "Bachelor's Degree: ", estimate, "%"),
+    labelOptions = labelOptions(
+      style = list("font-weight" = "normal", padding = "3px 8px"),
+      textsize = "15px",
+      direction = "auto"
+    )
+  ) %>%
+  addLegend(
+    pal = pal,
+    values = ~estimate,
+    opacity = 0.7,
+    title = "Percentage with Bachelor's Degree",
+    position = "bottomright"
+  )
+
+# Print the map
+map
+```
+
+
+
+## Session 5
 
 Publish your website with:
 
@@ -65,7 +126,7 @@ quarto publish quarto-pub
 
 Make sure this works for everyone in your room.
 
-## Session 5
+## Session 6
 
 Clean up your website.
 
@@ -76,35 +137,6 @@ Clean up your website.
 2) Clean up the about.qmd, the title, and so on.
 
 3) This is the code I got when I just asked chatGPT:
-
-```
-I plot the data with:
-
-plot(ma_income["estimate"])
-
-How can I make this plot nicer, with a title, subtitle and so on. Format the legend to be in dollars.
-```
-
-```{r}
-ggplot(ma_income) +
-  geom_sf(aes(fill = estimate)) +
-  scale_fill_continuous(labels = scales::dollar) +  # Format the legend in dollars
-  labs(
-    title = "Median Household Income by Census Tract",
-    subtitle = "Massachusetts, 2022",
-    fill = "Income (USD)"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
-    plot.subtitle = element_text(hjust = 0.5, size = 14),
-    legend.title = element_text(size = 12),
-    legend.text = element_text(size = 10)
-  )
-```
-
-
-
 
 
 

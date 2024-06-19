@@ -348,28 +348,27 @@ Breakout Rooms: https://shorturl.at/La73d
 
 1) We have made some changes to the breakout rooms in order to adjust TF workload: https://shorturl.at/La73d. Big change is moving students in room 14 to room 4. Say Hello to Anish!
 
-2) Read the instructions for Demo Day: 
+2) Read the instructions for Demo Day: https://bootcamp.davidkane.info/demo_day.html
 
 Email your TF now (cc Tejas) to confirm that you will be there.
 
+3) If commands like `quarto preview` and `quarto publish` are giving you trouble, switch to Posit Cloud:  https://ppbds.github.io/tutorial.helpers/articles/cloud.html 
 
+4) Thanks to Iris Li, John Menzies, Alan Cai, Rajeev, Karam, Dinesh Satyavolu, Zephan, SriRitvik, and others for all their help on Discord. Much appreciated!
 
-2) If commands like `quarto preview` and `quarto publish` are giving you trouble, switch to Posit Cloud:  https://ppbds.github.io/tutorial.helpers/articles/cloud.html 
-
-1) Thanks to Iris Li, John Menzies, Alan Cai, Rajeev, Karam, Dinesh Satyavolu, Zephan, SriRitvik
-
-
-
-4) Please
+5) Please
 
 remotes::install_github("PPBDS/r4ds.tutorials")
 
-before you start the tutorial. Of course, you should do this before each tutorial, including tutorials from other packages like primer.tutorials and tidycensus.tutorials.
+before you start a new tutorial. Of course, you should do this before each tutorial, including tutorials from other packages like primer.tutorials and tidycensus.tutorials.
+
+6) Today, we will make another website, and create another map. We will try the leaflet package. You might need to install it.
+
+7) "I wanted to inform you all that I'm going to be on vacation for the week of June 24th and as a result will miss the presentation day for our final projects." A very professional email sent to me/Tejas and this student's TF. Well done! Family first!
 
 Class Github: 
 Class website: 
 
-6) "I wanted to inform you all that I'm going to be on vacation for the week of June 24th and as a result will miss the presentation day for our final projects." A very professional email sent to me/Tejas and this student's TF. Well done! Family first!
 
 ### Day 9
 
