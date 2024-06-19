@@ -1,70 +1,111 @@
 ---
-title: "Day 7"
+title: "Day 8"
 execute: 
   echo: false
 ---
 
+Make another website. Need to think more about what the topics should be, the better to push students toward interesting projects. I think that tidytext is interesting, but there is too much there for just a class. Maybe we should add a tutorial for that
 
+## Session 1
 
+Start up a data science project! That means, a new Github repo, connected to a new RStudio project on your computer, with appropriate changes made in your .gitignore and everything pushed to Github. Make sure everyone in your group is set up. 
 
+Extra time? Take a tour through the data associated with one person's project. (This is one time in which we allow the person who is sharing their screen to also do some talking.)
 
-## Sesssion 1
-
-Make sure everyone has a working qmd which reads in the data and creates an object x. Explore the data with our favorite commands. What do the variables mean? How do the variables map to the plot we are trying to create? If you have extra time, talk about the final project.
 
 ## Session 2
 
-How can we create the variables we need, which are a summary measure which shows, for each gender, the total proportion of names which end in i, for each year?
+In the project, create a Quarto website. From the Terminal:
 
-Let them struggle with this a bit!
+quarto create project website .
 
-```{r}
-x |> 
-  summarise(perc = sum(prop), .by = c(year, sex))
-```
+Remind yourself, from the tutorial, what the files mean/do. Preview the website:
+
+quarto preview
+
+Make sure this works for everyone in your group. Extra time? Student 2 gives a tour of her data.
 
 
 ## Session 3
 
-Start the interactive plotting process. I don't think that they have seen geom_area() before. Don't tell them this. Have them ask chatGpt or a similar too.
+Open `index.qmd`. Ask chatGPT this question. 
 
-https://chat.openai.com/share/5e7ad2f5-3c18-4699-9a1a-7776b8a34daf
+```
+I am using tidycensus and R. Give me code to download info about median household income for each census tract in Massachusetts.
+```
+
+But change the code to the state (and/or county) picked by whoever shares their screen next. And change the variable too!
+
+We will follow a similar structure as we did with the tutorial, first doing everything in index.qmd, then pulling it apart into different files. 
 
 
-Talk about all the things that are wrong with this plot and that we should fix, other than the obvious need for titles and axis labels.
 
 ```{r}
-x |> 
-  summarise(perc = sum(prop), .by = c(year, sex)) |> 
-  ggplot(aes(x = year, y = perc, fill = sex)) +
-    geom_area()
+library(tidycensus)
+
+ma_income <- get_acs(
+  geography = "tract", 
+  variables = "B19013_001",
+  state = "MA", 
+  year = 2022,
+  geometry = TRUE
+)
+
+plot(ma_income["estimate"])
+```
+
+Make sure that this works for everyone.
+
+
+## Session 4
+
+Publish your website with:
+
+quarto publish quarto-pub
+
+Make sure this works for everyone in your room.
+
+## Session 5
+
+Clean up your website.
+
+0) Put your download data in a script and just do it once.
+
+1) Make your plot nicer. There is obviously a lot that one might do.
+
+2) Clean up the about.qmd, the title, and so on.
+
+3) This is the code I got when I just asked chatGPT:
+
+```
+I plot the data with:
+
+plot(ma_income["estimate"])
+
+How can I make this plot nicer, with a title, subtitle and so on. Format the legend to be in dollars.
+```
+
+```{r}
+ggplot(ma_income) +
+  geom_sf(aes(fill = estimate)) +
+  scale_fill_continuous(labels = scales::dollar) +  # Format the legend in dollars
+  labs(
+    title = "Median Household Income by Census Tract",
+    subtitle = "Massachusetts, 2022",
+    fill = "Income (USD)"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 16, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5, size = 14),
+    legend.title = element_text(size = 12),
+    legend.text = element_text(size = 10)
+  )
 ```
 
 
-## Sesssion 5
 
-Make the plot look nice. There is more that could be done here. F/M should be Female/Male, and Male should be on top.
 
-```{r}
-x |> 
-  summarise(perc = sum(prop), .by = c(year, sex)) |> 
-  ggplot(aes(x = year, y = perc, fill = sex)) +
-    geom_area() +
-    scale_y_continuous(labels = scales::percent_format()) +
-    labs(title = 'Percentage of US Babies with Names Ending in "i"',
-         subtitle = "Boy names ending with i are steadily increasing",
-         x = "Year",
-         y = NULL,
-         caption = "Babynames R Package",
-         fill = "Sex") 
-  
-```
-
-## Sesssion 6
-
-Publish to Rpubs. Put link in class work.
-
-If you have time, write a paragraph which explains what is happening. Have you looked closely at the data?
 
 
 

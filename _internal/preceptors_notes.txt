@@ -346,16 +346,19 @@ Breakout Rooms: https://shorturl.at/La73d
 
 ### Day 8
 
-0) Make sure you complete the Quarto Websites (chapter 7) tutorial for Thursday class. We will be making a website in class tomorrow.
+1) We have made some changes to the breakout rooms in order to adjust TF workload: https://shorturl.at/La73d. Big change is moving students in room 14 to room 4. Say Hello to Anish!
 
-1) If you are using Posit Cloud, make sure to understand how it works and to set up everything before class.
+2) Read the instructions for Demo Day: 
 
-2) There are lots of CRAN packages which specialize in different types of data. Google is your friend! Examples:
+Email your TF now (cc Tejas) to confirm that you will be there.
 
-https://cran.r-project.org/web/packages/worldfootballR/index.html
-https://cran.r-project.org/web/packages/oce/index.html
 
-3) Lots of cool stuff at CRAN Task Views: https://cran.r-project.org/web/views/ 
+
+2) If commands like `quarto preview` and `quarto publish` are giving you trouble, switch to Posit Cloud:  https://ppbds.github.io/tutorial.helpers/articles/cloud.html 
+
+1) Thanks to Iris Li, John Menzies, Alan Cai, Rajeev, Karam, Dinesh Satyavolu, Zephan, SriRitvik
+
+
 
 4) Please
 
@@ -363,10 +366,10 @@ remotes::install_github("PPBDS/r4ds.tutorials")
 
 before you start the tutorial. Of course, you should do this before each tutorial, including tutorials from other packages like primer.tutorials and tidycensus.tutorials.
 
-5) Apologies that we are working on the tutorials now, but, as I mentioned at the start, we are making major changes in the course this session.
-
 Class Github: 
 Class website: 
+
+6) "I wanted to inform you all that I'm going to be on vacation for the week of June 24th and as a result will miss the presentation day for our final projects." A very professional email sent to me/Tejas and this student's TF. Well done! Family first!
 
 ### Day 9
 

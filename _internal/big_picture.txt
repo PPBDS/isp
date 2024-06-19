@@ -6,6 +6,8 @@ This document provides an overview of the course --- its structure, schedule and
 
 * Add another tidycensus tutorial or two, need to show at least some cool maps. Should do during week 2. R4DS tutorials can wait.
 
+* Add a tidytext tutorial, if only to set the groundwork for a class exercise in week 3.
+
 * Standardize (either in a tutorial or as a spreadsheet) students submitting their data project ideas (and a URL) before class #7.
 
 * Consider just having two classes a week.

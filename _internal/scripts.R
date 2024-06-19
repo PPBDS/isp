@@ -53,7 +53,9 @@ assignments <-
     "communication",
     "an-introduction-to-tidycensus",
     "quarto-websites",
-    "logical-vectors")
+    "logical-vectors",
+    "numbers",
+    "strings")
 
 
 z |> 
