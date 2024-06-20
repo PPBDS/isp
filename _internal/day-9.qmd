@@ -4,75 +4,189 @@ execute:
   echo: false
 ---
 
-Purpose of today's class is for each student to make a Quarto Website.
-
+Make another website. Need to think more about what the topics should be, the better to push students toward interesting projects. What other topic besides tidycensus and tidytext would be good for this purpose?
 
 ## Session 1
 
-Time to do some more data science. As always when starting a new project, we create a Github repo and connect it to an R project on our computer. Add *Rproj to the .gitignore. Commit and push. 
+Start up a data science project! That means, a new Github repo, connected to a new RStudio project on your computer, with appropriate changes made in your .gitignore and everything pushed to Github. Make sure everyone in your group is set up. 
 
-Talk about your final projects. Do you have data? Add a comment to the #final-projects Discord channel with your initial idea and, perhaps, some data links. Do that at some point during class today.
+Extra time? Take a tour through the data associated with one person's project. (This is one time in which we allow the person who is sharing their screen to also do some talking.)
 
-## Sesssion 2
 
-Add a data directory to your project. Download the data from Discord. Put the download in the data directory. It is OK if students do this with point-and-click rather than with Terminal commands. The important point is to give them practice. If you have more time, you can start up a quarto document and try to download the data.
+## Session 2
 
-## Sesssion 3
+Cold call: Tell me about your peer's project? Or your project!
 
-Create a quarto document with a set up code chunk to load Tidyverse and a clean up code chunk to load the data to x. Explore the data. Run x, glimpse(x), summary(x), x |> slice_sample(n = 5).
+In the project, create a Quarto website. From the Terminal:
 
-Figure out what n and prop mean. You would know if you did the tutorials!
+quarto create project website .
 
-Note how message tells you about the magic of show_col_types = FALSE.
+Remind yourself, from the tutorial, what the files mean/do. Preview the website:
+
+quarto preview
+
+Make sure this works for everyone in your group. Extra time? Student 2 gives a tour of her data.
+
+## Session 3
+
+Cold call: Tell me about another project in your group.
+
+Open `index.qmd`. Ask chatGPT this question. 
+
+```
+I am using R and the tidyverse. I want to use the gssr R package to work with general social survey data. Give me some code to make a cool plot.
+```
+
+You will probably need to install the gssr package with `remotes::install_github("kjhealy/gssr")`.
+
+
+We will follow a similar structure as we did with the tutorial, first doing everything in index.qmd, then pulling it apart into different files. 
+
+
 
 ```{r}
-#| echo: false
-#| message: false
-
+library(gssr)
 library(tidyverse)
+
+# Load the GSS data
+data(gss_all)
+
+# Filter the data for relevant variables and years
+gss_filtered <- gss_all %>%
+  filter(!is.na(satjob), !is.na(realinc), year >= 2000)
+
+# Create the plot
+ggplot(gss_filtered, aes(x = realinc, y = as.numeric(satjob))) +
+  geom_jitter(alpha = 0.5, width = 0.2, height = 0.2, color = "#56B4E9") +
+  geom_smooth(method = "lm", se = FALSE, color = "#E69F00", size = 1) +
+  facet_wrap(~ year, ncol = 3) +
+  scale_y_continuous(breaks = 1:4, labels = c("Very Dissatisfied", "A Little Dissatisfied", "Mod. Satisfied", "Very Satisfied")) +
+  labs(title = "Job Satisfaction vs. Income Over Time",
+       x = "Real Income",
+       y = "Job Satisfaction") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        strip.text = element_text(size = 12),
+        plot.title = element_text(size = 16, face = "bold"),
+        axis.title = element_text(size = 14))
+
+```
+
+Make sure that this works for everyone. Take a look at the data. What do you see?
+
+```{r}
+library(haven)
+
+gss_data <- gss_all %>%
+  mutate(
+    age = as.numeric(age),
+    educ = as.numeric(educ),
+    income = as.numeric(income)
+  )
+
+# Select relevant variables and filter out missing values
+gss_filtered <- gss_data %>%
+  select(age, educ, income) %>%
+  filter(!is.na(age) & !is.na(educ) & !is.na(income))
+
+# Create a plot: relationship between education and income across different age groups
+ggplot(gss_filtered, aes(x = educ, y = income, color = age)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "black", linetype = "dashed") +
+  scale_color_gradient(low = "blue", high = "red") +
+  labs(
+    title = "Relationship between Education and Income across Age Groups",
+    x = "Years of Education",
+    y = "Income",
+    color = "Age"
+  ) +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(size = 14, face = "bold"),
+    axis.title = element_text(size = 12),
+    legend.position = "bottom"
+  )
+```
+
+
+## Session 4
+
+Cold call: How did your group do?
+
+Ask ChatGPT:
+
+```
+I have a tibble x, which looks like this:
+
+x
+
+How can I use the leaflet package to make a nice graphic?
 ```
 
 ```{r}
-x <- read_csv(file = "data/i_names.csv", show_col_types = FALSE)
+library(leaflet)
+
+pal <- colorNumeric(
+  palette = "YlOrRd",
+  domain = x$estimate,
+  na.color = "transparent"
+)
+
+# Create the leaflet map
+map <- leaflet(x) %>%
+  addTiles() %>%
+  addPolygons(
+    fillColor = ~pal(estimate),
+    weight = 1,
+    opacity = 1,
+    color = "white",
+    fillOpacity = 0.7,
+    highlightOptions = highlightOptions(
+      weight = 3,
+      color = "#666",
+      fillOpacity = 0.7,
+      bringToFront = TRUE
+    ),
+    label = ~paste0(NAME, "<br>", "Bachelor's Degree: ", estimate, "%"),
+    labelOptions = labelOptions(
+      style = list("font-weight" = "normal", padding = "3px 8px"),
+      textsize = "15px",
+      direction = "auto"
+    )
+  ) %>%
+  addLegend(
+    pal = pal,
+    values = ~estimate,
+    opacity = 0.7,
+    title = "Percentage with Bachelor's Degree",
+    position = "bottomright"
+  )
+
+# Print the map
+map
 ```
 
-## Sesssion 4
-
-Start the interactive plotting process. I don't think that they have seen geom_area() before. Don't tell them this. Have them ask chatGpt or a similar too.
-
-https://chat.openai.com/share/5e7ad2f5-3c18-4699-9a1a-7776b8a34daf
-
-This might be too much to do in this session. Maybe we just try to get the summary() stuff correct. But, we certainly stop as this point.
-
-Talk about all the things that are wrong with this plot and that we should fix, other than the obvious need for titles and axis labels.
-
-```{r}
-x |> 
-  summarise(perc = sum(prop), .by = c(year, sex)) |> 
-  ggplot(aes(x = year, y = perc, fill = sex)) +
-    geom_area()
-```
 
 
-## Sesssion 5
+## Session 5
 
-Make the plot look nice
+Publish your website with:
 
-```{r}
-x |> 
-  summarise(perc = sum(prop), .by = c(year, sex)) |> 
-  ggplot(aes(x = year, y = perc, fill = sex)) +
-    geom_area() +
-    scale_y_continuous(labels = scales::percent_format()) +
-    labs(title = 'Percentage of US Babies with Names Ending in "i"',
-         subtitle = "Boy names end with i are steadily increasing",
-         x = "Year",
-         y = "Percent",
-         caption = "Babynames R Package",
-         fill = "Sex") 
-  
-```
+quarto publish quarto-pub
 
+Make sure this works for everyone in your room.
+
+## Session 6
+
+Clean up your website.
+
+0) Put your download data in a script and just do it once.
+
+1) Make your plot nicer. There is obviously a lot that one might do.
+
+2) Clean up the about.qmd, the title, and so on.
+
+3) This is the code I got when I just asked chatGPT:
 
 
 

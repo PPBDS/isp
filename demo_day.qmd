@@ -93,15 +93,15 @@ Even when you are visiting rooms, you (and/or your partner) need to keep an eye 
 
 Doesn't matter! Delays are bad. First, they prevent the student in the current room from starting their next presentation. After all, a new student has just entered the room. Making her wait is rude. Even worse, the presenting student in room N+1 is sitting their alone, waiting. She doesn't know what is happening. Why has no one come to her room? Delay is unfair to her as well.
 
-<!-- ## Advice for the Head TF -->
+## Advice for the Head TF
 
-<!-- The key is to figure out, as early in the class as possible, which TFs are responsible for which students. The sooner you have a good mapping of TFs-to-students, the easier everything is. Of course, you have to deal with students dropping the class and, sometimes, with TFs vanishing.  -->
+The key is to figure out, as early in the class as possible, which TFs are responsible for which students. The sooner you have a good mapping of TFs-to-students, the easier everything is. Of course, you have to deal with students dropping the class and, sometimes, with TFs vanishing.
 
-<!-- First, ask TFs if there is another TF who they want to partner with on Demo Day. The more that TFs would with other TFs whom they like, the better. -->
+First, ask TFs if there is another TF who they want to partner with on Demo Day. The more that TFs work with other TFs whom they like, the better. If there are an odd number of TFs, then one grouping with have three TFs.
 
-<!-- Second, clarify just how many students these two TFs have. That determines how many rooms they need to be assigned. If there is some uncertainty, assign this pair an extra room or two. The worst case is that those rooms remain unused. -->
+Second, clarify just how many students these two TFs have. That determines how many rooms they need to be assigned. If there is some uncertainty, assign this pair an extra room or two. The worst case is that those rooms remain unused.
 
-<!-- Third, set up the first draft of a public spreadsheet which specifies which block of rooms each TF pair is responsible for and which students are assigned to which rooms. Ask TFs to review the spreadsheet. Require students to find themselves in the spreadsheet and then post their room assignment to the #class-work channel. Also, require students to add "Confirmed" to the column next to their room assignments. (As always, make spreadsheets which never have more than one student in a given row.) -->
+Third, set up the first draft of a public spreadsheet which specifies which block of rooms each TF pair is responsible for and which students are assigned to which rooms. Ask TFs to review the spreadsheet. Require students to find themselves in the spreadsheet and then post their room assignment to the #class-work channel. Also, require students to add "Confirmed" to the column next to their room assignments. (As always, make spreadsheets which never have more than one student in a given row.)
 
 
 

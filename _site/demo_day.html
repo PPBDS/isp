@@ -200,11 +200,13 @@ ul.task-list li input[type="checkbox"] {
 <p>Whenever you visit a room, make sure that questions are being asked. The best way to do that is to ask a question yourself! You can also interrupt and tell the audience student to ask a question. Anything which gets the conversation going is a good idea.</p>
 <p>Even when you are visiting rooms, you (and/or your partner) need to keep an eye on all your other rooms, especially when we transition. Too often, a student will delay moving from room N to N+1. The reason for this delay is generally innocuous. They are just honestly intererested in the presentation! They have more questions!</p>
 <p>Doesn’t matter! Delays are bad. First, they prevent the student in the current room from starting their next presentation. After all, a new student has just entered the room. Making her wait is rude. Even worse, the presenting student in room N+1 is sitting their alone, waiting. She doesn’t know what is happening. Why has no one come to her room? Delay is unfair to her as well.</p>
-<!-- ## Advice for the Head TF -->
-<!-- The key is to figure out, as early in the class as possible, which TFs are responsible for which students. The sooner you have a good mapping of TFs-to-students, the easier everything is. Of course, you have to deal with students dropping the class and, sometimes, with TFs vanishing.  -->
-<!-- First, ask TFs if there is another TF who they want to partner with on Demo Day. The more that TFs would with other TFs whom they like, the better. -->
-<!-- Second, clarify just how many students these two TFs have. That determines how many rooms they need to be assigned. If there is some uncertainty, assign this pair an extra room or two. The worst case is that those rooms remain unused. -->
-<!-- Third, set up the first draft of a public spreadsheet which specifies which block of rooms each TF pair is responsible for and which students are assigned to which rooms. Ask TFs to review the spreadsheet. Require students to find themselves in the spreadsheet and then post their room assignment to the #class-work channel. Also, require students to add "Confirmed" to the column next to their room assignments. (As always, make spreadsheets which never have more than one student in a given row.) -->
+</section>
+<section id="advice-for-the-head-tf" class="level2">
+<h2 class="anchored" data-anchor-id="advice-for-the-head-tf">Advice for the Head TF</h2>
+<p>The key is to figure out, as early in the class as possible, which TFs are responsible for which students. The sooner you have a good mapping of TFs-to-students, the easier everything is. Of course, you have to deal with students dropping the class and, sometimes, with TFs vanishing.</p>
+<p>First, ask TFs if there is another TF who they want to partner with on Demo Day. The more that TFs work with other TFs whom they like, the better. If there are an odd number of TFs, then one grouping with have three TFs.</p>
+<p>Second, clarify just how many students these two TFs have. That determines how many rooms they need to be assigned. If there is some uncertainty, assign this pair an extra room or two. The worst case is that those rooms remain unused.</p>
+<p>Third, set up the first draft of a public spreadsheet which specifies which block of rooms each TF pair is responsible for and which students are assigned to which rooms. Ask TFs to review the spreadsheet. Require students to find themselves in the spreadsheet and then post their room assignment to the #class-work channel. Also, require students to add “Confirmed” to the column next to their room assignments. (As always, make spreadsheets which never have more than one student in a given row.)</p>
 
 
 </section>
@@ -291,7 +293,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/bootcamp\.davidkane\.info");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

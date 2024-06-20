@@ -372,17 +372,24 @@ Class website:
 
 ### Day 9
 
-0) Ask questions in public Discord. Don't DM me (except for personal issues). Why? I want other people to check out your approach. Maybe there is something for them to learn! I also want them to try to answer questions. That is how you really learn.
+1) Install the primer.tutorials package. I recently made some changes:
 
-1) If you are having trouble making quarto websites (see the discussion in the ⁠tutorials channel), you may want to update your Quarto installation. Go here to do so: https://quarto.org/docs/get-started/. Run `quarto -v` from the Terminal to see what version you are using.
+```
+remotes::install_github("PPBDS/primer.tutorials")
+```
 
-2) If you are using Windows, make sure that you installed RTools, as instructed in the Getting Started Chapter in the Primer.
+2) Due Sunday at midnight:
 
-3) Update all the tutorials, including all.primer and tidycensus.
+```
+Read chapter 17 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Dates and times” tutorial.
 
-remotes::install_github("PPBDS/r4ds.tutorials")
-remotes::install_github("PPBDS/all.primer.tutorials")
-remotes::install_github("PPBDS/tidycensus.tutorials")
+Complete the “Data Project” tutorial from the primer.tutorials package. Be sure to reinstall the package before starting the tutorial.
+```
+
+If you don't complete these on time, you will be removed from the course.
+
+3) Still having trouble with Quarto website? Most common mistake for Windows users is a failure to install Rtools as explained in the Getting Started chapter in the Primer.
+
 
 Class Github: 
 Class website: 

@@ -52,10 +52,13 @@ assignments <-
     "exploratory-data-analysis",
     "communication",
     "an-introduction-to-tidycensus",
-    "quarto-websites",
     "logical-vectors",
+    "quarto-websites",
     "numbers",
-    "strings")
+    "strings",
+    "regular-expressions",
+    "factors",
+    "dates-and-times")
 
 
 z |> 
@@ -67,5 +70,10 @@ z |>
             N = n())
 
 
-
+z |> 
+  select(information_name, information_email) |> 
+  distinct(information_name, .keep_all = TRUE) |> 
+  distinct(information_email, .keep_all = TRUE) |> 
+  arrange(information_name) |> 
+  write_csv("rough-list-demo-day.cvs")
 

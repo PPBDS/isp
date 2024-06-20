@@ -2,7 +2,7 @@ This document provides an overview of the course --- its structure, schedule and
 
 ## Next Time
 
-* Switch days 5 and 6. Need to explore the Census data first, perhaps making a boxplot. Then, entire class needed for complex beeswarm plot.
+* Switch days 5 and 6. Need to explore the Census data first, perhaps making a boxplot. Then, entire class session needed for a complex beeswarm plot.
 
 * Add another tidycensus tutorial or two, need to show at least some cool maps. Should do during week 2. R4DS tutorials can wait.
 
@@ -12,18 +12,18 @@ This document provides an overview of the course --- its structure, schedule and
 
 * Consider just having two classes a week.
 
-* Adjust Demo Day description to make clear that students stay within a group formed by two TFs, with one TFs students in group A and the other in group B.
-
 
 ## Key Ideas
 
-* Make stuff. Each week ends with the construction of something cool.
+* Make stuff. Each week (and many individual classes) ends with the construction of something cool.
 
 * Present stuff. Have a public presentation every four weeks.
 
 * Professional tools.
 
 * Use AI.
+
+* Keep careful track of students in the course. There is one spreadsheet in which the head TF keeps track of students in the class.
 
 ## Zoom Issues
 
@@ -62,9 +62,11 @@ We are only using data from a package: connectedness data from primer.data.  Use
 
 Students must download and save their own copy of some Census data, which we give them via link to Github. First day is the Terminal and messing with the data. Second day, create the beeswarm plot. Third day?
 
-### Week 3: Github/Quarto Website using downloaded census data
+### Week 3: Github/Quarto Website using different data sources
 
-Download data as part of a larger project. This is mimicing the process by which students create their data projects for next week. This should probably be Census. Create a Quarto website which will look alot like the data projects. If we use Census, we could encourage to pick different data items. Include several different scripts and saved images.
+Download data as part of a larger project. This is mimicing the process by which students create their data projects for next week. Create a Quarto website which will look alot like the data projects. If we use Census, we could encourage to pick different data items. We do this three times, even though finishing a whole website is tricky. Use a different data source each day, the better to introduce students to good data sources for their projects: one day (and maybe two days) is Census. One day might be text, if we have assigned them at least one tutorial from tidytext book.
+
+Include several different scripts and saved images.
 
 ### Week 4: Data Projects
 
