@@ -4,11 +4,19 @@ execute:
   echo: false
 ---
 
-Make another website. Need to think more about what the topics should be, the better to push students toward interesting projects. What other topic besides tidycensus and tidytext would be good for this purpose?
+Make another website. Need to think more about what the topics should be, the better to push students toward interesting projects. What other topic besides tidycensus and tidytext would be good for this purpose? In any event, let's experiment with a different approach today. Working with a random student's data.
 
 ## Session 1
 
-Start up a data science project! That means, a new Github repo, connected to a new RStudio project on your computer, with appropriate changes made in your .gitignore and everything pushed to Github. Make sure everyone in your group is set up. 
+Start up a data science project! That means, a new Github repo, connected to a new RStudio project on your computer, with appropriate changes made in your .gitignore and everything pushed to Github. 
+
+Have someone in your group volunteer to have their data used. (Must be relatively simple data.) Everyone downloads their own copy. This is what I am using (thanks Areeb!)
+
+```
+https://www.kaggle.com/datasets/jainaru/ranking-sports-by-skill-requirement
+```
+
+Make sure everyone in your group is set up. 
 
 Extra time? Take a tour through the data associated with one person's project. (This is one time in which we allow the person who is sharing their screen to also do some talking.)
 
@@ -27,87 +35,13 @@ quarto preview
 
 Make sure this works for everyone in your group. Extra time? Student 2 gives a tour of her data.
 
+Start editing the index.qmd.
+
 ## Session 3
 
 Cold call: Tell me about another project in your group.
 
-Open `index.qmd`. Ask chatGPT this question. 
-
-```
-I am using R and the tidyverse. I want to use the gssr R package to work with general social survey data. Give me some code to make a cool plot.
-```
-
-You will probably need to install the gssr package with `remotes::install_github("kjhealy/gssr")`.
-
-
-We will follow a similar structure as we did with the tutorial, first doing everything in index.qmd, then pulling it apart into different files. 
-
-
-
-```{r}
-library(gssr)
-library(tidyverse)
-
-# Load the GSS data
-data(gss_all)
-
-# Filter the data for relevant variables and years
-gss_filtered <- gss_all %>%
-  filter(!is.na(satjob), !is.na(realinc), year >= 2000)
-
-# Create the plot
-ggplot(gss_filtered, aes(x = realinc, y = as.numeric(satjob))) +
-  geom_jitter(alpha = 0.5, width = 0.2, height = 0.2, color = "#56B4E9") +
-  geom_smooth(method = "lm", se = FALSE, color = "#E69F00", size = 1) +
-  facet_wrap(~ year, ncol = 3) +
-  scale_y_continuous(breaks = 1:4, labels = c("Very Dissatisfied", "A Little Dissatisfied", "Mod. Satisfied", "Very Satisfied")) +
-  labs(title = "Job Satisfaction vs. Income Over Time",
-       x = "Real Income",
-       y = "Job Satisfaction") +
-  theme_minimal() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1),
-        strip.text = element_text(size = 12),
-        plot.title = element_text(size = 16, face = "bold"),
-        axis.title = element_text(size = 14))
-
-```
-
-Make sure that this works for everyone. Take a look at the data. What do you see?
-
-```{r}
-library(haven)
-
-gss_data <- gss_all %>%
-  mutate(
-    age = as.numeric(age),
-    educ = as.numeric(educ),
-    income = as.numeric(income)
-  )
-
-# Select relevant variables and filter out missing values
-gss_filtered <- gss_data %>%
-  select(age, educ, income) %>%
-  filter(!is.na(age) & !is.na(educ) & !is.na(income))
-
-# Create a plot: relationship between education and income across different age groups
-ggplot(gss_filtered, aes(x = educ, y = income, color = age)) +
-  geom_point(alpha = 0.6) +
-  geom_smooth(method = "lm", formula = y ~ x, se = FALSE, color = "black", linetype = "dashed") +
-  scale_color_gradient(low = "blue", high = "red") +
-  labs(
-    title = "Relationship between Education and Income across Age Groups",
-    x = "Years of Education",
-    y = "Income",
-    color = "Age"
-  ) +
-  theme_minimal() +
-  theme(
-    plot.title = element_text(size = 14, face = "bold"),
-    axis.title = element_text(size = 12),
-    legend.position = "bottom"
-  )
-```
-
+Edit the index.qmd to load some libraries and read in the data. Looks at the data! Poke around! Start thinking about a plot.
 
 ## Session 4
 
@@ -120,52 +54,14 @@ I have a tibble x, which looks like this:
 
 x
 
-How can I use the leaflet package to make a nice graphic?
+How can I make a nice graphic?
 ```
 
-```{r}
-library(leaflet)
+Use whatever text you like. If the plot doesn't look good. Tell AI what to change.
 
-pal <- colorNumeric(
-  palette = "YlOrRd",
-  domain = x$estimate,
-  na.color = "transparent"
-)
+Once the plot starts looking good, consider organizing things a bit better, as we did in the Quarto Websites tutorial. Perhaps clean_data.R script. Perhaps a make_graphic.R script. Maybe index.qmd only loads an image.
 
-# Create the leaflet map
-map <- leaflet(x) %>%
-  addTiles() %>%
-  addPolygons(
-    fillColor = ~pal(estimate),
-    weight = 1,
-    opacity = 1,
-    color = "white",
-    fillOpacity = 0.7,
-    highlightOptions = highlightOptions(
-      weight = 3,
-      color = "#666",
-      fillOpacity = 0.7,
-      bringToFront = TRUE
-    ),
-    label = ~paste0(NAME, "<br>", "Bachelor's Degree: ", estimate, "%"),
-    labelOptions = labelOptions(
-      style = list("font-weight" = "normal", padding = "3px 8px"),
-      textsize = "15px",
-      direction = "auto"
-    )
-  ) %>%
-  addLegend(
-    pal = pal,
-    values = ~estimate,
-    opacity = 0.7,
-    title = "Percentage with Bachelor's Degree",
-    position = "bottomright"
-  )
-
-# Print the map
-map
-```
-
+Clean up about.qmd.
 
 
 ## Session 5
@@ -185,11 +81,4 @@ Clean up your website.
 1) Make your plot nicer. There is obviously a lot that one might do.
 
 2) Clean up the about.qmd, the title, and so on.
-
-3) This is the code I got when I just asked chatGPT:
-
-
-
-
-
 

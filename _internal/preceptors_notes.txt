@@ -372,6 +372,8 @@ Class website:
 
 ### Day 9
 
+0) Each group will work with a dataset from a member of their breakout room. Think now about volunteering. Your data must be relatively simple to deal with. (This is a first time experiment for me!)
+
 1) Install the primer.tutorials package. I recently made some changes:
 
 ```
@@ -388,7 +390,12 @@ Complete the “Data Project” tutorial from the primer.tutorials package. Be s
 
 If you don't complete these on time, you will be removed from the course.
 
-3) Still having trouble with Quarto website? Most common mistake for Windows users is a failure to install Rtools as explained in the Getting Started chapter in the Primer.
+3) Still having trouble with Quarto website? Most common mistake for Windows users is a failure to install Rtools as explained in the Getting Started chapter in the Primer. Backup plan is to use Posit Cloud.
+
+4) You have read the Demo Day guide, right? https://bootcamp.davidkane.info/demo_day.html
+
+5) We will send out invitation emails to our friends and/or family on Monday in class. Decide who you want to invite. Make sure you have their email addresses. I urge you to invite your grandparents. They love you!
+
 
 
 Class Github: 
