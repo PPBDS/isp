@@ -1,0 +1,42 @@
+Thanks for volunteering to be a Head TF! 
+
+We should probably have one Head TF for each 50 students, which is about 5 TFs.
+
+
+## Constructing Breakout Rooms
+
+The Head TFs are not assigned to breakout rooms. They, along with me, visit lots of rooms and/or cover for missing TFs.
+
+The breakout room spreadsheet should be organized with these columns:
+
+Room #, TF, name, email
+
+Each room should have X + 2 rows, where X is defined at the total number of students divided by the number of regular (not Head) TFs. It is OK that rows are blank. It does not matter how long the spreadsheet is since students only look at their rooms. It is very convenient that we have students' names and emails together. 
+
+The Room # is repeated across all rows. Under the TF column, there are just two rows. First row is TF name. Second row is TF email. This is repeated for each of the 3 (?) rooms that TFs start with. But the remaining X - 2 rows under TF are blank.
+
+Each TF has 3 rooms, all in order. With too many students, one might expand this to 4 or more rooms. But there is no need for it ever to be fewer than 3.
+
+In our initial interactions with students (maybe a form that they need to submit?), we ask them if they are young (<-15) or old (25>=). Grouping students by age is useful, I think. We also ask if there is a friend (give us the name and email) with whom they would like to be grouped. As long as we are doing a form, we should ask a couple of questions about background. Would it be useful to group by ability? Maybe?
+
+Assume each TF starts with 12 (or X) students on the first day. All are placed in the first room. (The 2nd and 3rd rooms are left empty.) This will be crowded, but there are so many messed up students, that it is OK. This also gives the TF a chance to clearly demonstrate how the course should be run. Tell someone to share their screen. If they are messed up somehow, switch to a different person. Ask another person to drive. If they are clueless, no worries! Just say, "No worries. John (new person), why don't you direct Sarah?" If John is clueless, switch immediately to a new person. After a few minures, have a different person share their screen. Choose a different driver. Never share your screen. Never waste time with people who are having weird difficulties.
+
+On Day 2, the TF herself edits the spreadsheet, assigning 6 (or X/2) students to her first two rooms. We leave the last room empty, for now. 
+
+After the first week (?), we make permanent assignments, potentially re-arranging students, including moving students to the third room. We want the smallest rooms possible, but only if we can expect at least 2 students to always be there. For example, the TF might (or might not) move things around, perhaps by taking the 4 weakest (or strongest) students and moving them to the third room. 
+
+Key: TFs run their own shows! They are in charge of their students and their rooms. They should do what they think best. But, some flexibility is always needed, not least when the Head TF needs to move students from one TF to another.
+
+## TF Schedule Tab
+
+The second spreadsheet tab on the breakout room spreadsheet goes to a tab which shows the TF attendance schedule. First column is TF name. Second column is TF room numbers. 3rd and succeeding columns are dates of classes. TFs indicate whether they are "Present" or "Out" for each day.
+
+## Stuff Related to Demo Day
+
+The key is to figure out, as early in the class as possible, which TFs are responsible for which students. The sooner you have a good mapping of TFs-to-students, the easier everything is. Of course, you have to deal with students dropping the class and, sometimes, with TFs vanishing.
+
+First, ask TFs if there is another TF who they want to partner with on Demo Day. The more that TFs work with other TFs whom they like, the better. If there are an odd number of TFs, then one grouping with have three TFs.
+
+Second, clarify just how many students these two TFs have. That determines how many rooms they need to be assigned. If there is some uncertainty, assign this pair an extra room or two. The worst case is that those rooms remain unused.
+
+Third, set up the first draft of a public spreadsheet which specifies which block of rooms each TF pair is responsible for and which students are assigned to which rooms. Ask TFs to review the spreadsheet. Require students to find themselves in the spreadsheet and then post their room assignment to the #class-work channel. Also, require students to add "Confirmed" to the column next to their room assignments. (As always, make spreadsheets which never have more than one student in a given row.)
