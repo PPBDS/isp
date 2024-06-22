@@ -67,7 +67,8 @@ z |>
   mutate(source = factor(source, levels = assignments)) |> 
   group_by(source) |> 
   summarize(avg = median(as.numeric(download_answers)),
-            N = n())
+            N = n()) |> 
+  print(n = 30)
 
 
 z |> 

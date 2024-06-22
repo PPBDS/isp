@@ -1,5 +1,4 @@
 # This is a collection of Preceptor's Notes for use before class. 
-# Also included are notes to TFs. And notes for me? 
 # This is a text document because the contents need to be copy/pasted into Discord.
 
 
@@ -15,6 +14,8 @@ End of week 3, Github/Quarto Website using downloaded census data, perhaps with 
 ## Standard Preparations
 
 * Reach out to potential TFs. Check to see if any are interested in younger or older breakout rooms.
+
+* Make sure all TFs appear on the staff page, with their emails.
 
 * Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention https://github.com/Bootcamp-June-2024
 
@@ -34,6 +35,10 @@ End of week 3, Github/Quarto Website using downloaded census data, perhaps with 
 
 Confirm that everyone can see #staff channel and that their Discord display name is sensible.
 
+```
+\nick name-you-want
+```
+
 Confirm that everyone has a sensible Zoom display name.
 
 Anyone interested in Older breakout room? Younger room?
@@ -42,36 +47,9 @@ We will be making extensive use of AI. I recommend the free version of ChatGPT. 
 
 Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. Email him now (or as soon as you know) when you will be missing class.
 
-Show breakout room spreadsheet, including TF schedule sheet.
+Show breakout room spreadsheet, including TF schedule sheet. Fill it out now.
 
 
-## Constructing Breakout Rooms
-
-The Head TFs are not assigned to breakout rooms. They, along with me, visit lots of rooms and/or cover for missing TFs.
-
-The breakout room spreadsheet should be organized with these columns:
-
-Room #, TF, name, email
-
-Each room should have X + 2 rows, where X is defined at the total number of students divided by the number of regular (not Head) TFs. It is OK that rows are blank. It does not matter how long the spreadsheet is since students only look at their rooms. It is very convenient that we have students' names and emails together. 
-
-The Room # is repeated across all rows. Under the TF column, there are just two rows. First row is TF name. Second row is TF email. This is repeated for each of the 3 (?) rooms that TFs start with. But the remaining X - 2 rows under TF are blank.
-
-Each TF has 3 rooms, all in order. With too many students, one might expand this to 4 or more rooms. But there is no need for it ever to be fewer than 3.
-
-In our initial interactions with students (maybe a form that they need to submit?), we ask them if they are young (<-15) or old (25>=). Grouping students by age is useful, I think. We also ask if there is a friend (give us the name and email) with whom they would like to be grouped. As long as we are doing a form, we should ask a couple of questions about background. Would it be useful to group by ability? Maybe?
-
-Assume each TF starts with 12 (or X) students on the first day. All are placed in the first room. (The 2nd and 3rd rooms are left empty.) This will be crowded, but there are so many messed up students, that it is OK. This also gives the TF a chance to clearly demonstrate how the course should be run. Tell someone to share their screen. If they are messed up somehow, switch to a different person. Ask another person to drive. If they are clueless, no worries! Just say, "No worries. John (new person), why don't you direct Sarah?" If John is clueless, switch immediately to a new person. After a few minures, have a different person share their screen. Choose a different driver. Never share your screen. Never waste time with people who are having weird difficulties.
-
-On Day 2, the TF herself edits the spreadsheet, assigning 6 (or X/2) students to her first two rooms. We leave the last room empty, for now. 
-
-After the first week (?), we make permanent assignments, potentially re-arranging students, including moving students to the third room. We want the smallest rooms possible, but only if we can expect at least 2 students to always be there. For example, the TF might (or might not) move things around, perhaps by taking the 4 weakest (or strongest) students and moving them to the third room. 
-
-Key: TFs run their own shows! They are in charge of their students and their rooms. They should do what they think best. But, some flexibility is always needed, not least when the Head TF needs to move students from one TF to another.
-
-## TF Schedule Tab
-
-The second spreadsheet tab on the breakout room spreadsheet goes to a tab which shows the TF attendance schedule. First column is TF name. Second column is TF room numbers. 3rd and succeeding columns are dates of classes. TFs indicate whether they are "Present" or "Out" for each day.
 
 
 Code for creating the class list:
@@ -116,8 +94,6 @@ Preceptor
 
 ### Day 1
 
-#### Preceptor's Notes
-
 Call me "Preceptor."
 
 No eight week course does a better job of increasing your odds of getting the future you want.
@@ -154,25 +130,8 @@ remotes::install_github("PPBDS/r4ds.tutorials")
 ```
 
 
-
-#### TF Notes
-
-Check the spreadsheet for your students and breakout room assignments. We will need to move things around as TFs come and go. For example, Ethan will take over Nosa's rooms at some point.
-
-Identify a final project or two which you like and which you think are well done. It is OK if one of the projects is yours. Indeed, you should probably clean up your own final project just in case students want to look at it!
-
-You should do more talking/directing today than you will do later. Indeed, you are talking almost all the time when you are in a room today. (This is totally different from later in the session, when you might say very little, allowing students to run the breakout rooms themselves.) Tell a different student to share their screen each time. Tell another student to do the "driving," to tell the first student what to click on. 
-
-Make sure your display name in Zoom includes the name by which you want students to address you. Encourage students to do the same. 
-
-Make sure your display name in Discord is the name by which students know you, could be just your first name or your whole name. Should not be something opaque. Encourage studnets to do the same. 
-
-
-
-
 ### Day 2
 
-#### Preceptor's Notes
 
 0) Big thanks to e_jesse for pointing out typos/errors in the tutorials. Much appreciated!
 
@@ -202,7 +161,6 @@ remove.packages("r4ds.tutorials")
 
 ### Day 3
 
-#### Preceptor's Notes
 
 0) If you need to miss class, email Tejas and your TF. Missing class (on occasion) is OK! School, family and prom (!) come first. Not submitting your homework will cause me to remove you from the course.
 
@@ -396,11 +354,9 @@ If you don't complete these on time, you will be removed from the course.
 
 5) We will send out invitation emails to our friends and/or family on Monday in class. Decide who you want to invite. Make sure you have their email addresses. I urge you to invite your grandparents. They love you!
 
-
-
-Class Github: 
 Class website: 
-
+Class Github: 
+AI Log:
 
 ## Week 4
 
@@ -412,119 +368,6 @@ Whole thing worked very well last time. It is really good to make them comfortab
 
 
 ### Day 10
-
--1) Students in Room 6 (normally) should move to Room 5 for today.
-
-0) Thanks to shah nawaz, cindyqiao, Gaurinath Subash, Nick, vibha24, Rishi S, susuwatari and others for doing such a great job on Discord. Much appreciated! 
-
-1) What is the causal effect of male age on female age across US counties? Think about the units, outcomes, covariates and (sometimes) treatments. What are the potential outcomes? Go to breakout rooms, share a screen, and write down some answers. Everyone write. I will call on students at random when we come back to the main room.
-
-2) Let's make a website, and hope it works this time!
-
-3) Some useful download code:
-
-```
-library(tidycensus)
-x <- get_decennial(geography = "county", 
-                   variables = c(population = "P001001", 
-                                 med_age_male = "P013002", 
-                                 med_age_female = "P013003"), 
-                   year = 2010, 
-                   output = "wide")
-```
-
-
-
-4) Create a scatter plot which of male median ages versus female median ages across US counties.
-
-
-Class Github: 
-Class website: 
-
-### Day 11
-
-0) Always start a data science project the same way: New Repo -> New R project -> New Quarto Document.
-
-What is the average causal effect of hearing Spanish on attitudes toward immigration among students in this class? 
-
-Write down the units, treatments and outcomes. What does the Preceptor Table look like?
-
-1) Grab the latest version of the **primer.data** package, if necessary
-
-remotes::install_github("PPBDS/primer.data")
-
-But you probably already have the latest version.
-
-2) Explore the `trains` tibble. This was used extensively in Chapter 1 of the Primer. Focus on the key variables: treatment, att_end, gender. Look at the help page.
-
-3) Recall some of the key concepts to doing data science: https://ppbds.github.io/primer/glossary.html
-
-Class Github: 
-
-
-### Day 12
-
-0) We need the rstanarm library. If `library(rstanarm)` fails, you need to install it with `install.packages("rstanarm")`.
-
-1) Fill out your name and email on this spreadsheet: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU/edit?usp=sharing
-
-Later in class, we will give you time to add information about your final project.
-
-2) You must have your final project data ready to work with for Monday's class!
-
-3) Consider the schedule: https://bootcamp.davidkane.info/schedule.html
-
-4) The Key Concept page is very handy: https://ppbds.github.io/primer/glossary.html
-
-
-
-## Week 5
-
-For next time, note that you can only get through Wisdom and Justice in the first day this week. There is so much to talk about! But, given that, you can start with a model which has two indepedent varables even though the students will not have officially read that chapter until Wednesday.
-
-Also, the pulse ~ gender and age seems like a good model to work with. Or maybe save that addition for Thursday. That is, on Wednesday, just do Courage and Temperance for the model pulse ~ 1 model we started with. Then, on Thursday do a full model from start to finish, sort of an example for their final projects. 
-
-
-### Day 13
-
-0) Make sure you have filled out this spreadsheet: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
-
-1) Is your outcome really an "outcome?" It must be a variable, some column in the data which you propose to use. It must be possible to explain/predict using some other variables (the covariates) in the data you have. Most of the current outcomes are not outcomes . . . Example: "NBA Best Starting Lineup based on 2022-23 Stats" is not an outcome.
-
-2) Once you have a model which uses the variables you have to model/forecast the outcome, then you can use that model to answer all sorts of interesting questions. For example, if you have a measure of basketball skill (as an outcome) which can be modeled as a function of covariates, then you can use that model to predict/explain skill in the future. Such a model could be used to, for example, predict the 5 best players next year.
-
-3) It is often a good idea to start with an interestingd data set (in an area in which you are interested) rather than start with a question and then look for data to answer that question. Most questions do not have data available for answering them! But every data set generates interesting questions to answer. 
-
-4) An example source: https://fivethirtyeight-r.netlify.app/. Another source: https://vincentarelbundock.github.io/Rdatasets/articles/data.html. Pick any data set and outcome variable NOW!
-
-5) Use `nhanes` tibble from **primer.data** to answer this question: What is the difference in pulse rate between two randomly selected female students in this class? 
-
-6) Start a data science project. Repo -> Project -> Quarto. Load up nhanes tibble from the primer.data package. Explore the data, especially pulse and gender.
-
-### Day 14
-
-0) Make sure that you have an outcome variable and a data set: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
-
-1) Before class tomorrow, add a link to the Proof of Fit section demonstrating that you have used your data and your outcome variable to fit a model.
-
-2) You proof-of-fitted-model should look something like: https://rpubs.com/dkane/example
-
-3) Today, we dive into Courage and Temperance, picking up where we left off on Monday.
-
-Class Github:
-
-
-### Day 15
-
-
-
-
-## Week 6
-
-This week is all about making Demo Day a success.
-
-
-### Day 1
 
 1) Check out the final projects: https://docs.google.com/spreadsheets/d/1kcbtBdRiSOq4ZuEIs032XNxB9O7GndCBSEMWzJlZuhc Add your material, even just your name, if you have not already. We need to know who is presenting.
 
@@ -551,19 +394,72 @@ No worries if you can't make it!
 
 5) Make sure you have as many lines of comments as you have lines of code. There is no better way to distinguish between student and professional code than by looking at the comments.
 
-### TF Notes
+Class website: 
+Class Github: 
+AI Log:
 
-Goal is to help students have a succesful final project. We do this by both helping them directly but also be highlighting cool stuff in other students' projects. After all, if student A is making interesting use of animation, there is still time for student B to add animation to his final project. 
+### Day 11
 
-The culture of data science is one that encourages inspiration from other data scientists!
 
-Make sure to point out errors in following the Style Guide. Tell students to read it!
 
-Tell students to write comments. In fact, spend 10 minutes during your breakout room having all students add comments. And then walk through those comments, giving feedback.
+Class website: 
+Class Github: 
+AI Log:
 
-Discuss students' 5 sentence summaries. Focus on the takeaway point. What is the one sentence which they hope viewers will take away from their project?
+### Day 12
 
-Review the submissions to the spreadsheet. Several are not following the instructions. Ensure that they do. 
+Class website: 
+Class Github: 
+AI Log:
+
+
+## Week 5
+
+For next time, note that you can only get through Wisdom and Justice in the first day this week. There is so much to talk about! But, given that, you can start with a model which has two indepedent varables even though the students will not have officially read that chapter until Wednesday.
+
+Also, the pulse ~ gender and age seems like a good model to work with. Or maybe save that addition for Thursday. That is, on Wednesday, just do Courage and Temperance for the model pulse ~ 1 model we started with. Then, on Thursday do a full model from start to finish, sort of an example for their final projects. 
+
+
+### Day 13
+
+0) Make sure you have filled out this spreadsheet: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
+
+1) Is your outcome really an "outcome?" It must be a variable, some column in the data which you propose to use. It must be possible to explain/predict using some other variables (the covariates) in the data you have. Most of the current outcomes are not outcomes . . . Example: "NBA Best Starting Lineup based on 2022-23 Stats" is not an outcome.
+
+2) Once you have a model which uses the variables you have to model/forecast the outcome, then you can use that model to answer all sorts of interesting questions. For example, if you have a measure of basketball skill (as an outcome) which can be modeled as a function of covariates, then you can use that model to predict/explain skill in the future. Such a model could be used to, for example, predict the 5 best players next year.
+
+3) It is often a good idea to start with an interestingd data set (in an area in which you are interested) rather than start with a question and then look for data to answer that question. Most questions do not have data available for answering them! But every data set generates interesting questions to answer. 
+
+4) An example source: https://fivethirtyeight-r.netlify.app/. Another source: https://vincentarelbundock.github.io/Rdatasets/articles/data.html. Pick any data set and outcome variable NOW!
+
+5) Use `nhanes` tibble from **primer.data** to answer this question: What is the difference in pulse rate between two randomly selected female students in this class? 
+
+6) Start a data science project. Repo -> Project -> Quarto. Load up nhanes tibble from the primer.data package. Explore the data, especially pulse and gender.
+
+Class website: 
+Class Github: 
+AI Log:
+
+### Day 14
+
+0) Make sure that you have an outcome variable and a data set: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
+
+1) Before class tomorrow, add a link to the Proof of Fit section demonstrating that you have used your data and your outcome variable to fit a model.
+
+2) You proof-of-fitted-model should look something like: https://rpubs.com/dkane/example
+
+3) Today, we dive into Courage and Temperance, picking up where we left off on Monday.
+
+Class Github:
+
+
+### Day 15
+
+
+
+
+## Week 6
+
 
 
 ### Day 2
@@ -597,8 +493,4 @@ We will be done by 9:00 PM. If you would like to go in the first batch, please e
 
 https://docs.google.com/spreadsheets/d/1c_QJHWnJHcFH2jlgLEbyAgjKhfQBgji7WOeOTy_1qe8
 
-#### TFs
 
-Make sure that you travel in reverse room numerical order. (I prefer that you move in the opposite order to the students so that you are with different students each time.) That is, if you start in room 3, then you move to room 2 next, and so on.
-
-It is your job to ensure that each presentation is interactive. It is boring for everyone involved if the presenting students just talks and talks. No one is listening! And they know it! Instead, it is up to you to ensure that everyone (and you) ask lots of questions. The presenter should never talk for more than 30 seconds straight.
