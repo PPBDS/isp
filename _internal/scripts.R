@@ -58,7 +58,9 @@ assignments <-
     "strings",
     "regular-expressions",
     "factors",
-    "dates-and-times")
+    "dates-and-times",
+    "data-project",
+    "missing-values")
 
 
 z |> 
@@ -66,7 +68,7 @@ z |>
   filter(source %in% assignments) |> 
   mutate(source = factor(source, levels = assignments)) |> 
   group_by(source) |> 
-  summarize(avg = median(as.numeric(download_answers)),
+  summarize(minutes = median(as.numeric(download_answers)),
             N = n()) |> 
   print(n = 30)
 

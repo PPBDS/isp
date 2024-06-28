@@ -46,6 +46,8 @@ Most importantly: ASK LOTS OF QUESTIONS!
 
 The only material you need for your presentation is a browser which can show both your project's webpage and your Github repo. We don't use Powerpoint or other nonsense.
 
+Enlarge the image of your project so that the font is large enough for your (older) viewers to read the title, legend and so on. Test how it looks beforehand.
+
 Planning is important. Make sure that your TF knows your plans. For example, if a family event prevents you from attending Demo Day, let your TF know as soon as possible. Otherwise, you make her planning much more difficult.
 
 The delicate dance of Demo Day depends on everyone doing their part. You need to show up on time. Otherwise, things get very confusing. If a last-minute emergency arises, email your TF, the head TF and Preceptor as soon as you know that you won't be there.

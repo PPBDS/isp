@@ -1,3 +1,11 @@
+# TF Advice
+
+
+Motto: Always tell. Never ask.
+
+That is, do not ask "Who wants to share their screen?" Instead, say "Joe, please share your screen." This class is serious and we have no time for dawdling. Also, you are in charge. Also, this helps to ensure that everyone shares their screen, and dives, the same amount.
+
+Anyway, tell someone to share their screen. If they are messed up somehow, switch to a different person. Tell another person to drive. If they are clueless, no worries! Just say, "No worries. John (new person), please direct Sarah." If John is clueless, switch immediately to a new person. After a few minutes, have a different person share their screen. Choose a different driver. Never share your screen. Never waste time with people who are having weird difficulties.
 
 
 ## Class 1
@@ -20,19 +28,9 @@ Make sure your display name in Discord is the name by which students know you, c
 
 ## Monday Class before Demo Day
 
-Goal is to help students have a succesful final project. We do this by both helping them directly but also be highlighting cool stuff in other students' projects. After all, if student A is making interesting use of animation, there is still time for student B to add animation to his final project. 
 
-The culture of data science is one that encourages inspiration from other data scientists!
 
-Make sure to point out errors in following the Style Guide. Tell students to read it!
-
-Tell students to write comments. In fact, spend 10 minutes during your breakout room having all students add comments. And then walk through those comments, giving feedback.
-
-Discuss students' 4 sentence summaries. Focus on the takeaway point. What is the one sentence which they hope viewers will take away from their project?
-
-Review the submissions to the spreadsheet. Several are not following the instructions. Ensure that they do. 
-
-## Demo Day
+## During Demo Day
 
 Make sure that you travel in reverse room numerical order. (I prefer that you move in the opposite order to the students so that you are with different students each time.) That is, if you start in room 3, then you move to room 2 next, and so on.
 
@@ -61,3 +59,7 @@ Whenever you visit a room, make sure that questions are being asked. The best wa
 Even when you are visiting rooms, you (and/or your partner) need to keep an eye on all your other rooms, especially when we transition. Too often, a student will delay moving from room N to N+1. The reason for this delay is generally innocuous. They are just honestly intererested in the presentation! They have more questions!
 
 Doesn't matter! Delays are bad. First, they prevent the student in the current room from starting their next presentation. After all, a new student has just entered the room. Making her wait is rude. Even worse, the presenting student in room N+1 is sitting their alone, waiting. She doesn't know what is happening. Why has no one come to her room? Delay is unfair to her as well.
+
+Pay especially close attention to the highest number breakout room. Too often, the listening student in this room isn't paying attention and, instead of moving to the lowest room number at the next switch, he just moves up again, either into an unused room or, even worse, into a room associated with a different TF pair. If this happens, you need to visit that room, interrupt things immediately, and tell your student where he should go.
+
+Of course, even better is to prevent this from happening by monitoring the highest room closely. Indeed, this can be a good room to go to toward the end of a presentation, if only to remind the listening student to move to start, instead of to room N+1.

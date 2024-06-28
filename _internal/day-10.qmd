@@ -2,109 +2,51 @@
 title: "Day 10"
 ---
 
-## Next Time
+## Goal
 
-Material this week will be used in week 3 next time, but we need to cut out all the causal effect stuff.
+Set the stage for a successful Demo Day.
 
-## Scene 0
+Try the "Broadcast Voice" to chat room button. Confirm that it will be usable for Demo Day.
 
-What is the causal effect of male median age in a US county on female median age?
+## TF Advice
 
-Send to rooms to discuss. Point out Chapter 1. Point out Key Concepts. Someone shares a screen. Others dictate to them. But everyone write down something. I will call on people.
+Goal is to help students have a successful project. We do this by both helping them directly but also by highlighting cool stuff in other students' projects. After all, if student A is making interesting use of animation, there is still time for student B to add animation to his project. 
 
-## Scene 1: Make Website
+The culture of data science is one that encourages inspiration from other data scientists!
 
-Follow the same steps as in the Quarto Websites tutorial to build a new website from scratch.
+Make sure to point out errors in following the Style Guide. Tell students to read it!
 
-* `File -> New Project... -> New Directory -> Quarto Website`
+Tell students to write code comments. In fact, spend 10 minutes during your breakout room having all students add comments. And then walk through those comments, giving feedback. Key paragraph: https://ppbds.github.io/primer/style-guide.html#comments
 
-* Name the project `median-age`. Then `Create Project`.
+Discuss students' 4 sentence summaries. Focus on the takeaway point. What is the one sentence which they hope viewers will walk away with?
 
-* Make sure to check the git box.
-
-Send them to the rooms to make sure everyone can do this. If they can, talk about final project ideas. Anyone doing census data? Highly recommended.
-
-## Scene 2: Publish Website
-
-* Take a tour of some of the files in the File pane. 
-
-* Edit the `title` in `_quarto.yml` to be something like "Cool Project Name". 
-
-* Edit the title in `about.qmd` to "About Me" and add a sentence about me.
-
-* `quarto publish quarto-pub` the project. Note the need to hit return twice. You might need to sign up if you haven't completed the Quarto Websites tutorial.
-
-* Take a look at your cool website!
-
-Send to rooms.
-
-## Scene 3: Git/Github
-
-* Time to save our work in case our computer blows up.
-
-* Load the usethis library. Lots of cool stuff! Check out the Happy Git with R book.
-
-* Check out all the files! Try `git log`. Still, haven't done anything with Github yet.
-
-* Edit the .gitignore to ensure that only files you want to push to the web are pushed. Of course, this isn't quite correct, since the initial versions are pushed.
-
-* Run: `usethis::use_github()`. Does this change anything in our directory? Not sure! Don't see any files changed. Run `git log` to check.
-
-* Could do all these working with git from the Terminal, but it is much harder.
-
-* Change the about.qmd page. Render. Commit and push. But that does not change the website!
-
-* `quarto publish quarto-pub` again.
-
-## Scene 4: Download data
-
-* Edit the `index.qmd`. Discuss why it is named "index." 
-
-* Insert this code:
-
-```{r}
-library(tidycensus)
-x <- get_decennial(geography = "county", 
-                   variables = c(population = "P001001", 
-                                 med_age_male = "P013002", 
-                                 med_age_female = "P013003"), 
-                   year = 2010, 
-                   output = "wide") 
-
-summary(x)
-```
-
-Examine the data!
-
-Render `quarto publish quarto-pub`. Now we are cooking with gas! Don't need the `quarto-pub` any longer, I think.
-
-* Create a scatter plot of median age male versus female.
-
-## Scene 5: Make a Plot
+Review the submissions to the spreadsheet. Several are not following the instructions. Ensure that they do. 
 
 
-```{r}
-library(tidyverse)
+## Session 1
+
+Go to breakout rooms. One student volunteers to share their project. She shares her screen. She reads her paragraph. (Presumably, she hasn't memorized it yet. For Demo Day, it should be memorized.) She explains the key plot in no more than a paragraph/
+
+And that is all! We don't let her prattle on. We take control. At that point, you share your screen. You open her project. You give a guided tour, including your thoughts. You highlight any place in which she failed to follow the instructions.
+
+Obviously, you have more than one room. So, you might visit both rooms quickly at the beginning. You stay in one, and encourage students to offer comments in the second. Then you switch.
+
+## Session 2
+
+Go to breakout rooms and each person in the group sends the invitation email to someone, cc'ing Tejas and your TF. Once everyone has done this, another person gives a tour of their project.
 
 
-x |> 
-  ggplot(aes(x = med_age_male, y = med_age_female)) +
-    geom_point() +
-    labs(title = "Median Ages of Men and Women Across US Counties",
-         subtitle = "Why are some counties so far off the line?",
-         x = "Median Age of Men",
-         y = "Median Age of Women")
-```
+## Session 3
 
+Tell students to confirm/deny whether or not they are attending demo day. Point them to the room assignment spreadsheet. Try to confirm everything. Make note of students that are still problematic. Email them. Move them to the last rooms in your grouping. That is the easiest place from which to just delete them.
 
-* Clean up code with set up chunk, data chunk and plotting chunk. Note that we may split these into separate files later.
+Make the edits which you can right after class. Email Tejas to discuss problem cases. By default, just kick people out. If they did not fill out the data project sheet then, by default, they are out. They can still stay in the course.
 
-* Show how to clean up the appearance of the website with, for example, `echo: false` and `message: false`.
+## Session 4
 
-* Publish final version. Place link to website into #class-work.
+Go to breakout rooms. Everyone pulls up their code. Everyone starts adding comments. You rotate who is sharing their screen. Someone always is. But everyone is adding their own comments. Highlight the paragraphs in the Style Guide which describes good comments.
 
-* Discuss causal effects. What is the causal effect of male age on female age? Answer: Nonsensical question! No causation without manipulation! And it is very hard to think about how we might manipulate the median age of men. Or is it? What happens in a county if we ship in lots of older or younger men? You will certainly change the median age of men! Will anything happen to the median age of women? Whatever that is, the difference between that potential outcome and the potential outcome of doing nothing is a measure of the causal effect of . . . shipping men of a certain age into a county.
+## Session 5
 
-
-
+Later sessions just feature more students showing their work, as in session 1. With luck, everyone will get a chance to go.
 

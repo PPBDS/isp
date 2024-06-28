@@ -186,7 +186,7 @@
     "href": "demo_day.html#advice-for-students",
     "title": "Procedures for Demo Day",
     "section": "Advice for Students",
-    "text": "Advice for Students\nThe only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nPlanning is important. Make sure that your TF knows your plans. For example, if a family event prevents you from attending Demo Day, let your TF know as soon as possible. Otherwise, you make her planning much more difficult.\nThe delicate dance of Demo Day depends on everyone doing their part. You need to show up on time. Otherwise, things get very confusing. If a last-minute emergency arises, email your TF, the head TF and Preceptor as soon as you know that you won’t be there.\nIn addition to presenting, you will also be attending presentations by several classmates. Be an engaged listener! Act toward them as you hope they will act toward you.\nMost importantly: ASK LOTS OF QUESTIONS!\n\nWhen Presenting\nHave fun! Demo Day is a joyful occasion. Your (natural) nervousness is unwarranted. Everyone wants you to succeed. Share your screen the entire time. Always start on your project home page. Give your opening paragraph. Pause to see if anyone has any questions. If they don’t, spend another paragraph explaining the details of your main graphic. Pause again. Questions are fun, but you have to give people a chance to ask them.\nWhen pausing, use the “Take a sip of water” technique. Stop talking. Imagine that you are reaching for a class of water, lifting it up, taking a sip, and putting it back down. Only after that can you assume that there are no questions.\nSadly, you will sometimes be stuck with an audience too shy to ask questions. That is OK! One of the things you are learning in this class is how to handle different sorts of audiences. To handle a shy audience, you need to have prepared ahead of time 5 minutes worth of things to talk about. This can, and should, include a tour of your Github repository,\n\n\nWhen Listening\nAlways allow the student you are listening to to give their opening paragraph, perhaps even allowing them a second paragraph to explain their plot. But then interrupt them and ask a question. It doesn’t really matter what the question is. The important thing is to get a conversation going, to demonstrate to guests that questions are welcome and that they should ask some as well.\nCheck out the spreadsheet to see which student presentations you are likely to attend. Check out the webpages and Github repos ahead of time. Learn a little bit about the topics. The more you prepare, the better an audience you will be.\nNote that, in larger classes, we (conceptually) break up Demo Day into smaller collections which combine the students from two TFs together. This means that your TF (and her students) and another TF (and his students) are together, only using breakout rooms 22 to 28, for example. This means that, after you listen to the presentation in room 28, you don’t go to 29, you go back to room 22, the first room assigned to your collection."
+    "text": "Advice for Students\nThe only material you need for your presentation is a browser which can show both your project’s webpage and your Github repo. We don’t use Powerpoint or other nonsense.\nEnlarge the image of your project so that the font is large enough for your (older) viewers to read the title, legend and so on. Test how it looks beforehand.\nPlanning is important. Make sure that your TF knows your plans. For example, if a family event prevents you from attending Demo Day, let your TF know as soon as possible. Otherwise, you make her planning much more difficult.\nThe delicate dance of Demo Day depends on everyone doing their part. You need to show up on time. Otherwise, things get very confusing. If a last-minute emergency arises, email your TF, the head TF and Preceptor as soon as you know that you won’t be there.\nIn addition to presenting, you will also be attending presentations by several classmates. Be an engaged listener! Act toward them as you hope they will act toward you.\nMost importantly: ASK LOTS OF QUESTIONS!\n\nWhen Presenting\nHave fun! Demo Day is a joyful occasion. Your (natural) nervousness is unwarranted. Everyone wants you to succeed. Share your screen the entire time. Always start on your project home page. Give your opening paragraph. Pause to see if anyone has any questions. If they don’t, spend another paragraph explaining the details of your main graphic. Pause again. Questions are fun, but you have to give people a chance to ask them.\nWhen pausing, use the “Take a sip of water” technique. Stop talking. Imagine that you are reaching for a class of water, lifting it up, taking a sip, and putting it back down. Only after that can you assume that there are no questions.\nSadly, you will sometimes be stuck with an audience too shy to ask questions. That is OK! One of the things you are learning in this class is how to handle different sorts of audiences. To handle a shy audience, you need to have prepared ahead of time 5 minutes worth of things to talk about. This can, and should, include a tour of your Github repository,\n\n\nWhen Listening\nAlways allow the student you are listening to to give their opening paragraph, perhaps even allowing them a second paragraph to explain their plot. But then interrupt them and ask a question. It doesn’t really matter what the question is. The important thing is to get a conversation going, to demonstrate to guests that questions are welcome and that they should ask some as well.\nCheck out the spreadsheet to see which student presentations you are likely to attend. Check out the webpages and Github repos ahead of time. Learn a little bit about the topics. The more you prepare, the better an audience you will be.\nNote that, in larger classes, we (conceptually) break up Demo Day into smaller collections which combine the students from two TFs together. This means that your TF (and her students) and another TF (and his students) are together, only using breakout rooms 22 to 28, for example. This means that, after you listen to the presentation in room 28, you don’t go to 29, you go back to room 22, the first room assigned to your collection."
   },
   {
     "objectID": "index.html",
@@ -242,7 +242,7 @@
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\nThe tidycenus.tutorials are ready. You must install them with: remotes::install_github(\"PPBDS/tidycensus.tutorials\").\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete the “An introduction to tidycensus” tutorial."
+    "text": "Thursday\n\nRead chapter 11 from R for Data Science (2e), and from the r4ds.tutorials package, complete the associated tutorial: “Communication.”\nRead chapters 1 and 2 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete the “An introduction to tidycensus” tutorial."
   },
   {
     "objectID": "schedule.html#monday-2",
@@ -284,77 +284,77 @@
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.\n\nTWO WEEK VACATION: July 1 through July 14\nThe primer.tutorials are not yet complete. Don’t start them yet."
+    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.\n\nTWO WEEK VACATION: July 1 through July 14\nThe primer.tutorials are not yet complete. Don’t start them until July 10. The r4ds.tutorials are ready now."
   },
   {
     "objectID": "schedule.html#monday-4",
     "href": "schedule.html#monday-4",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapter 1 Rubin Causal Model, focusing on sections 1.1, 1.2 and 1.4, and Chapter 2 Probability, focusing on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete “Rubin Causal Model - Overview” and “Probability - Overview” tutorials.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
+    "text": "Monday\n\nRead Chapter 1 Rubin Causal Model, focusing on sections 1.1, 1.2 and 1.4, and Chapter 2 Probability, focusing on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete “Rubin Causal Model” and “Probability” tutorials.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-4",
     "href": "schedule.html#wednesday-4",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 3: Sampling and, from the primer.tutorials package, complete the “Sampling - Overview” tutorial.\nRead chapter 20 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Spreadsheets” tutorial."
+    "text": "Wednesday\n\nRead Chapter 3: Sampling and, from the primer.tutorials package, complete the “Sampling” tutorial.\nRead chapter 20 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Spreadsheets” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-4",
     "href": "schedule.html#thursday-4",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Key Concepts.\nRead Chapter 4: Models and, from the primer.tutorials package, complete the “Models - Overview” tutorial.\nRead chapter 21 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Databases” tutorial."
+    "text": "Thursday\n\nRead Chapter 4: Models and, from the primer.tutorials package, complete the “Models” tutorial.\nRead chapter 21 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Databases” tutorial."
   },
   {
     "objectID": "schedule.html#monday-5",
     "href": "schedule.html#monday-5",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapter 5: Two Parameters and, from the primer.tutorials package, complete the “Two Parameters - Overview” tutorial.\nRead chapter 22 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Arrow” tutorial."
+    "text": "Monday\n\nRead Key Concepts.\nRead Chapter 5: Two Parameters and, from the primer.tutorials package, complete the “Two Parameters” tutorial.\nRead chapter 22 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Arrow” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-5",
     "href": "schedule.html#wednesday-5",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 6: Three Parameters: Causal and, from the primer.tutorials package, complete the “Three Parameters: Causal - Overview” tutorial.\nRead chapter 23 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Hierarchical data” tutorial."
+    "text": "Wednesday\n\nRead Chapter 6: Three Parameters: Causal and, from the primer.tutorials package, complete the “Three Parameters: Causal” tutorial.\nRead chapter 23 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Hierarchical data” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-5",
     "href": "schedule.html#thursday-5",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 7: Mechanics and, from the primer.tutorials package, complete the “Mechanics - Overview” tutorial.\nRead chapter 24 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Web scraping” tutorial."
+    "text": "Thursday\n\nRead Chapter 7: Mechanics and, from the primer.tutorials package, complete the “Mechanics” tutorial.\nRead chapter 24 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Web scraping” tutorial."
   },
   {
     "objectID": "schedule.html#monday-6",
     "href": "schedule.html#monday-6",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapter 8: Four Parameters: Categorical and, from the primer.tutorials package, complete the “Four Parameters: Categorical - Overview” tutorial.\nRead chapter 25 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Functions” tutorial."
+    "text": "Monday\n\nRead Chapter 8: Four Parameters: Categorical and, from the primer.tutorials package, complete the “Four Parameters: Categorical” tutorial.\nRead chapter 25 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Functions” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-6",
     "href": "schedule.html#wednesday-6",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nRead Chapter 9: Five Parameters and, from the primer.tutorials package, complete the “Five Parameters - Overview” tutorial.\nRead chapter 26 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Iteration” tutorial."
+    "text": "Wednesday\n\nRead Chapter 9: Five Parameters and, from the primer.tutorials package, complete the “Five Parameters” tutorial.\nRead chapter 26 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Iteration” tutorial."
   },
   {
     "objectID": "schedule.html#thursday-6",
     "href": "schedule.html#thursday-6",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nRead Chapter 10: N Parameters and, from the primer.tutorials package, complete the “N Parameters - Overview” tutorial.\nRead chapter 27 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “A field guide to base R” tutorial."
+    "text": "Thursday\n\nRead Chapter 10: N Parameters and, from the primer.tutorials package, complete the “N Parameters” tutorial.\nRead chapter 27 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “A field guide to base R” tutorial."
   },
   {
     "objectID": "schedule.html#monday-7",
     "href": "schedule.html#monday-7",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nFrom the primer.tutorials package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your four sentence introduction."
+    "text": "Monday\n\nFrom the primer.tutorials package, complete “Final Project” tutorial before class, or you will be removed the course. There are no extensions for this assignment.\nYou must have a draft of your final project ready to go, including a Quarto website and your five sentence introduction."
   },
   {
     "objectID": "schedule.html#wednesday-7",

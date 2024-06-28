@@ -8,24 +8,26 @@ See the big_picture.txt file.
 
 End of week 1, Github/Rpubs using library data
 End of week 2, Github/Rpubs using downloaded data
-End of week 3, Github/Quarto Website using downloaded census data, perhaps with several different scripts and saved images.
+End of week 3, Github/Quarto Website. Three different practice websites, each time using a potential data type: census, tidytext, and . . .
 
 
 ## Standard Preparations
 
-* Reach out to potential TFs. Check to see if any are interested in younger or older breakout rooms.
+* Reach out to potential TFs. Check to see if any are interested in younger or older breakout rooms. Confirm that they are all available on Demo Days.
 
 * Make sure all TFs appear on the staff page, with their emails.
 
 * Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention https://github.com/Bootcamp-June-2024
 
-* Create a new location for example reprexes at Posit Community. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
+* Create a new location for example reprexes at Posit Community for the Getting Help tutorial. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
 
 * Update link in Getting Help tutorial with this new location.
 
 * Update link in Data Project tutorial which goes to the spreadsheet students fill out.
 
-* Update link in Terminal for rtools.
+* Update link in Final Project tutorial which goes to the spreadsheet.
+
+* Update link in Terminal tutorial (and Primer) for rtools.
 
 * Set up empty project for first class so your set up looks like student set up.
 
@@ -41,14 +43,16 @@ Confirm that everyone can see #staff channel and that their Discord display name
 
 Confirm that everyone has a sensible Zoom display name.
 
+Confirm that everyone can attend Demo Days.
+
+
 Anyone interested in Older breakout room? Younger room?
 
-We will be making extensive use of AI. I recommend the free version of ChatGPT. Unless you feel strongly, use this so students can do the same. But, if you are using a paid version of this, or another AI, that is fine to. Will be interesting to see if it is better.
+We will be making extensive use of AI. I recommend the free version of ChatGPT. Unless you feel strongly, use this so students can do the same. But, if you are using a paid version of this, or another AI, that is fine to. 
 
-Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. Email him now (or as soon as you know) when you will be missing class.
+Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. 
 
-Show breakout room spreadsheet, including TF schedule sheet. Fill it out now.
-
+Show breakout room spreadsheet, including TF schedule sheet. Fill out attendance spreadsheet as best as possible. You can change it later.
 
 
 
@@ -369,42 +373,78 @@ Whole thing worked very well last time. It is really good to make them comfortab
 
 ### Day 10
 
-1) Check out the final projects: https://docs.google.com/spreadsheets/d/1kcbtBdRiSOq4ZuEIs032XNxB9O7GndCBSEMWzJlZuhc Add your material, even just your name, if you have not already. We need to know who is presenting.
+Demo Day Room Assignments: https://shorturl.at/KLlVn
+Demo Day Projects: https://shorturl.at/guyh3 
+Demo Day Zoom: https://shorturl.at/dafDQ
 
-2) All my/TF comments today will seem more critical than we intend them to be. Sorry! We love your projects and all the hard work you have done. Our comments are meant to be constructive, but they will mostly be things you should change . . .
+0) Thanks to Eric, Rajeev, Akhil B, shibaaaaaa, Melody, Deepak, Sanaka, SriRitvik, Iris Li, Ronit Dash, John Menzies (especially!) and others for their participation on Discord. Much appreciated!
 
-3) You must invite at least one friend or family member to Demo Day. Be sure to bcc Preceptor (dave.kane@gmail.com ) and your TF, if you like.
+1) Confirm your attendance (or otherwise) on the Demo Day Room Assignment Sheet: https://shorturl.at/KLlVn
+
+2) Check out the data projects: https://shorturl.at/guyh3 Add your material, even just your name, if you have not already. We need to know who is presenting.
+
+3) All my/TF comments today will seem more critical than we intend them to be. Sorry! We love your projects and all the hard work you have done. Our comments are meant to be constructive, but they will mostly be things you should change . . .
+
+4) You must invite at least one friend or family member to Demo Day. You must bcc Tejas (tejasnm07 at gmail.com) and your TF when you send the email.
 
 Below is a draft email. Modify as you like. We will send this email during class tonight.
 
 ---
-Please come watch me present my final project for Kane’s Data Science Course at 8:00 PM EDT on Wednesday, July, 12. Links: 
+Please come watch me present my final project for Kane’s Data Science Course at 8:00 PM EDT on Thursday, June 27. Links: 
 
-Zoom: https://shorturl.at/gmnB5
-Background: bootcamp.davidkane.info/demo_day.html
+Zoom: https://shorturl.at/dafDQ
+(Draft) Room Assignments: https://shorturl.at/KLlVn
+Background: http://bootcamp.davidkane.info/demo_day.html
 
 I don't know whether I will be presenting at 8:00 or 8:30, but I can update you about that on Wednesday.
 
 No worries if you can't make it!
 ---
 
-2) Goal today is to take a look at everyone's draft project. We will do practice presentations on Tuesday and then public presentations on Wednesday. The definition of successfully completing the course is to present your final project.
+4) Goal today is to take a look at everyone's draft project. We will do practice presentations on Wednesday and then public presentations on Thursday. 
 
-4) Make sure to read and follow the Style Guide: https://ppbds.github.io/primer/style-guide.html
+5) Make sure to read and follow the Style Guide: https://ppbds.github.io/primer/style-guide.html
 
-5) Make sure you have as many lines of comments as you have lines of code. There is no better way to distinguish between student and professional code than by looking at the comments.
+6) Make sure you have as many lines of comments as you have lines of code. There is no better way to distinguish between student and professional code than by looking at the comments.
 
-Class website: 
-Class Github: 
-AI Log:
+7) Consider splitting your project up, as you learned to do in the Quarto Websites tutorial. You don't want your index.qmd file to take a lot of time to process. Use scripts for data download/cleaning and for graphic creation.
+
+
 
 ### Day 11
 
+Demo Day Room Assignments: https://shorturl.at/KLlVn
+Demo Day Projects: https://shorturl.at/guyh3 
+Demo Day Zoom: https://shorturl.at/dafDQ
+
+1) Thank your TFs! Run this code:
+
+```
+Sys.Date() + runif(n = 1, min = 365*5, max = 365*6)
+```
+
+This is a random day sometime in the range of 5 to 6 years from now. Add a note in your calendar for that date to send us a thank you email, letting your TF know what you are up to, with data science or anything else. Good teachers love to hear from their former students!
+
+2) We will complete this survey in class: https://forms.gle/HWRyTLAjxQxxz5hF9
+
+3) Get ready for vacation! Don't start the primer.tutorials assignments until Wednesday July 10. And, when you start them, make sure to reinstall the package.
+
+4) If you are eager to do some stuff during the vacation, all the r4ds.tutorials are ready to go although, as always, you should reinstall (with remotes:: ...) each time you start a new tutorial. But, before starting any r4ds.tutorials, make sure to 
+
+`install.packages("tutorial.helpers", type = "source")`.
+
+In fact, you should probably do that now. No worries if it fails. Background is that I just released to CRAN a new version of tutorial.helpers which includes show_file(). The package is so new that binary versions of not available yet. That is why we need to use type = "source". If that command fails for you, just wait till this week-end and use just install.packages("tutorial.helpers").
+
+5) Your data for tomorrow is whatever it is. No worries. But your data for the Final Project must be rich enough to allow for the creation of a statistical model. Advice: https://davidkane.info/writings/data-for-projects.html
+
+6) The main project today is to have one person in your breakout room volunteer to have her data project replicated. That means, that everyone else in the group will fork her repo, connect it to an R project on their computer, and then run quarto preview and quarto publish. Good data science is replicable by others. 
+
+In doing this, some warnings. First, delete _publish.yml and rsconnect if the student has (mistakenly) included in in her repo. (She should have included those in her .gitignore file.) Second, it is possible that the student failed to include her data in the repo. Or that she hard-coded some file paths. In any event, trying to replicate someone else's work is a valuable exercise, as is watching/helping someone else trying to rpelicate your work. If someone in the group is having trouble with the replication, help him. If everyone can replicate one student's work, then another student should volunteer. Then, the forking/replication exercise is repeated.
+
+7) Everyone should practice saying (NOT READING) their one paragraph introduction.
 
 
-Class website: 
-Class Github: 
-AI Log:
+
 
 ### Day 12
 

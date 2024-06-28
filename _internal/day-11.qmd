@@ -2,44 +2,32 @@
 title: "Day 11"
 ---
 
-This material probably belongs on Day 10 next time. The best way to introduce casual models is by, in class, walking through the same example as the chapter and the tutorial have covered. Key is to review some of the key concepts: Preceptor Table, Population Table, units/outcomes/treatments, validity, stability, representativeness and confounding. Then, on Day 11, we do another example, but using Cardinal Virtue to organize things.
+## Goal
+
+Set the stage for a successful Demo Day.
+
+Note for Preceptor: Try having two connections. The laptop to run things and then an ipad to send the voice messages to switch rooms. Or vice versa.
 
 
-Question: What is the average causal effect of hearing Spanish on attitudes toward immigration among students in this class? 
+## Session 1
 
-There was no where near enough time to do all this in class. Next time, half of this would be day 10 and half day 11.
-
-
-## Scene 1
-
-Start a data science project. Repo -> Project -> Quarto. Load up `trains` tibble form the **primer.data** package. Explore the data, especially `treatment`, `att_end` and `gender`.
+Show the 
 
 
-## Scene 2
-
-In your room, apply the Cardinal Virtue of Wisdom to this problem. First, describe the Preceptor Table which would allow us to answer the question. What are the units, outcomes, covariates and treatments? Second, explore the data we have. (Hopefully you already did so.) Third, examine the assumption of validity. Is the "treatment" in the Preceptor Table close enough to the "treatment" in our data that we can consider both to have come out of the same population?
-
-## Scene 3
-
-Justice. Describe the Population Table. We can only create this object because the assumption of validity allows us to assume that there is an underlying population from which our data and the Preceptor Table might be drawn. Go through the next three assumptions: stability, representativeness and unconfoundedness. For each, write down one reason why that assumption might *not* hold in this case. How would those failure bias the results?
-
-Last step for Justice is to decide the mathematical form for our model. More on that tomorrow.
-
-## Scene 4
-
-Courage. We have not, yet, used R to create a model. That starts tomorrow, and gets serious next week. But, for now, we can still estimate the average causal effect by following the instructions at: https://ppbds.github.io/primer/04-rubin-causal-model.html#average-treatment-effect
-
-The estimate of the average treatment effect equals the different between the average outcome for the treated group and the average outcome for the control group.
-
-Our models will get much more complex over time.
-
-## Scene 5
-
-Temperance. How do we use that model to make a forecast? With humility! Although we did not calculate it, there is a posterior probability distribution for the simple estimate of 1.5. (And we need to spend time understanding what 1.5 means, both for the commuters in the data and the students in the class.) But, the world is less certain that the naive use of that posterior would suggest because our assumptions are never perfect.
+## Session 2
 
 
 
 
+## Session 3
+
+
+
+## Session 4
+
+
+
+## Session 5
 
 
 

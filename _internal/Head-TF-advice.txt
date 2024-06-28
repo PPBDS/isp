@@ -2,6 +2,8 @@ Thanks for volunteering to be a Head TF!
 
 We should probably have one Head TF for each 50 students, which is about 5 TFs.
 
+The single most important thing is to keep a close eye on which students are still in the class and to which TFs they are assigned. Don't hesitate to remove students who do not hand in the homework and/or don't come to class (without explanation ahead of time). One warning is more than enough.
+
 
 ## Constructing Breakout Rooms
 
@@ -19,11 +21,11 @@ Each TF has 3 rooms, all in order. With too many students, one might expand this
 
 In our initial interactions with students (maybe a form that they need to submit?), we ask them if they are young (<-15) or old (25>=). Grouping students by age is useful, I think. We also ask if there is a friend (give us the name and email) with whom they would like to be grouped. As long as we are doing a form, we should ask a couple of questions about background. Would it be useful to group by ability? Maybe?
 
-Assume each TF starts with 12 (or X) students on the first day. All are placed in the first room. (The 2nd and 3rd rooms are left empty.) This will be crowded, but there are so many messed up students, that it is OK. This also gives the TF a chance to clearly demonstrate how the course should be run. Tell someone to share their screen. If they are messed up somehow, switch to a different person. Ask another person to drive. If they are clueless, no worries! Just say, "No worries. John (new person), why don't you direct Sarah?" If John is clueless, switch immediately to a new person. After a few minures, have a different person share their screen. Choose a different driver. Never share your screen. Never waste time with people who are having weird difficulties.
+Assume each TF starts with 12 (or X) students on the first day. All are placed in the first room. (The 2nd and 3rd rooms are left empty.) This will be crowded, but there are so many messed up students, that it is OK. This also gives the TF a chance to clearly demonstrate how the course should be run. 
 
-On Day 2, the TF herself edits the spreadsheet, assigning 6 (or X/2) students to her first two rooms. We leave the last room empty, for now. 
+For Day 2, the TF herself edits the spreadsheet, assigning 6 (or X/2) students to her first two rooms. We leave the last room empty, for now. 
 
-After the first week (?), we make permanent assignments, potentially re-arranging students, including moving students to the third room. We want the smallest rooms possible, but only if we can expect at least 2 students to always be there. For example, the TF might (or might not) move things around, perhaps by taking the 4 weakest (or strongest) students and moving them to the third room. 
+After the first week (?), the TFs make permanent assignments, potentially re-arranging students, including moving students to the third room. We want the smallest rooms possible, but only if we can expect at least 2 students to always be there. For example, the TF might (or might not) move things around, perhaps by taking the 4 weakest (or strongest) students and moving them to the third room. 
 
 Key: TFs run their own shows! They are in charge of their students and their rooms. They should do what they think best. But, some flexibility is always needed, not least when the Head TF needs to move students from one TF to another.
 

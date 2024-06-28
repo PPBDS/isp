@@ -1,5 +1,10 @@
 This document provides an overview of the course --- its structure, schedule and philosophy. 
 
+## July
+
+Get RStudio Copilot working: 
+
+
 ## Next Time
 
 * Switch days 5 and 6. Need to explore the Census data first, perhaps making a boxplot. Then, entire class session needed for a complex beeswarm plot.
@@ -11,6 +16,8 @@ This document provides an overview of the course --- its structure, schedule and
 * Standardize (either in a tutorial or as a spreadsheet) students submitting their data project ideas (and a URL) before class #7.
 
 * Consider just having two classes a week.
+
+* Could the Google form for submissions be simpler.
 
 
 ## Key Ideas
@@ -60,7 +67,9 @@ We are only using data from a package: connectedness data from primer.data.  Use
 
 ### Week 2: Github/Rpubs using downloaded data
 
-Students must download and save their own copy of some Census data, which we give them via link to Github. First day is the Terminal and messing with the data. Second day, create the beeswarm plot. Third day?
+Students must download and save their own copy of some Census data, which we give them via link to Github. First day is the Terminal and messing with the data. Second day, create a simple plot. Third day is beeswarm plot, perhaps with data from a different geographic area.
+
+Really ought to show a map, either this week or next week.
 
 ### Week 3: Github/Quarto Website using different data sources
 
@@ -70,7 +79,7 @@ Include several different scripts and saved images.
 
 ### Week 4: Data Projects
 
-Focus is the data project presentations on Thursday.
+Need to think more about the best way to spend M/W of this week. Certainly want to have, for Monday, a rough draft of room assignments. Spend money looking at projects within the breakout rooms, especially since students don't see their breakout room peers' projects on Demo Day.
 
 ### Week 5: First Model
 
