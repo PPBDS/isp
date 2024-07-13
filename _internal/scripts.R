@@ -8,20 +8,19 @@ homework <- function(pattern = "."){
   
   x <- process_submissions("~/Downloads/submissions", 
                            pattern = pattern, 
-                           key_vars = c("information-name", 
-                                        "information-email", 
-                                        "download-answers"), 
+                           key_vars = c("name", 
+                                        "email", 
+                                        "minutes"), 
                            verbose = 2, 
                            keep_file_name = "Underscore")
   
   
   ret_df <- x |> 
-    janitor::clean_names() |> 
-    distinct(source, information_email, .keep_all = TRUE) |> 
-    arrange(source, information_email)
+    distinct(source, email, .keep_all = TRUE) |> 
+    arrange(source, email)
   
-  emails <- sort(unique(ret_df$information_email))
-  names <- sort(unique(ret_df$information_name))
+  emails <- sort(unique(ret_df$email))
+  names <- sort(unique(ret_df$name))
     
   cat("\n")
   cat(paste0("There are ", length(emails), " unique emails."))
@@ -60,7 +59,9 @@ assignments <-
     "factors",
     "dates-and-times",
     "data-project",
-    "missing-values")
+    "missing-values",
+    "joins",
+    "spreadsheets")
 
 
 z |> 
@@ -80,3 +81,12 @@ z |>
   arrange(information_name) |> 
   write_csv("rough-list-demo-day.cvs")
 
+
+
+x <- process_submissions("~/Downloads/submissions", 
+                         pattern = "rstudio-and-github", 
+                         key_vars = c("information-name", 
+                                      "information-email", 
+                                      "download-answers"), 
+                         verbose = 2, 
+                         keep_file_name = "Underscore")

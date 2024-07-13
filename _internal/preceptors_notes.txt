@@ -96,6 +96,12 @@ I look forward to meeting you tonight!
 
 Preceptor
 
+# Part I
+
+The goal for the first part of the course is to get good enough at R/RStudio/Git/Github that you can create an high quality data project with an associated webpage. The key materials are R4DS and r4ds.tutorials.
+
+## Week 1
+
 ### Day 1
 
 Call me "Preceptor."
@@ -446,18 +452,16 @@ In doing this, some warnings. First, delete _publish.yml and rsconnect if the st
 
 
 
-### Day 12
+# Part 2
 
-Class website: 
-Class Github: 
-AI Log:
+The goal for this part for students to be able to take a question and a data set, and then create a statistical model to answer that question. The final result is an high quality website which presents the model and the results. Most important reference: 
 
 
 ## Week 5
 
-For next time, note that you can only get through Wisdom and Justice in the first day this week. There is so much to talk about! But, given that, you can start with a model which has two indepedent varables even though the students will not have officially read that chapter until Wednesday.
+Keep in mind that talking about the Cardinal Virtues and a new data science project takes a lot of time. Just having students write down a description of a Preceptor Table is a 5+ minute exercise in the breakout rooms.
 
-Also, the pulse ~ gender and age seems like a good model to work with. Or maybe save that addition for Thursday. That is, on Wednesday, just do Courage and Temperance for the model pulse ~ 1 model we started with. Then, on Thursday do a full model from start to finish, sort of an example for their final projects. 
+
 
 
 ### Day 13
@@ -468,7 +472,7 @@ Also, the pulse ~ gender and age seems like a good model to work with. Or maybe 
 
 2) Once you have a model which uses the variables you have to model/forecast the outcome, then you can use that model to answer all sorts of interesting questions. For example, if you have a measure of basketball skill (as an outcome) which can be modeled as a function of covariates, then you can use that model to predict/explain skill in the future. Such a model could be used to, for example, predict the 5 best players next year.
 
-3) It is often a good idea to start with an interestingd data set (in an area in which you are interested) rather than start with a question and then look for data to answer that question. Most questions do not have data available for answering them! But every data set generates interesting questions to answer. 
+3) It is often a good idea to start with an interesting data set (in an area in which you are interested) rather than start with a question and then look for data to answer that question. Most questions do not have data available for answering them! But every data set generates interesting questions to answer. 
 
 4) An example source: https://fivethirtyeight-r.netlify.app/. Another source: https://vincentarelbundock.github.io/Rdatasets/articles/data.html. Pick any data set and outcome variable NOW!
 
@@ -482,55 +486,69 @@ AI Log:
 
 ### Day 14
 
-0) Make sure that you have an outcome variable and a data set: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
+0) Make sure that you have an outcome variable and a data set: 
 
-1) Before class tomorrow, add a link to the Proof of Fit section demonstrating that you have used your data and your outcome variable to fit a model.
 
-2) You proof-of-fitted-model should look something like: https://rpubs.com/dkane/example
 
 3) Today, we dive into Courage and Temperance, picking up where we left off on Monday.
 
-Class Github:
+Class website: 
+Class Github: 
+AI Log:
 
 
 ### Day 15
 
+Bertrand, Marianne and Sendhil Mullainathan. 2004. "Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination." American Economic Review, 94 (4): 991–1013.
 
+https://www.openicpsr.org/openicpsr/project/116023/version/V1/view?path=/openicpsr/116023/fcr:versions/V1/LICENSE.txt&type=file
 
 
 ## Week 6
 
 
 
-### Day 2
+### Day 16
 
-1) Please fill out the final project spreadsheet:
+Class website: 
+Class Github: 
+AI Log:
 
-https://docs.google.com/spreadsheets/d/1kcbtBdRiSOq4ZuEIs032XNxB9O7GndCBSEMWzJlZuhc
+### Day 17
 
-If you have already filled it out, please check that your information is correct. Please follow the instructions at the top!
+Class website: 
+Class Github: 
+AI Log:
 
-2) Want to thank me or the TFs? Run this code:
+### Day 18
 
-Sys.Date() + runif(n = 1, min = 365*5, max = 365*10)
-
-This is a random day sometime in the range of 5 to 10 years from now. Add a note in your calendar for that date to send us a thank you email, letting us know what you are up to, with data science or anything else. Good teachers love to hear from their former students! dave.kane@gmail.com
-
-3) Read about the Demo Day procedures:
-
-https://bootcamp.davidkane.info/demo_day.html
-
-We will be done by 9:00 PM. If you would like to go in the first batch, please email me now.
-
-4) Keep working on your projects. Ask questions! 
-
-5) Let's practice the first few rounds.
+Class website: 
+Class Github: 
+AI Log:
 
 
-### Day 3: Demo Day!
+## Week 7
 
-1) Share the room assignments with your guests.
 
-https://docs.google.com/spreadsheets/d/1c_QJHWnJHcFH2jlgLEbyAgjKhfQBgji7WOeOTy_1qe8
 
+### Day 19
+
+Class website: 
+Class Github: 
+AI Log:
+
+### Day 20
+
+Class website: 
+Class Github: 
+AI Log:
+
+### Day 21
+
+Class website: 
+Class Github: 
+AI Log:
+
+
+## Week 8
 
