@@ -63,13 +63,14 @@ assignments <-
     "joins",
     "spreadsheets")
 
+assignments <- c("rubin-causal-model", "probability", "joins")
 
 z |> 
   janitor::clean_names() |> 
   filter(source %in% assignments) |> 
   mutate(source = factor(source, levels = assignments)) |> 
   group_by(source) |> 
-  summarize(minutes = median(as.numeric(download_answers)),
+  summarize(minutes = median(as.numeric(minutes)),
             N = n()) |> 
   print(n = 30)
 

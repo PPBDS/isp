@@ -459,26 +459,30 @@ The goal for this part for students to be able to take a question and a data set
 
 ## Week 5
 
-Keep in mind that talking about the Cardinal Virtues and a new data science project takes a lot of time. Just having students write down a description of a Preceptor Table is a 5+ minute exercise in the breakout rooms.
+Keep in mind that talking about the Cardinal Virtues and a new data science project takes a lot of time. Just having students write down a description of a Preceptor Table is a 5+ minute exercise in the breakout rooms. Try to do Wisdome/Justice on Monday, Courage on Wednesday and Temperance on Thursday, finishing with a Rpubs. (Encourage ambitious students to make a Quarto website.)
 
 
 
 
 ### Day 13
 
-0) Make sure you have filled out this spreadsheet: https://docs.google.com/spreadsheets/d/12K7i51n9IOVlPbZ6gSEp2UUiC5vLZSr86X6hDM3E3CU
+Call me Preceptor.
 
-1) Is your outcome really an "outcome?" It must be a variable, some column in the data which you propose to use. It must be possible to explain/predict using some other variables (the covariates) in the data you have. Most of the current outcomes are not outcomes . . . Example: "NBA Best Starting Lineup based on 2022-23 Stats" is not an outcome.
+No course does more to increase your odds of getting the future you want.
 
-2) Once you have a model which uses the variables you have to model/forecast the outcome, then you can use that model to answer all sorts of interesting questions. For example, if you have a measure of basketball skill (as an outcome) which can be modeled as a function of covariates, then you can use that model to predict/explain skill in the future. Such a model could be used to, for example, predict the 5 best players next year.
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we start with Wisdom and, I hope, Justice.
 
-3) It is often a good idea to start with an interesting data set (in an area in which you are interested) rather than start with a question and then look for data to answer that question. Most questions do not have data available for answering them! But every data set generates interesting questions to answer. 
+Bertrand, Marianne and Sendhil Mullainathan. 2004. "Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination." American Economic Review, 94 (4): 991–1013.
 
-4) An example source: https://fivethirtyeight-r.netlify.app/. Another source: https://vincentarelbundock.github.io/Rdatasets/articles/data.html. Pick any data set and outcome variable NOW!
+https://www.openicpsr.org/openicpsr/project/116023/version/V1/view?path=/openicpsr/116023/fcr:versions/V1/LICENSE.txt&type=file
 
-5) Use `nhanes` tibble from **primer.data** to answer this question: What is the difference in pulse rate between two randomly selected female students in this class? 
+1) Start thinking about the data for your Model Project: 
 
-6) Start a data science project. Repo -> Project -> Quarto. Load up nhanes tibble from the primer.data package. Explore the data, especially pulse and gender.
+2) Welcome to our new TFs: Gia Khang and Sanaka Dash!
+
+6) Start a data science project. Repo -> Project -> Quarto Document. 
+
+Read in the resume data. Start to explore.
 
 Class website: 
 Class Github: 
@@ -486,11 +490,13 @@ AI Log:
 
 ### Day 14
 
-0) Make sure that you have an outcome variable and a data set: 
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we look for Courage.
+
+0) You must have a dataset and an outcome variables by tomorrow.
 
 
 
-3) Today, we dive into Courage and Temperance, picking up where we left off on Monday.
+3) Today, we dive into Courage, picking up where we left off on Monday.
 
 Class website: 
 Class Github: 
@@ -499,9 +505,9 @@ AI Log:
 
 ### Day 15
 
-Bertrand, Marianne and Sendhil Mullainathan. 2004. "Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination." American Economic Review, 94 (4): 991–1013.
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we finish with Temperance.
 
-https://www.openicpsr.org/openicpsr/project/116023/version/V1/view?path=/openicpsr/116023/fcr:versions/V1/LICENSE.txt&type=file
+All students should complete a published Rpubs analysis of the resume experiment. Ambitious students should try to create a Quarto Pub website.
 
 
 ## Week 6
