@@ -121,13 +121,12 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 **TWO WEEK VACATION: July 1 through July 14**
 
-**The primer.tutorials are not yet complete. Don't start them until July 10. The r4ds.tutorials are ready now.**
 
 # Week 5: Justice: July 15
 
 ## Monday
 
-* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html), focusing on sections 1.1, 1.2 and 1.4, and [Chapter 2 Probability](https://ppbds.github.io/primer/probability.html), focusing on sections 2.1, 2.2, 2.7, and 2.8.  
+* Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html) and [Chapter 2 Probability](https://ppbds.github.io/primer/probability.html).  
 
 * From the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete "Rubin Causal Model" and "Probability" tutorials.
 

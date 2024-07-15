@@ -470,23 +470,31 @@ Call me Preceptor.
 
 No course does more to increase your odds of getting the future you want.
 
+The central metaphor for this class is Ulysses and the Sirens. You are Ulysses. Ithaca is the future you want. The Sirens are the many distractions of the modern world. I am the rope. 
+
 Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we start with Wisdom and, I hope, Justice.
 
-Bertrand, Marianne and Sendhil Mullainathan. 2004. "Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination." American Economic Review, 94 (4): 991–1013.
-
-https://www.openicpsr.org/openicpsr/project/116023/version/V1/view?path=/openicpsr/116023/fcr:versions/V1/LICENSE.txt&type=file
-
-1) Start thinking about the data for your Model Project: 
+1) Start thinking about the data for your Model Project: https://davidkane.info/writings/data-for-projects.html
 
 2) Welcome to our new TFs: Gia Khang and Sanaka Dash!
 
-6) Start a data science project. Repo -> Project -> Quarto Document. 
+3) Start a data science project. Repo -> Project -> Quarto Document. Download the data from https://shorturl.at/H0cju. Put in a data/ directory. Edit .gitignore. Commit/push everything. Read in the data. 
 
-Read in the resume data. Start to explore.
+4) What is the broad topic/question we are interested in? What is the specific question we will answer?
+
+5) Describe the Preceptor Table in words. 
+
+6) Explore the data.
+
+7) Write down one reason why validity might not hold.
 
 Class website: 
 Class Github: 
 AI Log:
+
+Add Discord post information.
+
+
 
 ### Day 14
 

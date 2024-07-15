@@ -284,14 +284,14 @@
     "href": "schedule.html#thursday-3",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.\n\nTWO WEEK VACATION: July 1 through July 14\nThe primer.tutorials are not yet complete. Don’t start them until July 10. The r4ds.tutorials are ready now."
+    "text": "Thursday\n\nData Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.\n\nTWO WEEK VACATION: July 1 through July 14"
   },
   {
     "objectID": "schedule.html#monday-4",
     "href": "schedule.html#monday-4",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nRead Chapter 1 Rubin Causal Model, focusing on sections 1.1, 1.2 and 1.4, and Chapter 2 Probability, focusing on sections 2.1, 2.2, 2.7, and 2.8.\nFrom the primer.tutorials package, complete “Rubin Causal Model” and “Probability” tutorials.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
+    "text": "Monday\n\nRead Chapter 1 Rubin Causal Model and Chapter 2 Probability.\nFrom the primer.tutorials package, complete “Rubin Causal Model” and “Probability” tutorials.\nRead chapter 19 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Joins” tutorial."
   },
   {
     "objectID": "schedule.html#wednesday-4",
