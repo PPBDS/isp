@@ -124,6 +124,8 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 # Week 5: Justice: July 15
 
+<!-- Next time, assign three chapters from the Primer for Monday. Need to get going. Then do the fourth chapter for Wednesday. This ensures that students are neck-deep in the Cardindal Virtues as quickly as possible. Move around the 4rds.tutorials as needed. -->
+
 ## Monday
 
 * Read [Chapter 1 Rubin Causal Model](https://ppbds.github.io/primer/rubin-causal-model.html) and [Chapter 2 Probability](https://ppbds.github.io/primer/probability.html).  

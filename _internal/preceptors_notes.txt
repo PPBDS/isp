@@ -462,7 +462,7 @@ The goal for this part for students to be able to take a question and a data set
 Keep in mind that talking about the Cardinal Virtues and a new data science project takes a lot of time. Just having students write down a description of a Preceptor Table is a 5+ minute exercise in the breakout rooms. Try to do Wisdome/Justice on Monday, Courage on Wednesday and Temperance on Thursday, finishing with a Rpubs. (Encourage ambitious students to make a Quarto website.)
 
 
-
+On day 1, it is hard to go beyond just describing the Preceptor Table. That is hard for students to do! Maybe next time don't even bother to set up the project till Day 14. Just descibe the questions, the Preceptor Table. Then I describe the data, then ask them to come up with reasons why all the assumptions fail.
 
 ### Day 13
 
@@ -480,13 +480,15 @@ Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we
 
 3) Start a data science project. Repo -> Project -> Quarto Document. Download the data from https://shorturl.at/H0cju. Put in a data/ directory. Edit .gitignore. Commit/push everything. Read in the data. 
 
-4) What is the broad topic/question we are interested in? What is the specific question we will answer?
+4) What is the broad topic/question we are interested in? What is the specific question we will answer? Useful reference: https://ppbds.github.io/primer/cardinal-virtues.html#question
 
-5) Describe the Preceptor Table in words. 
+5) Describe the Preceptor Table in words. Hint: Think in terms of units, outcomes, covariates, treatments. Useful reference: https://ppbds.github.io/primer/cardinal-virtues.html#preceptor-table
 
 6) Explore the data.
 
 7) Write down one reason why validity might not hold.
+
+8) Also, find a reason why stability, representativeness, and unconfoundedness might not hold.
 
 Class website: 
 Class Github: 

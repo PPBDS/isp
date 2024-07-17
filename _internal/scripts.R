@@ -61,9 +61,17 @@ assignments <-
     "data-project",
     "missing-values",
     "joins",
-    "spreadsheets")
+    "spreadsheets",
+    "rubin-causal-model", 
+    "probability",
+    "sampling")
 
-assignments <- c("rubin-causal-model", "probability", "joins")
+assignments <- c(
+  "joins",
+  "spreadsheets",
+  "rubin-causal-model", 
+  "probability",
+  "sampling")
 
 z |> 
   janitor::clean_names() |> 

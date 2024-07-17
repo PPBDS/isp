@@ -32,6 +32,10 @@ Make sure your display name in Discord is the name by which students know you, c
 
 3) Talk as little as you can. Students learn by doing, not by listening. Of course, you need to talk some, as discussed here. But instead of saying X, call on a student and get her to say X.
 
+4) Force students to write stuff down, the more detailed the better. If I ask for a written description of the Preceptor Table for this problem, you want everyone in the group to write down a description. (It is OK if their descriptions differ.) To ensure this, we follow our usual procedure of someone sharing their screen and then just typing what the "driver" tells him to type. Others in the group are typing as well. Switch the screen "sharer"" often. It is your job to ensure that everyone is typing. This does not require much talking. As long as you force students to share their screens, they will type.
+
+5) For many questions, there is no right answer. It is OK if different breakout rooms have different answers, OK if different students in the same breakout room have different answers. But you should emphasize consistency. That is, the specific question should be consistent with the Preceptor Table which should be consistent with the Population Table and with all the assumptions.
+
 
 
 ## Monday Class before Demo Day
