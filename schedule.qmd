@@ -13,7 +13,14 @@ Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wi
 
 See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
-**Always reinstall the relevant package before starting a new tutorial.** We are always fixing mistakes. You want to use the latest version.
+**Always reinstall the relevant package before starting a new tutorial.** Example for **primer.tutorials**:
+
+```
+remove.packages("primer.tutorials")
+remotes::install_github("PPBDS/primer.tutorials")
+```
+
+We are always fixing mistakes. You want to use the latest version.
 
 Completed tutorials are submitted via [this Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 

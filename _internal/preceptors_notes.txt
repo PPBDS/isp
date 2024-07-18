@@ -497,27 +497,37 @@ AI Log:
 Add Discord post information.
 
 
-
 ### Day 14
 
-Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we look for Courage.
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we finish Wisdom and Justice
 
-0) You must have a dataset and an outcome variables by tomorrow.
+1) You must have a dataset with an outcome variable and more than 2 covariates by tomorrow. Reminder: https://davidkane.info/writings/data-for-projects.html
 
+2) Zoom work is the same as always. Someone is always sharing a screen. That person does not talk. They just type what the "driver" tells them to type. Everyone else is also typing. Switch the "sharer" and the "driver" often, certainly at least every time we go back to the main room.
 
+3) We will fork this repo: https://github.com/Bootcamp-June-2024/prep-2024-07-17
 
-3) Today, we dive into Courage, picking up where we left off on Monday.
+4) No code today! We are trying to understand conceptual issues. Best guide: https://ppbds.github.io/primer/cardinal-virtues.html
 
-Class website: 
-Class Github: 
-AI Log:
+5) If your group answers the assigned questions quickly (I will only assign a couple at a time), then load the data and start exploring it. Don't rush through all the questions at once.
 
 
 ### Day 15
 
-Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we finish with Temperance.
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we finish with Courage and Temperance.
 
 All students should complete a published Rpubs analysis of the resume experiment. Ambitious students should try to create a Quarto Pub website.
+
+1) Repo to fork to begin: https://github.com/Bootcamp-June-2024/prep-resume
+
+2) From Discord: "I mean idk how to delete and reinstall a tutorial" 
+
+Arrg. I have only specified this several times in the Preceptor Notes. Reminder:
+
+```
+remove.packages("primer.tutorials")
+remotes::install_github("PPBDS/primer.tutorials")
+```
 
 
 ## Week 6
