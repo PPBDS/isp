@@ -516,7 +516,7 @@ Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we
 
 Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today, we finish with Courage and Temperance.
 
-All students should complete a published Rpubs analysis of the resume experiment. Ambitious students should try to create a Quarto Pub website.
+Goal complete a published Rpubs analysis of the resume experiment. 
 
 1) Repo to fork to begin: https://github.com/Bootcamp-June-2024/prep-resume
 
@@ -528,6 +528,10 @@ Arrg. I have only specified this several times in the Preceptor Notes. Reminder:
 remove.packages("primer.tutorials")
 remotes::install_github("PPBDS/primer.tutorials")
 ```
+
+3) We will discuss model project data sources on Monday. Too much to do today!
+
+4) Courage means coming up with a model. Temperance means using the fitted model, the data generating mechanism, to answer our question.
 
 
 ## Week 6
