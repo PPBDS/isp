@@ -169,33 +169,41 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 ## Wednesday
 
+* Read [Chapter 7: Mechanics](https://ppbds.github.io/primer/mechanics.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete the "Mechanics" tutorial.
+
+* Read [Chapter 8: Four Parameters: Categorical](https://ppbds.github.io/primer/four-parameters-categorical.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete the "Four Parameters: Categorical" tutorial.
+
+
+
+## Thursday
+
 * Read chapter 22 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Arrow" tutorial. 
 
 * Read chapter 23 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Hierarchical data" tutorial. 
 
-## Thursday
-
-* Read [Chapter 7: Mechanics](https://ppbds.github.io/primer/mechanics.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete the "Mechanics" tutorial.
-
-* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Web scraping" tutorial. 
 
 # Week 7: Temperance: July 29
 
 ## Monday
 
-* Read [Chapter 8: Four Parameters: Categorical](https://ppbds.github.io/primer/four-parameters-categorical.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete the "Four Parameters: Categorical" tutorial.
+* Read [Chapter 9: Five Parameters](https://ppbds.github.io/primer/five-parameters.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete the "Five Parameters" tutorial.
 
-* Read chapter 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Functions" tutorial. 
+* Read [Chapter 10: N Parameters](https://ppbds.github.io/primer/five-parameters.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer/n-parameters.html) package, complete the "N Parameters" tutorial.
+
 
 ## Wednesday
 
-* Read [Chapter 9: Five Parameters](https://ppbds.github.io/primer/five-parameters.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package, complete the "Five Parameters" tutorial.
 
-* Read chapter 26 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Iteration" tutorial. 
+* Read chapter 24 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Web scraping" tutorial. 
+
+* Read chapter 25 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Functions" tutorial. 
+
+
 
 ## Thursday
 
-* Read [Chapter 10: N Parameters](https://ppbds.github.io/primer/five-parameters.html) and, from the [**primer.tutorials**](https://ppbds.github.io/primer/n-parameters.html) package, complete the "N Parameters" tutorial.
+
+* Read chapter 26 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Iteration" tutorial. 
 
 * Read chapter 27 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "A field guide to base R" tutorial. 
 

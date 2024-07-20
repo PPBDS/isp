@@ -1,0 +1,225 @@
+---
+title: "Week 5"
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+library(gt)
+library(tidybayes)
+library(brms)
+
+x <- read_csv("data/resume.csv", show_col_types = FALSE)
+```
+
+This document includes background material for Week 5. Copy selected parts of the material out to a document which is shared with students, and then give them the answers later. The main audience for this document is Teaching Fellows so that they are better prepared to lead discussions.
+
+Day 1: Covers Wisdom and Justice
+Day 2: Courage
+Day 3: Temperance
+
+### Background Information
+
+Bertrand, Marianne and Sendhil Mullainathan. 2004. "Are Emily and Greg More Employable Than Lakisha and Jamal? A Field Experiment on Labor Market Discrimination." American Economic Review, 94 (4): 991–1013. Data cleaned and discussed in "Quantitative Social Science: An Introduction" by Kosuke Imai.
+
+"We study race in the labor market by sending fictitious resumes to help-wanted ads in Boston and Chicago newspapers. To manipulate perceived race, resumes are randomly assigned African-American- or White-sounding names. White names receive 50 percent more callbacks for interviews. Callbacks are also more respon- sive to resume quality for White names than for African-American ones. The racial gap is uniform across occupation, industry, and employer size. We also find little evidence that employers are inferring social class from the names. Differential treatment by race still appears to still be prominent in the U.S. labor market."
+
+### Discussion
+
+Subject: Discrimination
+
+Broad question: Race and employment in the United States
+
+Specific question: Effect of racially-coded names on call-backs in 2020's for adults in Boston and Chicago applying for jobs.
+
+Preceptor Table: 
+  
+  * Units: individuals or resumes or a-resume-sent-to-a-specific-opening  
+  
+  * (Potential) Outcomes: call-back if black name, call-back if white name   
+  
+  * Causal/predictive: a causal model  
+  
+  * Covariates: sex, zip code (not shown in table)  
+  
+  * Treatment: black name on resume versus white name on resume 
+
+## Example Preceptor Table
+  
+```{r}
+tibble(ID = c("1", "2", "...", "10", "11", "...", "N"),
+       attitude_after_control = c("Yes*", "No", "...", "No*", "Yes*", "...", "Yes"),
+       attitude_after_treated = c("Yes", "Yes*", "...", "No", "Yes", "...", "No*"),
+       treatment = c("Black", "White", "...", "Black", "Black", "...", "White")) |>
+  
+  gt() |>
+  tab_header(title = "Preceptor Table") |> 
+  cols_label(ID = md("ID"),
+             attitude_after_control = md("Callback if White Name"),
+             attitude_after_treated = md("Callback if Black Name"),
+             treatment = md("Treatment")) |>
+  tab_style(cell_borders(sides = "right"),
+            location = cells_body(columns = c(ID))) |>
+  tab_style(style = cell_text(align = "left", v_align = "middle", size = "large"), 
+            locations = cells_column_labels(columns = c(ID))) |>
+  cols_align(align = "center", columns = everything()) |>
+  cols_align(align = "left", columns = c(ID)) |>
+  fmt_markdown(columns = everything()) |>
+  tab_spanner(label = "Potential Outcomes", columns = c(attitude_after_control, attitude_after_treated)) |>
+  tab_spanner(label = "Covariate", columns = c(treatment))
+```
+
+## Questions for Second Class
+
+
+> What are the units, precisely?
+
+All the people sending out resumes for entry-level positions in Boston and Chicago during 2020 -- 2030 who have names which are associated with a race. So, N is (?) in the thousands.
+
+> What is the moment in time, precisely?
+
+2020 to 2030
+
+> What is one reason why validity might not hold?
+
+There is less of a strong connection between names and race today then there was in 2001. The column "resume with black name" in the data does not mean the same thing as the column "resume with black name" means in the Preceptor Table. Just because two columns have the same name does not mean that they are *really* the same thing.
+
+> Describe the Population Table in words
+
+Every time a person with a racially-coded name sends out a resume in Boston/Chicago between 2020 and 2030. That is, there will be multiple rows for the same person for two reasons. First, they will often apply for more than one job. Second, because they might apply for jobs in both 2022 and in, separately (and with a new resume), 2026.
+
+> What is one reason why stability might not hold?
+
+Stability means that the relationship between the columns in the Population Table is the same for three categories of rows: the data, the Preceptor Table, and the larger population from which both are drawn. If racism has decrease significantly since 2001, then the relationship between the resume-with-black-name column and the callback outcome will not be as strong now as it was then.
+
+> What is one reason why representativeness might not hold?
+
+Representativeness, or the lack thereof, concerns two relationship, among the rows in the Population Table. The first is between the Preceptor Table and the other rows. The second is between our data and the other rows. The original data from 2001 was not even real. They did not use real people. They were not sampling from the set of all job seekers. There is no reason to believe that the sorts of made-up-resumes they used are representative of the sorts of people/resumes applying for jobs now.
+
+
+> What is one reason why unconfoundedness might not hold?
+
+Unconfoundedness means that the treatment assignment is independent of the potential outcomes, when we condition on pre-treatment covariates. A model is confounded if this is not true. Given that they randomly assigned names to resumes, unconfoundedness should be true. But what if the assignment process was not really random? They provide no details on the process. Is it that hard to believe that poorly-paid research assistants might not have bothered to really randomize the assignment of names to resumes?
+
+> What would the Preceptor Table look like if we were trying to predict whether or not someone would get a callback?
+
+
+```{r}
+tibble(ID = c("1", "2", "...", "10", "11", "...", "N"),
+       attitude_after_control = c("Yes", "No", "...", "No", "Yes", "...", "Yes"),
+       treatment = c("Black", "White", "...", "Black", "Black", "...", "White")) |>
+  
+  gt() |>
+  tab_header(title = "Preceptor Table") |> 
+  cols_label(ID = md("ID"),
+             attitude_after_control = md("Callback"),
+             treatment = md("Treatment")) |>
+  tab_style(cell_borders(sides = "right"),
+            location = cells_body(columns = c(ID))) |>
+  tab_style(style = cell_text(align = "left", v_align = "middle", size = "large"), 
+            locations = cells_column_labels(columns = c(ID))) |>
+  cols_align(align = "center", columns = everything()) |>
+  cols_align(align = "left", columns = c(ID)) |>
+  fmt_markdown(columns = everything()) |>
+  tab_spanner(label = "Outcome", columns = c(attitude_after_control)) |>
+  tab_spanner(label = "Covariate", columns = c(treatment))
+```
+  
+
+## Scene 1
+
+Load up the libraries you think we are going to need. Read in the data (nicely). Take a look at the data. 
+
+```{r}
+#| message: false
+library(tidyverse)
+library(brms)
+library(tidybayes)
+
+x <- read_csv("data/resume.csv", show_col_types = FALSE)
+```
+
+## Scene 2
+
+Fit a **brms** model in which getting a callback is a function of race. Use the bernoulli family since call is a binary variable. Use `cache: true` as a code chunk option. Consider using the `refresh`, `silent` and `seed` arguments. Look at the fitted model.
+
+```{r}
+#| cache: true
+fit_resume <- brm(formula = call ~ race,
+                  data = x,
+                  family = bernoulli(),
+                  refresh = 0,
+                  silent = 2,
+                  seed = 9)
+```
+
+
+```{r}
+fit_resume
+```
+
+## Scene 3
+
+Create draws for the posterior probability of receiving a callback, separately for a resume with a black-coded name and for a resume with a white-coded name. Look at those draws.
+
+```{r}
+fit_resume |> 
+  add_epred_draws(newdata = tibble(race = c("black", "white")))
+```
+
+## Scene 4
+
+Create a plot of the two posteriors. 
+
+```{r}
+fit_resume |> 
+  add_epred_draws(newdata = tibble(race = c("black", "white"))) |> 
+  ungroup() |> 
+  select(race, .epred) |> 
+   ggplot(aes(x = .epred, fill = race)) +
+    geom_histogram(aes(y = after_stat(count/sum(count))),
+                   bins = 100) +
+    labs(title = "Posterior for Callback Rates",
+         subtitle = "Resumes with white-coded names are much more likely to receive callbacks",
+         x = "Probability of Callback",
+         fill = "(Likely) Race of\n Name on Resume") +
+    theme(
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.line.y = element_blank()
+    ) +
+    scale_x_continuous(labels = scales::percent_format())
+
+```
+
+## Scene 5
+
+Or create a plot of the posterior of the causal effect.
+
+```{r}
+fit_resume |> 
+  add_epred_draws(newdata = tibble(race = c("black", "white"))) |> 
+  ungroup() |> 
+  select(.draw, race, .epred) |> 
+  pivot_wider(names_from = race, values_from = .epred) |> 
+  mutate(causal_effect = white - black) |> 
+  ggplot(aes(x = causal_effect)) +
+    geom_histogram(aes(y = after_stat(count/sum(count))),
+                   bins = 100) +
+    labs(title = "Posterior for Causal Effect of Race",
+         subtitle = "Resumes with white-coded names are about 3% more likely to receive callbacks",
+         x = "Probability of Callback for White Name Compared to Black Name") +
+    theme(
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.line.y = element_blank()
+    ) +
+    scale_x_continuous(labels = scales::percent_format())
+
+```

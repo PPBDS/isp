@@ -38,6 +38,8 @@ Get RStudio Copilot working:
 
 ## Next Time
 
+* Most important change is to front-load the Primer chapters. Chapters 1, 2, 3 should be due on Monday of week 5. Then 4 and 5 due Wednesday. Then (depending on how long they take), 6 and 7 due on Thursday. We want them to be comfortable with modeling as soon as possible so that class work can be more productive. (Might even assign chapters 1 and 2 during Data Project presentation week.)
+
 * Switch the order of the R4DS tutorials by moving hierarchical data and iteration up to weeks 3/4 so that students have completed them before they read the Probability chapter.
 
 * Switch days 5 and 6. Need to explore the Census data first, perhaps making a boxplot. Then, entire class session needed for a complex beeswarm plot.
