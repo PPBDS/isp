@@ -536,6 +536,19 @@ remotes::install_github("PPBDS/primer.tutorials")
 
 ## Week 6
 
+### Day 15
+
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. 
+
+1) Please fill out this spreadsheet: https://shorturl.at/mqKea. It is OK if you are not certain what your outcome variable is or which covariates you plan to use. We just want to get a sense of what is in your data. (There should be at least two covariates which help to explain your outcome variable.)
+
+2) See #course-announcements channel for information about this week's data source.
+
+Frederick Mosteller (1995) “The Tennessee study of class size in the early school grades.” The Future of Children, vol. 5, no. 2, pp. 113–127. Data cleaned and discussed in "Quantitative Social Science: An Introduction" by Kosuke Imai.
+
+3) Please refresh the schedule page weekly. We do make changes! https://bootcamp.davidkane.info/schedule.html
+
+4) Today we consider Wisdom and Justice. Courage follows on Wednesday, Temperance on Thursdays.
 
 
 ### Day 16

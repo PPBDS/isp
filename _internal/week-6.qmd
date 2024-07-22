@@ -1,0 +1,290 @@
+---
+title: "Week 6"
+execute: 
+  echo: false
+---
+
+```{r}
+#| label: setup
+#| message: false
+
+library(tidyverse)
+library(gt)
+library(tidybayes)
+library(brms)
+```
+
+STILL A DRAFT
+
+This document includes background material for Week 6. I will copy selected parts of the material out to a document which is shared with students, and then give them the answers later. The main audience for this document is Teaching Fellows so that they are better prepared to lead discussions.
+
+Day 1: Covers Wisdom and Justice
+Day 2: Courage
+Day 3: Temperance
+
+### Background Information
+
+Frederick Mosteller (1995) “The Tennessee study of class size in the early school grades.” The Future of Children, vol. 5, no. 2, pp. 113–127. Data cleaned and discussed in "Quantitative Social Science: An Introduction" by Kosuke Imai.
+
+"The Tennessee class size project is a three-phase study designed to determine the effect of smaller class size in the earliest grades on short-term and long-term pupil performance. The first phase of this project, termed Project STAR (for Student-Teacher Achievement Ratio), was begun in 1985, when Lamar Alexander was governor of Tennessee. Governor Alexander, who later served as secretary of education in the cabinet of President George Bush, had made education a top priority for his second term.
+
+The legislature and the educational community of Tennessee were mindful of a promising study of the benefits of small class size carried out in nearby Indiana, but were also aware of the costs associated with additional classrooms and teachers. Wishing to obtain data on the effectiveness of reduced class size before committing additional funds, the Tennessee legislature authorized this four-year study in which results obtained in kindergarten, first, second, and third grade classrooms of 13 to 17 pupils were compared with those obtained in classrooms of 22 to 25 pupils and in classrooms of this larger size where the teacher was assisted by a paid aide. Both standardized and curriculum-based tests were used to assess and compare the performance of some 6,500 pupils in about 330 classrooms at approximately 80 schools in the areas of reading, mathematics, and basic study skills. After four years, it was clear that smaller classes did produce substantial improvement in early learning and cognitive studies and that the effect of small class size on the achievement of minority children was initially about double that observed for majority children, but in later years, it was about the same.
+
+The second phase of the project, called the Lasting Benefits Study, was begun in 1989 to determine whether these perceived benefits persisted. Observations made as a part of this phase confirmed that the children who were originally enrolled in smaller classes continued to perform better than their grade-mates (whose school experience had begun in larger classes) when they were returned to regular-sized classes in later grades. Under the third phase, Project Challenge, the 17 economically poorest school districts were given small classes in kindergarten, first, second, and third grades. These districts improved their end-of-year standing in rank among the 139 districts from well below average to above average in reading and mathematics. This article briefly summarizes the Tennessee class size project, a controlled experiment which is one of the most important educational investigations ever carried out and illustrates the kind and magnitude of research needed in the field of education to strengthen schools."
+
+A potentially useful image from the documentation about the data:
+
+```{r}
+knitr::include_graphics("data/STAR-variables.png")
+```
+
+
+### Day 1 Discussion 
+
+Subject: Education
+
+Broad question: Class size/staffing and learning in the United States
+
+Specific question: Effect of smaller classes sizes on mathematical learning in K-3 education.
+
+Preceptor Table: 
+  
+  * Units: students in K-3 
+  
+  * (Potential) Outcomes: math score if in small class, math score if in regular class
+  
+  * Causal/predictive: a causal model  
+  
+  * Covariates: class structure, sex, zip code, birth weight, family income, parent education, race 
+  
+  * Treatment: assignment to a small versus regular classroom 
+
+## Example Preceptor Table
+  
+```{r}
+tibble(ID = c("1", "2", "...", "10", "11", "...", "N"),
+       attitude_after_control = c("706*", "565", "...", "654*", "547*", "...", "568"),
+       attitude_after_treated = c("638", "620*", "...", "710", "567", "...", "743*"),
+       treatment = c("Small", "Regular", "...", "Small", "Small", "...", "Regular")) |>
+  
+  gt() |>
+  tab_header(title = "Preceptor Table") |> 
+  cols_label(ID = md("ID"),
+             attitude_after_control = md("Score if Regular Class"),
+             attitude_after_treated = md("Score if Small Class"),
+             treatment = md("Treatment")) |>
+  tab_style(cell_borders(sides = "right"),
+            location = cells_body(columns = c(ID))) |>
+  tab_style(style = cell_text(align = "left", v_align = "middle", size = "large"), 
+            locations = cells_column_labels(columns = c(ID))) |>
+  cols_align(align = "center", columns = everything()) |>
+  cols_align(align = "left", columns = c(ID)) |>
+  fmt_markdown(columns = everything()) |>
+  tab_spanner(label = "Potential Outcomes", columns = c(attitude_after_control, attitude_after_treated)) |>
+  tab_spanner(label = "Covariate", columns = c(treatment))
+```
+
+## Discussion Points
+
+TFs: Don't tell students any of this! Ask them questions! Be Socrates.
+
+> What are the units, precisely?
+
+The units are students. Presumably, they are students in K-3 but not necessarily. It depends on what you or your boss/client/colleagues are interested in. Perhaps the Mayor is thinking about shrinking classes throughout all elementary schools. In that case, the Preceptor Table would include students in 4th, 5th (and 6th?) grade.
+
+> What is the moment in time, precisely?
+
+2025 because the Boston Mayor Wu is considering implementing small classes in our local schools. She wants to know what the causal effect of that change.
+
+Again, there is no right answer. Each student might have their own answer.
+
+
+> What is one reason why validity might not hold?
+
+Validity is about the columns. Do they give the same math tests in Boston today as in Tennessee decades ago? I doubt it. Will the Boston class sizes (both regular and small) be exactly the same as Tennessee's? Again, unlikely. Just because the value of a variable is "small class size" in both the data and the Preceptor Table does not mean that they are the same thing.
+
+> Describe the Population Table in words
+
+Each row is a student/year combination. So, the same student will appear multiple times. Time period must be from 1990 to 2030 or so. Probably includes the whole United States. After all, how could it include Tennessee and Boston but not Wisconsin? Lots of subtleties to discuss! Unclear the grade range of students to include.
+
+But, mostly, the structure of the Population Table is driven by the structure of the Preceptor Table and the data.
+
+> What is one reason why stability might not hold?
+
+Students have very different home lives now, like more electronics. Maybe the effect of small classes is different now. This is a claim that the coefficient in our brm() model might be different in the 1990s than it would be today.
+
+> What is one reason why representativeness might not hold?
+
+Students in Tennessee in 1990 are not a random draw from the population. Neither are students from Boston in 2025! Perhaps small classes have a greater (or lesser) effect on these students. For example, perhaps Boston parents, who are much more highly education on average, are so involved in their children's educational lives that small classes don't really help much.
+
+> What is one reason why unconfoundedness might not hold?
+
+Unconfoundedness means that the treatment assignment is independent of the potential outcomes, when we condition on pre-treatment covariates. A model is confounded if this is not true. Given that they (allegedly) randomly assigned class structure to classes, unconfoundedness should be true. But what if the assignment process was not really random? They provide no details on the process. Is it that the local school system might not have bothered to really randomize the assignment of structure to classes? I bet that people in the local administration really wanted their own children to be in the treatment group!
+
+<!-- > What would the Preceptor Table look like if we were trying to predict whether or not someone would get a callback? -->
+
+
+<!-- ```{r} -->
+<!-- tibble(ID = c("1", "2", "...", "10", "11", "...", "N"), -->
+<!--        attitude_after_control = c("Yes", "No", "...", "No", "Yes", "...", "Yes"), -->
+<!--        treatment = c("Black", "White", "...", "Black", "Black", "...", "White")) |> -->
+
+<!--   gt() |> -->
+<!--   tab_header(title = "Preceptor Table") |>  -->
+<!--   cols_label(ID = md("ID"), -->
+<!--              attitude_after_control = md("Callback"), -->
+<!--              treatment = md("Treatment")) |> -->
+<!--   tab_style(cell_borders(sides = "right"), -->
+<!--             location = cells_body(columns = c(ID))) |> -->
+<!--   tab_style(style = cell_text(align = "left", v_align = "middle", size = "large"),  -->
+<!--             locations = cells_column_labels(columns = c(ID))) |> -->
+<!--   cols_align(align = "center", columns = everything()) |> -->
+<!--   cols_align(align = "left", columns = c(ID)) |> -->
+<!--   fmt_markdown(columns = everything()) |> -->
+<!--   tab_spanner(label = "Outcome", columns = c(attitude_after_control)) |> -->
+<!--   tab_spanner(label = "Covariate", columns = c(treatment)) -->
+<!-- ``` -->
+
+  
+## Scene 1
+
+New repo, new project, new QMD, render, download data, load libraries, edit .gitignore, and commit/push.
+
+## Scene 2
+
+Read in the data (nicely). Take a look at the data. Clean up the QMD. Check out the image with details on the data.
+
+```{r}
+#| message: false
+library(tidyverse)
+library(brms)
+library(tidybayes)
+
+
+raw <- read_csv("data/STAR.csv", show_col_types = FALSE)
+```
+
+## Scene 3
+
+Modify the variables so that they are easier to work with. You could type all this out yourself. Or you could ask ChatGPT: https://chatgpt.com/c/7b3ebad4-32f2-4f90-b0ee-087474f91bc1
+
+Note that we built the pipe first, one line at a time, always making sure that the output makes sense, especially by comparing the new variables to the old ones. Only once things looks good, do we select the variables to keep and then assign to a new object.
+
+Only keep the outcome variable in which we are interested, but different people/groups might select different ones. And that is OK!
+
+Also, dropping rows with missing values is a dangerous game. We should look much more closely as to what is going on. What if classes with few students are more or less likely to be missing math scores? That might really mess things up!
+
+
+```{r}
+x <- raw |> 
+  mutate(kind = recode(classtype,
+                         `1` = "small",
+                         `2` = "regular",
+                         `3` = "regular with aid")) |> 
+  mutate(race = recode(race,
+                       `1` = "white",
+                       `2` = "black",
+                       `3` = "hispanic",
+                       `4` = "hispanic",
+                       `5` = "others",
+                       `6` = "others")) |> 
+  select(g4math, kind, race, yearssmall) |> 
+  drop_na()
+
+
+```
+
+## Scene 4
+
+Design the Preceptor Table. See the discussion above for discussion. There are no right answers! The important point is to have students write down the key steps and provide some answers.
+
+## Scene 5
+
+Come up with one reason why each of the assumptions --- validity, stability, representativeness and unconfoundedness --- might not hold.
+
+
+## Day 2
+
+Today is Courage.
+
+## Scene 2
+
+Fit a **brms** model in which getting a callback is a function of race. Use the bernoulli family since call is a binary variable. Use `cache: true` as a code chunk option. Consider using the `refresh`, `silent` and `seed` arguments. Look at the fitted model.
+
+```{r}
+#| cache: true
+ 
+fit_cs <- brm(formula = g4math ~ kind, 
+              data = x, 
+              family = gaussian(), 
+              refresh = 0, 
+              silent = 2, 
+              seed = 9) 
+```
+
+
+```{r}
+# fit_cs
+```
+
+## Scene 3
+
+Create draws for the posterior probability of receiving a callback, separately for a resume with a black-coded name and for a resume with a white-coded name. Look at those draws.
+
+```{r}
+# fit_resume |> 
+#   add_epred_draws(newdata = tibble(race = c("black", "white")))
+```
+
+## Scene 4
+
+Create a plot of the two posteriors. 
+
+```{r}
+# fit_resume |> 
+#   add_epred_draws(newdata = tibble(race = c("black", "white"))) |> 
+#   ungroup() |> 
+#   select(race, .epred) |> 
+#    ggplot(aes(x = .epred, fill = race)) +
+#     geom_histogram(aes(y = after_stat(count/sum(count))),
+#                    bins = 100) +
+#     labs(title = "Posterior for Callback Rates",
+#          subtitle = "Resumes with white-coded names are much more likely to receive callbacks",
+#          x = "Probability of Callback",
+#          fill = "(Likely) Race of\n Name on Resume") +
+#     theme(
+#       axis.title.y = element_blank(),
+#       axis.text.y = element_blank(),
+#       axis.ticks.y = element_blank(),
+#       axis.line.y = element_blank()
+#     ) +
+#     scale_x_continuous(labels = scales::percent_format())
+
+```
+
+## Scene 5
+
+Or create a plot of the posterior of the causal effect.
+
+```{r}
+# fit_resume |> 
+#   add_epred_draws(newdata = tibble(race = c("black", "white"))) |> 
+#   ungroup() |> 
+#   select(.draw, race, .epred) |> 
+#   pivot_wider(names_from = race, values_from = .epred) |> 
+#   mutate(causal_effect = white - black) |> 
+#   ggplot(aes(x = causal_effect)) +
+#     geom_histogram(aes(y = after_stat(count/sum(count))),
+#                    bins = 100) +
+#     labs(title = "Posterior for Causal Effect of Race",
+#          subtitle = "Resumes with white-coded names are about 3% more likely to receive callbacks",
+#          x = "Probability of Callback for White Name Compared to Black Name") +
+#     theme(
+#       axis.title.y = element_blank(),
+#       axis.text.y = element_blank(),
+#       axis.ticks.y = element_blank(),
+#       axis.line.y = element_blank()
+#     ) +
+#     scale_x_continuous(labels = scales::percent_format())
+
+```

@@ -71,7 +71,10 @@ assignments <- c(
   "spreadsheets",
   "rubin-causal-model", 
   "probability",
-  "sampling")
+  "sampling",
+  "models",
+  "two-parameters",
+  "three-parameters-causal")
 
 z |> 
   janitor::clean_names() |> 
