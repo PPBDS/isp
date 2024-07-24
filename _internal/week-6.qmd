@@ -81,7 +81,11 @@ tibble(ID = c("1", "2", "...", "10", "11", "...", "N"),
   cols_align(align = "left", columns = c(ID)) |>
   fmt_markdown(columns = everything()) |>
   tab_spanner(label = "Potential Outcomes", columns = c(attitude_after_control, attitude_after_treated)) |>
-  tab_spanner(label = "Covariate", columns = c(treatment))
+  tab_spanner(label = "Covariate", columns = c(treatment)) |> 
+  tab_footnote(
+    footnote = md("A * indicates a potential outcome which we do not observe."),
+    locations = cells_column_spanners(spanners = "Potential Outcomes")
+  )
 ```
 
 ## Discussion Points
@@ -145,14 +149,27 @@ Unconfoundedness means that the treatment assignment is independent of the poten
 <!--   tab_spanner(label = "Covariate", columns = c(treatment)) -->
 <!-- ``` -->
 
+## Day 1  
   
-## Scene 1
+### Scene 1
 
 New repo, new project, new QMD, render, download data, load libraries, edit .gitignore, and commit/push.
 
-## Scene 2
+### Scene 2
 
-Read in the data (nicely). Take a look at the data. Clean up the QMD. Check out the image with details on the data.
+Design the Preceptor Table. See the discussion above for discussion. There are no right answers! The important point is to have students write down the key steps and provide some answers.
+
+
+## Scene 3
+
+Come up with one reason why each of the assumptions --- validity, stability, representativeness and unconfoundedness --- might not hold.
+
+
+## Day 2  
+
+### Scene 1
+
+Make sure that your data is ready to go. Read in the data (nicely). Take a look at the data. Clean up the QMD. Check out the image with details on the data.
 
 ```{r}
 #| message: false
@@ -164,7 +181,7 @@ library(tidybayes)
 raw <- read_csv("data/STAR.csv", show_col_types = FALSE)
 ```
 
-## Scene 3
+## Scene 2
 
 Modify the variables so that they are easier to work with. You could type all this out yourself. Or you could ask ChatGPT: https://chatgpt.com/c/7b3ebad4-32f2-4f90-b0ee-087474f91bc1
 
@@ -173,6 +190,8 @@ Note that we built the pipe first, one line at a time, always making sure that t
 Only keep the outcome variable in which we are interested, but different people/groups might select different ones. And that is OK!
 
 Also, dropping rows with missing values is a dangerous game. We should look much more closely as to what is going on. What if classes with few students are more or less likely to be missing math scores? That might really mess things up!
+
+Much easier to just have a treatment and control, so we throw out regular classes with an aid.
 
 
 ```{r}
@@ -189,27 +208,17 @@ x <- raw |>
                        `5` = "others",
                        `6` = "others")) |> 
   select(g4math, kind, race, yearssmall) |> 
+  filter(kind %in% c("small", "regular")) |> 
+  select(g4math, kind) |> 
   drop_na()
 
 
 ```
 
-## Scene 4
-
-Design the Preceptor Table. See the discussion above for discussion. There are no right answers! The important point is to have students write down the key steps and provide some answers.
-
-## Scene 5
-
-Come up with one reason why each of the assumptions --- validity, stability, representativeness and unconfoundedness --- might not hold.
+## Scene 3
 
 
-## Day 2
-
-Today is Courage.
-
-## Scene 2
-
-Fit a **brms** model in which getting a callback is a function of race. Use the bernoulli family since call is a binary variable. Use `cache: true` as a code chunk option. Consider using the `refresh`, `silent` and `seed` arguments. Look at the fitted model.
+Fit a **brms** model in which grade 4 math score is a function of the size of the class. Use the gaussian family since g4math is a continuous variable. Use `cache: true` as a code chunk option. Consider using the `refresh`, `silent` and `seed` arguments. Look at the fitted model.
 
 ```{r}
 #| cache: true
@@ -224,8 +233,37 @@ fit_cs <- brm(formula = g4math ~ kind,
 
 
 ```{r}
-# fit_cs
+fit_cs
 ```
+
+Sure seems like size of class has no connection to grade 4 math score! Does this pass a simple smell test?
+
+```{r}
+x |> 
+  summarise(mn_score = mean(g4math),
+            n = n(),
+            .by = kind)
+```
+
+Simple plot?
+
+```{r}
+x |> 
+  ggplot(aes(x = g4math, fill = kind)) +
+    geom_histogram()
+```
+
+I really have no idea what is going on!! Maybe look at raw data?
+
+```{r}
+raw |> 
+  summarise(mn_score = mean(g4math, na.rm = TRUE),
+            sd_score = sd(g4math, na.rm = TRUE),
+            n = n(),
+            .by = classtype)
+```
+
+
 
 ## Scene 3
 

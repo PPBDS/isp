@@ -7,6 +7,8 @@ That is, do not ask "Who wants to share their screen?" Instead, say "Joe, please
 
 Start by telling someone to share their screen. If they are messed up somehow, switch to a different person. Tell another person to drive. If they are clueless, no worries! Just say, "No worries. John (new person), please direct Sarah." If John is clueless, switch immediately to a new person. After a few minutes, have a different person share their screen. Choose a different driver. Never share your screen. Never waste time with people who are having weird difficulties.
 
+When we are doing a data science project, please emphasize how there are often a variety of plausible approaches. Reasonable people will often, for example differ in the rows of the Preceptor Table or in the variables they include in the model. We see that in how different breakout rooms make different choices. But it is easiest if every student in a single breakout room make the same choices for that day's class. So, you should guide each of your breakout rooms to do so.
+
 
 ## Class 1
 

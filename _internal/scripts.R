@@ -74,7 +74,9 @@ assignments <- c(
   "sampling",
   "models",
   "two-parameters",
-  "three-parameters-causal")
+  "three-parameters-causal",
+  "mechanics",
+  "four-parameters-categorical")
 
 z |> 
   janitor::clean_names() |> 

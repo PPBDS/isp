@@ -553,9 +553,18 @@ Frederick Mosteller (1995) “The Tennessee study of class size in the early sch
 
 ### Day 16
 
-Class website: 
-Class Github: 
-AI Log:
+Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Monday was Wisdom and Justice. Today is Courage. Tomorrow is Temperance.
+
+1) Check out the repo from Monday: https://github.com/Bootcamp-June-2024/class-size. Note that the repo is always added to the Preceptor's Notes for that class, after the class is over and I clean things up a bit. Check out my answers to the questions. They aren't the only answers, but they are good.
+
+2) Check out this #course-announcement: https://shorturl.at/f1VTX
+
+3) We need to modify our variables so that things are easier to understand when we create our model.
+
+4) 
+
+
+Repo
 
 ### Day 17
 
