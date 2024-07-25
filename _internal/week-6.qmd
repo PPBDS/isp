@@ -263,40 +263,50 @@ raw |>
             .by = classtype)
 ```
 
+## Day 3
+
+### Scene 1
+
+We need to construct a `newdata` object. Which variables does it need to contain? What values should those variables take? What posteriors will we be creating?
+
+```{r}
+ndata <- tibble(kind = c("regular", "small"))
+```
+
+
+### Scene 2
+
+Create draws for the posterior probability of the expected value of a student's 4th grade math score, given the size of their classroom.
+
+```{r}
+fit_cs |>
+  add_epred_draws(newdata = ndata)
+```
+
+
 
 
 ## Scene 3
 
-Create draws for the posterior probability of receiving a callback, separately for a resume with a black-coded name and for a resume with a white-coded name. Look at those draws.
-
-```{r}
-# fit_resume |> 
-#   add_epred_draws(newdata = tibble(race = c("black", "white")))
-```
-
-## Scene 4
-
 Create a plot of the two posteriors. 
 
 ```{r}
-# fit_resume |> 
-#   add_epred_draws(newdata = tibble(race = c("black", "white"))) |> 
-#   ungroup() |> 
-#   select(race, .epred) |> 
-#    ggplot(aes(x = .epred, fill = race)) +
-#     geom_histogram(aes(y = after_stat(count/sum(count))),
-#                    bins = 100) +
-#     labs(title = "Posterior for Callback Rates",
-#          subtitle = "Resumes with white-coded names are much more likely to receive callbacks",
-#          x = "Probability of Callback",
-#          fill = "(Likely) Race of\n Name on Resume") +
-#     theme(
-#       axis.title.y = element_blank(),
-#       axis.text.y = element_blank(),
-#       axis.ticks.y = element_blank(),
-#       axis.line.y = element_blank()
-#     ) +
-#     scale_x_continuous(labels = scales::percent_format())
+fit_cs |>
+  add_epred_draws(newdata = ndata) |> 
+  ungroup() |>
+  select(kind, .epred) |>
+  ggplot(aes(x = .epred, fill = kind)) +
+    geom_density(alpha = 0.5) +
+    labs(title = "Posterior for Exam Score",
+         subtitle = "Class size has no effect on exam score",
+         x = "Exam Score",
+         fill = "Classroom Size") +
+    theme(
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.line.y = element_blank()
+    )
 
 ```
 
@@ -305,24 +315,22 @@ Create a plot of the two posteriors.
 Or create a plot of the posterior of the causal effect.
 
 ```{r}
-# fit_resume |> 
-#   add_epred_draws(newdata = tibble(race = c("black", "white"))) |> 
-#   ungroup() |> 
-#   select(.draw, race, .epred) |> 
-#   pivot_wider(names_from = race, values_from = .epred) |> 
-#   mutate(causal_effect = white - black) |> 
-#   ggplot(aes(x = causal_effect)) +
-#     geom_histogram(aes(y = after_stat(count/sum(count))),
-#                    bins = 100) +
-#     labs(title = "Posterior for Causal Effect of Race",
-#          subtitle = "Resumes with white-coded names are about 3% more likely to receive callbacks",
-#          x = "Probability of Callback for White Name Compared to Black Name") +
-#     theme(
-#       axis.title.y = element_blank(),
-#       axis.text.y = element_blank(),
-#       axis.ticks.y = element_blank(),
-#       axis.line.y = element_blank()
-#     ) +
-#     scale_x_continuous(labels = scales::percent_format())
+fit_cs |>
+  add_epred_draws(newdata = ndata) |>
+  ungroup() |>
+  select(.draw, kind, .epred) |>
+  pivot_wider(names_from = kind, values_from = .epred) |>
+  mutate(causal_effect = small - regular) |>
+  ggplot(aes(x = causal_effect)) +
+    geom_density() +
+    labs(title = "Posterior for the Causal Effect of Fewer Students",
+         subtitle = "Classes with fewer students do not have higher scores",
+         x = "Expected Difference in Exam Scores") +
+    theme(
+      axis.title.y = element_blank(),
+      axis.text.y = element_blank(),
+      axis.ticks.y = element_blank(),
+      axis.line.y = element_blank()
+    )
 
 ```
