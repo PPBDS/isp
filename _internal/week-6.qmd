@@ -300,7 +300,8 @@ fit_cs |>
     labs(title = "Posterior for Exam Score",
          subtitle = "Class size has no effect on exam score",
          x = "Exam Score",
-         fill = "Classroom Size") +
+         fill = "Classroom Size",
+         caption = "Data from Tennessee STAR Experiment") +
     theme(
       axis.title.y = element_blank(),
       axis.text.y = element_blank(),
@@ -325,7 +326,8 @@ fit_cs |>
     geom_density() +
     labs(title = "Posterior for the Causal Effect of Fewer Students",
          subtitle = "Classes with fewer students do not have higher scores",
-         x = "Expected Difference in Exam Scores") +
+         x = "Expected Difference in Exam Scores",
+         caption = "Data from Tennessee STAR Experiment") +
     theme(
       axis.title.y = element_blank(),
       axis.text.y = element_blank(),
