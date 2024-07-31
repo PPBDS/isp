@@ -62,9 +62,11 @@ assignments <-
     "missing-values",
     "joins",
     "spreadsheets",
-    "rubin-causal-model", 
-    "probability",
-    "sampling")
+    "databases",
+    "arrow",
+    "hierarchical-data",
+    "web-scraping",
+    "functions")
 
 assignments <- c(
   "rubin-causal-model",

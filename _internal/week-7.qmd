@@ -169,6 +169,11 @@ Today's purpose is to create the data generating mechanism. It might also be nic
 
 One tricky aspect to this problem, and to how to use it in class, is that there are many plausible models. (Of course, this is almost always the case in a real world data science problem.) It is unclear how much time we have to explore this, especially this year, since we did not really finish up (or even start) exploring the data.
 
+There is a case for including variables like `election_age`, `sex` and `party`. Depending on the formula, these variables can be significant, and large enough to be interesting. It seems plausible that people with larger values of `election_age` would live longer. But it seems weird that men live longer. I think this fact raises all sorts of interesting questions about the representativeness of this data. Sadly, we don't really have time for that discussion.
+
+`party` is especially interesting because, instead of just using it, we might make a new variable `republican` which is `1` for `party == "Republican"` and `0` otherwise. There is evidence that Republicans live longer than Democrats, but Third Party longevity is similar to Democrats. Or, as with any categorical variable, one could make the case that we might just remove from the regression all the Third Party, or all the rows from whichever is not Preceptor's party. This raises all sorts of fundamental problems, none of which have "correct" answers. Restricting the sample is similar to controlling for category membership, but it is definitely not the same thing.  
+
+
 
 ### Scene 1
 
@@ -193,6 +198,7 @@ x <- governors |>
 
 ```
 
+
 ## Scene 2
 
 Select the columns and rows we want to keep around. Explore the data
@@ -200,12 +206,9 @@ Select the columns and rows we want to keep around. Explore the data
 
 ```{r}
 x <- governors |> 
-  select(death_age, election_age, win_margin, sex) |> 
+  select(death_age, election_age, win_margin, sex, party) |> 
   mutate(treatment = ifelse(win_margin > 0, "win", "lose")) |> 
   filter(abs(win_margin) < 5) 
-
-x |> 
-  summarise(mn_lived = mean(death_age), .by = treatment)
 
 ```
 
@@ -216,53 +219,57 @@ Fit a **brms** model in which age at death is a function of some of the variable
 
 ```{r}
 #| cache: true
+#| warning: false
+#| echo: true
  
-fit_elec <- brm(formula = death_age ~ treatment + win_margin + sex + sex*treatment, 
-                data = x, 
-                family = gaussian(), 
-                refresh = 0, 
-                silent = 2, 
-                seed = 9) 
+fit_elec_1 <- brm(formula = death_age ~ treatment + win_margin + 
+                  election_age + party + sex, 
+                  data = x, 
+                  family = gaussian(), 
+                  refresh = 0, 
+                  silent = 2, 
+                  seed = 9) 
 ```
+
+```{r}
+#| echo: true
+fixef(fit_elec_1)
+```
+
+This model is interesting, but `election_age` and `sex` are no longer significant. When we remove them, we see:
+
+```{r}
+#| cache: true
+#| warning: false
+#| echo: true 
+
+fit_elec_2 <- brm(formula = death_age ~ treatment + win_margin + 
+                  party, 
+                  data = x, 
+                  family = gaussian(), 
+                  refresh = 0, 
+                  silent = 2, 
+                  seed = 9) 
+```
+
+```{r}
+#| echo: true
+fixef(fit_elec_2)
+```
+
+This is a pretty good model. Everything is significant. And the addition of party allows for a more full-featured Temperance section since we will be able to estimate 6 posteriors: 2 treatments times 3 parties.
+
+
 
 
 ```{r}
-fit_elec
-```
+#| warning: false
+#| echo: true
 
-Do people who win an election live longer? What other variables might we add?
-
-## Scene 4
-
-Make a nice looking table of the results. (Note that there is a new version of gtsummary available. You should check your version and install if it is not version 2.0.)
-
-```{r}
 library(gtsummary)
-help(package = "gtsummary")
-install.packages("gtsummary")
-```
 
-
-```{r}
-library(gtsummary)
-
-fit_elec |> 
-  tbl_regression(
-    tidy_fun = broom.mixed::tidy, 
-    intercept = TRUE) |>
-  modify_header(label = "**Variable**") |>
-  modify_caption("**Table 1.** Regression Results for Electrical Data") |> 
-  modify_table_body(
-    ~.x |> 
-      dplyr::mutate(label = stringr::str_replace_all(label, "_", " "))
-  ) |>
-  bold_labels() |>
-  as_gt() |> 
-  gt::tab_header(title = "Electrical Data Regression Analysis")
-```
-
-```{r}
-
+fit_elec_2 |> 
+  tbl_regression()
 ```
 
 
@@ -274,7 +281,9 @@ fit_elec |>
 We need to construct a `newdata` object. Which variables does it need to contain? What values should those variables take? What posteriors will we be creating?
 
 ```{r}
-ndata <- tibble(treatment = c("win", "lose"))
+ndata <- tibble(expand_grid(treatment = c("win", "lose"), 
+                            party = c("Democrat", "Republican", "Third party"),
+                            win_margin = 0))
 ```
 
 
@@ -283,7 +292,7 @@ ndata <- tibble(treatment = c("win", "lose"))
 Create draws for the posterior probability of the expected value of a student's 4th grade math score, given the size of their classroom.
 
 ```{r}
-fit_elec |>
+fit_elec_2 |>
   add_epred_draws(newdata = ndata)
 ```
 
@@ -299,10 +308,3 @@ Create a plot of the two posteriors.
 
 ```
 
-## Scene 5
-
-Or create a plot of the posterior of the causal effect.
-
-```{r}
-
-```
