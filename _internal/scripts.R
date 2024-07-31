@@ -67,16 +67,16 @@ assignments <-
     "sampling")
 
 assignments <- c(
-  "joins",
-  "spreadsheets",
-  "rubin-causal-model", 
+  "rubin-causal-model",
   "probability",
   "sampling",
   "models",
   "two-parameters",
   "three-parameters-causal",
   "mechanics",
-  "four-parameters-categorical")
+  "four-parameters-categorical",
+  "five-parameters",
+  "n-parameters")
 
 z |> 
   janitor::clean_names() |> 
@@ -97,10 +97,3 @@ z |>
 
 
 
-x <- process_submissions("~/Downloads/submissions", 
-                         pattern = "rstudio-and-github", 
-                         key_vars = c("information-name", 
-                                      "information-email", 
-                                      "download-answers"), 
-                         verbose = 2, 
-                         keep_file_name = "Underscore")

@@ -637,19 +637,49 @@ AI Log:
 
 ## Week 7
 
-
+Using the governors data set.
 
 ### Day 19
 
-Class website: 
-Class Github: 
-AI Log:
+1) Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Today is Wisdom and Justice. Wednesday is Courage. Thursday is Temperance.
+
+2) Make sure the project spreadsheet is up-to-date: https://shorturl.at/mqKea
+
+3) Homework for Wednesday (chapters 24 and 25) and Thursday (chapters 26 and 27) from R for Data Science.
+
+4) For Wednesday, you must have the results of a call to brm() which you can share with us. 
+
+5) Background on this week's class exercise:
+
+Barfort, S., Klemmensen, R., and Larsen, E. G. (2021). Longevity returns to political office. Political Science Research and Methods 9, 658–664.
+
+https://github.com/PPBDS/primer.data/blob/master/inst/papers/governors.pdf
+
+Does political office cause worse or better longevity prospects? Two perspectives in the literature offer contradicting answers. First, increased income, social status, and political connections obtained through holding office can increase longevity. Second, increased stress and working hours associated with holding office can have detrimental effects on longevity. To provide causal evidence, we exploit a regression dis- continuity design with unique data on the longevity of candidates for US gubernatorial office. The results show that politicians winning a close election live 5–10 years longer than candidates who lose.
+
+Commentary: http://www.stat.columbia.edu/~gelman/research/published/causal_paths_3.pdf
+Response: https://erikgahner.dk/2020/a-response-to-andrew-gelman/
+
+Repo:
 
 ### Day 20
 
-Class website: 
-Class Github: 
-AI Log:
+1) Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Monday was Wisdom and Justice. Today is Courage. Tomorrow is Temperance.
+
+2) There is a new version of gtsummary available. Please re-install to be sure that you have it:
+
+```
+install.packages("gtsummary")
+```
+
+3) Key links: 
+
+Paper: https://github.com/PPBDS/primer.data/blob/master/inst/papers/governors.pdf
+Commentary: http://www.stat.columbia.edu/~gelman/research/published/causal_paths_3.pdf
+Response: https://erikgahner.dk/2020/a-response-to-andrew-gelman/
+
+
+Repo:
 
 ### Day 21
 
