@@ -672,25 +672,40 @@ Repo:
 install.packages("gtsummary")
 ```
 
-3) 
+3) My setup code chunk:
 
-4) Key links: 
+```{r}
+#| label: setup
+#| message: false
+library(tidyverse)
+library(primer.data)
+library(brms)
+library(tidybayes)
+library(gtsummary)
+
+x <- governors |> 
+  select(death_age, election_age, win_margin, sex) |> 
+  mutate(treatment = ifelse(win_margin > 0, "win", "lose")) |> 
+  filter(abs(win_margin) < 5) 
+```
+
+5) Key links: 
 
 Paper: https://github.com/PPBDS/primer.data/blob/master/inst/papers/governors.pdf
 Commentary: http://www.stat.columbia.edu/~gelman/research/published/causal_paths_3.pdf
 Response: https://erikgahner.dk/2020/a-response-to-andrew-gelman/
 
-4) Homework for Thursday is to read chapters 26 and 27 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Iteration” and "A field guide to base R" tutorials.
-
+6) Homework for Thursday is to read chapters 26 and 27 from R for Data Science (2e) and, from the r4ds.tutorials package, complete the “Iteration” and "A field guide to base R" tutorials.
 
 Repo: https://github.com/Bootcamp-June-2024/election
 
 ### Day 21
 
-Class website: 
-Class Github: 
-AI Log:
+1) Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Monday was Wisdom and Justice. Today is Courage. Tomorrow is Temperance.
 
+2) 
+
+Repo: https://github.com/Bootcamp-June-2024/election
 
 ## Week 8
 

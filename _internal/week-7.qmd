@@ -182,6 +182,7 @@ Make sure that your data is ready to go. Read in the data (nicely). Take a look 
 Below is the code which catches all students up with where we want them to be at the start of the day, to be used next year. This year, we need to give some time/discussion to get there.
 
 ```{r}
+#| label: setup
 #| message: false
 library(tidyverse)
 library(primer.data)
@@ -194,8 +195,6 @@ x <- governors |>
   select(death_age, election_age, win_margin, sex) |> 
   mutate(treatment = ifelse(win_margin > 0, "win", "lose")) |> 
   filter(abs(win_margin) < 5) 
-
-
 ```
 
 
@@ -275,6 +274,8 @@ fit_elec_2 |>
 
 
 ## Day 3
+
+Time for some Temperance.
 
 ### Scene 1
 
