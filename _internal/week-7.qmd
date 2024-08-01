@@ -249,6 +249,8 @@ fit_elec_2 <- brm(formula = death_age ~ treatment + win_margin +
                   refresh = 0, 
                   silent = 2, 
                   seed = 9) 
+
+fixef(fit_elec_2)
 ```
 
 ```{r}
@@ -275,11 +277,19 @@ fit_elec_2 |>
 
 ## Day 3
 
-Time for some Temperance.
+Time for some Temperance. Students find it very hard to know how to create the ndata object for creating posteriors. Recall how we help them to go through the process:
+
+First, what variables as used in the model? The ndata object needs the same variables.
+
+Second, what posteriors do you want to create? This determines which values of those variables you need to have. Begin with the values that you simply have to have. For example, you will certainly need all possible values of the treatment variable. And, if you use multiple values of another covariate, you will probably want all possible combinations. expand_grid() is your friend!
+
+Third, are there any variables which you don't really care about and/or can't use too many values for? If so, just use the average value ... or the median value or, for categorical values, he mode. The key point is that you do not need all possible combinations.
 
 ### Scene 1
 
 We need to construct a `newdata` object. Which variables does it need to contain? What values should those variables take? What posteriors will we be creating?
+
+We might just ask them and send them to the breakout room to discuss. This is hard stuff! There are no right answers.
 
 ```{r}
 ndata <- tibble(expand_grid(treatment = c("win", "lose"), 
@@ -290,22 +300,61 @@ ndata <- tibble(expand_grid(treatment = c("win", "lose"),
 
 ### Scene 2
 
-Create draws for the posterior probability of the expected value of a student's 4th grade math score, given the size of their classroom.
+Create draws for the posterior probability of the expected value of the age of death for all combinations of treatment and party.
 
 ```{r}
 fit_elec_2 |>
   add_epred_draws(newdata = ndata)
 ```
 
+Look at the resulting object. Note the 24,000 rows. We have estimate 6 posteriors, each of which needs a draw of 4,000. In each case, the posterior is the expected death age depending on the value of treatment and party, and conditional on the race being close to a perfect toss up.
 
+In a real situation, we would explore how sensitive these posteriors are to small changes in the model. For example, would they look the same if we had different values for win_margin? (Although this is a much trickier case for this problem then for others because of the connection between win_margin and treatment. After all, in one election, I can't both win and have a negative win_margin!)
 
 
 ## Scene 3
 
-Create a plot of the two posteriors. 
+Create a plot of the posteriors. (Note that this was inspired by the plots in chapter 10 of the Primer.)
+
 
 ```{r}
-
-
+fit_elec_2 |>
+  add_epred_draws(newdata = ndata) |> 
+  ungroup() |>
+  select(treatment, party, .epred) |> 
+  ggplot(aes(x = .epred, 
+             y = factor(party, levels = c("Third party", "Republican", "Democrat"), ordered = TRUE))) +
+    stat_slab(aes(fill = treatment),
+              position = 'dodge') +
+    labs(
+        title = "Expected Lifespan Given Election Outcome",
+        subtitle = "Winning is associated with about 8 extra years",
+        x = "Expected Lifespan",
+        y = NULL,
+        fill = "Election Result") +
+    scale_y_discrete(expand = expansion(mult = c(0.1, 0.4)))
 ```
+
+This isn't a great plot, but it is not bad. 
+
+Key point is that we have graphed 6 separate posteriors. I do this on purpose because it is so much like the typical task wth a predictive model, which is what almost all students use for the final project.
+
+For a causal model, we generally follow the approach in Chapter 10 and only plots the causal effects themselves, which always require the subtraction of one posterior (for one potential outcome) from another posterior (a different potential outcome). If we did that here, we would only have three posteriors, the causal effect for each of the three different parties that one could be a member of.
+
+Note how this plot tells them same story as the regression results, but in a way which is much easier to see and discuss.
+
+1) The standard error for the estimate for the Third party intercept was much larger, hence the greater uncertainty associated with their posteriors, all driven by the fact that we only have a few Third party candidates in the data.
+
+2) The significant estimate for the treatment. Note how there is no overlap for the posteriors for win/loss for both Republicans and Democrats. 
+
+3) The estimate of about 8 for the treatment. This is the 8 years which separate the posteriors for winning and losing.
+
+Try to have students update their paragraphs.
+
+If there is time, discuss Humility. Remember that:
+
+*We can never know the truth.*
+
+*The world is always more uncertain than our models would have us believe.*
+
 

@@ -66,7 +66,9 @@ assignments <-
     "arrow",
     "hierarchical-data",
     "web-scraping",
-    "functions")
+    "functions",
+    "iteration",
+    "a-field-guide-to-base-r")
 
 assignments <- c(
   "rubin-causal-model",

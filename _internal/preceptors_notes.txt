@@ -2,6 +2,10 @@
 # This is a text document because the contents need to be copy/pasted into Discord.
 
 
+## Next Time
+
+Make more use of #projects channel as a location for students to prove that they have made progress on the projects, and do it earlier in the course.
+
 ## Outline
 
 See the big_picture.txt file.
@@ -701,9 +705,15 @@ Repo: https://github.com/Bootcamp-June-2024/election
 
 ### Day 21
 
-1) Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Monday was Wisdom and Justice. Today is Courage. Tomorrow is Temperance.
+1) Spaced repetition is our friend: Wisdom, Justice, Courage, Temperance. Monday was Wisdom and Justice. Wednesday was Courage. Today is Temperance.
 
-2) 
+2) Last homework assignment is Model Project tutorial from primer.tutorials. DO NOT START IT YET. I will finish it by Saturday at midnight and put an note in the #annoucements channel. But no worries. You can't even start this tutorial until you have a draft of your project. Do you have one yet?
+
+3) Put your brm() call and a fixef() of the resulting object into the #projects channel. If you bracket the code with three backticks, it will look nice.
+
+4) I updated the Temperance section of the Cardinal Virtues chapter with a discussion about scaling and intervals. Highly recommended! https://shorturl.at/EXyPu
+
+5) See the analysis.qmd file in my repo if you want a working version of the Courage code from Wednesday.
 
 Repo: https://github.com/Bootcamp-June-2024/election
 
