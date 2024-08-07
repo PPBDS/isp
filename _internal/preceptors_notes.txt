@@ -719,3 +719,25 @@ Repo: https://github.com/Bootcamp-June-2024/election
 
 ## Week 8
 
+### Day 1
+
+* Positron, a next-generation data science IDE, will replace RStudio in the next few years, mainly because it works as well with Python as it does with R. It is the future. The next version of this course will probably use it. I recommend you all take a look: https://github.com/posit-dev/positron
+
+* The official definition of completing this class is having a final project listed here: https://bootcamp.davidkane.info/projects.html
+
+* In order to get your final project listed, you must complete the spreadsheet: https://shorturl.at/6w8vT
+
+* We expect you to present your project on Thursday (Zoom link: https://shorturl.at/WaBub). It is OK if you can't present because of family or other obligations, but, if so, you must email Tejas (tejasnm07@gmail.com) now to tell him so he can set up the breakout rooms correctly.
+
+* Make sure you comment your code: https://ppbds.github.io/primer/style-guide.html#comments
+
+* We are missing some TFs today, so we will need to move Luit's, Anish's, and Vaangmaya's  students to other breakout rooms. Thanks for your flexibility.
+
+* DON'T PANIC! Even if your project is a disaster, there is still time to fix it! First, schedule a meeting with your TF. Second, ask a question on Discord. We are here to help. Third, go to Tejas' office hours tomorrow. Fourth, start with a small sample of your data and a model with just one covariate. (You only need about 1,000 rows for each parameter.) Get that working and then increase the complexity. Fifth, start over! You have my permission to use a data set from a course and make a model similar to (but not identical with!) one of the examples in the course.
+
+* Goal today is to take a tour of various projects. This is mostly TFs sharing their screen and giving feedback on everyone's project. But they will also ask other students to contribute their comments. Be ready to participate. If your room goes fast, then have everyone try to replicate one student's project by forking and then building it themselves. Highly recommended!
+
+
+
+
+

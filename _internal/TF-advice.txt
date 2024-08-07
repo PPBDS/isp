@@ -75,3 +75,17 @@ Doesn't matter! Delays are bad. First, they prevent the student in the current r
 Pay especially close attention to the highest number breakout room. Too often, the listening student in this room isn't paying attention and, instead of moving to the lowest room number at the next switch, he just moves up again, either into an unused room or, even worse, into a room associated with a different TF pair. If this happens, you need to visit that room, interrupt things immediately, and tell your student where he should go.
 
 Of course, even better is to prevent this from happening by monitoring the highest room closely. Indeed, this can be a good room to go to toward the end of a presentation, if only to remind the listening student to move to start, instead of to room N+1.
+
+## Giving Advice for on Student Projects
+
+* Unlike in most classes, you are the one screen sharing most of the day. Note my example at the start of the class.
+
+* The most important thing is to give clear, specific feedback. This might feel "mean," but pulling your punches only hurts students. They need the truth from you. Give it to them.
+
+* Review the Project tutorial, especially the list at the beginning of all the specific things which their projects should contain. Just go through that list point-by-point, giving credit for each point which the student takes care of correctly, but also pointing out each place in which they fail to follow the instructions.
+
+* Once you check that they have a link to their GitHub repo on their About page, click on it, go to the repo, and offer some feedback. Recall what the Style Guide says about commenting: https://ppbds.github.io/primer/style-guide.html#comments
+
+* Involve other students by calling on them by name. For example, click on the About page for George's project and say, "Sarah: What items should we see on George's about page?" Of course, correct her if she misses any that should be there.
+
+* Depending on time, you might have the chance to do a replication. Ask for a volunteer and/or ask a strong students if you can replicate her work. Then, have a different student share their screen, but you do the driving. (Students are no experienced enough to drive a replication themselves, especially if things start breaking.) Fork, connect R project, and see if `quarto preview` works. Very fun when it doesn't!

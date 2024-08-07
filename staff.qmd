@@ -130,41 +130,14 @@ knitr::include_graphics("images/joshi.jpeg")
 
 Navya Joshi (roopajoshi00 at gmail.com) is a rising junior at Conant High School with an interest in Computer Science and Mathematics.
 
-<!-- ## Yuhan Wu -->
+## Gia Khang Phạm
 
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/yuhan.jpg") -->
-<!-- ``` -->
+```{r}
+knitr::include_graphics("images/khang.jpg")
+```
 
-<!-- [Yuhan Wu](https://github.com/UhanWu) is an incoming senior at Newton North High School who is interested in Data Science and Applied Mathematics. -->
+[Gia Khang](https://github.com/giakhang1906) (phamgiakhang19062003 at gmail.com) is a rising Senior at Fulbright University Vietnam who is interested in Economics and Data Science. 
 
-
-
-<!-- ## Alex Kuai -->
-
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/kuai.jpg") -->
-<!-- ``` -->
-
-<!-- [Alex Kuai](https://github.com/AlexKuaiR) is a rising sophomore at Newton North High School and has been a TF since freshman year. -->
-
-
-<!-- ## Srihith Garlapati -->
-
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/srihith.jpg") -->
-<!-- ``` -->
-
-<!-- [Srihith Garlapati](https://github.com/srihithg) is a rising sophomore in Computer Sciences at University of Wisconsin-Madison. -->
-
-
-<!-- ## Krish Saluja -->
-
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/saluja.jpg") -->
-<!-- ``` -->
-
-<!-- [Krish Saluja](https://github.com/thekrishsaluja) is an incoming senior at Metea Valley High School with an interest in Data Science and Biochemistry. -->
 
 # Program Directors
 
