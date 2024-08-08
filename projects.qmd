@@ -6,7 +6,117 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 105 students have completed the Course. Congratulations! Here are their Final Projects.
+A total of 158 students have completed the Course. Congratulations! Here are their Final Projects.
+
+## August 2024 (Draft)
+
+[Alan Tao](https://github.com/alantao5056): [Spotify Songs v2](https://alienjao.quarto.pub/spotify-songs-v2/). The pop genre is estimated to be more popular than EDM by 15.53 units of popularity (out of 100).  
+
+[Roshan Ranganathan](https://github.com/PhoenixRCheetah): [Formula 1 data analysis for the 2023 season](https://thematrix.quarto.pub/formula-1-data-analysis-for-the-2023-season/). Our analysis reveals that Max Verstappen, a driver for Red Bull, is statistically the best driver in the 2023 Formula 1 season.  
+
+[Satvika Upperla](https://github.com/USATVIKA): [Longevity of Olympic Athletes](https://usatvika.github.io/Longevity-of-Olympic-Athletes/). This project explores the relation ship between the total number of medals an athlete has won and the longevity of their career at the olympics.  
+
+[Areeb Atif](https://github.com/AreebAtif1): [BMI and Diabetes](https://areeb-atif.quarto.pub/bmi-and-diabetes/). BMI is correlated with the risk of diabetes  
+
+[Dinesh Satyavolu](https://github.com/dsatyavolu): [New York City Bike Durations](https://dsatyavolu.quarto.pub/new-york-city-bike-durations/). On average, bike rides are shortest late in the day, and longest on Friday, with an approximate increase of 7.79 minutes compared to other days of the week.  
+
+[Aditya Narayan](https://github.com/adi123soccer): [Different Factors Affect On Academic Performance](https://adi123soccer.quarto.pub/stress_affects_students/). Worse Academic Performance is correlated to higher levels of stress, especially with students who had a history in mental health issues  
+
+[Hao Lin](https://github.com/hlinca/wildfire_model): [Wildfire Model](https://hlinca.quarto.pub/wildfire_model/). Modeling the Impact of Environmental Conditions on Wildfire Incidents in California  
+
+[Dharshan Lakshmikanthan](https://github.com/DharshanLak): [Causal Effects of Education and Experience on Global Salaries](NA). NA  
+
+[Tanish Thaker](https://github.com/Tanish-Thaker): [OW2 Win Rates](https://tanish-thaker.quarto.pub/ow2-win-rate-predictions/). Characters with high kill and low death counts don't have the best win rates, but the characters with the middle of the pack stats have the best stats  
+
+[Nithura Thevarajah](https://github.com/engineer-nithura): [Predicting Technological Evolution using Anthropology](https://nithura-t.quarto.pub/human-evol-analysis/). Precision in motor dexterity is a major contributor in the need for technological development compared to cranial capacity  
+
+[Aashna Patel](https://github.com/aashna-a-patel): [Cardiac Clues and Causes](https://aashna-a-patel.github.io/heart-attack/). This analysis uncovers critical factors influencing heart attack risk, providing valuable insights for improving prevention and treatment strategies.  
+
+[Andrew Ross](https://github.com/44digits): [Happiness and Money](https://44digits.quarto.pub/happiness-and-money/). The happiness of a country is related to it's GDP  
+
+[Nihal Neeraj](https://github.com/Nihal200917): [Amazon Sales Profit Prediction](https://github.com/Nihal200917/Amazon-Sales-Analysis.git). Online Sales seem to be the most profitable Sales Channel for Amazon with Profit rates ascending throughout the advancing years  
+
+[Amogh Patil](https://github.com/AmoghPatil314): [House Price Analysis](https://slyproton.quarto.pub/house-prices-analysis/). The area of the garage (if there is one) is the biggest factor in determining the price of a house, having a coefficient of 45.  
+
+[Sharav Joshi](https://github.com/sharav12): [difference in growth between hispanic and non-hispanic populations](https://sharav.quarto.pub/population-growth-analysis/analysis.html). The key takeaway from this analysis is that both the year and population group significantly influence growth trends, highlighting the dynamic demographic shifts within the U.S. population.  
+
+[Thomas Seoh](https://github.com/tdwseoh): [What Defines Happiness?](https://tseoh.quarto.pub/what-defines-happiness/). This project explores the most important factor that impacts happiness, which has proven to be social support.  
+
+[Ivy Spratt](https://github.com/ivyspratt): [Depression vs Music Genre](https://ivyspratt.github.io/depression-music-effects/). Gospel music seems to decrease depression levels the most, and listeners of the genre are the happiest.  
+
+[Ali Atif](https://github.com/AliAtif09): [Olympic historical Model](https://ali-123.quarto.pub/olympic-historical-dataset/). This project predicts thetotal number of medals based on the number of gold, silver, and bronze medals.  
+
+[Harshil Kurapati](https://github.com/hkurapat): [Income correlated to Race and Gender](https://hkurapat.quarto.pub/income-based-on-race-and-gender/). The analysis reveals that both race and gender significantly influence income levels, with disparities evident across different racial groups and between genders.  
+
+[Tanay Janmanchi](https://github.com/tjanamnchi2): [2020 United States Presidential Election results by region.](https://tjanamnchi2.github.io/2020-election/model.html). Joe Biden seems to be favored across the United States.  
+
+[Aedan Liao](https://github.com/aedan00/): [S&P 500 Correlation w/ US Presidents](https://aedan.quarto.pub/gspc-final-proj/). The stock market is affected by policies of certain presidential administrations  
+
+[Gitanjali Sheth](https://github.com/gshethg): [Effect of physicochemical properties of wine on their quality](https://gshethg.quarto.pub/wineanalysis/). Effect of physicochemical properties of wine on its quality score  
+
+[Jason Fisher](https://github.com/jasonfisher0/finalproj): [Alzheimer's Diagnosis Prediction](https://jasonfisher0.github.io/finalproj/). Physical function has a greater association with Alzheimer's diagnosis than mental function.  
+
+[Adhithan Manivassakam](https://github.com/AdhiMvm): [What factors influence Depression?](https://adhimvm.quarto.pub/understanding-depression/). The analysis indicates that age, gender, suicidal intent, and PHQ score are key predictors of depression, though individual cases may differ.  
+
+[Shyamali Sheth](https://github.com/Shyamali-Sheth): [student-GPA](https://github.com/Shyamali-Sheth/Student-GPA). How diffrent learning factors effect the GPA of a student.  
+
+[Nicholas Oliver Silveira Powell](https://github.com/nickospowell): [US Visas Given Out to Different Nations](https://nosp41.quarto.pub/immigration/). Mexico Is far and away the highest acceptor of US visas out of every country in the world.  
+
+[Lowell Ethan Xavier](https://github.com/LowellEthan): [Lung Cancer Prediction](https://lowellethan.github.io/Lung-Cancer-Prediction/). Air pollution has a significantly greater effect on lung cancer risk compared to smoking, with an estimated difference in their impacts of 0.11 and a 95% credible interval ranging from 0.07 to 0.15.  
+
+[Jacob Hardin-Bernhardt](https://github.com/jacobhb175): [Effects of Nuclear Proliferation on Peace](https://jacobhb175.github.io/nuclear-correlates/). The effects of nuclear proliferation as opposed to those of great power involvement on peace are negligible.  
+
+[Madhavan Prasanna](https://github.com/Madhavan113): [Bitcoin Price Cyclicality Prediction](https://github.com/Madhavan113/KNNBitcoinPrices). This project reveals Bitcoin price patterns using historical data and statistical modeling, highlighting cyclical trends.  
+
+[Wallstreet Petrus-Nihi](https://github.com/Wallstreet111): [Predicting Disease Outcomes from Lifestyle Factors](https://wpetrus.quarto.pub/heart-disease-prediction-by-smoking-and-alcohol-consumption/). Older age groups and unhealthy lifestyle factors such as high BMI, smoking, and excessive alcohol consumption significantly increase the risk of heart disease.  
+
+[Hans Zhang](https://github.com/hanszca): [Life by socio-economic](https://hanszca.quarto.pub/life_by_econ/). Life expectancy by socio-economic factors  
+
+[Zephan Shivam](https://github.com/PythonGoaler): [Three Key Takeaways from The Game of Golf](https://zshi.quarto.pub/three-golf-takeaways/). The difficulty of courses in the PGA are well balanced, driving the ball over 300 yards is very tough while driving over 280 yards is fairly easy, and finally, yardage has a small effect on the overall score.  
+
+[Ashwika Katiyar](https://github.com/ashwikakatiyar): [Conversion of Clinically Isolated Syndrome to Multiple Sclerosis](https://ashwikakatiyar.github.io/ms-conversion-factors/). Patients with a presence of OCBs, which are bands of immunogloblins seen in blood serum or cerebrospinal fluid, have about 73% to 93% lower odds to be diagnosed with Multiple Sclerosis.  
+
+[Sophie Zhu](https://github.com/sophiezla): [Sepsis Survival Predictions](https://sophiezla.github.io/sepsis-survival-predictions/). Females had a higher chance of survivng Sepsis, while older age and more episodes decreased survival probability.  
+
+[Rishith Ravi](https://github.com/rishithr19): [Acceptance of Personal Loans](https://32aa920b06784143821f347dbdb31c49.publish.posit.cloud/). Customers with higher income and education levels were more likely to accept a personal loan.  
+
+[Bingbing Luo](https://github.com/blstudystudy): [Environment impact by food](https://blstudystudy.quarto.pub/environment_impact_food/). Modeling the relationships between types of food and negative impact on the environment  
+
+[Aleksandar Joksic](https://github.com/Alex212021/): [Income predictors](https://alex212021.quarto.pub/predicting-income/). Individuals with higher income tend to be White, male, more educated  
+
+[Mihir Kaushal](https://github.com/MihirKaushal): [Effect of Drugs on Memory Recall.](https://mihirkaushal.github.io/drug-memory-test/). One of the drugs has a negative impact on memory recall.  
+
+[Annika Shivam](https://github.com/booleansarebinary): [What Makes a Book Popular?](https://booleansarebinary.quarto.pub/what-makes-a-book-popular/). Fiction books tend to sell, on average, around 600 more units than nonfiction books  
+
+[Pragnyasri Saknar](https://github.com/PragnyaSankar7): [Causes of Heart Attacks](https://pragnyasankar7.quarto.pub/heart-disease-indication/). This study identifies essential elements affecting heart attack risk, offering significant insights to refine prevention and treatment approaches.  
+
+[Grant Quattlebaum](https://github.com/GrantQ9): [Quality of Magic: the Gathering Cards for Draft](https://grantq9.github.io/MTG-Draft-Card-Quality/). For higher rarity Magic cards, a one mana higher cost is associated with a 0.6% increase in winrate.  
+
+[Aaditya Gupta](https://github.com/AadityaG2011): [Math, Reading, and Writing Exam Scores by Parental Education Level, Gender, and Test Preparation](https://aadityag2011.quarto.pub/exam-performance-project/). On average, male students do 8% better than female students on math exams, plus or minus 3%.  
+
+[Lela Sengupta](https://github.com/lelasengupta): [Analysis of Hidden Stock Orders](https://lelasengupta.quarto.pub/hidden-order/). Low volatility stocks experience about 54% less hidden orders compared to high volatility stocks.  
+
+[Tulika Punia](https://github.com/puniat): [Correlation Between Education Level and Income](https://puniat.github.io/income/). Education levels may not influence income as significantly as commonly believed.  
+
+[Akhil Bellamkonda](https://github.com/akhilbelllamkonda): [Mesa Arrests](https://akhilbelllamkonda.github.io/Mesa_Arrest_Stats). NA  
+
+[Judy Zhu](https://github.com/JudyZ2024): [How Chat-gpt Affects Global C02 Emissions](https://judy-zhu.quarto.pub/chat-gpt-co2/). Our new daily routine of using Chat-gpt affects our global warming status negitively to the point our Earth may not be able to withstand it.  
+
+[Ashitha C Kukatla](https://github.com/ashi521): [Electric Vehicle Population in Washington state](https://ashi521.quarto.pub/-electric-vehicle-population-project/). The number of electric vehicles bought in Washington state is higher counties closer to major cities.  
+
+[Ansh Kare](https://github.com/anshkare): [Chances of Kobe Passing the Ball](https://anshkare.github.io/kobe-project/). Kobe most always relied on his own shot-making abilities to affect the game but if they were at a disadvantage, for every point there opponent was winning by, his chances of passing increased by 3%.  
+
+[Cheng Ma](https://github.com/malacaus): [Oil Prices Recession](https://malacaus.quarto.pub/oil_prices_recession/). Predicting the next recession by relationship between Brent Oil Prices and US recession  
+
+[Hunter Stephens](huner1212 (Hunter Stephens) (github.com)): [Effect of Silver and Bronze Medals on Olympic Placing](https://hunter-stephens.quarto.pub/bronze-and-silver-medals-on-olympic-placing/). Silver medals have a much stronger effect on Placment than Bronze medals  
+
+[Rajeev Kumar yadav](https://github.com/Rajeev-ky): [Housing Prices](https://rajeev-ky.quarto.pub/housing-prices/). Preferred area housing prices are higher despite the furnishing status of the housing.  
+
+[Elaine Zhang](https://github.com/elainez1006): [Maternal Mental Health on the Health of the Baby](https://elainez1006.github.io/pregnancy-data/). It is shown that mothers with a high Edinburgh Postnatal Depression Scale (EPDS) results have children weighing 0-8% less compared to the average weight of 3,463 grams.  
+
+[Anna Shao](https://github.com/annashao12): [Health in the US](https://annashao12.quarto.pub/health-in-the-us/). Compared to individuals without children, individuals with one to three children showed a significant decrease in the likelihood of having a health condition.  
+
+
 
 ## July 2023
 

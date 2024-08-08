@@ -5,7 +5,7 @@
 library(tidyverse)
 library(janitor) 
 
-x <- read_tsv("~/Downloads/example2.tsv", skip = 6, show_col_types = FALSE) |>  
+x <- read_tsv("~/Downloads/model-projects-bootcamp-june-2024 - Final Projects.tsv", skip = 6, show_col_types = FALSE) |>  
   janitor::clean_names() |> 
 
 

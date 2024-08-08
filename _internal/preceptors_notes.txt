@@ -737,7 +737,40 @@ Repo: https://github.com/Bootcamp-June-2024/election
 
 * Goal today is to take a tour of various projects. This is mostly TFs sharing their screen and giving feedback on everyone's project. But they will also ask other students to contribute their comments. Be ready to participate. If your room goes fast, then have everyone try to replicate one student's project by forking and then building it themselves. Highly recommended!
 
+### Day 2
 
+* Tell me a number (with a sensible number of signficant digits), and your certainity about that number. Every summary sentence should do this. Data science means numbers, and uncertainty!
 
+* Confirm your participation in Demo Day here: https://shorturl.at/LMVRO
+
+* Make sure that you arrive no later than 7:50 for class tomorrow. Because I have a new Zoom account, I am somewhat concerned about participation limits, so I want to ensure that no students get locked out.
+
+* I am considering teaching two different courses this fall. 
+
+  + This class, but over the course of 12 weeks, with less work each week.
+  + An introductory philosophy class which would read some Great Books and then use generative AI to create cool multimedia essays/art.
+  
+However, I am not sure who would take either class. As you can see, most of my students are in high school or college. Such students are usually too busy to work during the fall semester. I suspect that the most likely potential students would be either home-schooled or at private/charter school (with flexible rules) which might be willing to work with me to teach a group of their students )(for free) all at once.
+
+If you know someone who might be interested (like your uncle works at a high school), please have them email me (dave.kane@gmail.com) to discuss. I will also send out a message about this to the Substack list this week-end.
+
+* Below is a draft email. Modify as you like. We will send this email during class tonight.
+
+---
+Please come watch me present my final project for Kane’s Data Science Course at 8:00 PM EDT on Thursday, August 8. Links: 
+
+Zoom: https://shorturl.at/WaBub
+(Draft) Room Assignments: https://shorturl.at/LMVRO
+Projects: https://bootcamp.davidkane.info/projects.html
+Background: http://bootcamp.davidkane.info/demo_day.html
+
+I don't know whether I will be presenting at 8:00 or 8:30, but I can update you about that before the presentation.
+
+No worries if you can't make it!
+---
+
+* We will do a quick dry run of the start of Demo Day tonight. First, we will all go out to the correct rooms, just to be sure that we can get there. Second, TFs will then adjust room placement depending on who is absent. (They will do this, either by moving someone from the "last" room to the missing spot or, better, by assigning a TF to fill that spot. When the latter happens, the TF will always be in Group B.)
+
+* Then, after some time in the main room, we will practice our presentations a couple of times BUT GOING IN REVERSE ORDER, the better to see different students present. Of course, tomorrow we will go in the correct order. Give good feedback to each other!
 
 
