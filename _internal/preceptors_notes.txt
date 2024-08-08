@@ -760,7 +760,7 @@ If you know someone who might be interested (like your uncle works at a high sch
 Please come watch me present my final project for Kane’s Data Science Course at 8:00 PM EDT on Thursday, August 8. Links: 
 
 Zoom: https://shorturl.at/WaBub
-(Draft) Room Assignments: https://shorturl.at/LMVRO
+Room Assignments: https://shorturl.at/LMVRO
 Projects: https://bootcamp.davidkane.info/projects.html
 Background: http://bootcamp.davidkane.info/demo_day.html
 

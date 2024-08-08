@@ -13,7 +13,7 @@ website:
         href: staff.qmd
       - text: "Schedule"
         href: schedule.qmd
-      - text: "Final Projects"
+      - text: "Projects"
         href: projects.qmd
       - text: "Demo Day"
         href: demo_day.qmd

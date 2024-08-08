@@ -48,8 +48,6 @@ Make sure that you travel in reverse room numerical order. (I prefer that you mo
 
 It is your job to ensure that each presentation is interactive. It is boring for everyone involved if the presenting students just talks and talks. No one is listening! And they know it! Instead, it is up to you to ensure that everyone (and you) ask lots of questions. The presenter should never talk for more than 30 seconds straight.
 
-## Advice for Teaching Fellows
-
 First, two TFs are paired together and given a continuous set of breakout rooms, say 21 to 28. The two TFs should, obviously, coordinate ahead of time. They need one room for every two students so, in this case, with 8 rooms, they can't have more than 16 students between them. 
 
 Second, the two TFs divide the students into two equal groups: A and B. If possible, all the students for one TF are in A and all the students for the other TF are in B. But, if the TFs are responsible for different numbers of students, this might not be possible. However, we try to keep students from the same TF together in the same Group as much as possible.
