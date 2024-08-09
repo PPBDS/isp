@@ -38,7 +38,7 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 [Akhil Bellamkonda](https://github.com/akhilbelllamkonda): [Mesa Arrests](https://abellamkonda.quarto.pub/akhil-bellamkonda/). Our analysis shows that males are statistically more likely to be arrested than females, with a predicted arrest probability that is 15% higher on average.  
 
-[Wallstreet Petrus-Nihi](https://github.com/Wallstreet111): [Predicting Disease Outcomes from Lifestyle Factors](https://wpetrus.quarto.pub/heart-disease-prediction-by-smoking-and-alcohol-consumption/). Older age groups and unhealthy lifestyle factors such as high BMI, smoking, and excessive alcohol consumption significantly increase the risk of heart disease.  
+[Wallstreet Petrus-Nihi](https://github.com/Wallstreet111): [Heart Disease Prediction by Age and Gender](https://wpetrus.quarto.pub/heart-disease-prediction-by-age-and-gender). This project examines how variations in age and gender affect heart disease risk, aiming to develop a predictive model that enhances health assessments.  
 
 [Lowell Ethan Xavier](https://github.com/LowellEthan): [Lung Cancer Prediction](https://lowellethan.github.io/Lung-Cancer-Prediction/). A person who is exposed to a lot of air pollution is at a greater risk for lung cancer than a heavy smoker, with an estimated difference in their impacts being 0.11(± 0.04) on an 8 point scale.  
 
@@ -56,7 +56,7 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 [Annika Shivam](https://github.com/booleansarebinary): [What Makes a Book Popular?](https://booleansarebinary.quarto.pub/what-makes-a-book-popular/). Fiction books tend to sell, on average, around 600 more units than nonfiction books  
 
-[Shyamali Sheth](https://github.com/Shyamali-Sheth): [student-GPA](https://github.com/Shyamali-Sheth/Student-GPA). How different learning factors effect the GPA of a student.  
+[Shyamali Sheth](https://github.com/Shyamali-Sheth): [student-GPA](https://shyamali.quarto.pub/student-gpa/). How different learning factors effect the GPA of a student.  
 
 [Jason Fisher](https://github.com/jasonfisher0/finalproj): [Alzheimer's Diagnosis Prediction](https://github.com/jasonfisher0/AlzheimersDiagnosis). Physical function has a greater association with Alzheimer's diagnosis than mental function.  
 
@@ -66,7 +66,7 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 [Hao Lin](https://github.com/hlinca/wildfire_model): [Wildfire Model](https://hlinca.quarto.pub/wildfire_model/). Modeling the Impact of Environmental Conditions on Wildfire Incidents in California  
 
-[Pragnyasri Saknar](https://github.com/PragnyaSankar7): [Indicators of Diabetes](https://pragnyasankar7.quarto.pub/diabetes-indication/analysis.html). This study uses factors including age, gender, BMI, and more to detetc within which conditions diabetes is more common.  
+[Pragnyasri Sankar](https://github.com/PragnyaSankar7): [Indicators of Diabetes](https://pragnyasankar7.quarto.pub/diabetes-indication/analysis.html). This study uses factors including age, gender, BMI, and more to detetc within which conditions diabetes is more common.  
 
 [Ali Atif](https://github.com/AliAtif09): [Olympic historical Model](https://ali-123.quarto.pub/olympic-historical-dataset/). This project predicts thetotal number of medals based on the number of gold, silver, and bronze medals.  
 
@@ -209,10 +209,6 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 ## June 2022
 
-[Varun Dommeti](https://github.com/d-varun): [Prevalent Emotions in Mainstream Music, by Decade](https://d-varun.github.io/final-bootcamp-project/). Exploration of emotions in the billboard top 100, sorted by decade.
-
-[Soham Gunturu](https://github.com/SohamGunturu): [Mortality rate of babies under different variables](https://github.com/SohamGunturu/final-project). Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.
-
 [Suvan Dommeti](https://github.com/SuvanD0): [Presence of Polarzing Words in Australian Media](https://suvand0.github.io/Polarizing-words-in-media-over-time/). Does Australian media excessively use the word "riot" over "protest" to convey a biased message?
 
 [Jackson Roe](https://github.com/jacksonrroe): [March Madness: How to Pick a Perfect Bracket](https://jacksonrroe.github.io/march_madness_analysis/). Analysis of the trends in every March Madness bracket since the 1985 expansion to 64 teams.
@@ -335,14 +331,19 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 [Arghayan Jeiyasarangkan](https://github.com/JArghayan): [How The Overall Gold Difference Changes Throughout Professional League of Legends Games](https://jarghayan.github.io/Final-Project/). Examining the relationship between gold difference and game duration in professional League of Legends matches.
 
-[Kyle Sabo](https://github.com/sabokyle12): [How Speed Affects Offensive Ability in Baseball](https://sabokyle12.github.io/baseball-project/). Determining the extent that speed enables players to get more hits.
-
-[Felix Cai](https://github.com/FelixCai525): [Relationship Between GDP per Capita and Percentage of Population with a Confirmed Case of COVID-19](https://felixcai525.github.io/FP/). Exploring the relationship between GDP per capita and percentage of population with a confirmed case of COVID-19.
-
-[Shreya Sree Morishetty](https://github.com/shreyamori): [Undergraduate Engineering Enrollment by Demographics](https://shreyamori.github.io/Actual-Final-Project/). Exploring if the demographics have changed through the years as enrollment in engineering programs have risen
-
 [Arjun Velayutham](https://github.com/ArjunVelayutham): [Earnings vs Inflation](https://github.com/ArjunVelayutham/Johnson-Johnson-Earnings). Have the increase in a companies earnings outpaced the inflation margin.
 
+
+[Shreya Sree Morishetty](https://github.com/shreyamori): [Undergraduate Engineering Enrollment by Demographics](https://shreyamori.github.io/Actual-Final-Project/). Exploring if the demographics have changed through the years as enrollment in engineering programs have risen.
+
 [Stephanie Saab](https://github.com/stephaniesaab): [These Boots are made for Shopping](https://stephaniesaab.github.io/Shoe_shopping/). A comparison of men and women's shoe shopping tendencies shows that women spend more money while men are fond of a sale.
+
+[Kyle Sabo](https://github.com/sabokyle12): [How Speed Affects Offensive Ability in Baseball](https://sabokyle12.github.io/baseball-project/). Determining the extent that speed enables players to get more hits.
+
+[Varun Dommeti](https://github.com/d-varun): [Prevalent Emotions in Mainstream Music, by Decade](https://d-varun.github.io/final-bootcamp-project/). Exploration of emotions in the billboard top 100, sorted by decade.
+
+[Soham Gunturu](https://github.com/SohamGunturu): [Mortality rate of babies under different variables](https://github.com/SohamGunturu/final-project). Relationship between mortality rate of children under 5 per 1,000 live births and year, country, and economic class.
+
+[Felix Cai](https://github.com/FelixCai525): [Relationship Between GDP per Capita and Percentage of Population with a Confirmed Case of COVID-19](https://felixcai525.github.io/FP/). Exploring the relationship between GDP per capita and percentage of population with a confirmed case of COVID-19.
 
 [Heather Li](https://github.com/heatherli12): [An Overview of Toronto Shelter Data in 2020](https://heatherli12.github.io/toronto-shelter-data/). Mapping the occupancy percentage of Toronto shelters during 2020.
