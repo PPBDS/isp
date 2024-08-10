@@ -1,5 +1,12 @@
 This document provides an overview of the course --- its structure, schedule and philosophy. 
 
+## New Breakout Room Organization
+
+What if we did not assign students to permanent breakout rooms, at least for the first few weeks? Instead, we just assign them to TFs and then deal with the breakout room issue each day. 
+
+
+
+
 ## July
 
 Get RStudio Copilot working: 

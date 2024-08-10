@@ -10,11 +10,11 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 ## August 2024
 
+[Alan Tao](https://github.com/alantao5056): [Spotify Songs v2](https://alienjao.quarto.pub/spotify-songs-v2/). 25 points in danceability is associated with 3 (+- 0.25) points of popularity on a 100 point scale. 
+
 [Lela Sengupta](https://github.com/lelasengupta): [Analysis of Hidden Stock Orders](https://lelasengupta.quarto.pub/hidden-order/). Low volatility stocks experience about 48% of the hidden orders high volatility stocks experience, plus or minus 4%. 
 
 [Gitanjali Sheth](https://github.com/gshethg): [Effect of physicochemical properties of wine on their quality](https://gshethg.quarto.pub/wineanalysis/). For each one-unit increase in alcohol content, the quality of the wine is expected to increase by 0.34 units, with a 95% CI of 0.31 to 0.37.  
-
-[Alan Tao](https://github.com/alantao5056): [Spotify Songs](https://alienjao.quarto.pub/spotify-songs-v2/). 25 points in danceability is associated with 3 (+- 0.25) points of popularity on a 100 point scale. 
 
 [Tanay Janmanchi](https://github.com/tjanamnchi2): [2020 United States Presidential Election results by region.](https://tjanamnchi2.github.io/2020-election/). Given that a voter is from the South, there is a 52% chance that they will vote for Biden, although that number could be anywhere from 48% to 56%, despite being his least popular region. 
 
@@ -91,7 +91,7 @@ A total of 158 students have completed the course. Congratulations! Here are the
 
 [Hans Zhang](https://github.com/hanszca): [Life by socio-economic](https://hanszca.quarto.pub/life_by_econ/). Life expectancy by socio-economic factors  
 
-[Sharav Joshi](https://github.com/sharav12): [difference in growth between hispanic and non-hispanic populations](https://sharav.quarto.pub/population-growth-analysis/analysis.html). The key takeaway from this analysis is that both the year and population group significantly influence growth trends, highlighting the dynamic demographic shifts within the U.S. population.  
+[Sharav Joshi](https://github.com/sharav12): [Difference in growth between hispanic and non-hispanic populations](https://sharav.quarto.pub/population-growth-analysis/). Both year and population group significantly influence growth trends, highlighting the dynamic demographic shifts within the U.S. population.  
 
 [Zephan Shivam](https://github.com/PythonGoaler): [Three Key Takeaways from The Game of Golf](https://zshi.quarto.pub/three-golf-takeaways/). The difficulty of courses in the PGA are well balanced, driving the ball over 300 yards is very tough while driving over 280 yards is fairly easy, and finally, yardage has a small effect on the overall score.  
 
