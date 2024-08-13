@@ -1,11 +1,29 @@
 This document provides an overview of the course --- its structure, schedule and philosophy. 
 
+## Students to Contact in April
+
+
+Aashna Patel
+
+
 ## New Breakout Room Organization
 
-What if we did not assign students to permanent breakout rooms, at least for the first few weeks? Instead, we just assign them to TFs and then deal with the breakout room issue each day. 
+What if we did not assign students to permanent breakout rooms, at least for the first few weeks? Instead, we just assign them to TFs and then deal with the breakout room issue each day. This makes organization easier. We just have to keep track of which students are assigned to which TFs. Then, before each class, we tell students which breakout room they are in today. 
+
+1) For the first week or two, TFs might reasonably keep their rooms quite big, with even 10 or 15 students. After all, they want to keep a close eye on all the students. Also, they want plenty of options for when they assign someone to share and someone to drive. This also gives them plenty of time to set the standard for how they want the rooms to operate. 
+
+2) But, as long as this is happening, students are not getting as much practice as we might like working on their own, which means that we might always need someone present, either the assigned TF or the 
 
 
+## Empower the TFs
 
+The more power and responsibility the TFs have, the better. But then we are required to build tools which empower them. Examples:
+
+1) Given a list of their students' emails, it should be easy for TFs to determine which of their students have submitted which of the homework assignments. Pass in one student email and you get a list of their completed assignments.
+
+2) Given a specific tutorial, a list of their students' emails and a list of code chunk names, it should be easy for TFs to get a list of all the students and their answers to all the specified questions in a given tutorial.
+
+3) 
 
 ## July
 
@@ -141,6 +159,7 @@ Drop the Bayesian tools but not the Bayesian interpretation. Use Tidymodels, fir
 ### Week 8: Model Projects
 
 Focus is the model project presentations on Thursday.
+
 
 
 

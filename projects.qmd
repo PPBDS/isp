@@ -6,11 +6,11 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 158 students have completed the course. Congratulations! Here are their Final Projects.
+A total of 159 students have completed the course. Congratulations! Here are their Final Projects.
 
 ## August 2024
 
-[Alan Tao](https://github.com/alantao5056): [Spotify Songs v2](https://alienjao.quarto.pub/spotify-songs-v2/). 25 points in danceability is associated with 3 (+- 0.25) points of popularity on a 100 point scale. 
+[Alan Tao](https://github.com/alantao5056): [Spotify Songs](https://alienjao.quarto.pub/spotify-songs-v2/). 25 points in danceability is associated with 3 (+- 0.25) points of popularity on a 100 point scale. 
 
 [Lela Sengupta](https://github.com/lelasengupta): [Analysis of Hidden Stock Orders](https://lelasengupta.quarto.pub/hidden-order/). Low volatility stocks experience about 48% of the hidden orders high volatility stocks experience, plus or minus 4%. 
 
@@ -29,6 +29,9 @@ A total of 158 students have completed the course. Congratulations! Here are the
 [Harshil Kurapati](https://github.com/hkurapat): [Income correlated to Race and Gender](https://hkurapat.quarto.pub/income-based-on-race-and-gender/). The analysis reveals that both race and gender significantly influence income levels, with disparities evident across different racial groups and between genders.  
 
 [Anna Shao](https://github.com/annashao12): [Health in the US](https://annashao12.quarto.pub/health-in-the-us/). Compared to individuals without children, individuals with one to three children showed a significant decrease in the likelihood of having a health condition.  
+
+[Melody Liu](https://github.com/mliu-13): [Waste Recycled](https://mliu.quarto.pub/waste-recycled/). There seems to be a strong correlation between waste recycled and incinerated, mismanaged, and landfilled waste. 
+
 
 [Elaine Zhang](https://github.com/elainez1006): [Maternal Mental Health on the Health of the Baby](https://elainez1006.github.io/pregnancy-data/). It is shown that mothers with a high Edinburgh Postnatal Depression Scale (EPDS) results have children weighing 0-8% less compared to the average weight of 3,463 grams.  
 
