@@ -17,8 +17,6 @@ website:
         href: projects.qmd
       - text: "Demo Day"
         href: demo_day.qmd
-exclude:
-  - internal
     
 format:
   html:

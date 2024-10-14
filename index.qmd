@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Sign up for our e-mail list](https://davidkane.substack.com/) to receive updates about the course going forward.
 
-**Kane's (Free) Data Science Course** runs for 8 weeks, mostly each summer. The next session will probably be summer 2025. The workload is 10 hours per week: 2.5 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7.5 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! **There is no charge.**
+**Kane's (Free) Data Science Course** runs for 8 weeks, mostly each summer. The next session will probably begin in June 2025. The workload is 10 hours per week: 3 hours in class with [former Harvard Preceptor David Kane](https://www.davidkane.info/), lecturing live on Zoom at around 8:00 PM ET on M/W/Th and 7 hours of work completed by students on their own. By the end of this course, students will be able to do basic data science! **There is no charge.**
 
 ```{r}
 #| cache: true
