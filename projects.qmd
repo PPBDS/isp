@@ -6,7 +6,7 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 159 students have completed the course. Congratulations! Here are their Final Projects.
+A total of 159 students have completed previous versions of this class. Congratulations! 
 
 ## August 2024
 

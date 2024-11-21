@@ -6,7 +6,9 @@ title: "Procedures for Demo Day"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-These are the procedures we follow on "Demo Day" during which students present their projects to an audience of their peers and guests. Demo Day is public. All are welcome. To attend, you need the Zoom link. 
+**ROUGH DRAFT: I am adjusting this for our in-person NCF class.**
+
+These are the procedures we follow on "Demo Day" during which students present their projects to an audience of their peers and guests. Demo Day is public. All are welcome. 
 
 The document begins with an overview of the procedures and then provides advice to guests and to students. If you are a guest, you do not need to read the advice for students.
 

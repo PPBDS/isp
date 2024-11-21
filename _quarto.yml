@@ -2,13 +2,11 @@ project:
   type: website
 
 website:
-  title: "Kane's Free Data Science Course"
+  title: "Techne"
   navbar:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Testimonials"
-        href: testimonials.qmd
       - text: "Staff"
         href: staff.qmd
       - text: "Schedule"
