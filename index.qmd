@@ -30,3 +30,5 @@ Check out the [final projects](https://isp.davidkane.info/projects.html) created
 
 There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). The course is designed for absolute beginners. Neither programming nor statistics experience is required.
 
+Workload will be 20 hours a week outside of class meetings and the final project. Class will (tentatively) meet three times a week from 10:00 to 11:00. We meet on Monday/Tuesday/Wednesday during the week of January 6. After that, we meet on Wednesday/Thursday/Friday.
+

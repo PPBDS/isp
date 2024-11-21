@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Techne"
+  title: "Techne: Get The Future You Want"
   navbar:
     right:
       - text: "Home"
