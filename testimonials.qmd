@@ -1,0 +1,36 @@
+---
+title: "Testimonials"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Here are some of [my favorite comments](https://davidkane.info/files/kane_student_comments.pdf) from previous students:
+
+* This class is AMAZING!! But a lot of work! Preceptor Kane is amazing! The best
+teacher I have had.
+
+* Preceptor Kane is one of the best teachers I've had at Harvard, if not the best. He genuinely cares about every student and gives everyone every possible chance to succeed.
+
+* Take this class because it will teach you SO MUCH about coding and data science and even life and professionalism --- seriously, you won't believe how much you will improve your data
+visualization skills in one semester --- and because you will get to be taught and mentored by
+David Kane.
+
+* Professor Kane is by far my favorite professor I've ever encountered at Harvard. No matter your skill level or technical background,he is more than happy to stick with students and catch them up to speed to succeed in the class. Moreover, he genuinely cares about the happiness of his students, fostering a sense of community and ensuring that all students meet each other throughout the semester.
+
+* I loved this course. David Kane is really engaging and a great teacher, and this class has
+provided me with the most real-world skills of any class here at Harvard.
+
+* This class is AMAZING!! But a lot of work! Preceptor Kane is amazing! The best
+teacher I have had.
+
+* This class is awesome. Would highly recommend to anyone. Don't let the cold calling and
+workload scare you, it's very manageable.
+
+* Does by far the best job of creating a positive classroom environment of all of the teachers I’ve had. Very accessible outside of class. Teaches applicable, real world skills (even when they don’t relate to the subject matter).
+
+* Preceptor has set the pedagogical bar at Harvard.
+
+[Read then all](https://davidkane.info/files/kane_student_comments.pdf)!
+

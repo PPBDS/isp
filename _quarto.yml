@@ -7,10 +7,10 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Staff"
-        href: staff.qmd
       - text: "Schedule"
         href: schedule.qmd
+      - text: "Testimonials"
+        href: testimonials.qmd
       - text: "Projects"
         href: projects.qmd
       - text: "Demo Day"
