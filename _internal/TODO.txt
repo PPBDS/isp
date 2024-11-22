@@ -2,6 +2,7 @@
 
 Room? Maybe Heiser 170? Heiser auditorium? library 250?
 
+Why aren't images, like animation.rds, being copied over automatically to _site?
 
 
 ## Priorities for June Class
