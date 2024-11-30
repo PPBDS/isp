@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **DRAFT: I AM WORKING ON THIS.**
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane, [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker, along with their [their](https://ppbds.github.io/r4ds.tutorials/) [associated](https://ppbds.github.io/primer.tutorials/) [tutorials](https://ppbds.github.io/tidycensus.tutorials/). Homework should be completed before the class meeting for which it is assigned.
+Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane, [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker, along with their [their](https://ppbds.github.io/r4ds.tutorials/) [associated](https://ppbds.github.io/primer.tutorials/) [tutorials](https://ppbds.github.io/tidycensus.tutorials/). Homework is due before midnight on the day before the class for which it is assigned.
 
 See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
@@ -21,54 +21,58 @@ remotes::install_github("PPBDS/primer.tutorials")
 
 We are always fixing mistakes. You want to use the latest version.
 
-Completed tutorials are submitted via [this Google form](). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
+Completed tutorials are submitted via [this Google form](https://forms.gle/G2LeFfJ4CiSuudCe9). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in *html* format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
+
+The listed assignments are the tutorials. We also recommend that you read the associated chapters in the various textbooks, but there is no reasonable way for us to confirm that you have done so. Tutorial numbers/titles almost always match textbook chapter numbers/titles.
 
 
-
-
-# Week 1: January 6: Data
+# Week 1
 
 Class will meet in Monday, Tuesday and Wednesday this week.
 
-Looking at the data is the first step in data science. Note that Monday's homework must be completed before Monday's class. I ensure this by only sending the Zoom link for class to students who submitted the homework.
+Looking at the data is the first step in data science. Note that Monday's homework must be completed by Sunday at midnight. Email me if you have problems. 
 
 ## Monday 
 
-* Read the Introduction from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+* Set up your laptop by reading the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter from the [*Primer*](https://ppbds.github.io/primer/).
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Introduction" tutorial. Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
+* Submit the "Getting Started with Tutorials" tutorial from the **tutorial.helpers** package. See the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter for details.
 
-## Thursday 
+* Submit the "Introduction" tutorial from the **r4ds.tutorials** package.
 
-* Read Chapters 1 -- 4 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/). 
+## Tuesday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete four tutorials: "Data Visualization," "RStudio and Code," "Data Transformation," and "RStudio and Github." Submit your answers via the usual [Google form](https://forms.gle/ScrSYjb6pYPbtvNj7). 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "Data Visualization," "RStudio and Code," and "RStudio and Quarto."
 
-**Reminder**: All work must be completed before class. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
+**Reminder**: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
+## Wednesday 
 
-Now that we know how to visualize data that is already clean, we need to learn how to clean up messy data. 
-
-## Monday 
-
-* Read Chapters 5, 6, 7, and 8 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: "Data Tidying," "Terminal," "Data Import," and "Getting Help."   
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "Data Transformation," "RStudio and Github Introduction," and "RStudio and Github Advanced."  
  
 
 ## Thursday 
 
-* Read Chapters 9, 10 and 11 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/), and from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the tutorials associated with the readings: "Layers," "Exploratory Data Analysis," and "Communication."  
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "Data Tidying," "Terminal," and "Data Import."" 
 
+
+## Friday 
+
+<!-- DK: Add other chapters. -->
 
 * Read chapters 1 and 2 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your projects.
-
 
 * From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete the "An introduction to tidycensus" tutorial.  
 
 
 
-# Week 2: January 13: Inference
+# Week 2: January 13
+
+We meet Wednesday, Thursday, and Friday this week. But, as always, you have work due every weekday. Highlight is the presentation of your first project on Friday.
 
 ## Monday 
+
+
 
 * Read chapters 12, 13, 28 and 29 from [*R for Data Science (2e)*](https://r4ds.hadley.nz/) and, from the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete the "Logical vectors," "Numbers," and "Quarto Websites" tutorials.
 
@@ -99,9 +103,9 @@ The main focus on the 4th week is individual presentations of your Data Project.
 
 * Practice presentations and feedback. You must have your presentation ready to go! 
 
-## Thursday 
+## Friday 
 
-* Data Project presentations. You must invite someone, and bcc your TF when you do so. The presentations are public.
+* Project presentations. You must invite someone, and bcc me when you do so. The presentations are public.
 
 
 

@@ -16,6 +16,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 > **No course at NCF does more to increase your odds of getting the future you want.**
 
+Every organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.   
+
+CRN #: 25574
+
 **Techne** is a New College of Florida group ISP, starting January 6, 2025 and taught by [David Kane](https://davidkane.info/). The workload is 20 hours per week, plus class time and two projects. By the end of this course, students will be able to do basic data science!
 
 
@@ -28,8 +32,8 @@ read_rds("images/animation.rds")
 
 Check out the [final projects](https://isp.davidkane.info/projects.html) created by prior students. Want to make something like that? Take the course! See [here](https://davidkane.info/writings/philosophy.html) for details on my teaching philosophy.
 
-There are no prerequisites. The programming language we will be using is R. You must have a computer with R, RStudio and Git [installed](https://happygitwithr.com). The course is designed for absolute beginners. Neither programming nor statistics experience is required.
+There are no prerequisites. The programming language we will be using is R. You must have a computer which can run [R, RStudio and Git](https://happygitwithr.com). We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required.
 
 Class will (tentatively) meet on Monday, Tuesday, and Wednesday during the first week and on
-Wednesday, Thursday, and Friday thereafter. Class times are (tentively) 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th.
+Wednesday, Thursday, and Friday thereafter. Class times are (tentatively) 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th.
 

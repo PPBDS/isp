@@ -1,4 +1,4 @@
 - source: project
   netlify:
     - id: e67bdd70-27e5-4950-87e0-0150a302388b
-      url: 'https://isp.davidkane.info'
+      url: https://isp.davidkane.info
