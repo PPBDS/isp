@@ -1,0 +1,3 @@
+
+
+* Fix tutorials for chapters 4 and 5 from Tidycensus.
