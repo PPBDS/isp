@@ -144,18 +144,35 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><a href="https://www.davidkane.info">David Kane</a> is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.</p>
-<!-- # Head Teaching Fellow -->
-<!-- ## Tejas Mundhe -->
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/tejas.jpg") -->
-<!-- ``` -->
-<!-- [Tejas Mundhe](https://github.com/TejasMundhe) (tejasnm07 at gmail.com) is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics. -->
-<!-- # Teaching Fellows -->
-<!-- ## Nosa Lawani -->
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/nosa.jpg") -->
-<!-- ``` -->
-<!-- Nosa Lawani (nlawani at college.harvard.edu) is a recent graduate of Harvard College. -->
+</section>
+</section>
+<section id="teaching-fellows" class="level1">
+<h1>Teaching Fellows</h1>
+<section id="lela-sengupta" class="level2">
+<h2 class="anchored" data-anchor-id="lela-sengupta">Lela Sengupta</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/sengupta.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="https://github.com/lelasengupta">Lela Sengupta</a> (lelasen06 at gmail.com) is a current freshman at Tufts University studying quantitative economics and computer science.</p>
+</section>
+<section id="gia-khang" class="level2">
+<h2 class="anchored" data-anchor-id="gia-khang">Gia Khang</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/khang.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<p><a href="https://github.com/giakhang1906">Gia Khang</a> (phamgiakhang19062003 at gmail.com) is a Senior at Fulbright University Vietnam who is interested in Economics and Data Science.</p>
 
 
 </section>
@@ -252,7 +269,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/isp\.davidkane\.info");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

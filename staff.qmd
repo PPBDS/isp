@@ -20,25 +20,25 @@ knitr::include_graphics("images/david_kane.png")
 
 [David Kane](https://www.davidkane.info) is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.
 
-<!-- # Head Teaching Fellow -->
 
-<!-- ## Tejas Mundhe -->
+# Teaching Fellows
 
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/tejas.jpg") -->
-<!-- ``` -->
+## Lela Sengupta
 
-<!-- [Tejas Mundhe](https://github.com/TejasMundhe) (tejasnm07 at gmail.com) is a rising senior at Walnut Hills High School who is interested in Data Science and Robotics. -->
+```{r}
+knitr::include_graphics("images/sengupta.jpg")
+```
 
-<!-- # Teaching Fellows -->
+[Lela Sengupta](https://github.com/lelasengupta) (lelasen06 at gmail.com) is a current freshman at Tufts University studying quantitative economics and computer science. 
 
-<!-- ## Nosa Lawani -->
 
-<!-- ```{r} -->
-<!-- knitr::include_graphics("images/nosa.jpg") -->
-<!-- ``` -->
+## Gia Khang
 
-<!-- Nosa Lawani (nlawani at college.harvard.edu) is a recent graduate of Harvard College. -->
+```{r}
+knitr::include_graphics("images/khang.jpg")
+```
+
+[Gia Khang](https://github.com/giakhang1906) (phamgiakhang19062003 at gmail.com) is a Senior at Fulbright University Vietnam who is interested in Economics and Data Science.
 
 
 

@@ -21,6 +21,20 @@
     "text": "David Kane is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University."
   },
   {
+    "objectID": "staff.html#lela-sengupta",
+    "href": "staff.html#lela-sengupta",
+    "title": "Preceptor",
+    "section": "Lela Sengupta",
+    "text": "Lela Sengupta\n\n\n\n\n\n\n\n\n\nLela Sengupta (lelasen06 at gmail.com) is a current freshman at Tufts University studying quantitative economics and computer science."
+  },
+  {
+    "objectID": "staff.html#gia-khang",
+    "href": "staff.html#gia-khang",
+    "title": "Preceptor",
+    "section": "Gia Khang",
+    "text": "Gia Khang\n\n\n\n\n\n\n\n\n\nGia Khang (phamgiakhang19062003 at gmail.com) is a Senior at Fulbright University Vietnam who is interested in Economics and Data Science."
+  },
+  {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Final Projects",
@@ -102,7 +116,7 @@
     "href": "index.html",
     "title": "Techne",
     "section": "",
-    "text": "No course at NCF does more to increase your odds of getting the future you want.\n\nEvery organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.\nCRN #: 25574\nTechne is a New College of Florida group ISP, starting January 6, 2025 and taught by David Kane. The workload is 20 hours per week, plus class time and two projects. By the end of this course, students will be able to do basic data science!\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course! See here for details on my teaching philosophy.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer which can run R, RStudio and Git. We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required.\nClass will (tentatively) meet on Monday, Tuesday, and Wednesday during the first week and on Wednesday, Thursday, and Friday thereafter. Class times are (tentatively) 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th."
+    "text": "No course at NCF does more to increase your odds of getting the future you want.\n\nEvery organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.\nCRN #: 25574\nTechne is a New College of Florida group ISP, starting January 6, 2025 and taught by David Kane. The workload is 20 hours per week, plus class time and two projects. By the end of this course, students will be able to do basic data science!\nClass will meet on Monday, Tuesday, and Wednesday during the weeks of Jan 6th and 27th, and on Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course! See here for details on my teaching philosophy.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer which can run R, RStudio and Git. We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required."
   },
   {
     "objectID": "schedule.html",
