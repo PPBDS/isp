@@ -40,5 +40,11 @@ knitr::include_graphics("images/khang.jpg")
 
 [Gia Khang](https://github.com/giakhang1906) (phamgiakhang19062003 at gmail.com) is a Senior at Fulbright University Vietnam who is interested in Economics and Data Science.
 
+## Satvika Upperla
 
+```{r}
+knitr::include_graphics("images/satvika.jpeg")
+```
+
+[Satvika Upperla](https://github.com/USATVIKA) (upperlasatvika at gmail.com) is a Sophomore at Allen High School who is interested in Data Science, Machine Learning, and iOS App Development.
 
