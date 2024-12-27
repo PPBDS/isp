@@ -28,11 +28,11 @@ The listed assignments are the tutorials. We also recommend that you read the as
 
 Class will meet in Monday, Tuesday and Wednesday this week.
 
-Monday's homework must be completed by Sunday at midnight. Email me if you have problems. 
-
 ## Monday 
 
-* Set up your laptop by reading the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter from the [*Primer*](https://ppbds.github.io/primer/).
+Try to set up your computer before class on Monday by reading the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter from the [*Primer*](https://ppbds.github.io/primer/).
+
+In class, we will start work on these two tutorials. These are due by midnight, along with the tutorials assigned for Tuesday's class.
 
 * Submit the "Getting Started with Tutorials" tutorial from the **tutorial.helpers** package. See the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter for details.
 
@@ -95,7 +95,7 @@ We meet Wednesday, Thursday, and Friday this week. But, as always, you have work
 
 # Week 3: January 20
 
-We meet Wednesday, Thursday, and Friday this week. But you still have assignments due every day.
+We meet Wednesday, Thursday, and Friday this week. But you still have assignments due every day. Recall that **assignments are due at midnight on the day before** the relevant class.
 
 ## Monday
 
@@ -130,7 +130,7 @@ We meet Monday, Tuesday, and Wednesday this week.
 
 ## Tuesday
 
-* Zoom presentation of your second project, conducted during class. You are required to invite at least some family members to attend.
+* Zoom presentation of your second project. I hope that, depending in student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.
 
 ## Wednesday
 
