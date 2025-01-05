@@ -14,6 +14,8 @@ library(htmltools)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+### First class is Monday January 6 at 10:00 AM in ACE (Academic Center) 102. Check the [schedule](schedule.html) for instructions.
+
 > **No course at NCF does more to increase your odds of getting the future you want.**
 
 Every organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.   
@@ -23,7 +25,7 @@ CRN #: 25574
 **Techne** is a New College of Florida group ISP, starting January 6, 2025 and taught by [David Kane](https://davidkane.info/). The workload is 20 hours per week, plus class time and two projects. By the end of this course, students will be able to do basic data science!
 
 Class will meet on Monday, Tuesday, and Wednesday during the weeks of Jan 6th and 27th, and on
-Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th.
+Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th. Class meets in ACE 102.
 
 ```{r}
 #| cache: true

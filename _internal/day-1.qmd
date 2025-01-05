@@ -26,16 +26,6 @@ Give a quick tour of RStudio. (Make sure that you are starting your session in a
 
 Type 2 + 2. 
 
-Tell them to update tutorial.helpers
-
-```
-remotes::install_github("PPBDS/tutorial.helpers")
-```
-
-Send them to breakout rooms to do the same.
-
-But do this together! One person shares their screen. One other person drives.
-
 There may be problems, especially for students who are using a different computer from the one they used when they did the Getting Started chapter.
 
 ## Session 3

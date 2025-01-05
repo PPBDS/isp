@@ -1,5 +1,12 @@
 ## Priorities for ISP
 
+Check Google form.
+
+Setup Excel spreadsheet for Data and Model Projects
+
+
+Fix tutorials for chapters 4 and 5 from Tidycensus.
+
 Redo Git/Github?Quarto tutorials on Posit Cloud. Update instructions if needed.
 
 Room? Maybe Heiser 170? Heiser auditorium? library 250?
