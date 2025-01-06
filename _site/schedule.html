@@ -148,9 +148,9 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Key resources: <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a> by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, <a href="https://ppbds.github.io/primer/"><em>Preceptor’s Primer for Bayesian Data Science</em></a> by David Kane, <a href="https://walker-data.com/census-r/"><em>Analyzing US Census Data: Methods, Maps, and Models in R</em></a> by Kyle Walker, along with their <a href="https://ppbds.github.io/r4ds.tutorials/">their</a> <a href="https://ppbds.github.io/primer.tutorials/">associated</a> <a href="https://ppbds.github.io/tidycensus.tutorials/">tutorials</a>. Homework is due before midnight on the day before the class for which it is assigned.</p>
 <p>See the home pages for the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a>, <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a>, and <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> for installation instructions.</p>
-<p><strong>Always reinstall the relevant package before starting a new tutorial.</strong> Example for <strong>primer.tutorials</strong>:</p>
-<pre><code>remove.packages("primer.tutorials")
-remotes::install_github("PPBDS/primer.tutorials")</code></pre>
+<p><strong>Always reinstall the relevant package before starting a new tutorial.</strong> Example for <strong>r4ds.tutorials</strong>:</p>
+<pre><code>remove.packages("r4ds.tutorials")
+remotes::install_github("PPBDS/r4ds.tutorials")</code></pre>
 <p>We are always fixing mistakes. You want to use the latest version.</p>
 <p>Completed tutorials are submitted via <a href="https://forms.gle/G2LeFfJ4CiSuudCe9">this Google form</a>. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like <code>getting-started_answers.html</code>. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like <code>getting-started_answers (2).html</code>. You can just change the name of the file by hand if this happens.</p>
 <p>The listed assignments are the tutorials. We also recommend that you read the associated chapters in the various textbooks, but there is no reasonable way for us to confirm that you have done so. Tutorial numbers/titles almost always match textbook chapter numbers/titles.</p>
@@ -277,7 +277,7 @@ remotes::install_github("PPBDS/primer.tutorials")</code></pre>
 <section id="tuesday-3" class="level2">
 <h2 class="anchored" data-anchor-id="tuesday-3">Tuesday</h2>
 <ul>
-<li>Zoom presentation of your second project. I hope that, depending in student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.</li>
+<li>Zoom presentation of your second project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.</li>
 </ul>
 </section>
 <section id="wednesday-3" class="level2">
@@ -381,7 +381,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/isp\.davidkane\.info");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

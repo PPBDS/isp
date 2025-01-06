@@ -10,11 +10,11 @@ Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wi
 
 See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
 
-**Always reinstall the relevant package before starting a new tutorial.** Example for **primer.tutorials**:
+**Always reinstall the relevant package before starting a new tutorial.** Example for **r4ds.tutorials**:
 
 ```
-remove.packages("primer.tutorials")
-remotes::install_github("PPBDS/primer.tutorials")
+remove.packages("r4ds.tutorials")
+remotes::install_github("PPBDS/r4ds.tutorials")
 ```
 
 We are always fixing mistakes. You want to use the latest version.
@@ -130,7 +130,7 @@ We meet Monday, Tuesday, and Wednesday this week.
 
 ## Tuesday
 
-* Zoom presentation of your second project. I hope that, depending in student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.
+* Zoom presentation of your second project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.
 
 ## Wednesday
 
