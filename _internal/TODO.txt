@@ -1,9 +1,21 @@
 ## Priorities for ISP
 
+New Github organization: isp-2025-01
+
+New Discord server. Channels include #class-work, #preceptors-notes, #projects.
+
+Set up class list and cold_call function.
+
+Set up empty project for first class so your set up looks like student set up.
+
+Create a new location for example reprexes at Posit Community for the Getting 
+Help tutorial. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
+
+Update Getting Help tutorial links.
+
 Check Google form.
 
-Setup Excel spreadsheet for Data and Model Projects
-
+Setup Excel spreadsheet for Data and Model Projects.
 
 Fix tutorials for chapters 4 and 5 from Tidycensus.
 

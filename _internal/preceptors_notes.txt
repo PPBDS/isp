@@ -4,7 +4,8 @@
 
 ## Next Time
 
-Make more use of #projects channel as a location for students to prove that they have made progress on the projects, and do it earlier in the course.
+Make more use of #projects channel as a location for students to prove that they 
+have made progress on the projects, and do it earlier in the course.
 
 ## Outline
 
@@ -17,13 +18,16 @@ End of week 3, Github/Quarto Website. Three different practice websites, each ti
 
 ## Standard Preparations
 
-* Reach out to potential TFs. Check to see if any are interested in younger or older breakout rooms. Confirm that they are all available on Demo Days.
+* Reach out to potential TFs. Check to see if any are interested in younger or 
+older breakout rooms. Confirm that they are all available on Demo Days.
 
 * Make sure all TFs appear on the staff page, with their emails.
 
-* Set up new Github organization under your personal account. Use this for class repos. Follow bootcamp-2023-01 as a naming convention https://github.com/Bootcamp-June-2024
+* Set up new Github organization under your personal account. Use this for class 
+repos. Follow bootcamp-2023-01 as a naming convention https://github.com/Bootcamp-June-2024
 
-* Create a new location for example reprexes at Posit Community for the Getting Help tutorial. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
+* Create a new location for example reprexes at Posit Community for the Getting 
+Help tutorial. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
 
 * Update link in Getting Help tutorial with this new location.
 
@@ -35,7 +39,10 @@ End of week 3, Github/Quarto Website. Three different practice websites, each ti
 
 * Set up empty project for first class so your set up looks like student set up.
 
-* Be careful about forks. If you have students fork from repo class-2022-08-01, you can not then change the name of this tutorial to class-2022-08-02 and then have them fork from it again. The reason is that these are the same repo, but with a name change, and you can't fork twice from the same repo.
+* Be careful about forks. If you have students fork from repo class-2022-08-01, 
+you can not then change the name of this tutorial to class-2022-08-02 and then 
+have them fork from it again. The reason is that these are the same repo, but 
+with a name change, and you can't fork twice from the same repo.
 
 # First TF Meeting
 
@@ -52,12 +59,14 @@ Confirm that everyone can attend Demo Days.
 
 Anyone interested in Older breakout room? Younger room?
 
-We will be making extensive use of AI. I recommend the free version of ChatGPT. Unless you feel strongly, use this so students can do the same. But, if you are using a paid version of this, or another AI, that is fine to. 
+We will be making extensive use of AI. I recommend the free version of ChatGPT. 
+Unless you feel strongly, use this so students can do the same. But, if you are 
+using a paid version of this, or another AI, that is fine to. 
 
 Thanks to Tejas (tejasnm07@gmail.com) for volunteering to be Head TF. 
 
-Show breakout room spreadsheet, including TF schedule sheet. Fill out attendance spreadsheet as best as possible. You can change it later.
-
+Show breakout room spreadsheet, including TF schedule sheet. Fill out attendance 
+spreadsheet as best as possible. You can change it later.
 
 
 Code for creating the class list:
@@ -102,7 +111,9 @@ Preceptor
 
 # Part I
 
-The goal for the first part of the course is to get good enough at R/RStudio/Git/Github that you can create an high quality data project with an associated webpage. The key materials are R4DS and r4ds.tutorials.
+The goal for the first part of the course is to get good enough at 
+R/RStudio/Git/Github that you can create an high quality data project with an 
+associated webpage. The key materials are R4DS and r4ds.tutorials.
 
 ## Week 1
 

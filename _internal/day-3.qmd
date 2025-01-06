@@ -87,7 +87,7 @@ Cycle back-and-forth to breakout rooms, making progress on the plot. Cold call e
 
 Don't forget rsconnect in .gitignore!
 
-Publish the plot to rpubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work. Update .gitignore for rsconnect. Push everything.
+Publish the plot to RPubs. Looks OK. But it is a little ugly to have the title and, maybe the author, edit the YAML to remove. Re-publish. Add link to class-work. Update .gitignore for rsconnect. Push everything.
 
 Now we are ready to do data science!
 
@@ -122,3 +122,4 @@ connectedness |>
          subtitle = "Biggger states have counties with lower average economic connectedness.")
 ```
 
+Add some labels to the plot? Make interactive? How does it look on the web?
