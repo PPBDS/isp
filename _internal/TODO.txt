@@ -1,92 +1,49 @@
 ## Priorities for ISP
 
-New Github organization: isp-2025-01
+Confirm students are free at 8:00 PM on Tues Jan 28.
 
-New Discord server. Channels include #class-work, #preceptors-notes, #projects.
+Does Git/Github work on Posit Cloud?
 
 Set up class list and cold_call function.
-
-Set up empty project for first class so your set up looks like student set up.
-
-Create a new location for example reprexes at Posit Community for the Getting 
-Help tutorial. Here is the most recent one: https://forum.posit.co/t/thread-for-students-posting-practice-reprexes-please-do-not-answer-them/187087
-
-Update Getting Help tutorial links.
-
-Check Google form.
 
 Setup Excel spreadsheet for Data and Model Projects.
 
 Fix tutorials for chapters 4 and 5 from Tidycensus.
 
-Redo Git/Github?Quarto tutorials on Posit Cloud. Update instructions if needed.
-
-Room? Maybe Heiser 170? Heiser auditorium? library 250?
+Redo Git/Github/Quarto tutorials on Posit Cloud. Update instructions if needed.
 
 Why aren't images, like animation.rds, being copied over automatically to _site?
 
-
-## Priorities for June Class
-
-TFs for next time:
-Aaditya Gupta
-
-https://www.youtube.com/channel/UC7nH64nO2LVaWWhJLtiV-mg
-https://youtube.com/shorts/Q-VBR3yb7r0?feature=share
-https://youtube.com/shorts/CCbE6rqD5G8?feature=share
-
-Update Getting Help tutorial links
-
-Setup Excel spreadsheet for Data and Model Projects
-
-figure out tidycensus tutorials
-
-email R4DS authors, looking for a retweet
-
-ask our one user for a retweet.
-
-See discussion below about centering the course around social capital data.
+Clean up instructions for Getting Started for users who are on Posit Cloud. Or
+maybe update the Posit Cloud instructions. Example: How do you download the 
+answers.
 
 
-## Other Topics
+## Notes from ISP
 
-### Consider this college data:
+Biggest problem is students on Ipads and/or students who can't get stuff working 
+on their laptops. Posit Cloud is a good solution, but it sure would be nice if
+there were a one-click option. And, for a class in which you can't expect 
+students to do the work beforehand, this might be a good approach as well. So,
+it would be nice to set up a Posit Cloud template with the key installations 
+already done. Then, beginner students could just start the Getting Started 
+tutorial immediately. It is a big success to get everyone to finish the Getting 
+Started tutorial and to submit their answers in the first class. Anyone who
+finishes quickly can either help other people or go on to the Introduction
+tutorial.
 
-https://www.nytimes.com/interactive/2017/01/18/upshot/some-colleges-have-more-students-from-the-top-1-percent-than-the-bottom-60.html
-https://www.nytimes.com/interactive/projects/college-mobility/williams-college
+Getting R/RStudio set up on your own computer should be done outside of class.
 
-https://opportunityinsights.org/paper/mobilityreportcards/
-
-Data: https://opportunityinsights.org/data/?geographic_level=0&topic=0&paper_id=536#resource-listing
-Baseline Cross-Sectional Estimates of Child and Parent Income Distributions by College
-
-
-### Center the course around the social capital data and New York Times article.
-
-* Add the relevant data for replicating the plots in the Times article to the primer.data package.
-
-* Change Day 1 lecture to highlight the article, and show the Quarto website which replicates the key results, and even expands on them.
-
-* Change Day 2 and Day 3 lectures to use the data from there. 
-
-* Change the Visualization chapter to use the data.
-
-* Change the initial tutorials to use the data.
+Looking at template possibilities, I don't see a way to share templates outside 
+of a common Space. And the free plan only allows me to create one space. But
+maybe that is all I really need. I can then make a template, and I can make
+it the default template for that space. Now that tutorial.helpers and 
+primer.data are stable, the template might not need to be updated. The only 
+things which are really changing are the 
 
 
-## Other
 
-* The Preceptor Notes in the first week are too long. Move some of that material, like R Weekly, to week 2.
 
-Is whimsical a useful tool for teaching the class itself?
-
-## Marketing
-
-Rweekly.
-
-#rstats
-
-# Future TFs
 
 
 

@@ -123,7 +123,7 @@
     "href": "index.html",
     "title": "Techne",
     "section": "",
-    "text": "First class is Monday January 6 at 10:00 AM in ACE (Academic Center) 102. Check the schedule for instructions.\n\nNo course at NCF does more to increase your odds of getting the future you want.\n\nEvery organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.\nCRN #: 25574\nTechne is a New College of Florida group ISP, starting January 6, 2025 and taught by David Kane. The workload is 20 hours per week, plus class time and two projects. By the end of this course, students will be able to do basic data science!\nClass will meet on Monday, Tuesday, and Wednesday during the weeks of Jan 6th and 27th, and on Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th. Class meets in ACE 102.\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course! See here for details on my teaching philosophy.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer which can run R, RStudio and Git. We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required."
+    "text": "No course at NCF does more to increase your odds of getting the future you want.\n\nEvery organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.\nClass will meet on Monday, Tuesday, and Wednesday during the weeks of Jan 6th and 27th, and on Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th. Class meets in Chae Auditorium, Heiser Natural Sciences Complex.\nInstructor: David Kane\n\n\n\n\n\n\n\n\n\nCheck out the final projects created by prior students. Want to make something like that? Take the course! See here for details on my teaching philosophy.\nThere are no prerequisites. The programming language we will be using is R. You must have a computer which can run R, RStudio and Git. We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required."
   },
   {
     "objectID": "schedule.html",
@@ -137,63 +137,63 @@
     "href": "schedule.html#monday",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\nTry to set up your computer before class on Monday by reading the “Getting Started” chapter from the Primer.\nIn class, we will start work on these two tutorials. These are due by midnight, along with the tutorials assigned for Tuesday’s class.\n\nSubmit the “Getting Started with Tutorials” tutorial from the tutorial.helpers package. See the “Getting Started” chapter for details.\nSubmit the “Introduction” tutorial from the r4ds.tutorials package."
+    "text": "Monday\nTry to set up your computer before class on Monday by reading the “Getting Started” chapter from the Primer."
   },
   {
     "objectID": "schedule.html#tuesday",
     "href": "schedule.html#tuesday",
     "title": "Schedule",
     "section": "Tuesday",
-    "text": "Tuesday\n\nFrom the r4ds.tutorials package, complete these tutorials: “Data Visualization,” “RStudio and Code,” and “RStudio and Quarto.”\n\nReminder: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
+    "text": "Tuesday\n\nSubmit the “Getting Started with Tutorials” tutorial from the tutorial.helpers package. See the “Getting Started” chapter for details.\n\nReminder: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class."
   },
   {
     "objectID": "schedule.html#wednesday",
     "href": "schedule.html#wednesday",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nFrom the r4ds.tutorials package, complete three tutorials: “Data Transformation,” “RStudio and Github Introduction,” and “RStudio and Github Advanced.”"
+    "text": "Wednesday\n\nFrom the r4ds.tutorials package, complete these tutorials: “Introduction,” “Data Visualization” and “RStudio and Code.”"
   },
   {
     "objectID": "schedule.html#thursday",
     "href": "schedule.html#thursday",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nFrom the r4ds.tutorials package, complete three tutorials: “Data Tidying,” “Terminal,” and “Data Import.”"
+    "text": "Thursday\n\nFrom the r4ds.tutorials package, complete three tutorials: “RStudio and Quarto,” “Data Transformation,” and “RStudio and Github Introduction.”"
   },
   {
     "objectID": "schedule.html#friday",
     "href": "schedule.html#friday",
     "title": "Schedule",
     "section": "Friday",
-    "text": "Friday\n\n\nRead chapters 1, 2, and 3 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete two tutorials: “An introduction to tidycensus” and “Wrangling Census data with Tidyverse tools.”"
+    "text": "Friday\n\nFrom the r4ds.tutorials package, complete these tutorials: “RStudio and Github Advanced,” “Data Tidying,” and “Terminal.”"
   },
   {
     "objectID": "schedule.html#monday-1",
     "href": "schedule.html#monday-1",
     "title": "Schedule",
     "section": "Monday",
-    "text": "Monday\n\nFrom the r4ds.tutorials package, complete these tutorials: “Quarto Websites Introduction” and “Quarto Websites Advanced.”"
+    "text": "Monday\n\nFrom the r4ds.tutorials package, complete: “Data Import.”\nRead chapters 1, 2, and 3 from from Analyzing US Census Data: Methods, Maps, and Models in R by Kyle Walker. The U.S. Census is a great source of data for your projects.\nFrom the tidycensus.tutorials package, complete two tutorials: “An introduction to tidycensus” and “Wrangling Census data with Tidyverse tools.”"
   },
   {
     "objectID": "schedule.html#tuesday-1",
     "href": "schedule.html#tuesday-1",
     "title": "Schedule",
     "section": "Tuesday",
-    "text": "Tuesday\n\n\nFrom the tidycensus.tutorials package, complete these tutorials: “Exploring US Census data with visualization” and “Census geographic data and applications in R.”"
+    "text": "Tuesday\n\nFrom the r4ds.tutorials package, complete these tutorials: “Quarto Websites Introduction” and “Quarto Websites Advanced.”"
   },
   {
     "objectID": "schedule.html#wednesday-1",
     "href": "schedule.html#wednesday-1",
     "title": "Schedule",
     "section": "Wednesday",
-    "text": "Wednesday\n\nFrom the r4ds.tutorials package, complete these tutorials: “Getting help,” “Layers,” “Exploratory data analysis,” and “Communication.”"
+    "text": "Wednesday\n\nFrom the tidycensus.tutorials package, complete these tutorials: “Exploring US Census data with visualization” and “Census geographic data and applications in R.”"
   },
   {
     "objectID": "schedule.html#thursday-1",
     "href": "schedule.html#thursday-1",
     "title": "Schedule",
     "section": "Thursday",
-    "text": "Thursday\n\nCome to class with a rough draft of your first project. We strongly recommend using Census data for this project, but doing so is not required.\nComplete the “Data Project” tutorial from the primer.tutorials package. Be sure to reinstall the package before starting the tutorial."
+    "text": "Thursday\n\nFrom the r4ds.tutorials package, complete these tutorials: “Getting help,” “Layers,” “Exploratory data analysis,” and “Communication.”\nCome to class with a rough draft of your first project. We strongly recommend using Census data for this project, but doing so is not required.\nComplete the “Data Project” tutorial from the primer.tutorials package. Be sure to reinstall the package before starting the tutorial."
   },
   {
     "objectID": "schedule.html#friday-1",

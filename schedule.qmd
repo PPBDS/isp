@@ -32,36 +32,28 @@ Class will meet in Monday, Tuesday and Wednesday this week.
 
 Try to set up your computer before class on Monday by reading the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter from the [*Primer*](https://ppbds.github.io/primer/).
 
-In class, we will start work on these two tutorials. These are due by midnight, along with the tutorials assigned for Tuesday's class.
-
-* Submit the "Getting Started with Tutorials" tutorial from the **tutorial.helpers** package. See the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter for details.
-
-* Submit the "Introduction" tutorial from the **r4ds.tutorials** package.
 
 ## Tuesday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Data Visualization," "RStudio and Code," and "RStudio and Quarto."
+* Submit the "Getting Started with Tutorials" tutorial from the **tutorial.helpers** package. See the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter for details.
 
 **Reminder**: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
 ## Wednesday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "Data Transformation," "RStudio and Github Introduction," and "RStudio and Github Advanced."  
- 
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Introduction," "Data Visualization" and "RStudio and Code."
+
 
 ## Thursday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "Data Tidying," "Terminal," and "Data Import."
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "RStudio and Quarto," "Data Transformation," and "RStudio and Github Introduction." 
 
 
 ## Friday 
 
-<!-- DK: Add other chapters. -->
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "RStudio and Github Advanced," "Data Tidying," and "Terminal." 
 
-* Read chapters 1, 2, and 3 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your projects.
-
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete two tutorials: "An introduction to tidycensus" and "Wrangling Census data with Tidyverse tools."  
-
+  
 
 # Week 2: January 13
 
@@ -71,19 +63,27 @@ We meet Wednesday, Thursday, and Friday this week. But, as always, you have work
 
 ## Monday
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Quarto Websites Introduction" and "Quarto Websites Advanced."
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete: "Data Import."
+
+* Read chapters 1, 2, and 3 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your projects.
+
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete two tutorials: "An introduction to tidycensus" and "Wrangling Census data with Tidyverse tools."
+
+
 
 ## Tuesday 
 
-<!-- Note that the chapters 4 and 5 tidyverse tutorials are not ready for primetime. But I am assigning them anyway. -->
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Quarto Websites Introduction" and "Quarto Websites Advanced."
 
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete these tutorials: "Exploring US Census data with visualization" and "Census geographic data and applications in R." 
 
 ## Wednesday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Getting help," "Layers," "Exploratory data analysis," and "Communication."
+* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete these tutorials: "Exploring US Census data with visualization" and "Census geographic data and applications in R." 
+
 
 ## Thursday 
+
+* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Getting help," "Layers," "Exploratory data analysis," and "Communication."
 
 * Come to class with a rough draft of your first project. We strongly recommend using Census data for this project, but doing so is not required. 
 

@@ -131,24 +131,16 @@ Class always begins by looking at the Preceptor's Notes for the day, available h
 
 2) Links to consider today:
 
-NYT article: https://shorturl.at/o4b0n
-NYT article (pdf): https://shorturl.at/SBLCF
+NYT article: https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html
+NYT article (pdf): https://github.com/PPBDS/primer.data/blob/master/data-raw/social_capital_nyt.pdf
 
-3) Update this package now from the R Console.
-
-```
-remotes::install_github("PPBDS/tutorial.helpers")
-```
-
-This should be the last time you need to mess with this package.
-
-4) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Don't forget to answer the questions about your name, email and the number of minutes it took to complete the tutorial. 
+3) Submit the assignments or you will be removed from the class. Central metaphor of the class is Ulysses and the Sirens. There are several tutorials due on Wednesday before class. Skip any questions which give you trouble. Don't forget to answer the questions about your name, email and the number of minutes it took to complete the tutorial. 
 
 Use the default name for your HTML submissions, e.g., `rstudio-and-code_answers.html`
 
-5) Sign up for free version of chatGPT (https://chatgpt.com/), or the equivalent.
+4) Sign up for free version of chatGPT (https://chatgpt.com/), or the equivalent.
 
-6) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
+5) It is always a good idea to reinstall the r4ds.tutorials package before you start a new tutorial. The reason is that we are fixing bugs as they are reported, but you only get those fixes if you reinstall:
 
 ```
 remotes::install_github("PPBDS/r4ds.tutorials")
