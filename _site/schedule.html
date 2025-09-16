@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -30,15 +30,16 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6bd9cfa162949bde0a231f530c97869d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -146,137 +147,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Key resources: <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a> by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, <a href="https://ppbds.github.io/primer/"><em>Preceptor’s Primer for Bayesian Data Science</em></a> by David Kane, <a href="https://walker-data.com/census-r/"><em>Analyzing US Census Data: Methods, Maps, and Models in R</em></a> by Kyle Walker, along with their <a href="https://ppbds.github.io/r4ds.tutorials/">their</a> <a href="https://ppbds.github.io/primer.tutorials/">associated</a> <a href="https://ppbds.github.io/tidycensus.tutorials/">tutorials</a>. Homework is due before midnight on the day before the class for which it is assigned.</p>
-<p>See the home pages for the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a>, <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a>, and <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> for installation instructions.</p>
-<p><strong>Always reinstall the relevant package before starting a new tutorial.</strong> Example for <strong>r4ds.tutorials</strong>:</p>
-<pre><code>remove.packages("r4ds.tutorials")
-remotes::install_github("PPBDS/r4ds.tutorials")</code></pre>
-<p>We are always fixing mistakes. You want to use the latest version.</p>
-<p>Completed tutorials are submitted via <a href="https://forms.gle/G2LeFfJ4CiSuudCe9">this Google form</a>. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like <code>getting-started_answers.html</code>. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like <code>getting-started_answers (2).html</code>. You can just change the name of the file by hand if this happens.</p>
-<p>The listed assignments are the tutorials. We also recommend that you read the associated chapters in the various textbooks, but there is no reasonable way for us to confirm that you have done so. Tutorial numbers/titles almost always match textbook chapter numbers/titles.</p>
-<section id="week-1-january-6" class="level1">
-<h1>Week 1: January 6</h1>
-<p>Class will meet in Monday, Tuesday and Wednesday this week.</p>
+<p>Key resources: <a href="https://r4ds.hadley.nz/"><em>R for Data Science (2e)</em></a> by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund and <a href="https://ppbds.github.io/primer/"><em>Preceptor’s Primer for Bayesian Data Science</em></a> by David Kane. Homework is due before midnight on the day before the class for which it is assigned.</p>
+<p>See the home pages for the <a href="https://ppbds.github.io/positron.tutorials/"><strong>positron.tutorials</strong></a> and <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> packages.</p>
+<p>Completed tutorials are submitted via <a href="">this Google form</a>. If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like <code>getting-started_answers.html</code>. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like <code>getting-started_answers (2).html</code>. You can just change the name of the file by hand if this happens.</p>
+<p>The listed assignments are the tutorials. We also recommend that you read the associated chapters in the <em>Primer</em>, but there is no reasonable way for us to confirm that you have done so.</p>
+<section id="week-1-january-5" class="level1">
+<h1>Week 1: January 5</h1>
+<p>Class will meet on Monday, Tuesday and Wednesday this week. However, you still have assignments due everyday.</p>
 <section id="monday" class="level2">
 <h2 class="anchored" data-anchor-id="monday">Monday</h2>
-<p>Try to set up your computer before class on Monday by reading the “<a href="https://ppbds.github.io/primer/getting-started.html">Getting Started</a>” chapter from the <a href="https://ppbds.github.io/primer/"><em>Primer</em></a>.</p>
+<p>Set up your computer before class on Monday by reading the “<a href="https://ppbds.github.io/primer/getting-started.html">Getting Started</a>” chapter from the <a href="https://ppbds.github.io/primer/"><em>Primer</em></a>. Submit the “Getting Started” and “Introduction to R” tutorials from the <strong><a href="https://ppbds.github.io/tutorial.helpers/">tutorial.helpers</a></strong> package.</p>
 </section>
 <section id="tuesday" class="level2">
 <h2 class="anchored" data-anchor-id="tuesday">Tuesday</h2>
 <ul>
-<li>Submit the “Getting Started with Tutorials” tutorial from the <strong>tutorial.helpers</strong> package. See the “<a href="https://ppbds.github.io/primer/getting-started.html">Getting Started</a>” chapter for details.</li>
+<li>Complete the “Positron and code” tutorial (<code>01-code</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
 </ul>
 <p><strong>Reminder</strong>: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.</p>
 </section>
 <section id="wednesday" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday">Wednesday</h2>
 <ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Introduction,” “Data Visualization” and “RStudio and Code.”</li>
+<li>Complete the “Positron and Quarto” tutorial (<code>02-quarto</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
 </ul>
 </section>
 <section id="thursday" class="level2">
 <h2 class="anchored" data-anchor-id="thursday">Thursday</h2>
 <ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete three tutorials: “RStudio and Quarto,” “Data Transformation,” and “RStudio and Github Introduction.”</li>
+<li>Complete the “Terminal” tutorial (<code>03-terminal</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
 </ul>
 </section>
 <section id="friday" class="level2">
 <h2 class="anchored" data-anchor-id="friday">Friday</h2>
 <ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “RStudio and Github Advanced,” “Data Tidying,” and “Terminal.”</li>
+<li>Complete the “Positron and GitHub Introduction” tutorial (<code>04-github-1</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
 </ul>
 </section>
 </section>
-<section id="week-2-january-13" class="level1">
-<h1>Week 2: January 13</h1>
-<p>We meet Wednesday, Thursday, and Friday this week. But, as always, you have work due every weekday. Highlight is the presentation of your first project on Friday.</p>
+<section id="week-2-january-12" class="level1">
+<h1>Week 2: January 12</h1>
+<p>We meet Wednesday, Thursday, and Friday this week. But, as always, you have work due every weekday.</p>
 <section id="monday-1" class="level2">
 <h2 class="anchored" data-anchor-id="monday-1">Monday</h2>
 <ul>
-<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete: “Data Import.”</p></li>
-<li><p>Read chapters 1, 2, and 3 from from <a href="https://walker-data.com/census-r/index.html"><em>Analyzing US Census Data: Methods, Maps, and Models in R</em></a> by Kyle Walker. The U.S. Census is a great source of data for your projects.</p></li>
-<li><p>From the <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> package, complete two tutorials: “An introduction to tidycensus” and “Wrangling Census data with Tidyverse tools.”</p></li>
+<li>Complete the “Positron and GitHub Advanced” tutorial (<code>05-github-2</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
 </ul>
 </section>
 <section id="tuesday-1" class="level2">
 <h2 class="anchored" data-anchor-id="tuesday-1">Tuesday</h2>
 <ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Quarto Websites Introduction” and “Quarto Websites Advanced.”</li>
+<li>Complete the “Quarto Websites Introduction” tutorial (<code>06-websites-1</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
 </ul>
 </section>
 <section id="wednesday-1" class="level2">
 <h2 class="anchored" data-anchor-id="wednesday-1">Wednesday</h2>
 <ul>
-<li>From the <a href="https://ppbds.github.io/tidycensus.tutorials/"><strong>tidycensus.tutorials</strong></a> package, complete these tutorials: “Exploring US Census data with visualization” and “Census geographic data and applications in R.”</li>
+<li>Complete the “Quarto Websites Advanced” tutorial (<code>07-websites-2</code>) from the <strong><a href="https://ppbds.github.io/positron.tutorials/">positron.tutorials</a></strong> package.</li>
+</ul>
+<!-- ## Thursday 
+
+## Friday -->
+</section>
+</section>
+<section id="week-3-january-19" class="level1">
+<h1>Week 3: January 19</h1>
+<p>We meet Tuesday, Wednesday, Thursday, and Friday this week. Recall that <strong>assignments are due at midnight on the day before</strong> the relevant class.</p>
+<!-- ## Monday
+
+## Tuesday -->
+<section id="wednesday-2" class="level2">
+<h2 class="anchored" data-anchor-id="wednesday-2">Wednesday</h2>
+<ul>
+<li><p>Have a rough draft of your project ready to display in class.</p></li>
+<li><p>Complete the “Data Project” tutorial from the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package. Be sure to reinstall the package before starting the tutorial. This the second time you have completed this tutorial.</p></li>
 </ul>
 </section>
 <section id="thursday-1" class="level2">
 <h2 class="anchored" data-anchor-id="thursday-1">Thursday</h2>
 <ul>
-<li><p>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Getting help,” “Layers,” “Exploratory data analysis,” and “Communication.”</p></li>
-<li><p>Come to class with a rough draft of your first project. We strongly recommend using Census data for this project, but doing so is not required.</p></li>
-<li><p>Complete the “Data Project” tutorial from the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package. Be sure to reinstall the package before starting the tutorial.</p></li>
+<li>Zoom presentation of your second project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.</li>
 </ul>
 </section>
 <section id="friday-1" class="level2">
 <h2 class="anchored" data-anchor-id="friday-1">Friday</h2>
-<ul>
-<li>Present first project in class.</li>
-</ul>
-</section>
-</section>
-<section id="week-3-january-20" class="level1">
-<h1>Week 3: January 20</h1>
-<p>We meet Wednesday, Thursday, and Friday this week. But you still have assignments due every day. Recall that <strong>assignments are due at midnight on the day before</strong> the relevant class.</p>
-<section id="monday-2" class="level2">
-<h2 class="anchored" data-anchor-id="monday-2">Monday</h2>
-<ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Logical vectors,” and “Numbers,” and “Strings.”</li>
-</ul>
-</section>
-<section id="tuesday-2" class="level2">
-<h2 class="anchored" data-anchor-id="tuesday-2">Tuesday</h2>
-<ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Regulars expressions,” “Factors,” and “Dates and times.”</li>
-</ul>
-</section>
-<section id="wednesday-2" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-2">Wednesday</h2>
-<ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Missing values,” “Joins,” and “Spreadsheets.”</li>
-</ul>
-</section>
-<section id="thursday-2" class="level2">
-<h2 class="anchored" data-anchor-id="thursday-2">Thursday</h2>
-<ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Databases,” “Arrow,” and “Hierarchical data.”</li>
-</ul>
-</section>
-<section id="friday-2" class="level2">
-<h2 class="anchored" data-anchor-id="friday-2">Friday</h2>
-<ul>
-<li>From the <a href="https://ppbds.github.io/r4ds.tutorials/"><strong>r4ds.tutorials</strong></a> package, complete these tutorials: “Web scraping,” “Functions,” “Iteration,” and “A field guide to base R.”</li>
-</ul>
-</section>
-</section>
-<section id="week-4-january-27" class="level1">
-<h1>Week 4: January 27</h1>
-<p>We meet Monday, Tuesday, and Wednesday this week.</p>
-<section id="monday-3" class="level2">
-<h2 class="anchored" data-anchor-id="monday-3">Monday</h2>
-<ul>
-<li><p>Have a rough draft of your second project ready to display in class.</p></li>
-<li><p>Complete the “Data Project” tutorial from the <a href="https://ppbds.github.io/primer.tutorials/"><strong>primer.tutorials</strong></a> package. Be sure to reinstall the package before starting the tutorial. This the second time you have completed this tutorial.</p></li>
-</ul>
-</section>
-<section id="tuesday-3" class="level2">
-<h2 class="anchored" data-anchor-id="tuesday-3">Tuesday</h2>
-<ul>
-<li>Zoom presentation of your second project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.</li>
-</ul>
-</section>
-<section id="wednesday-3" class="level2">
-<h2 class="anchored" data-anchor-id="wednesday-3">Wednesday</h2>
 <ul>
 <li>In-person presentation of your second project, conducted during class. You are required to invite at least some friends from campus to attend.</li>
 </ul>
@@ -287,236 +240,242 @@ remotes::install_github("PPBDS/r4ds.tutorials")</code></pre>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/isp\.davidkane\.info");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
+      return false;
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/isp\.davidkane\.info");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
         }
-        return container.innerHTML
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -524,185 +483,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 
 

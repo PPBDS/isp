@@ -1,5 +1,5 @@
 ---
-title: "Techne"
+title: "Techne: Getting the Future That You Want"
 ---
 
 ```{r}
@@ -18,9 +18,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Every organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills which are most likely to be helpful to you as you look for internships and jobs.  
 
+Consider the projects created by students who took this class in January 2025:
 
-Class will meet on Monday, Tuesday, and Wednesday during the weeks of Jan 6th and 27th, and on
-Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th. Class meets in Chae Auditorium, Heiser Natural Sciences Complex. 
+Tyaveon Levit '26: [Educational Achievement in Florida](https://tytylove01.github.io/Florida-Education). 
+
+Angelo Morelli '27: [Citi Bikes](https://drainr.github.io/citi-bike-live/)
+
+Tyler Zoucha '26: [Football Analytics](https://t-zoucha.github.io/Futbol-Data/)
+
+Class will meet in person on Monday, Tuesday, and Wednesday during the week of January 5th, Wednesday, Thursday, and Friday during the week of January 12th, and Tuesday, Wednesday, Thursday and Friday during the week of January 19th.
+
+ Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th. Class meets (probably) in Chae Auditorium, Heiser Natural Sciences Complex. 
 
 **Instructor**: [David Kane](http://www.davidkane.info)
 
@@ -31,9 +39,9 @@ Wednesday, Thursday, and Friday during the weeks of Jan 13th and 20th. Class tim
 read_rds("images/animation.rds")
 ```
 
-Check out the [final projects](https://isp.davidkane.info/projects.html) created by prior students. Want to make something like that? Take the course! See [here](https://davidkane.info/writings/philosophy.html) for details on my teaching philosophy.
+See also the [final projects](https://isp.davidkane.info/projects.html) created by prior students. Want to make something like that? Take the course! See [here](https://davidkane.info/writings/philosophy.html) for details on my teaching philosophy.
 
-There are no prerequisites. The programming language we will be using is R. You must have a computer which can run [R, RStudio and Git](https://happygitwithr.com). We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required.
+There are no prerequisites. The programming language we will be using is R. You must have a computer which can run [R, RStudio and Git](https://happygitwithr.com). (An IPad or other tablet is not enough.) We will guide you in the installation of these programs. The course is designed for absolute beginners. Neither programming nor statistics experience is required.
 
 
 

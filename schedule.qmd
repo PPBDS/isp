@@ -6,143 +6,87 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund, [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane, [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/) by Kyle Walker, along with their [their](https://ppbds.github.io/r4ds.tutorials/) [associated](https://ppbds.github.io/primer.tutorials/) [tutorials](https://ppbds.github.io/tidycensus.tutorials/). Homework is due before midnight on the day before the class for which it is assigned.
+Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund and [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane. Homework is due before midnight on the day before the class for which it is assigned.
 
-See the home pages for the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/), [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/), and [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) for installation instructions.
-
-**Always reinstall the relevant package before starting a new tutorial.** Example for **r4ds.tutorials**:
-
-```
-remove.packages("r4ds.tutorials")
-remotes::install_github("PPBDS/r4ds.tutorials")
-```
-
-We are always fixing mistakes. You want to use the latest version.
-
-Completed tutorials are submitted via [this Google form](https://forms.gle/G2LeFfJ4CiSuudCe9). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
-
-The listed assignments are the tutorials. We also recommend that you read the associated chapters in the various textbooks, but there is no reasonable way for us to confirm that you have done so. Tutorial numbers/titles almost always match textbook chapter numbers/titles.
+See the home pages for the [**positron.tutorials**](https://ppbds.github.io/positron.tutorials/) and [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) packages.
 
 
-# Week 1: January 6
+Completed tutorials are submitted via [this Google form](). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
-Class will meet in Monday, Tuesday and Wednesday this week.
+The listed assignments are the tutorials. We also recommend that you read the associated chapters in the *Primer*, but there is no reasonable way for us to confirm that you have done so. 
+
+
+# Week 1: January 5
+
+Class will meet on Monday, Tuesday and Wednesday this week. However, you still have assignments due everyday.
 
 ## Monday 
 
-Try to set up your computer before class on Monday by reading the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter from the [*Primer*](https://ppbds.github.io/primer/).
+Set up your computer before class on Monday by reading the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter from the [*Primer*](https://ppbds.github.io/primer/). Submit the "Getting Started" and "Introduction to R" tutorials from the **[tutorial.helpers](https://ppbds.github.io/tutorial.helpers/)** package.
 
 
 ## Tuesday 
 
-* Submit the "Getting Started with Tutorials" tutorial from the **tutorial.helpers** package. See the "[Getting Started](https://ppbds.github.io/primer/getting-started.html)" chapter for details.
+* Complete the "Positron and code" tutorial (`01-code`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 **Reminder**: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
 
 ## Wednesday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Introduction," "Data Visualization" and "RStudio and Code."
+* Complete the "Positron and Quarto" tutorial (`02-quarto`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 
 ## Thursday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete three tutorials: "RStudio and Quarto," "Data Transformation," and "RStudio and Github Introduction." 
+ * Complete the "Terminal" tutorial (`03-terminal`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 
 ## Friday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "RStudio and Github Advanced," "Data Tidying," and "Terminal." 
-
+ * Complete the "Positron and GitHub Introduction" tutorial (`04-github-1`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
   
 
-# Week 2: January 13
+# Week 2: January 12
 
-We meet Wednesday, Thursday, and Friday this week. But, as always, you have work due every weekday. Highlight is the presentation of your first project on Friday.
-
+We meet Wednesday, Thursday, and Friday this week. But, as always, you have work due every weekday. 
 
 
 ## Monday
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete: "Data Import."
-
-* Read chapters 1, 2, and 3 from from [*Analyzing US Census Data: Methods, Maps, and Models in R*](https://walker-data.com/census-r/index.html) by Kyle Walker. The U.S. Census is a great source of data for your projects.
-
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete two tutorials: "An introduction to tidycensus" and "Wrangling Census data with Tidyverse tools."
-
-
+ * Complete the "Positron and GitHub Advanced" tutorial (`05-github-2`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 ## Tuesday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Quarto Websites Introduction" and "Quarto Websites Advanced."
-
-
-## Wednesday 
-
-* From the [**tidycensus.tutorials**](https://ppbds.github.io/tidycensus.tutorials/) package, complete these tutorials: "Exploring US Census data with visualization" and "Census geographic data and applications in R." 
-
-
-## Thursday 
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Getting help," "Layers," "Exploratory data analysis," and "Communication."
-
-* Come to class with a rough draft of your first project. We strongly recommend using Census data for this project, but doing so is not required. 
-
-* Complete the "Data Project" tutorial from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package. Be sure to reinstall the package before starting the tutorial.
-
-## Friday
-
-* Present first project in class.
-
-# Week 3: January 20
-
-We meet Wednesday, Thursday, and Friday this week. But you still have assignments due every day. Recall that **assignments are due at midnight on the day before** the relevant class.
-
-## Monday
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Logical vectors," and "Numbers," and "Strings."
-
-## Tuesday
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Regulars expressions," "Factors," and "Dates and times." 
+ * Complete the "Quarto Websites Introduction" tutorial (`06-websites-1`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 ## Wednesday
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Missing values," "Joins," and "Spreadsheets."
+  * Complete the "Quarto Websites Advanced" tutorial (`07-websites-2`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
-## Thursday
+<!-- ## Thursday 
 
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials: "Databases," "Arrow," and "Hierarchical data."
-
-## Friday
-
-* From the [**r4ds.tutorials**](https://ppbds.github.io/r4ds.tutorials/) package, complete these tutorials:  "Web scraping," "Functions," "Iteration," and "A field guide to base R." 
+## Friday -->
 
 
-# Week 4: January 27
+# Week 3: January 19
 
-We meet Monday, Tuesday, and Wednesday this week. 
+We meet Tuesday, Wednesday, Thursday, and Friday this week. Recall that **assignments are due at midnight on the day before** the relevant class.
 
-## Monday
+<!-- ## Monday
 
-* Have a rough draft of your second project ready to display in class.
+## Tuesday -->
+
+## Wednesday
+
+* Have a rough draft of your project ready to display in class.
 
 * Complete the "Data Project" tutorial from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package. Be sure to reinstall the package before starting the tutorial. This the second time you have completed this tutorial. 
 
-## Tuesday
+## Thursday
 
 * Zoom presentation of your second project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.
 
-## Wednesday
+## Friday
 
 * In-person presentation of your second project, conducted during class. You are required to invite at least some friends from campus to attend.
-
-
- 
-
-
-
-
-
-
-
 

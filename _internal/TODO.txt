@@ -41,6 +41,15 @@ it the default template for that space. Now that tutorial.helpers and
 primer.data are stable, the template might not need to be updated. The only 
 things which are really changing are the 
 
+Think harder about helping Windows students set up a projects directory on 
+their Desktops. Seems like, in all modern Windows systems, users have a Desktop
+which is the natural location of for projects. Desktop is located at:
+
+c/username/Desktop
+
+Update RStudio and code so that this works for Windows also. Not sure that 
+dir.create() really does the trick.
+
 
 
 
