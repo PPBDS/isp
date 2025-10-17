@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 > **No course at NCF does more to increase your odds of getting the future you want.**
 
-Every organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills most likely to help you land internships and jobs. We make extensive use of generative AI because it is a critical tool in the modern workplace. **The CRN is 25574.** 
+Every organization needs people who can work with data, who can clean, organize, and visualize the information which matters. This course, an introduction to data science, covers the skills most likely to help you land internships and jobs. We make extensive use of generative AI because it is a critical tool in the modern workplace. **The CRN is 87944.** 
 
 Consider the projects created by students who took this class in January 2025:
 
