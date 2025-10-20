@@ -6,7 +6,59 @@ title: "Final Projects"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-A total of 159 students have completed previous versions of this class. Congratulations! 
+A total of 184 students have completed previous versions of this class. Congratulations! 
+
+## August 2025
+
+[Alfred Cheung](https://github.com/AlfredCheung2121): [Flight Price Prediction](https://alfredcheung2121.github.io/Flight-Price-Prediction/). Flight prices increase with the number of stops, with a strong positive correlation of 0.621  
+
+[Luke Li](https://github.com/lukearoni/financial-literacy): [Credit Card Payment Behavior](https://lukearoni.github.io/financial-literacy/). For every 1 point increase in a standardized financial knowledge test score, the log odds of someone paying off a credit card bill increases by 0.047, and the 95% confidence interval for this estimate ranges from -0.005 to 0.098.  
+
+[Eric Butte](https://github.com/ebutte18): [Goal Scoring in Hockey](https://ebutte18.github.io/hockey-goals/). For the hockey player Sam Reinhart, each additional foot away from the net he attempted a shot, the log-odds of scoring a goal decreased by 0.033, with a 95% confidence interval from -0.045 to -0.022.  
+
+[Rishith Bethina](https://github.com/Rishibethina): [Restaurant thriving analysis](https://rishibethina.github.io/restaurant-analysis-clean/). This analysis reveals that delivery capability became 192% more important for restaurant success during COVID-19 (coefficient increasing from 0.12 to 0.35), while price sensitivity intensified by 88%, demonstrating that operational flexibility.  
+
+[Surya Fraser](https://github.com/sfraser8910): [Internet Access in the US](https://sfraser8910.github.io/us_internet_access/). While increases in income were associated with only a small increase in the log-odds of internet access, one year increases in age were associated with a 0.0339 decreased log-odds of internet access with a 95% confidence interval of -0.0341 to -0.0338.  
+
+[Jacob Khaykin](https://github.com/JacobKhay): [AI Jobs Weighting Analysis](https://jacobkhay.github.io/AI-Share-Replication-Differences/). Weighting by log-population reveals that labor market tightness, not education, is the most consistent driver of AI job adoption across different county sizes.  
+
+[Hassan Ali](https://github.com/alisoni007/): [Greenhouse gas emission](https://alisoni007.github.io/chem-ghg-electronics/). The analysis identified the predominant chemical species and highlighted significant facility-level and temporal trends in the industry by focusing on reported emissions in metric tons. A limited number of chemicals contribute disproportionately to total emissions, as indicated by exploratory data analysis, whereas annual patterns reveal variability associated with facility operations and manufacturing cycles.  
+
+[Ansh Patel](https://github.com/brunchmaster-ap): [Global Commodity Trade`](https://brunchmaster-ap.github.io/Global-Commodity-Trade/). Following the 2008 financial crisis, U.S. live animal imports dropped by over 25% between 2008 and 2010, and remained on average 15% lower in the years after, indicating a lasting shift in agricultural trade behavior.  
+
+[Faran Abbas](https://github.com/faranabbas-repo): [Global Economic Growth Analysis (2000–2023)](https://faranabbas-repo.github.io/global-economic-growth-analysis/). Investment is the single most powerful driver of economic growth, with each percentage point increase in gross capital formation (as % of GDP) associated with 0.2-0.3 percentage points higher GDP growth, making it the key policy lever for sustainable development.  
+
+[Naveed Ahmad](https://github.com/naveedgill4u): [Income Inequality in U.S](https://naveedgill4u.github.io/income-inequality-county-wise/). The income inequality (Gini Index) in U.S is predicted to be 0.48, with a 95% confidence interval of 0.46 to 0.5 in most of the counties.  
+
+[Ayush Chandra](https://github.com/SmartSilver5294): [EV vs Gas Costs over 3 Years](https://smartsilver5294.github.io/ev-vs-gas-costs/). The best EV model compared to its gas counterpart is the Honda Prologue, and the best states to buy an EV in are Washington and California, which saves approximately $3,850 in Washington.  
+
+[Jack Xu](https://github.com/jackxu3): [The Effects of Wildfires on Bird Migration Routes](https://jackxu3.github.io/fires-and-birds/). For each one-degree counterclockwise increase in direction relative to the east, the model predicts that the distance to the nearest wildfire decreases by approximately 0.059 units with a 95% confidence interval ranging from -0.096 to -0.021.  
+
+[Adit Rohit](https://github.com/aditrohit): [California Housing](https://aditrohit.github.io/California-Housing/). This project explores California’s housing market using a cleaned dataset containing neighborhood-level statistics on income, home values, and geographic location.  
+
+[Uma Ravat](https://github.com/uravat): [Relationship between food consumed and body mass index (bmi)](https://uravat.github.io/bmi-nutrition/). I examine the relationship between food consumed and body mass index.  
+
+[Paramanyu Gupta](https://github.com/Paramanyu2010): [Music Performance Analytics](https://paramanyu2010.github.io/music_skill_analysis/). The model predicts that for every additional 30 minutes of daily practice, a musician's performance score increases by approximately 5% with confidence intervals from 3.5% to 6.5%, with this effect being consistent across all instruments examined.  
+
+[Neelam Arshad](https://github.com/NeelamArshad): [US Traffic Accidents Analysis](https://neelamarshad.github.io/us-traffic-accidents/). This analysis reveals that daily human activity, traffic density, and weather conditions (snow with 1.2% more chances of accidents and heavy rain likely cause 3% greater number of accidents) play a significant role in determining the severity and when accidents are most likely to occur in the U.S.  
+
+[Sophia Yao](https://github.com/sophiay14): [Titanic Survival](https://sophiay14.github.io/titanic-survival/). During the sinking of the Titanic, men had survival odds reduced by nearly 91% (95% confidence interval: 87%–95%), third-class passengers by 91% (95% confidence interval: 84%–95%), and each additional year of age lowered survival odds by about 3% (95% confidence interval : 2%–5%).  
+
+[Faisal Jan](https://github.com/FaisaljanBaloch): [LEP on Income](https://faisaljanbaloch.github.io/lep-on-income/). Across all education levels, males earn 20–50% more than females, with the largest gender and language-based income gaps appearing at the graduate level where English Proficient males earn over $70,000, nearly 50% more than their female counterparts.  
+
+[Inam Khan](https://github.com/inammarwat): [Predicting Life Expectany](https://inammarwat.github.io/predicting-life-expectancy/). A country’s income and resource capacity has the strongest impact on life expectancy—each 0.1-point increase predicts 1.1 additional years of life, outweighing health risks like HIV prevalence.  
+
+[Shuntaro Kawakami](https://github.com/skawakamNY/bitcoin_analysis): [Bitcoin Price Trend Analysis](https://skawakamny.github.io/bitcoin_analysis/). Dow Jones Index exhibited a strong positive association (p < 0.001) where increases in stock market performance correlate with higher bitcoin prices and the 10-Year Treasury Yield Granger-causes Bitcoin price (p = 0.032), suggesting it has a statistically significant temporal influence on Bitcoin price.  
+
+[Sharjeel Jamal](https://github.com/Sharjeel46): [Predicting Chess outcome by recognizing moves patterns](https://sharjeel46.github.io/Predicting-Chess--outcome/). Using logistic regression on a dataset of 170,500 games, the model was able to predict win or loss outcomes with 86% accuracy.  
+
+[Sajida Rehman](https://github.com/Sajida25): [Teen Smartphone Usage and Addiction](https://sajida25.github.io/predicting-phone-addiction/). Each additional hour spent on the phone increases the odds of addiction by approximately three times, whereas an extra hour of sleep lowers those odds by about 44%.  
+
+[Jishnu Veerapaneni](https://github.com/jishnuvee): [Predicting Psychiatric Disorders](https://jishnuvee.github.io/Psychiatric-diagnosis/). Bipolar disorder, panic disorder, social anxiety disorder, and schizophrenia all show significantly increased left temporal (F7) delta power, with bipolar disorder demonstrating the strongest effect at 0.080 units (95% CI: 0.018 to 0.143), suggesting that left-hemisphere temporal abnormalities could potentially aid in early detection and diagnosis of these specific psychiatric conditions, though the wide confidence intervals indicate substantial uncertainty in the true magnitude of these neurological signatures.  
+
+[Abdul Hannan](https://github.com/Abdul-Hannan96/online-shopping): [Online Shopping Behavior](https://abdul-hannan96.github.io/online-shopping/). People who view more product pages are significantly more likely to make a purchase, highlighting the importance of keeping visitors engaged.  
+
+[Umaira Nazar Hussain](https://github.com/umaira2022): [Digital Inequality in U.S. Broadband Access](https://umaira2022.github.io/Digital-Inequality-in-U.S/). A $1,000 rise in median income is linked to a 2.4% increase in broadband access—highlighting deep digital inequality across 3,000+ U.S. counties.  
 
 ## August 2024
 
