@@ -1,8 +1,15 @@
+## Notes for 2027
+
+Change the name to: "Introduction to Using AI for Data Science"
+
+Need to advertise more!
+
+Use dakane@ncf.edu in all sign up advertizing, otherwise the NCF enrollment system will break when students seek my permission to enroll in the course using my gmail.
+
+
 ## Priorities for ISP
 
 Confirm students are free at 8:00 PM on Tues Jan 28.
-
-Does Git/Github work on Posit Cloud?
 
 Set up class list and cold_call function.
 
@@ -10,13 +17,7 @@ Setup Excel spreadsheet for Data and Model Projects.
 
 Fix tutorials for chapters 4 and 5 from Tidycensus.
 
-Redo Git/Github/Quarto tutorials on Posit Cloud. Update instructions if needed.
-
 Why aren't images, like animation.rds, being copied over automatically to _site?
-
-Clean up instructions for Getting Started for users who are on Posit Cloud. Or
-maybe update the Posit Cloud instructions. Example: How do you download the 
-answers.
 
 
 ## Notes from ISP
@@ -40,21 +41,3 @@ maybe that is all I really need. I can then make a template, and I can make
 it the default template for that space. Now that tutorial.helpers and 
 primer.data are stable, the template might not need to be updated. The only 
 things which are really changing are the 
-
-Think harder about helping Windows students set up a projects directory on 
-their Desktops. Seems like, in all modern Windows systems, users have a Desktop
-which is the natural location of for projects. Desktop is located at:
-
-c/username/Desktop
-
-Update RStudio and code so that this works for Windows also. Not sure that 
-dir.create() really does the trick.
-
-
-
-
-
-
-
-
-

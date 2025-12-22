@@ -6,14 +6,14 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Key resources: [*R for Data Science (2e)*](https://r4ds.hadley.nz/) by Hadley Wickham, Mine Çetinkaya-Rundel, and Garrett Grolemund and [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane. Homework is due before midnight on the day before the class for which it is assigned.
+Key resources is [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane. Homework is due before midnight on the day before the class for which it is assigned.
 
 See the home pages for the [**positron.tutorials**](https://ppbds.github.io/positron.tutorials/) and [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) packages.
 
 
-Completed tutorials are submitted via [this Google form](). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
+Completed tutorials are submitted via [this Google form](https://forms.gle/TzwnpR2g4r2UFDEi7). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
 
-The listed assignments are the tutorials. We also recommend that you read the associated chapters in the *Primer*, but there is no reasonable way for us to confirm that you have done so. 
+The listed assignments are the tutorials. We also recommend that you complete any associated readings, but there is no reasonable way for us to confirm that you have done so. 
 
 
 # Week 1: January 5
@@ -31,7 +31,7 @@ Set up your computer before class on Monday by reading the "[Getting Started](ht
 
 * Complete the "Positron and code" tutorial (`01-code`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
-**Reminder**: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working in small groups, for you to not be prepared for class.
+**Reminder**: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working, for you to not be prepared for class.
 
 ## Wednesday 
 
@@ -45,7 +45,7 @@ Set up your computer before class on Monday by reading the "[Getting Started](ht
 
 ## Friday 
 
- * Complete the "Positron and GitHub Introduction" tutorial (`04-github-1`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
+ * Complete the "Positron and GitHub Introduction" tutorial (`04-github-1`) and "First Tutorial for R4DS"  tutorial (`r4ds-1`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
   
 
 # Week 2: January 12
@@ -55,40 +55,47 @@ We meet Wednesday, Thursday, and Friday this week. But, as always, you have work
 
 ## Monday
 
- * Complete the "Positron and GitHub Advanced" tutorial (`05-github-2`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
+ * Complete the "Positron and GitHub Advanced" tutorial (`05-github-2`) and the "Second Tutorial for R4DS" tutorial (`r4ds-2`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 ## Tuesday 
 
- * Complete the "Quarto Websites Introduction" tutorial (`06-websites-1`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
+ * Complete the "Quarto Websites Introduction" tutorial (`06-websites-1`) and the "Analyzing US Census Data" tutorial (`tidycensus-1`)  from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 ## Wednesday
 
-  * Complete the "Quarto Websites Advanced" tutorial (`07-websites-2`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
+  * Complete the "Quarto Websites Advanced" tutorial (`07-websites-2`) and the "Third Tutorial for R4DS" tutorial (`r4ds-3`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
-<!-- ## Thursday 
+## Thursday 
 
-## Friday -->
+ * Complete the "Fourth Tutorial for R4DS" tutorial (`r4ds-4`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
+ 
+
+## Friday
+
+  * Complete the "Fifth Tutorial for R4DS" tutorial (`r4ds-5`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
 
 # Week 3: January 19
 
 We meet Tuesday, Wednesday, Thursday, and Friday this week. Recall that **assignments are due at midnight on the day before** the relevant class.
 
-<!-- ## Monday
+## Monday
 
-## Tuesday -->
+Holiday. No homework due. But you should all be working on your final projects.
 
-## Wednesday
+## Tuesday
 
 * Have a rough draft of your project ready to display in class.
+
+## Wednesday
 
 * Complete the "Data Project" tutorial from the [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) package. Be sure to reinstall the package before starting the tutorial. This the second time you have completed this tutorial. 
 
 ## Thursday
 
-* Zoom presentation of your second project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.
+* Zoom presentation of your project. I hope that, depending on student schedules, that we will do this in the evening, the better to allow for attendance from your family/friends from home. You are required to invite at least some family members to attend.
 
 ## Friday
 
-* In-person presentation of your second project, conducted during class. You are required to invite at least some friends from campus to attend.
+* In-person presentation of your project, conducted during class. You are required to invite at least some friends from campus to attend. (There is some chance that we will move this presentation to Thursday.)
 
