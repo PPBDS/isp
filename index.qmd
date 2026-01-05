@@ -43,5 +43,4 @@ There are no prerequisites. The programming language we will be using is R. You 
 
 Class will meet in person on Monday, Tuesday, and Wednesday during the week of January 5th, Wednesday, Thursday, and Friday during the week of January 12th, and Tuesday, Wednesday, Thursday and Friday during the week of January 19th. See the [schedule](schedule.html) for details.
 
- Class times are 10:00 to 10:50 on MWF and 10:30 to 11:50 on T/Th. Class meets (probably) in Chae Auditorium, Heiser Natural Sciences Complex. 
-
+ Class times are 10:00 to 11:15 AM. Class meets in Chae Auditorium, Heiser Natural Sciences Complex on M/W/F and in HNS 114 on T/Th.

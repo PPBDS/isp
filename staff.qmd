@@ -21,24 +21,7 @@ knitr::include_graphics("images/david_kane.png")
 [David Kane](https://www.davidkane.info) is the former Preceptor in Statistical Methods and Mathematics in the Department of Government at Harvard University.
 
 
-# Teaching Fellows
-
-## Lela Sengupta
-
-```{r}
-knitr::include_graphics("images/sengupta.jpg")
-```
-
-[Lela Sengupta](https://github.com/lelasengupta) (lelasen06 at gmail.com) is a current freshman at Tufts University studying quantitative economics and computer science. 
-
-
-## Gia Khang
-
-```{r}
-knitr::include_graphics("images/khang.jpg")
-```
-
-[Gia Khang](https://github.com/giakhang1906) (phamgiakhang19062003 at gmail.com) is a Senior at Fulbright University Vietnam who is interested in Economics and Data Science.
+# Teaching Fellow
 
 ## Satvika Upperla
 
@@ -46,5 +29,5 @@ knitr::include_graphics("images/khang.jpg")
 knitr::include_graphics("images/satvika.jpeg")
 ```
 
-[Satvika Upperla](https://github.com/USATVIKA) (upperlasatvika at gmail.com) is a Sophomore at Allen High School who is interested in Data Science, Machine Learning, and iOS App Development.
+[Satvika Upperla](https://github.com/USATVIKA) (upperlasatvika at gmail.com) is a Junior at Allen High School who is interested in Data Science, Machine Learning, and iOS App Development.
 

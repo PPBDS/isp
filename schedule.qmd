@@ -6,15 +6,17 @@ title: "Schedule"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Key resources is [*Preceptor's Primer for Bayesian Data Science*](https://ppbds.github.io/primer/) by David Kane. Homework is due before midnight on the day before the class for which it is assigned.
+Homework is due before midnight on the day before the class for which it is assigned.
 
-See the home pages for the [**positron.tutorials**](https://ppbds.github.io/positron.tutorials/) and [**primer.tutorials**](https://ppbds.github.io/primer.tutorials/) packages.
+See [**positron.tutorials**](https://ppbds.github.io/positron.tutorials/) for background. You start a tutorial with a command like:
+
+```
+learnr::run_tutorial(name = "01-code", 
+                     package = "positron.tutorials")
+```
 
 
 Completed tutorials are submitted via [this Google form](https://forms.gle/TzwnpR2g4r2UFDEi7). If you do not complete the tutorials on time, you will be removed from the class. Send in your tutorial answers saved in HTML format. Please try to ensure that the name of the file is the default name, like `getting-started_answers.html`. Avoid using the name which will be assigned to the file if you download the same answers twice (or more), stuff like `getting-started_answers (2).html`. You can just change the name of the file by hand if this happens.
-
-The listed assignments are the tutorials. We also recommend that you complete any associated readings, but there is no reasonable way for us to confirm that you have done so. 
-
 
 # Week 1: January 5
 
@@ -27,11 +29,21 @@ Set up your computer before class on Monday by reading the "[Getting Started](ht
 
 ## Tuesday 
 
-* Complete the "Introduction to R" from the **[tutorial.helpers](https://ppbds.github.io/tutorial.helpers/)** package.
+* Complete the "Introduction to R" from the **[tutorial.helpers](https://ppbds.github.io/tutorial.helpers/)** package. Reminder, to start this tutorial, you need to run this from the Console:
+
+```
+learnr::run_tutorial(name = "introduction-to-r", 
+                     package = "tutorial.helpers")
+```
 
 * Complete the "Positron and code" tutorial (`01-code`) from the **[positron.tutorials](https://ppbds.github.io/positron.tutorials/)** package.
 
-**Reminder**: All work must be completed by midnight the previous evening. Failure to submit your tutorial answers will result in you being removed from the course. It is not fair to your fellow students, with whom you will be working, for you to not be prepared for class.
+```
+learnr::run_tutorial(name = "01-code", 
+                     package = "positron.tutorials")
+```
+
+**Reminder**: All work must be completed by midnight the previous evening. 
 
 ## Wednesday 
 

@@ -6,8 +6,13 @@ Need to advertise more!
 
 Use dakane@ncf.edu in all sign up advertizing, otherwise the NCF enrollment system will break when students seek my permission to enroll in the course using my gmail.
 
+Create some more introduction tutorials for single topics like baseball, stocks and so on.
+
+Good to just have Getting Started due before first class. Then start Introduction to R in class.
 
 ## Priorities for ISP
+
+What is the best way to use Gemini? There is an extension called Gemini Code Assist. I think it is also possible to use Gemini via GitHub Copilot. Very confusing!
 
 Confirm students are free at 8:00 PM on Tues Jan 28.
 
