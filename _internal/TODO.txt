@@ -1,6 +1,14 @@
 ## Notes for 2027
 
-Change the name to: "Introduction to Using AI for Data Science"
+Add something which discusses errors in show_file() when your script is not in the correct location or, more likely, getwd() is not correct.
+
+In 01-code, students seemed to both a) not put the new projects inside the projects directory and, b) not place the new files inside the correct project directory. Instructions seem off.
+
+install.packages("pak") fails for Windows users because the window to ask for permission to create a personal library is blocked.
+
+Change the name to: "Using AI for Data Science"
+
+Set up Discord and get students signed up before the first day.
 
 Need to advertise more!
 
@@ -19,8 +27,6 @@ Confirm students are free at 8:00 PM on Tues Jan 28.
 Set up class list and cold_call function.
 
 Setup Excel spreadsheet for Data and Model Projects.
-
-Fix tutorials for chapters 4 and 5 from Tidycensus.
 
 Why aren't images, like animation.rds, being copied over automatically to _site?
 

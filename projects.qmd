@@ -14,4 +14,4 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Tyler Zoucha](https://github.com/t-zoucha): [Football Analytics](https://t-zoucha.github.io/Futbol-Data/)
 
-See also the [final projects](https://isp.davidkane.info/projects.html) created by my students in similar classes.
+See also the [final projects](https://bootcamp.davidkane.info/projects.html) created by my students in similar classes.
